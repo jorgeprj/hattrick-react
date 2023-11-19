@@ -1,0 +1,110 @@
+.player-card {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2em;
+}
+
+.player-card header {
+    padding: 16px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.player-card .player-photo img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.05);
+    object-fit: cover;
+}
+
+.player-card .player-name{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.player-card .player-name .first-name{
+    font-size: 0.8em;
+    color: var(--text-medium);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.player-card .player-name .second-name{
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.player-card .player-tags{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-card .player-tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 500;
+    margin-right: 4px;
+    margin-left: 4px;
+    text-transform: uppercase;
+}
+
+.player-card .player-tag img{
+    height: 12px;
+    margin-right: 4px;
+}
+
+.player-card .line{
+    margin-top: 1.5em;
+    border-bottom: 2px solid rgba(0,0,0, 0.05);
+    margin-bottom: 1em;
+}
+
+.player-card h3{
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--text-medium);
+    margin-top: 1.2em;
+}
+
+.player-card .player-basic-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.player-card .player-basic-info .column1,
+.player-card .player-basic-info .column2 {
+    flex: 1;
+    font-size: 0.9em;
+}
+
+.player-card .player-basic-info .column1 p{
+    margin-bottom: 1em;
+    color: var(--text-medium);
+}
+
+.player-card .player-basic-info .column2 p{
+    margin-bottom: 1em;
+    color: var(--text-high);
+    font-weight: 500;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0em !important;
+}
