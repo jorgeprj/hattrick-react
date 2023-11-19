@@ -1,0 +1,11 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 7.3em;
+}
+
+.home .players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

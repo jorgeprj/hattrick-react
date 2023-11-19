@@ -12,6 +12,13 @@
     --text-medium: rgba(0, 0, 0, 0.65);
     --text-low: rgba(0, 0, 0, 0.30);
 
+    --high-green: #00BF63;
+    --green: #7ED957;
+    --orange: #FF914D;
+    --yellow: #FFBD59;
+    --blue: #004AAD;
+    --red: #FF3131;
+
     background-color: var(--background-color);
     color: var(--text-high);
     font-synthesis: none;

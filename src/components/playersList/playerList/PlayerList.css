@@ -1,0 +1,77 @@
+.player-list .player-image img{
+    vertical-align: middle;
+    width: 64px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 50%;
+}
+
+.player-list .player-flag img{
+    vertical-align: middle;
+    width: 24px;
+}
+
+.player-list .player-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.player-list .player-name{
+    font-weight: 600;
+    margin: 0;
+}
+
+.player-list .player-team-league,
+.player-list .player-team-name{
+    color: var(--text-low);
+}
+
+.player-list.player-position.GK{
+    color: var(--red);
+}
+
+.player-list .player-position.CB,
+.player-list .player-position.RB,
+.player-list .player-position.LB,
+.player-list .player-position.RWB,
+.player-list .player-position.LWB{
+    color: var(--orange);
+}
+
+.player-list .player-position.CDM,
+.player-list .player-position.CAM,
+.player-list .player-position.CM,
+.player-list .player-position.RM,
+.player-list .player-position.LM{
+    color: var(--high-green);
+}
+
+.player-list .player-position.LW,
+.player-list .player-position.RW,
+.player-list .player-position.CF,
+.player-list .player-position.ST{
+    color: var(--blue);
+}
+
+.player-overall.high-green{
+    color: var(--high-green);
+}
+
+.player-overall.green{
+    color: var(--green);
+}
+
+.player-overall.yellow{
+    color: var(--yellow);
+}
+
+.player-overall.orange{
+    color: var(--orange);
+}
+
+.player-overall.red{
+    color: var(--red);
+}
