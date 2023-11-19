@@ -16,6 +16,10 @@
                 "name": "Fulham FC",
                 "league": "Premier League (ING)"
             },
+            "nationality": "England",
+            "contract": 2025,
+            "overall": 61,
+            "futz": 174.2,
             "teamHistory": [
                 {
                     "team": {
@@ -31,11 +35,7 @@
                     },
                     "season": "2021-23"
                 }
-            ],
-            "nationality": "England",
-            "contract": 2025,
-            "overall": 61,
-            "futz": 174.2
+            ]
         },
         {
             "id": 152908,
@@ -53,6 +53,10 @@
                 "name": "Everton",
                 "league": "Premier League (ING)"
             },
+            "nationality": "England",
+            "contract": 2024,
+            "overall": 75,
+            "futz": 162.1,
             "teamHistory": [
                 {
                     "team": {
@@ -104,11 +108,7 @@
                     "season": "2000-03"
                 }
                 
-            ],
-            "nationality": "England",
-            "contract": 2024,
-            "overall": 75,
-            "futz": 162.1
+            ]
         }
     ],
     "teams": [
