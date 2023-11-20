@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { calculateFutzScore } from '../../utils/calculateFutzScoreUtils';
 
 import HeaderList from './headerList/HeaderList';
@@ -8,9 +8,8 @@ import './ScoutList.css';
 
 const ScoutList = ({ players, setPlayers, year }) => {
 
-    const [sortColumn, setSortColumn] = useState('FutzScore');
-    const [sortOrder, setSortOrder] = useState('desc');
-
+    const [sortColumn, setSortColumn] = useState('');
+    const [sortOrder, setSortOrder] = useState('');
 
     const handleSort = (column) => {
         const newOrder = sortColumn === column && sortOrder === 'asc' ? 'desc' : 'asc';
@@ -42,6 +41,10 @@ const ScoutList = ({ players, setPlayers, year }) => {
 
         setPlayers(sortedPlayers);
     };
+
+    useEffect(() => {
+        handleSort('FutzScore');
+      }, [sortColumn]); 
 
     return (
         <table className='scout-list'>
