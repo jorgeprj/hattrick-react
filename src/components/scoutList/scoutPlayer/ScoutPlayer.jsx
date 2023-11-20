@@ -1,15 +1,16 @@
 import { useNavigate } from 'react-router-dom';
-import { getOverallColor } from '../../../utils/overallColorUtils';
-import './PLayerList.css'
 import { calculateFutzScore } from '../../../utils/calculateFutzScoreUtils';
+import { getOverallColor } from '../../../utils/overallColorUtils';
 
-const PlayerList = ({ player, year }) => {
+import './ScoutPlayer.css'
+
+const ScoutPlayer = ({ player, year }) => {
 
     const navigate = useNavigate();
     const redirectToPlayerPage = () => navigate(`/player/${player.id}`);
 
     return (
-        <tr onClick={redirectToPlayerPage} className='player-list'>
+        <tr onClick={redirectToPlayerPage} className='scout-player'>
             <td className='player-image'>
                 <img src={`./src/assets/players/${player.id}.png`} alt="player" />
             </td>
@@ -40,4 +41,4 @@ const PlayerList = ({ player, year }) => {
     )
 }
 
-export default PlayerList
+export default ScoutPlayer

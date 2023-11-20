@@ -1,10 +1,12 @@
-import { calculateFutzScore } from '../../utils/calculateFutzScoreUtils';
-import './PlayersList.css';
-import HeaderList from './headerList/HeaderList';
-import PlayerList from './playerList/PlayerList';
 import { useState } from 'react';
+import { calculateFutzScore } from '../../utils/calculateFutzScoreUtils';
 
-const PlayersList = ({ players, setPlayers, year }) => {
+import HeaderList from './headerList/HeaderList';
+import ScoutPlayer from './scoutPlayer/ScoutPlayer';
+
+import './ScoutList.css';
+
+const ScoutList = ({ players, setPlayers, year }) => {
 
     const [sortColumn, setSortColumn] = useState('FutzScore');
     const [sortOrder, setSortOrder] = useState('desc');
@@ -42,7 +44,7 @@ const PlayersList = ({ players, setPlayers, year }) => {
     };
 
     return (
-        <table className='players-list'>
+        <table className='scout-list'>
             <thead>
                 <tr>
                     <th></th>
@@ -56,10 +58,10 @@ const PlayersList = ({ players, setPlayers, year }) => {
                 </tr>
             </thead>
             <tbody>
-                {players.map(player => (<PlayerList player={player} year={year} key={player.id} />))}
+                {players.map(player => (<ScoutPlayer player={player} year={year} key={player.id} />))}
             </tbody>
         </table>
     )
 }
 
-export default PlayersList
+export default ScoutList

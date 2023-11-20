@@ -1,16 +1,16 @@
-.player-list .player-image img{
+.scout-player .player-image img{
     vertical-align: middle;
     width: 64px;
     background-color: rgba(0, 0, 0, 0.075);
     border-radius: 50%;
 }
 
-.player-list .player-flag img{
+.scout-player .player-flag img{
     vertical-align: middle;
     width: 24px;
 }
 
-.player-list .player-info{
+.scout-player .player-info{
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -19,40 +19,40 @@
     white-space: nowrap;
 }
 
-.player-list .player-name{
+.scout-player .player-name{
     font-weight: 600;
     margin: 0;
 }
 
-.player-list .player-team-league,
-.player-list .player-team-name{
+.scout-player .player-team-league,
+.scout-player .player-team-name{
     color: var(--text-low);
 }
 
-.player-list.player-position.GK{
+.scout-player.player-position.GK{
     color: var(--red);
 }
 
-.player-list .player-position.CB,
-.player-list .player-position.RB,
-.player-list .player-position.LB,
-.player-list .player-position.RWB,
-.player-list .player-position.LWB{
+.scout-player .player-position.CB,
+.scout-player .player-position.RB,
+.scout-player .player-position.LB,
+.scout-player .player-position.RWB,
+.scout-player .player-position.LWB{
     color: var(--orange);
 }
 
-.player-list .player-position.CDM,
-.player-list .player-position.CAM,
-.player-list .player-position.CM,
-.player-list .player-position.RM,
-.player-list .player-position.LM{
+.scout-player .player-position.CDM,
+.scout-player .player-position.CAM,
+.scout-player .player-position.CM,
+.scout-player .player-position.RM,
+.scout-player .player-position.LM{
     color: var(--high-green);
 }
 
-.player-list .player-position.LW,
-.player-list .player-position.RW,
-.player-list .player-position.CF,
-.player-list .player-position.ST{
+.scout-player .player-position.LW,
+.scout-player .player-position.RW,
+.scout-player .player-position.CF,
+.scout-player .player-position.ST{
     color: var(--blue);
 }
 
