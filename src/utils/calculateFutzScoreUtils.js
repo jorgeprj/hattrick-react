@@ -13,11 +13,11 @@ const nationalityValues = {
 }
 
 const leagueValues = {
-    "Premier League (ING)": 100,
-    "Championship (ING)": 75,
-    "League One (ING)": 50,
-    "League Two (ING)": 30,
-    "Premiership (ESC)": 30,
+    "Premier League (ENG)": 100,
+    "Championship (ENG)": 75,
+    "League One (ENG)": 50,
+    "League Two (ENG)": 30,
+    "Premiership (SCT)": 30,
 }
 
 
@@ -37,7 +37,7 @@ export const calculateFutzScore = (player, currentYear) => {
 
     const nationalityFactor = nationalityValues[player.nationality] || 0;
 
-    const leagueFactor = leagueValues[player.team.league] || 0;
+    const leagueFactor = leagueValues[player.teamHistory[0].team.league] || 0;
 
     const physicalFactors =
         (player.weight - 40) +

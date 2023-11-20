@@ -16,8 +16,8 @@ const ScoutPlayer = ({ player, year }) => {
             </td>
             <td className='player-info'>
                 <span className='player-name'>{player.name}</span>
-                <span className='player-team-name'>{player.team.name}</span>
-                <span className='player-team-league'>{player.team.league}</span>
+                <span className='player-team-name'>{player.teamHistory[0].team.name}</span>
+                <span className='player-team-league'>{player.teamHistory[0].team.league}</span>
             </td>
             <td className={`player-position ${player.position}`}>
                 {player.position}

@@ -20,8 +20,8 @@ const PlayerSideCard = ({ player, year }) => {
                 </div>
                 <div className='player-tags'>
                     <div className='player-tag'>
-                        <img src={`../src/assets/teams/${player.team.id}.png`} alt="player" />
-                        <span>{player.team.name}</span>
+                        <img src={`../src/assets/teams/${player.teamHistory[0].team.id}.png`} alt="player" />
+                        <span>{player.teamHistory[0].team.name}</span>
                     </div>
                     <div className='player-tag'>
                         <img src={`../src/assets/flags/${player.nationality}.png`} alt="player" />

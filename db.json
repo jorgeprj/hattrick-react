@@ -6,11 +6,6 @@
             "age": 2005,
             "nationality": "Wales",
             "position": "CAM",
-            "team": {
-                "id": 144,
-                "name": "Fulham FC",
-                "league": "Premier League (ING)"
-            },
             "overall": 61,
             "potential": 84,
             "height": 168,
@@ -28,14 +23,16 @@
                 {
                     "team": {
                         "id": 144,
-                        "name": "Fulham FC"
+                        "name": "Fulham FC",
+                        "league": "Premier League (ENG)"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 144,
-                        "name": "Fulham FC U21"
+                        "name": "Fulham FC U21",
+                        "league": "Premier League U21 (ENG)"
                     },
                     "season": "2021-23"
                 }
@@ -49,11 +46,6 @@
             "age": 1985,
             "nationality": "England",
             "position": "RB",
-            "team": {
-                "id": 7,
-                "name": "Everton",
-                "league": "Premier League (ING)"
-            },
             "overall": 75,
             "potential": 75,
             "height": 175,
@@ -71,49 +63,56 @@
                 {
                     "team": {
                         "id": 7,
-                        "name": "Everton"
+                        "name": "Everton",
+                        "league": "Premier League (ENG)"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 2,
-                        "name": "Aston Villa"
+                        "name": "Aston Villa",
+                        "league": "Premier League (ENG)"
                     },
                     "season": "2021-23"
                 },
                 {
                     "team": {
                         "id": 44,
-                        "name": "Internazionale"
+                        "name": "Internazionale",
+                        "league": "Serie A (ITA)"
                     },
                     "season": "2020-21"
                 },
                 {
                     "team": {
                         "id": 11,
-                        "name": "Manchester United"
+                        "name": "Manchester United",
+                        "league": "Premier League (ENG)"
                     },
                     "season": "2011-20"
                 },
                 {
                     "team": {
                         "id": 2,
-                        "name": "Aston Villa"
+                        "name": "Aston Villa",
+                        "league": "Premier League (ENG)"
                     },
                     "season": "2007-11"
                 },
                 {
                     "team": {
                         "id": 1795,
-                        "name": "Watford"
+                        "name": "Watford",
+                        "league": "Premier League (ENG)"
                     },
                     "season": "2003-07"
                 },
                 {
                     "team": {
                         "id": 1795,
-                        "name": "Watford U18"
+                        "name": "Watford U18",
+                        "league": "Premier League U18 (ENG)"
                     },
                     "season": "2000-03"
                 }
@@ -127,11 +126,6 @@
             "age": 1996,
             "nationality": "Scotland",
             "position": "ST",
-            "team": {
-                "id": 1794,
-                "name": "Sheffield Utd",
-                "league": "Premier League (ING)"
-            },
             "overall": 72,
             "potential": 73,
             "height": 191,
@@ -149,84 +143,97 @@
                 {
                     "team": {
                         "id": 1794,
-                        "name": "Sheffield United"
+                        "name": "Sheffield United",
+                        "league": "Premier League (ENG)"
                     },
                     "season": "2019-"
                 },
                 {
                     "team": {
                         "id": 1960,
-                        "name": "Swansea City"
+                        "name": "Swansea City",
+                        "league": "Championship (ENG)"
                     },
                     "season": "2018-19"
                 },
                 {
                     "team": {
                         "id": 1932,
-                        "name": "Barnsley FC"
+                        "name": "Barnsley FC",
+                        "league": "Championship (ENG)"
                     },
                     "season": "2018"
                 },
                 {
                     "team": {
                         "id": 1960,
-                        "name": "Swansea City"
+                        "name": "Swansea City",
+                        "league": "Championship (ENG)"
+                        
                     },
                     "season": "2016-18"
                 },
                 {
                     "team": {
                         "id": 1962,
-                        "name": "Bristol Rivers"
+                        "name": "Bristol Rovers",
+                        "league": "League Two (ENG)"
                     },
                     "season": "2016"
                 },
                 {
                     "team": {
                         "id": 1960,
-                        "name": "Swansea City"
+                        "name": "Swansea City",
+                        "league": "Championship (ENG)"
                     },
                     "season": "2015-16"
                 },
                 {
                     "team": {
                         "id": 112254,
-                        "name": "Newport County"
+                        "name": "Newport County",
+                        "league": "League Two (ENG)"
                     },
                     "season": "2015"
                 },
                 {
                     "team": {
                         "id": 1960,
-                        "name": "Swansea City"
+                        "name": "Swansea City",
+                        "league": "Championship (ENG)"
                     },
                     "season": "2015"
                 },
                 {
                     "team": {
                         "id": 1804,
-                        "name": "Bradford City"
+                        "name": "Bradford City",
+                        "league": "League One (ENG)"
                     },
                     "season": "2015"
                 },     
                 {
                     "team": {
                         "id": 444444,
-                        "name": "Chester"
+                        "name": "Chester",
+                        "league": "National League (ENG)"
                     },
                     "season": "2015"
                 },
                 {
                     "team": {
                         "id": 1804,
-                        "name": "Bradford City"
+                        "name": "Bradford City",
+                        "league": "League One (ENG)"
                     },
                     "season": "2013-15"
                 },
                 {
                     "team": {
                         "id": 1804,
-                        "name": "Bradford City U18"
+                        "name": "Bradford City U18",
+                        "league": "League One U21 (ENG)"
                     },
                     "season": "2010-13"
                 }
@@ -240,11 +247,6 @@
             "age": 2006,
             "nationality": "Scotland",
             "position": "CDM",
-            "team": {
-                "id": 86,
-                "name": "Rangers FC",
-                "league": "Premiership (ESC)"
-            },
             "overall": 59,
             "potential": 85,
             "height": 180,
@@ -262,23 +264,34 @@
                 {
                     "team": {
                         "id": 86,
-                        "name": "Rangers FC"
+                        "name": "Rangers FC",
+                        "league": "Premiership (SCT)"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 86,
-                        "name": "Rangers FC U18"
+                        "name": "Rangers FC U18",
+                        "league": "Premiership U18 (SCT)"
                     },
                     "season": "2022-23"
                 },
                 {
                     "team": {
                         "id": 83,
-                        "name": "Motherwell FC U17"
+                        "name": "Motherwell FC",
+                        "league": "Premiership (SCT)"
                     },
-                    "season": "2020-22"
+                    "season": "2021-22"
+                },
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Motherwell FC U17",
+                        "league": "Premiership U17 (SCT)"
+                    },
+                    "season": "2020-21"
                 }
             ],
             "analysis":"At 17, Bailey Rice shines in Scottish football, making significant contributions to the Rangers. His unique left foot and skillful feints showcase exceptional technical prowess for his age. Offensively, Rice displays short-pass precision and admirable vision. Despite his youth, he captains Scotland's U20s, revealing not just talent but early leadership. Versatile in defense, he shows solid tackling abilities. With notable speed and agility, Rice navigates the field effortlessly. The future looks promising for this young Scottish talent, hinting at a bright trajectory as he continues to develop.",
@@ -288,31 +301,84 @@
     "teams": [
         {
             "id": 2,
-            "name": "Aston Villa"
+            "name": "Aston Villa",
+            "league": "Premier League (ENG)"
         },
         {
             "id": 7,
-            "name": "Everton"
+            "name": "Everton",
+            "league": "Premier League (ENG)"
         },
         {
             "id": 11,
-            "name": "Manchester United"
+            "name": "Manchester United",
+            "league": "Premier League (ENG)"
         },
         {
             "id": 44,
-            "name": "Internazionale"
+            "name": "Internazionale",
+            "league": "Serie A (ITA)"
+        },
+        {
+            "id": 83,
+            "name": "Motherwell FC",
+            "league": "Premiership (SCT)"
+        },
+        {
+            "id": 86,
+            "name": "Rangers FC",
+            "league": "Premiership (SCT)"
         },
         {
             "id": 144,
-            "name": "Fulham FC"
+            "name": "Fulham FC",
+            "league": "Premier League (ENG)"
         },
         {
             "id": 1793,
-            "name": "Reading FC"
+            "name": "Reading FC",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 1794,
+            "name": "Sheffield United",
+            "league": "Premier League (ENG)"
         },
         {
             "id": 1795,
-            "name": "Watford"
+            "name": "Watford",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 1804,
+            "name": "Bradford City",
+            "league": "League Two (ENG)"
+            
+        },
+        {
+            "id": 1932,
+            "name": "Barnsley FC",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 1960,
+            "name": "Swansea City",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 1962,
+            "name": "Bristol Rovers",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 112254,
+            "name": "Newport County",
+            "league": "League Two (ENG)"
+        },
+        {
+            "id": 444444,
+            "name": "Chester",
+            "league": "National League (ENG)"
         }
     ]
 }
