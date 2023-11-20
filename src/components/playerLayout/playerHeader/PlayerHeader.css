@@ -50,3 +50,18 @@
 .header-info .player-overall.red p{
     color: var(--red);
 }
+
+.player-header .player-contract .available{
+    cursor: pointer;
+}
+
+.player-header .player-contract .available:hover::after{
+    content: "Available";
+    font-size: 12px;
+    font-weight: 600;
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+} 
