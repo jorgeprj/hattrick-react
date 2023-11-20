@@ -5,7 +5,7 @@ const Navbar = () => {
 	const links = [
 		{
 			name: 'Dashboard',
-            path: '/',
+            path: '/dashboard',
 		},
 		{
 			name: 'Scouts',
