@@ -1,4 +1,5 @@
 import './PlayerCard.css'
+import StarRating from './starRating/StarRating';
 import TeamHistory from './teamHistory/TeamHistory';
 
 
@@ -40,6 +41,9 @@ const PlayerCard = ({ player, year }) => {
                         <p>Height</p>
                         <p>Weight</p>
                         <p>Foot</p>
+                        <p>Skill moves</p>
+                        <p>Weak foot</p>
+                        <p>Work rate</p>
                         <p className="no-margin-bottom">Real Face</p>
                     </div>
                     <div className="column2">
@@ -47,6 +51,9 @@ const PlayerCard = ({ player, year }) => {
                         <p>{player.height / 100} m</p>
                         <p>{player.weight} kg</p>
                         <p>{player.foot}</p>
+                        <p><StarRating stars={player.skills}/></p>
+                        <p><StarRating stars={player.weakFoot}/></p>
+                        <p>{player.workRate}</p>
                         <p className="no-margin-bottom">{player.realFace}</p>
                     </div>
                 </div>
