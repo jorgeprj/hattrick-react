@@ -39,7 +39,9 @@
                     },
                     "season": "2021-23"
                 }
-            ]
+            ],
+            "analysis":"Luke Harris, the talented Welsh player from Fulham FC, is emerging as one of the brightest prospects in English and Welsh football. His remarkable crossing ability stands out, providing a valuable contribution in the offensive realm. With a powerful right foot and admirable dribbling skills, Harris shows significant potential to become a dynamic force on the field. His defensive prowess and impressive agility add to his multifaceted skill set. Endorsed by Ryan Giggs, Harris is on a promising trajectory in the sports arena.",
+            "bio":"Luke Harris, born on March 4, 2005, is a talented midfielder for Premier League side Fulham and the Wales under-21 national team. Hailing from Jersey, he attended St. Clement School and made waves with a remarkable hat-trick for Fulham's under-23s in February 2022. Harris secured a professional contract until 2025 and made his Premier League debut in October 2022. Recognized as the 'Rising Star' at the 2022 Channel Islands Sports Awards, he has also represented Wales at various age levels, earning a senior call-up in September 2022."
         },
         {
             "id": 152908,
@@ -115,8 +117,9 @@
                     },
                     "season": "2000-03"
                 }
-                
-            ]
+            ],
+            "analysis": "Ashley Young, a seasoned English veteran at 37, brings a wealth of experience, notably gained during his triumphant spell at Manchester United. His standout crossing ability, paired with astute dribbling, provides Everton with a potent attacking edge. Young's right foot, a reliable asset, complements his exceptional crossing prowess. Beyond offensive contributions, his defensive aptitude shines in tackles and interceptions. A leader with sharp vision and composed demeanor, Young adds both technical prowess and a winning mentality to Everton's roster, promising a valuable impact.",
+            "bio": "Ashley Simon Young, born on July 9, 1985, is an English professional footballer, currently a full-back for Everton in the Premier League. Starting as a winger at Watford, he rose to prominence in their promotion-winning 2005–06 season. Young has had successful stints with Aston Villa, Manchester United, and Inter Milan, winning multiple trophies. He returned to Aston Villa in 2021 before joining Everton in 2023. Young earned 39 caps for England, featuring in Euro 2012 and the 2018 World Cup."
         },
         {
             "id": 220031,
@@ -227,8 +230,9 @@
                     },
                     "season": "2010-13"
                 }
-                
-            ]
+            ],
+            "analysis":"Oliver McBurnie, is a key player for Sheffield United, bringing notable skills, particularly in finishing and aerial play. His combativeness and leadership are highlighted, providing essential motivation to the team. With the ability to make an immediate impact, McBurnie stands out as an influential figure, not just for his technical talent but also for the inspiration he brings to the team.",
+            "bio": "Oliver Robert McBurnie, born on June 4, 1996, is a seasoned professional footballer renowned for his role as a striker with Sheffield United in the Premier League and the Scotland national team. With his roots in youth football at Leeds United, McBurnie initiated his career at Bradford City, undertaking two loan stints at Chester. Subsequently joining Swansea City, he gained valuable experience through loan spells at Newport County, Bristol Rovers, and Barnsley. Despite being born in England, McBurnie proudly represents Scotland on the international stage, marking his senior debut in March 2018."
         },
         {
             "id": 277266,
@@ -276,7 +280,9 @@
                     },
                     "season": "2020-22"
                 }
-            ]
+            ],
+            "analysis":"At 17, Bailey Rice shines in Scottish football, making significant contributions to the Rangers. His unique left foot and skillful feints showcase exceptional technical prowess for his age. Offensively, Rice displays short-pass precision and admirable vision. Despite his youth, he captains Scotland's U20s, revealing not just talent but early leadership. Versatile in defense, he shows solid tackling abilities. With notable speed and agility, Rice navigates the field effortlessly. The future looks promising for this young Scottish talent, hinting at a bright trajectory as he continues to develop.",
+            "bio": "Born on October 4, 2006, Scottish footballer Bailey Rice plays for Rangers in the Scottish Premiership. A Motherwell youth academy product, Rice joined Rangers on June 30, 2022, rejecting a contract with Motherwell. Making his senior debut in February 2023 against Livingston, he became Rangers' youngest post-war league player at 16 years and 137 days, second only to Derek Ferguson in all competitions."
         }
     ],
     "teams": [
