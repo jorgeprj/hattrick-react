@@ -4,22 +4,26 @@
             "id": 270937,
             "name": "Luke Harris",
             "age": 2005,
-            "height": 168,
-            "weight": 63,
-            "foot": "Right",
-            "skills": 3,
-            "weakFoot": 3,
-            "realFace": "No",
+            "nationality": "Wales",
             "position": "CAM",
             "team": {
                 "id": 144,
                 "name": "Fulham FC",
                 "league": "Premier League (ING)"
             },
-            "nationality": "England",
-            "contract": 2025,
             "overall": 61,
-            "futz": 174.2,
+            "potential": 84,
+            "height": 168,
+            "weight": 63,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": "No",
+            "value": 1000000,
+            "wage": 4000,
+            "releaseClause": 2900000,
+            "contract": 2025,
             "teamHistory": [
                 {
                     "team": {
@@ -41,22 +45,26 @@
             "id": 152908,
             "name": "Ashley Young",
             "age": 1985,
-            "height": 175,
-            "weight": 65,
-            "foot": "Right",
-            "skills": 4,
-            "weakFoot": 3,
-            "realFace": "Yes",
+            "nationality": "England",
             "position": "RB",
             "team": {
                 "id": 7,
                 "name": "Everton",
                 "league": "Premier League (ING)"
             },
-            "nationality": "England",
-            "contract": 2024,
             "overall": 75,
-            "futz": 162.1,
+            "potential": 75,
+            "height": 175,
+            "weight": 65,
+            "foot": "Right",
+            "skills": 4,
+            "weakFoot": 3,
+            "workRate": "High/Medium",
+            "realFace": "Yes",
+            "value": 1200000,
+            "wage": 23000,
+            "releaseClause": 2300000,
+            "contract": 2024,
             "teamHistory": [
                 {
                     "team": {
@@ -108,6 +116,166 @@
                     "season": "2000-03"
                 }
                 
+            ]
+        },
+        {
+            "id": 220031,
+            "name": "Oliver MCBurnie",
+            "age": 1996,
+            "nationality": "Scotland",
+            "position": "ST",
+            "team": {
+                "id": 1794,
+                "name": "Sheffield Utd",
+                "league": "Premier League (ING)"
+            },
+            "overall": 72,
+            "potential": 73,
+            "height": 191,
+            "weight": 77,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": "Yes",
+            "value": 2700000,
+            "wage": 27000,
+            "releaseClause": 5600000,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 1794,
+                        "name": "Sheffield United"
+                    },
+                    "season": "2019-"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City"
+                    },
+                    "season": "2018-19"
+                },
+                {
+                    "team": {
+                        "id": 1932,
+                        "name": "Barnsley FC"
+                    },
+                    "season": "2018"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City"
+                    },
+                    "season": "2016-18"
+                },
+                {
+                    "team": {
+                        "id": 1962,
+                        "name": "Bristol Rivers"
+                    },
+                    "season": "2016"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City"
+                    },
+                    "season": "2015-16"
+                },
+                {
+                    "team": {
+                        "id": 112254,
+                        "name": "Newport County"
+                    },
+                    "season": "2015"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City"
+                    },
+                    "season": "2015"
+                },
+                {
+                    "team": {
+                        "id": 1804,
+                        "name": "Bradford City"
+                    },
+                    "season": "2015"
+                },     
+                {
+                    "team": {
+                        "id": 444444,
+                        "name": "Chester"
+                    },
+                    "season": "2015"
+                },
+                {
+                    "team": {
+                        "id": 1804,
+                        "name": "Bradford City"
+                    },
+                    "season": "2013-15"
+                },
+                {
+                    "team": {
+                        "id": 1804,
+                        "name": "Bradford City U18"
+                    },
+                    "season": "2010-13"
+                }
+                
+            ]
+        },
+        {
+            "id": 277266,
+            "name": "Bailey Rice",
+            "age": 2006,
+            "nationality": "Scotland",
+            "position": "CDM",
+            "team": {
+                "id": 86,
+                "name": "Rangers FC",
+                "league": "Premiership (ESC)"
+            },
+            "overall": 59,
+            "potential": 85,
+            "height": 180,
+            "weight": 70,
+            "foot": "Left",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": "No",
+            "value": 875000,
+            "wage": 500,
+            "releaseClause": 2500000,
+            "contract": 2026,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 86,
+                        "name": "Rangers FC"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 86,
+                        "name": "Rangers FC U18"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Motherwell FC U17"
+                    },
+                    "season": "2020-22"
+                }
             ]
         }
     ],
