@@ -15,7 +15,7 @@ const nationalityValues = {
 export const calculateFutzScore = (player, currentYear) => {
     const overallFactor = player.overall * 6;
     const ageDifference = (currentYear - player.age);
-    const ageFactor = 100 - ageDifference * 10; 
+    const ageFactor = 100 - ageDifference * 10;
 
     const growthPotential = Math.max(0, player.potential - player.overall) * 10;
 
@@ -36,7 +36,7 @@ export const calculateFutzScore = (player, currentYear) => {
         (player.weakFoot * 5) +
         (player.skills * 5);
 
-    const financialFactors = -(player.wage/750);
+    const financialFactors = -(player.wage / 750);
 
     const futzScore =
         overallFactor +
@@ -48,5 +48,8 @@ export const calculateFutzScore = (player, currentYear) => {
         financialFactors +
         nationalityFactor;
 
-    return Math.max(0, 100 + futzScore / 10).toFixed(1);
+    const x = Math.max(0, 100 + futzScore / 10).toFixed(1);
+    var m = 0.05;
+    var y = m * (x - 100) + 5;
+    return Math.max(5, Math.min(y, 10)).toFixed(2);
 };
