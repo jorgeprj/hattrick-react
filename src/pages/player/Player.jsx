@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import PlayerCard from '../../components/playerCard/PlayerCard';
 import Loading from '../../components/layout/loading/Loading';
 import './Player.css'
+import PlayerHeader from '../../components/playerHeader/PlayerHeader';
 
 
 const Player = ({ players, year }) => {
@@ -29,8 +30,11 @@ const Player = ({ players, year }) => {
 
     return (
         <div className='player'>
-            <section>
+            <section className='side-section'>
                 <PlayerCard player={player} year={year} />
+            </section>
+            <section className='main-section'>
+                <PlayerHeader player={player} year={year}/>
             </section>
         </div>
     );
