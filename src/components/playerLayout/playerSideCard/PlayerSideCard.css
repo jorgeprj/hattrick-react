@@ -1,4 +1,4 @@
-.player-card {
+.player-side-card {
     width: 320px;
     background-color: #fff;
     border-radius: 8px;
@@ -7,13 +7,13 @@
     padding: 2em;
 }
 
-.player-card header {
+.player-side-card header {
     padding: 16px;
     padding-bottom: 0px;
     text-align: center;
 }
 
-.player-card .player-photo img {
+.player-side-card .player-photo img {
     width: 128px;
     height: 128px;
     border-radius: 50%;
@@ -21,33 +21,33 @@
     object-fit: cover;
 }
 
-.player-card .player-name{
+.player-side-card .player-name{
     display: flex;
     flex-direction: column;
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
 
-.player-card .player-name .first-name{
+.player-side-card .player-name .first-name{
     font-size: 0.8em;
     color: var(--text-medium);
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.player-card .player-name .second-name{
+.player-side-card .player-name .second-name{
     font-size: 1.25em;
     font-weight: 600;
 }
 
-.player-card .player-tags{
+.player-side-card .player-tags{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.player-card .player-tag{
+.player-side-card .player-tag{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -64,42 +64,42 @@
     text-transform: uppercase;
 }
 
-.player-card .player-tag img{
+.player-side-card .player-tag img{
     height: 12px;
     margin-right: 4px;
 }
 
-.player-card .line{
+.player-side-card .line{
     margin-top: 1.5em;
     border-bottom: 2px solid rgba(0,0,0, 0.05);
     margin-bottom: 1em;
 }
 
-.player-card h3{
+.player-side-card h3{
     font-size: 1em;
     font-weight: 500;
     color: var(--text-medium);
     margin-top: 1.2em;
 }
 
-.player-card .player-basic-info {
+.player-side-card .player-basic-info {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.player-card .player-basic-info .column1,
-.player-card .player-basic-info .column2 {
+.player-side-card .player-basic-info .column1,
+.player-side-card .player-basic-info .column2 {
     flex: 1;
     font-size: 0.9em;
 }
 
-.player-card .player-basic-info .column1 p{
+.player-side-card .player-basic-info .column1 p{
     margin-bottom: 1em;
     color: var(--text-medium);
 }
 
-.player-card .player-basic-info .column2 p{
+.player-side-card .player-basic-info .column2 p{
     margin-bottom: 1em;
     color: var(--text-high);
     font-weight: 500;

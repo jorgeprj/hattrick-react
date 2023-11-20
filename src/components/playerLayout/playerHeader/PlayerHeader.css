@@ -50,7 +50,3 @@
 .header-info .player-overall.red p{
     color: var(--red);
 }
-
-.header-info .player-futz p{
-    color: var(--primary-color);
-}

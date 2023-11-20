@@ -1,14 +1,14 @@
-import './PlayerCard.css'
-import StarRating from './starRating/StarRating';
+import StarRating from '../../layout/starRating/StarRating';
+import './PlayerSideCard.css'
 import TeamHistory from './teamHistory/TeamHistory';
 
 
-const PlayerCard = ({ player, year }) => {
+const PlayerSideCard = ({ player, year }) => {
 
     const playerName = player.name.split(' ');
 
     return (
-        <div className='player-card'>
+        <div className='player-side-card'>
             <header>
                 <div className='player-photo'>
                     <img src={`../src/assets/players/${player.id}.png`} alt="player" />
@@ -67,4 +67,4 @@ const PlayerCard = ({ player, year }) => {
     )
 }
 
-export default PlayerCard
+export default PlayerSideCard

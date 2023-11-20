@@ -1,6 +1,6 @@
-import { calculateFutzScore } from '../../utils/calculateFutzScoreUtils';
-import { formatCurrency } from '../../utils/formatCurrencyUtils';
-import { getOverallColor } from '../../utils/overallColorUtils';
+import { calculateFutzScore } from '../../../utils/calculateFutzScoreUtils';
+import { formatCurrency } from '../../../utils/formatCurrencyUtils';
+import { getOverallColor } from '../../../utils/overallColorUtils';
 import './PlayerHeader.css';
 
 const PlayerHeader = ( {player, year} ) => {
@@ -26,10 +26,6 @@ const PlayerHeader = ( {player, year} ) => {
             <div className='player-contract'>
                 <h4>Contract until</h4>
                 <p>{player.contract}</p>
-            </div>
-            <div className='player-futz'>
-                <h4>FutzScore</h4>
-                <p>{calculateFutzScore(player, year)}</p>
             </div>
         </div>
     </div>

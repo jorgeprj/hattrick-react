@@ -12,10 +12,19 @@ const nationalityValues = {
     NorthernIreland: 30,
 }
 
+const leagueValues = {
+    "Premier League (ING)": 100,
+    "Championship (ING)": 75,
+    "League One (ING)": 50,
+    "League Two (ING)": 30,
+    "Premiership (ESC)": 30,
+}
+
+
 export const calculateFutzScore = (player, currentYear) => {
-    const overallFactor = player.overall * 6;
+    const overallFactor = player.overall * 5;
     const ageDifference = (currentYear - player.age);
-    const ageFactor = 100 - ageDifference * 10;
+    const ageFactor = 100 - ageDifference * 15;
 
     const growthPotential = Math.max(0, player.potential - player.overall) * 10;
 
@@ -27,6 +36,8 @@ export const calculateFutzScore = (player, currentYear) => {
     const defenseRateValue = rateValues[player.workRate.split('/')[1]];
 
     const nationalityFactor = nationalityValues[player.nationality] || 0;
+
+    const leagueFactor = leagueValues[player.team.league] || 0;
 
     const physicalFactors =
         (player.weight - 40) +
@@ -46,7 +57,8 @@ export const calculateFutzScore = (player, currentYear) => {
         realFaceFactor +
         physicalFactors +
         financialFactors +
-        nationalityFactor;
+        nationalityFactor +
+        leagueFactor;
 
     const x = Math.max(0, 100 + futzScore / 10).toFixed(1);
     var m = 0.05;

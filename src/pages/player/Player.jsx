@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import PlayerCard from '../../components/playerCard/PlayerCard';
-import Loading from '../../components/layout/loading/Loading';
 import './Player.css'
-import PlayerHeader from '../../components/playerHeader/PlayerHeader';
+import Loading from '../../components/layout/loading/Loading';
+
+import PlayerSideCard from '../../components/playerLayout/playerSideCard/PlayerSideCard';
+import PlayerHeader from '../../components/playerLayout/playerHeader/PlayerHeader';
+import PlayerAnalysis from '../../components/playerLayout/playerTextCard/playerAnalysis/PlayerAnalysis';
+import PlayerTextCard from '../../components/playerLayout/playerTextCard/PlayerTextCard';
 
 
 const Player = ({ players, year }) => {
@@ -31,10 +34,14 @@ const Player = ({ players, year }) => {
     return (
         <div className='player'>
             <section className='side-section'>
-                <PlayerCard player={player} year={year} />
+                <PlayerSideCard player={player} year={year} />
             </section>
             <section className='main-section'>
                 <PlayerHeader player={player} year={year}/>
+                <div className='row'>
+                    <PlayerAnalysis player={player} year={year}/>
+                    <PlayerTextCard title={"Biography"} text={player.bio}/>
+                </div>
             </section>
         </div>
     );
