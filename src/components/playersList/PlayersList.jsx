@@ -1,3 +1,4 @@
+import { calculateFutzScore } from '../../utils/calculateFutzScoreUtils';
 import './PlayersList.css';
 import HeaderList from './headerList/HeaderList';
 import PlayerList from './playerList/PlayerList';
@@ -28,8 +29,8 @@ const PlayersList = ({ players, setPlayers, year }) => {
                 aValue = a.contract;
                 bValue = b.contract;
             } else if (column === 'FutzScore') {
-                aValue = a.futz;
-                bValue = b.futz;
+                aValue = calculateFutzScore(a, year);
+                bValue = calculateFutzScore(b, year);
             }
             else {
                 return 0;

@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { getOverallColor } from '../../../utils/overallColorUtils';
 import './PLayerList.css'
+import { calculateFutzScore } from '../../../utils/calculateFutzScoreUtils';
 
 const PlayerList = ({ player, year }) => {
 
@@ -33,7 +34,7 @@ const PlayerList = ({ player, year }) => {
                 {player.overall}
             </td>
             <td>
-                {player.futz}
+                {calculateFutzScore(player, year)}
             </td>
         </tr>
     )
