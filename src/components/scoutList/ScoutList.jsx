@@ -12,7 +12,7 @@ const ScoutList = ({ players, setPlayers, year }) => {
     const [sortOrder, setSortOrder] = useState('');
 
     const handleSort = (column) => {
-        const newOrder = sortColumn === column && sortOrder === 'asc' ? 'desc' : 'asc';
+        const newOrder = sortColumn === column && sortOrder === 'desc' ? 'asc' : 'desc';
 
         setSortColumn(column);
         setSortOrder(newOrder);
@@ -44,7 +44,7 @@ const ScoutList = ({ players, setPlayers, year }) => {
 
     useEffect(() => {
         handleSort('FutzScore');
-      }, [sortColumn]); 
+      }, []); 
 
     return (
         <table className='scout-list'>
