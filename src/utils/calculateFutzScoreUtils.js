@@ -22,46 +22,46 @@ const leagueValues = {
 
 
 export const calculateFutzScore = (player, currentYear) => {
-    const overallFactor = player.overall * 5;
-    const ageDifference = (currentYear - player.age);
-    const ageFactor = 100 - ageDifference * 15;
+    const overallScore = (player.overall * player.overall) / 80; //0 to 100
 
-    const growthPotential = Math.max(0, player.potential - player.overall) * 10;
+    const age = (currentYear - player.age);
+    const ageScore = ((200 - age * 2) / 1.8); //0 to 100
+
+    const potentialScore = Math.max(0, player.potential - player.overall) * 3.5;
 
     const yearsLeftInContract = player.contract - currentYear;
-    const contractFactor = Math.max(0, 3 - yearsLeftInContract) * 12;
-    const realFaceFactor = player.realFace === 'Yes' ? 50 : 0;
+    const contractScore = (yearsLeftInContract * 4);
+
+    const realFaceScore = player.realFace === 'Yes' ? 50 : 0;
+
 
     const attackRateValue = rateValues[player.workRate.split('/')[0]];
     const defenseRateValue = rateValues[player.workRate.split('/')[1]];
 
-    const nationalityFactor = nationalityValues[player.nationality] || 0;
-
-    const leagueFactor = leagueValues[player.teamHistory[0].team.league] || 0;
-
-    const physicalFactors =
-        (player.weight - 40) +
+    const physicalScore =
+        ((player.weight - 40) +
         (player.height - 100) +
         attackRateValue +
         defenseRateValue +
-        (player.weakFoot * 5) +
-        (player.skills * 5);
+        (player.weakFoot * 20) +
+        (player.skills * 20)) * 0.25;
 
-    const financialFactors = -(player.wage / 750);
+    const nationalityScore = nationalityValues[player.nationality] || 0;
+
+    const leagueScore = leagueValues[player.teamHistory[0].team.league] || 0;
+
+    const financialScore = (player.wage/1000)*2;
 
     const futzScore =
-        overallFactor +
-        ageFactor +
-        growthPotential +
-        contractFactor +
-        realFaceFactor +
-        physicalFactors +
-        financialFactors +
-        nationalityFactor +
-        leagueFactor;
+        overallScore*4 +
+        ageScore*3 +
+        potentialScore*3 -
+        contractScore*4 +
+        realFaceScore +
+        physicalScore -
+        financialScore +
+        nationalityScore +
+        leagueScore;
 
-    const x = Math.max(0, 100 + futzScore / 10).toFixed(1);
-    var m = 0.05;
-    var y = m * (x - 100) + 5;
-    return Math.max(5, Math.min(y, 10)).toFixed(2);
+    return (futzScore/100).toFixed(2);
 };
