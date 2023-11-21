@@ -143,7 +143,7 @@
                 {
                     "team": {
                         "id": 1794,
-                        "name": "Sheffield United",
+                        "name": "Sheffield Utd",
                         "league": "Premier League (ENG)"
                     },
                     "season": "2019-"
@@ -296,6 +296,198 @@
             ],
             "analysis":"At 17, Bailey Rice shines in Scottish football, making significant contributions to the Rangers. His unique left foot and skillful feints showcase exceptional technical prowess for his age. Offensively, Rice displays short-pass precision and admirable vision. Despite his youth, he captains Scotland's U20s, revealing not just talent but early leadership. Versatile in defense, he shows solid tackling abilities. With notable speed and agility, Rice navigates the field effortlessly. The future looks promising for this young Scottish talent, hinting at a bright trajectory as he continues to develop.",
             "bio": "Born on October 4, 2006, Scottish footballer Bailey Rice plays for Rangers in the Scottish Premiership. A Motherwell youth academy product, Rice joined Rangers on June 30, 2022, rejecting a contract with Motherwell. Making his senior debut in February 2023 against Livingston, he became Rangers' youngest post-war league player at 16 years and 137 days, second only to Derek Ferguson in all competitions."
+        },
+        {
+            "id": 265789,
+            "name": "Charlie Savage",
+            "age": 2003,
+            "nationality": "Wales",
+            "position": "CDM",
+            "overall": 63,
+            "potential": 75,
+            "height": 182,
+            "weight": 72,
+            "foot": "Left",
+            "skills": 3,
+            "weakFoot": 2,
+            "workRate": "Medium/Medium",
+            "realFace": "No",
+            "value": 1100000,
+            "wage": 1000,
+            "releaseClause": 2100000,
+            "contract": 2027,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 1793,
+                        "name": "Reading FC",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 561,
+                        "name": "Forest Green Rovers",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2023"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Manchester United U21",
+                        "league": "Premier League U21 (ENG)"
+                    },
+                    "season": "2021-23"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Manchester United U18",
+                        "league": "Premier League U18 (ENG)"
+                    },
+                    "season": "2019-21"
+                }
+            ],
+            "analysis":"Charlie Savage, the Welsh midfielder from Reading FC, possesses a well-rounded skill set. His standout ability lies in precise crossing, making him a valuable asset on the offensive front. With a left-footed prowess and adept dribbling, Savage seamlessly navigates the pitch. A technically proficient player, he showcases finesse in both passing and set-piece execution. His defensive attributes, marked by solid tackling and positional awareness, contribute to a versatile and reliable presence on the field. Savage's game is defined by a strategic vision and a commendable level of composure, making him a notable midfielder for Reading FC.",
+            "bio": "Charlie William Henry Savage, born on May 2, 2003, is a talented midfielder for EFL League One's Reading and the Wales national team. Following his father Robbie Savage's footsteps, he began his football journey at Manchester United. Savage made his professional debut with United in the 2021-22 UEFA Champions League. After a stint with Forest Green Rovers in 2022-23, he signed a four-year contract with Reading in July 2023, showcasing his prowess with a goal in August. Savage, a versatile central midfielder, combines defensive strength with attacking flair, distinguishing himself from his father's playing style. He has represented Wales at various youth levels and earned his first senior cap in October 2023."
+        },
+        {
+            "id": 275522,
+            "name": "Lennon Miller",
+            "age": 2006,
+            "nationality": "Scotland",
+            "position": "CM",
+            "overall": 59,
+            "potential": 85,
+            "height": 182,
+            "weight": 72,
+            "foot": "Dir",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": "No",
+            "value": 900000,
+            "wage": 500,
+            "releaseClause": 2500000,
+            "contract": 2025,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Motherwell FC",
+                        "league": "Premiership (SCT)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Motherwell FC U18",
+                        "league": "Premiership U18 (SCT)"
+                    },
+                    "season": "2022-23"
+                }
+            ],
+            "analysis":"Lennon Miller, the Scottish midfielder for Motherwell FC, possesses a remarkable potential of 85. With a predominantly right foot, Miller showcases a notable ability in crossing and short passing. His agility and acceleration make him agile on the field, complemented by a commendable vision for the game. While his defensive skills may benefit from improvement, Miller's overall versatility and promising potential position him as an asset in the midfield.",
+            "bio": "Lennon Miller, born on 25 August 2006, is a Scottish midfielder for Motherwell. Making history at 16 as Motherwell's youngest player, he debuted in a Scottish League Cup victory. His Scottish Premiership journey started against Rangers in 2022, followed by a crucial appearance against Celtic in 2023. In the 2023–24 season, he began as a regular but faced a red card against Livingston. Internationally, he dazzled with a Goal of the Year for Scotland's under-16s. The son of former Scotland international Lee Miller, Lennon overcame personal loss and impressed at Coltness High School."
+        },
+        {
+            "id": 270964,
+            "name": "Jobe Bellingham",
+            "age": 2005,
+            "nationality": "England",
+            "position": "CAM",
+            "overall": 64,
+            "potential": 82,
+            "height": 187,
+            "weight": 73,
+            "foot": "Dir",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": "No",
+            "value": 1500000,
+            "wage": 1000,
+            "releaseClause": 3800000,
+            "contract": 2028,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 106,
+                        "name": "Sunderland",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 88,
+                        "name": "Birmingham City",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 88,
+                        "name": "Birmingham City U18",
+                        "league": "Championship U18 (ENG)"
+                    },
+                    "season": "2021-22"
+                }
+            ],
+            "analysis":"Jobe Bellingham, the English attacking midfielder for AFC Sunderland, exhibits remarkable potential, standing out for his considerable crossing prowess. With a dominant right foot and significant dribbling ability, he brings a high level of finesse to the field. Bellingham's game is characterized by exceptional vision, composure, and a strong work ethic. His impressive acceleration, agility, and resilience make him a standout prospect in the football world.",
+            "bio": "Jobe Samuel Patrick Bellingham, born on September 23, 2005, is a talented English footballer excelling as a midfielder or forward for EFL Championship's Sunderland. Rising through Birmingham City's academy, he made his mark in the 2021–22 season, showcasing his skills and earning a professional contract. Bellingham's journey continued with Sunderland in 2023, where his prowess on the field is making waves. Additionally, he has represented England at various youth levels, demonstrating his promising international career."
+        },
+        {
+            "id": 268445,
+            "name": "Rhys Bennett",
+            "age": 2003,
+            "nationality": "England",
+            "position": "CB",
+            "overall": 61,
+            "potential": 78,
+            "height": 187,
+            "weight": 75,
+            "foot": "Dir",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/High",
+            "realFace": "No",
+            "value": 800000,
+            "wage": 7000,
+            "releaseClause": 2000000,
+            "contract": 2025,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Man United",
+                        "league": "Premier League (ENG)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Man United U21",
+                        "league": "Premier League U21 (ENG)"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Man United U18",
+                        "league": "Premier League U18 (ENG)"
+                    },
+                    "season": "2020-22"
+                }
+            ],
+            "analysis":"Rhys Bennett, the English defender for Manchester United, showcases a well-rounded skill set. His notable crossing ability and strong defensive presence make him a valuable asset on the field. Bennett's proficiency in aerial duels, coupled with his composed tackling style, bolsters the team's backline. With a keen sense of positioning and commendable work ethic, he contributes both defensively and offensively. A disciplined player, Bennett's clean tackling style exemplifies his commitment to the game.",
+            "bio": "Denton-born and bred, the under-18s captain at Manchester United, Bennett, debuted in the 2020/21 season against Blackburn Rovers. Leading the team to the FA Youth Cup in 2021/22, he's a well-grounded centre-back who regularly visits his primary school in Denton. Thrilled by every Old Trafford appearance, Bennett embraces the dream, vowing to give his all and cherishing each moment on the iconic pitch."
         }
     ],
     "teams": [
