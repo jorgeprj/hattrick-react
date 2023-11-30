@@ -568,9 +568,32 @@
             "league": "League Two (ENG)"
         },
         {
+            "id": 113926,
+            "name": "Salford City",
+            "league": "League Two (ENG)"
+        },
+        {
             "id": 444444,
             "name": "Chester",
             "league": "National League (ENG)"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Oficial: Solskjaer is the new head coach of Salford City FC",
+            "description": "Ole Gunnar Solskjaer is the new head coach of Salford City FC! The football legend brings his passion and expertise to lead our team to new heights! ⚽️👊 Welcome to Salford, Ole! 🙌 #SolskjaerAtSalford",
+            "date": "16 Jun",
+            "category": "Twitter",
+            "image": true
+        },
+        {
+            "id": 2,
+            "title": "Salford City FC will do pre-season in Italy",
+            "description": "The Ammies are set to dazzle in an unannounced pre-season tournament in Italy!",
+            "date": "16 Jun",
+            "category": "News",
+            "image": false
         }
     ]
 }
