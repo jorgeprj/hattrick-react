@@ -7,6 +7,7 @@ import Navbar from "./components/layout/navbar/Navbar.jsx";
 function App() {
 
 	const [players, setPlayers] = useState([]);
+	const [posts, setPosts] = useState([]);
 	const year = 2023
 
     useEffect(() => {
@@ -29,11 +30,31 @@ function App() {
 		fetchPlayers();
 	}, []);
 
+	useEffect(() => {
+		const fetchPosts = async () => {
+			try {
+				const response = await fetch('http://localhost:5000/posts');
+
+				if (response.ok) {
+					const data = await response.json();
+					const reversedData = data.reverse();
+					setPosts(reversedData);
+				} else {
+					console.error('Erro ao buscar dados da API');
+				}
+			} catch (error) {
+				console.error('Erro na requisição:', error);
+			}
+		};
+
+		fetchPosts();
+	}, []);
+
 	return (
 		<div>
 			<Router>
 				<Navbar />
-				<AppRoutes players={players} setPlayers={setPlayers} year={year} />
+				<AppRoutes players={players} posts={posts} setPlayers={setPlayers} year={year} />
 			</Router>
 		</div>
 	)
