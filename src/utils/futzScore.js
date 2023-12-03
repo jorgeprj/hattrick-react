@@ -32,7 +32,7 @@ export const calculateFutzScore = (player, currentYear) => {
     const yearsLeftInContract = player.contract - currentYear;
     const contractScore = (yearsLeftInContract * 4);
 
-    const realFaceScore = player.realFace === 'Yes' ? 50 : 0;
+    const realFaceScore = player.realFace ? 50 : 0;
 
 
     const attackRateValue = rateValues[player.workRate.split('/')[0]];
