@@ -1,7 +1,8 @@
-import { calculateFutzScore } from '../../../../utils/calculateFutzScoreUtils'
-import './PlayerAnalysis.css'
+import './AnalysisCard.css'
 
-const PlayerAnalysis = ( {player, year} ) => {
+import { calculateFutzScore } from '../../../../utils/futzScore'
+
+const AnalysisCard = ( {player, year} ) => {
     return (
         <div className='player-analysis'>
             <div>
@@ -16,4 +17,4 @@ const PlayerAnalysis = ( {player, year} ) => {
     )
 }
 
-export default PlayerAnalysis
+export default AnalysisCard

@@ -1,6 +1,6 @@
-import { useState } from 'react';
 import './TeamHistory.css'
 
+import { useState } from 'react';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6"
 
 const TeamHistory = ({ player }) => {
@@ -13,7 +13,7 @@ const TeamHistory = ({ player }) => {
             {teamsToDisplay.map((team, index) => (
                 <div key={index} className='player-team'>
                     <div className="team-tag">
-                        <img src={`../src/assets/teams/${team.team.id}.png`} alt="player" />
+                        <img src={`../../src/assets/teams/${team.team.id}.png`} alt={`${team.team.id}`} />
                     </div>
                     <div className='team-text'>
                         <h4>{team.team.name}</h4>

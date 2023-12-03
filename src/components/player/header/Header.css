@@ -31,6 +31,12 @@
     font-weight: 600;
 }
 
+.header-info p span{
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5em;
+}
+
 .header-info .player-overall.high-green p{
     color: var(--high-green);
 }
@@ -65,3 +71,11 @@
     border-radius: 4px;
     margin-left: 10px;
 } 
+
+.green {
+    color: var(--primary-color);
+  }
+  
+.red {
+    color: red;
+}

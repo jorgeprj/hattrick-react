@@ -40,6 +40,27 @@
     font-weight: 600;
 }
 
+.player-side-card .player-name .second-name span{
+    margin-left: 0.5em;
+}
+
+.player-side-card .player-name .second-name .loan:hover::after{
+    position: fixed;
+    content: "Loaned";
+    font-size: 12px;
+    font-weight: 600;
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.player-side-card .player-name .second-name svg{
+    font-size: 0.75em;
+    color: var(--primary-color);
+}
+
 .player-side-card .player-tags{
     display: flex;
     flex-direction: row;

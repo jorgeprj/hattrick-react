@@ -1,9 +1,13 @@
-import StarRating from '../../layout/starRating/StarRating';
-import './PlayerSideCard.css'
+import './SideCard.css'
+
+import StarRating from '../../starRating/StarRating';
 import TeamHistory from './teamHistory/TeamHistory';
 
+import { FaArrowRightArrowLeft } from 'react-icons/fa6';
+import NationalHistory from './nationalHistory/NationalHistory';
 
-const PlayerSideCard = ({ player, year }) => {
+
+const SideCard = ({ player, year }) => {
 
     const playerName = player.name.split(' ');
 
@@ -11,20 +15,23 @@ const PlayerSideCard = ({ player, year }) => {
         <div className='player-side-card'>
             <header>
                 <div className='player-photo'>
-                    <img src={`../src/assets/players/${player.id}.png`} alt="player" />
+                    <img src={`../../src/assets/players/${player.id}.png`} alt="player" />
                 </div>
 
                 <div className='player-name'>
-                    <span className='first-name'>{playerName[0]}</span>
-                    <span className='second-name'>{playerName[1]}</span>
+                    <h5 className='first-name'>{playerName[0]}</h5>
+                    <h4 className='second-name'>
+                        {playerName[1]}
+                        {player.isLoan && (<span className='loan'><FaArrowRightArrowLeft/></span>)}
+                    </h4>
                 </div>
                 <div className='player-tags'>
                     <div className='player-tag'>
-                        <img src={`../src/assets/teams/${player.teamHistory[0].team.id}.png`} alt="player" />
+                        <img src={`../../src/assets/teams/${player.teamHistory[0].team.id}.png`} alt="player" />
                         <span>{player.teamHistory[0].team.name}</span>
                     </div>
                     <div className='player-tag'>
-                        <img src={`../src/assets/flags/${player.nationality}.png`} alt="player" />
+                        <img src={`../../src/assets/flags/${player.nationality}.png`} alt="player" />
                         <span>{player.nationality}</span>
                     </div>
                     <div className="player-tag">
@@ -51,14 +58,22 @@ const PlayerSideCard = ({ player, year }) => {
                         <p>{player.height / 100} m</p>
                         <p>{player.weight} kg</p>
                         <p>{player.foot}</p>
-                        <p><StarRating stars={player.skills}/></p>
-                        <p><StarRating stars={player.weakFoot}/></p>
+                        <p><StarRating stars={player.skills} /></p>
+                        <p><StarRating stars={player.weakFoot} /></p>
                         <p>{player.workRate}</p>
-                        <p className="no-margin-bottom">{player.realFace}</p>
+                        <p className="no-margin-bottom">{player.realFace ? "Yes" : "No"}</p>
                     </div>
                 </div>
             </section>
             <div className='line'></div>
+            {player.nationalTeam[0] && (
+                            <section>
+                                <h3>National Team</h3>
+                                <NationalHistory player={player}/>
+                                <div className='line'></div>
+                            </section>
+            ) 
+            }
             <section>
                 <h3>Club History</h3>
                 <TeamHistory player={player} />
@@ -67,4 +82,4 @@ const PlayerSideCard = ({ player, year }) => {
     )
 }
 
-export default PlayerSideCard
+export default SideCard

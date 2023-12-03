@@ -1,6 +1,6 @@
-import './PlayerTextCard.css'
+import './TextCard.css'
 
-const PlayerTextCard = ( {title, text} ) => {
+const TextCard = ( {title, text} ) => {
     return (
         <div className='player-text-card'>
             <h4>{title}</h4>
@@ -9,4 +9,4 @@ const PlayerTextCard = ( {title, text} ) => {
     )
 }
 
-export default PlayerTextCard
+export default TextCard
