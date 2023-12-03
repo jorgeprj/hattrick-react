@@ -25,7 +25,7 @@ const Post = ({ post }) => {
             <div className='post-info'>
                 <h2>{post.title}</h2>
                 <p>{post.description}</p>
-                {post.image && <img src={`./src/assets/posts/${post.id}.png`} alt={post.id}/>}
+                {post.hasImage && <img src={`./src/assets/posts/${post.id}.png`} alt={post.id}/>}
             </div>
         </div>
     )
