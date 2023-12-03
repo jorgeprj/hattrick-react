@@ -1,44 +1,690 @@
 {
+    "teams": [
+        {
+            "id": 2,
+            "name": "Aston Villa",
+            "league": "Premier League (ENG)"
+        },
+        {
+            "id": 7,
+            "name": "Everton",
+            "league": "Premier League (ENG)"
+        },
+        {
+            "id": 8,
+            "name": "Leeds United",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 11,
+            "name": "Manchester United",
+            "league": "Premier League (ENG)"
+        },
+        {
+            "id": 44,
+            "name": "Internazionale",
+            "league": "Serie A (ITA)"
+        },
+        {
+            "id": 83,
+            "name": "Motherwell FC",
+            "league": "Premiership (SCT)"
+        },
+        {
+            "id": 86,
+            "name": "Rangers FC",
+            "league": "Premiership (SCT)"
+        },
+        {
+            "id": 94,
+            "name": "Ipswich Town",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 144,
+            "name": "Fulham FC",
+            "league": "Premier League (ENG)"
+        },
+        {
+            "id": 1793,
+            "name": "Reading FC",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 1794,
+            "name": "Sheffield United",
+            "league": "Premier League (ENG)"
+        },
+        {
+            "id": 1795,
+            "name": "Watford",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 1797,
+            "name": "Rotherdam Utd",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 1804,
+            "name": "Bradford City",
+            "league": "League Two (ENG)"
+        },
+        {
+            "id": 1803,
+            "name": "Walsall",
+            "league": "League Two (ENG)"
+        },
+        {
+            "id": 1806,
+            "name": "Stoke City",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 1917,
+            "name": "Wigan Athletic",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 1924,
+            "name": "Chesterfield FC",
+            "league": "National League (ENG)"
+        },
+        {
+            "id": 1926,
+            "name": "Blackpool",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 1928,
+            "name": "Port Vale",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 1932,
+            "name": "Barnsley FC",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 1941,
+            "name": "Hartlepool Utd",
+            "league": "League Two (ENG)"
+        },
+        {
+            "id": 1947,
+            "name": "Wrexham AFC",
+            "league": "League Two (ENG)"
+        },
+        {
+            "id": 1951,
+            "name": "Oxford United",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 1960,
+            "name": "Swansea City",
+            "league": "Championship (ENG)"
+        },
+        {
+            "id": 1962,
+            "name": "Bristol Rovers",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 112254,
+            "name": "Newport County",
+            "league": "League Two (ENG)"
+        },
+        {
+            "id": 113926,
+            "name": "Salford City",
+            "league": "League Two (ENG)"
+        },
+        {
+            "id": 200061,
+            "name": "Macclesfield Town",
+            "league": "National League (ENG)"
+        },
+        {
+            "id": 220069,
+            "name": "Oldham Athletic",
+            "league": "National League (ENG)"
+        },
+        {
+            "id": 240011,
+            "name": "Cheltenham Town",
+            "league": "League One (ENG)"
+        },
+        {
+            "id": 240016,
+            "name": "Colchester Utd",
+            "league": "League Two (ENG)"
+        },
+        {
+            "id": 444444,
+            "name": "Chester",
+            "league": "National League (ENG)"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Oficial: Solskjaer is the new head coach of Salford City FC",
+            "description": "Ole Gunnar Solskjaer is the new head coach of Salford City FC! The football legend brings his passion and expertise to lead our team to new heights! ⚽️👊 Welcome to Salford, Ole! 🙌 #SolskjaerAtSalford",
+            "date": "30 Jun",
+            "category": "Twitter",
+            "hasImage": true
+        },
+        {
+            "id": 2,
+            "title": "Salford City FC will do pre-season in Italy",
+            "description": "Salford City FC is gearing up for an electrifying pre-season tournament in Italy, facing off against powerhouse teams: Udinese, Hellas Verona, Frosinone, and Salernitana from Italy, England's Port Vale, and Scotland's Motherwell and St. Mirren! ",
+            "date": "07 Jul",
+            "category": "News",
+            "hasImage": false
+        },
+        {
+            "id": 23,
+            "title": "Salford City 0 x 2 Port Vale",
+            "description": "Salford City lose on Ole Gunnar Solskjaer's debut.",
+            "date": "14 Jul",
+            "category": "News",
+            "hasImage": false
+        }
+    ],
     "players": [
         {
-            "id": 270937,
-            "name": "Luke Harris",
-            "age": 2005,
-            "nationality": "Wales",
-            "position": "CAM",
+            "id": 268445,
+            "name": "Rhys Bennett",
+            "age": 2003,
+            "nationality": "England",
+            "position": "CB",
             "overall": 61,
-            "potential": 84,
-            "height": 168,
-            "weight": 63,
+            "potential": 78,
+            "modifier": 1,
+            "height": 187,
+            "weight": 75,
             "foot": "Right",
-            "skills": 3,
+            "skills": 2,
             "weakFoot": 3,
-            "workRate": "Medium/Medium",
+            "workRate": "Medium/High",
             "realFace": "No",
-            "value": 1000000,
-            "wage": 4000,
-            "releaseClause": 2900000,
+            "value": 800000,
+            "wage": 7000,
+            "releaseClause": 2000000,
             "contract": 2025,
             "teamHistory": [
                 {
                     "team": {
-                        "id": 144,
-                        "name": "Fulham FC",
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2024-"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Man United",
                         "league": "Premier League (ENG)"
+                    },
+                    "season": "2023-24"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Man United U21",
+                        "league": "Premier League U21 (ENG)"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Man United U18",
+                        "league": "Premier League U18 (ENG)"
+                    },
+                    "season": "2020-22"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": true,
+            "buyClause": 400000,
+            "isScouted": true,
+            "bio": "Rhys Bennett, the English defender for Manchester United, showcases a well-rounded skill set. His notable crossing ability and strong defensive presence make him a valuable asset on the field. Bennett's proficiency in aerial duels, coupled with his composed tackling style, bolsters the team's backline. With a keen sense of positioning and commendable work ethic, he contributes both defensively and offensively. A disciplined player, Bennett's clean tackling style exemplifies his commitment to the game.",
+            "analysis": "Denton-born and bred, the under-18s captain at Manchester United, Bennett, debuted in the 2020/21 season against Blackburn Rovers. Leading the team to the FA Youth Cup in 2021/22, he's a well-grounded centre-back who regularly visits his primary school in Denton. Thrilled by every Old Trafford appearance, Bennett embraces the dream, vowing to give his all and cherishing each moment on the iconic pitch."
+        },
+        {
+            "id": 270964,
+            "name": "Jobe Bellingham",
+            "age": 2005,
+            "nationality": "England",
+            "position": "CAM",
+            "overall": 64,
+            "potential": 82,
+            "modifier": 2,
+            "height": 187,
+            "weight": 73,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 1500000,
+            "wage": 1000,
+            "releaseClause": 3800000,
+            "contract": 2028,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 106,
+                        "name": "Sunderland",
+                        "league": "Championship (ENG)"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
-                        "id": 144,
-                        "name": "Fulham FC U21",
+                        "id": 88,
+                        "name": "Birmingham City",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 88,
+                        "name": "Birmingham City U18",
+                        "league": "Championship U18 (ENG)"
+                    },
+                    "season": "2021-22"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "England U19",
+                    "season": "2023-"
+                },
+                {
+                    "name": "England U18",
+                    "season": "2022-23"
+                },
+                {
+                    "name": "England U17",
+                    "season": "2021-22"
+                },
+                {
+                    "name": "England U16",
+                    "season": "2021"
+                },
+                {
+                    "name": "England U15",
+                    "season": "2020-21"
+                }
+            ],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "bio": "Jobe Bellingham, the English attacking midfielder for AFC Sunderland, exhibits remarkable potential, standing out for his considerable crossing prowess. With a dominant right foot and significant dribbling ability, he brings a high level of finesse to the field. Bellingham's game is characterized by exceptional vision, composure, and a strong work ethic. His impressive acceleration, agility, and resilience make him a standout prospect in the football world.",
+            "analysis": "Jobe Samuel Patrick Bellingham, born on September 23, 2005, is a talented English footballer excelling as a midfielder or forward for EFL Championship's Sunderland. Rising through Birmingham City's academy, he made his mark in the 2021–22 season, showcasing his skills and earning a professional contract. Bellingham's journey continued with Sunderland in 2023, where his prowess on the field is making waves. Additionally, he has represented England at various youth levels, demonstrating his promising international career."
+        },
+        {
+            "id": 275522,
+            "name": "Lennon Miller",
+            "age": 2006,
+            "nationality": "Scotland",
+            "position": "CM",
+            "overall": 59,
+            "potential": 85,
+            "modifier": 2,
+            "height": 182,
+            "weight": 72,
+            "foot": "Right",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 900000,
+            "wage": 500,
+            "releaseClause": 2500000,
+            "contract": 2025,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Motherwell FC",
+                        "league": "Premiership (SCT)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Motherwell FC U18",
+                        "league": "Premiership U18 (SCT)"
+                    },
+                    "season": "2022-23"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "Scotland U19",
+                    "season": "2023-"
+                },
+                {
+                    "name": "Scotland U17",
+                    "season": "2021-23"
+                },
+                {
+                    "name": "Scotland U16",
+                    "season": "2020-21"
+                }
+            ],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "analysis": "Lennon Miller, the Scottish midfielder for Motherwell FC, possesses a remarkable potential of 85. With a predominantly right foot, Miller showcases a notable ability in crossing and short passing. His agility and acceleration make him agile on the field, complemented by a commendable vision for the game. While his defensive skills may benefit from improvement, Miller's overall versatility and promising potential position him as an asset in the midfield.",
+            "bio": "Lennon Miller, born on 25 August 2006, is a Scottish midfielder for Motherwell. Making history at 16 as Motherwell's youngest player, he debuted in a Scottish League Cup victory. His Scottish Premiership journey started against Rangers in 2022, followed by a crucial appearance against Celtic in 2023. In the 2023–24 season, he began as a regular but faced a red card against Livingston. Internationally, he dazzled with a Goal of the Year for Scotland's under-16s. The son of former Scotland international Lee Miller, Lennon overcame personal loss and impressed at Coltness High School."
+        },
+        {
+            "id": 265789,
+            "name": "Charlie Savage",
+            "age": 2003,
+            "nationality": "Wales",
+            "position": "CDM",
+            "overall": 63,
+            "potential": 75,
+            "modifier": 2,
+            "height": 182,
+            "weight": 72,
+            "foot": "Left",
+            "skills": 3,
+            "weakFoot": 2,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 1100000,
+            "wage": 1000,
+            "releaseClause": 2100000,
+            "contract": 2027,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 1793,
+                        "name": "Reading FC",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 561,
+                        "name": "Forest Green Rovers",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2023"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Manchester United U21",
                         "league": "Premier League U21 (ENG)"
                     },
                     "season": "2021-23"
+                },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Manchester United U18",
+                        "league": "Premier League U18 (ENG)"
+                    },
+                    "season": "2019-21"
                 }
             ],
-            "analysis":"Luke Harris, the talented Welsh player from Fulham FC, is emerging as one of the brightest prospects in English and Welsh football. His remarkable crossing ability stands out, providing a valuable contribution in the offensive realm. With a powerful right foot and admirable dribbling skills, Harris shows significant potential to become a dynamic force on the field. His defensive prowess and impressive agility add to his multifaceted skill set. Endorsed by Ryan Giggs, Harris is on a promising trajectory in the sports arena.",
-            "bio":"Luke Harris, born on March 4, 2005, is a talented midfielder for Premier League side Fulham and the Wales under-21 national team. Hailing from Jersey, he attended St. Clement School and made waves with a remarkable hat-trick for Fulham's under-23s in February 2022. Harris secured a professional contract until 2025 and made his Premier League debut in October 2022. Recognized as the 'Rising Star' at the 2022 Channel Islands Sports Awards, he has also represented Wales at various age levels, earning a senior call-up in September 2022."
+            "nationalTeam": [
+                {
+                    "name": "Wales",
+                    "season": "2023-"
+                },
+                {
+                    "name": "Wales U21",
+                    "season": "2023"
+                },
+                {
+                    "name": "Wales U19",
+                    "season": "2021-23"
+                },
+                {
+                    "name": "Wales U18",
+                    "season": "2021"
+                },
+                {
+                    "name": "Wales U17",
+                    "season": "2020-21"
+                }
+            ],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "analysis": "Charlie Savage, the Welsh midfielder from Reading FC, possesses a well-rounded skill set. His standout ability lies in precise crossing, making him a valuable asset on the offensive front. With a left-footed prowess and adept dribbling, Savage seamlessly navigates the pitch. A technically proficient player, he showcases finesse in both passing and set-piece execution. His defensive attributes, marked by solid tackling and positional awareness, contribute to a versatile and reliable presence on the field. Savage's game is defined by a strategic vision and a commendable level of composure, making him a notable midfielder for Reading FC.",
+            "bio": "Charlie William Henry Savage, born on May 2, 2003, is a talented midfielder for EFL League One's Reading and the Wales national team. Following his father Robbie Savage's footsteps, he began his football journey at Manchester United. Savage made his professional debut with United in the 2021-22 UEFA Champions League. After a stint with Forest Green Rovers in 2022-23, he signed a four-year contract with Reading in July 2023, showcasing his prowess with a goal in August. Savage, a versatile central midfielder, combines defensive strength with attacking flair, distinguishing himself from his father's playing style. He has represented Wales at various youth levels and earned his first senior cap in October 2023."
+        },
+        {
+            "id": 277266,
+            "name": "Bailey Rice",
+            "age": 2006,
+            "nationality": "Scotland",
+            "position": "CDM",
+            "overall": 59,
+            "potential": 85,
+            "modifier": 2,
+            "height": 180,
+            "weight": 70,
+            "foot": "Left",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 875000,
+            "wage": 500,
+            "releaseClause": 2500000,
+            "contract": 2026,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 86,
+                        "name": "Rangers FC",
+                        "league": "Premiership (SCT)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 86,
+                        "name": "Rangers FC U18",
+                        "league": "Premiership U18 (SCT)"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Motherwell FC",
+                        "league": "Premiership (SCT)"
+                    },
+                    "season": "2021-22"
+                },
+                {
+                    "team": {
+                        "id": 83,
+                        "name": "Motherwell FC U17",
+                        "league": "Premiership U17 (SCT)"
+                    },
+                    "season": "2020-21"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "Scotland U19",
+                    "season": "2023-"
+                },
+                {
+                    "name": "Scotland U17",
+                    "season": "2021-23"
+                },
+                {
+                    "name": "Scotland U16",
+                    "season": "2021"
+                }
+            ],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "analysis": "At 17, Bailey Rice shines in Scottish football, making significant contributions to the Rangers. His unique left foot and skillful feints showcase exceptional technical prowess for his age. Offensively, Rice displays short-pass precision and admirable vision. Despite his youth, he captains Scotland's U20s, revealing not just talent but early leadership. Versatile in defense, he shows solid tackling abilities. With notable speed and agility, Rice navigates the field effortlessly. The future looks promising for this young Scottish talent, hinting at a bright trajectory as he continues to develop.",
+            "bio": "Born on October 4, 2006, Scottish footballer Bailey Rice plays for Rangers in the Scottish Premiership. A Motherwell youth academy product, Rice joined Rangers on June 30, 2022, rejecting a contract with Motherwell. Making his senior debut in February 2023 against Livingston, he became Rangers' youngest post-war league player at 16 years and 137 days, second only to Derek Ferguson in all competitions."
+        },
+        {
+            "id": 220031,
+            "name": "Oli McBurnie",
+            "age": 1996,
+            "nationality": "Scotland",
+            "position": "ST",
+            "overall": 72,
+            "potential": 73,
+            "modifier": 1,
+            "height": 191,
+            "weight": 77,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": true,
+            "value": 2700000,
+            "wage": 27000,
+            "releaseClause": 5600000,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 1794,
+                        "name": "Sheffield Utd",
+                        "league": "Premier League (ENG)"
+                    },
+                    "season": "2019-"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2018-19"
+                },
+                {
+                    "team": {
+                        "id": 1932,
+                        "name": "Barnsley FC",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2018"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2016-18"
+                },
+                {
+                    "team": {
+                        "id": 1962,
+                        "name": "Bristol Rovers",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2016"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2015-16"
+                },
+                {
+                    "team": {
+                        "id": 112254,
+                        "name": "Newport County",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2015"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2015"
+                },
+                {
+                    "team": {
+                        "id": 1804,
+                        "name": "Bradford City",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2015"
+                },
+                {
+                    "team": {
+                        "id": 444444,
+                        "name": "Chester",
+                        "league": "National League (ENG)"
+                    },
+                    "season": "2015"
+                },
+                {
+                    "team": {
+                        "id": 1804,
+                        "name": "Bradford City",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2013-15"
+                },
+                {
+                    "team": {
+                        "id": 1804,
+                        "name": "Bradford City U18",
+                        "league": "League One U21 (ENG)"
+                    },
+                    "season": "2010-13"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "Scotland",
+                    "season": "2018-21"
+                },
+                {
+                    "name": "Scotland U21",
+                    "season": "2015-18"
+                },
+                {
+                    "name": "Scotland U19",
+                    "season": "2014-15"
+                }
+            ],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "analysis": "Oliver McBurnie, is a key player for Sheffield United, bringing notable skills, particularly in finishing and aerial play. His combativeness and leadership are highlighted, providing essential motivation to the team. With the ability to make an immediate impact, McBurnie stands out as an influential figure, not just for his technical talent but also for the inspiration he brings to the team.",
+            "bio": "Oliver Robert McBurnie, born on June 4, 1996, is a seasoned professional footballer renowned for his role as a striker with Sheffield United in the Premier League and the Scotland national team. With his roots in youth football at Leeds United, McBurnie initiated his career at Bradford City, undertaking two loan stints at Chester. Subsequently joining Swansea City, he gained valuable experience through loan spells at Newport County, Bristol Rovers, and Barnsley. Despite being born in England, McBurnie proudly represents Scotland on the international stage, marking his senior debut in March 2018."
         },
         {
             "id": 152908,
@@ -48,13 +694,14 @@
             "position": "RB",
             "overall": 75,
             "potential": 75,
+            "modifier": 2,
             "height": 175,
             "weight": 65,
             "foot": "Right",
             "skills": 4,
             "weakFoot": 3,
             "workRate": "High/Medium",
-            "realFace": "Yes",
+            "realFace": true,
             "value": 1200000,
             "wage": 23000,
             "releaseClause": 2300000,
@@ -117,483 +764,1366 @@
                     "season": "2000-03"
                 }
             ],
+            "nationalTeam": [
+                {
+                    "name": "England",
+                    "season": "2007-18"
+                },
+                {
+                    "name": "England U21",
+                    "season": "2006-07"
+                }
+            ],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
             "analysis": "Ashley Young, a seasoned English veteran at 37, brings a wealth of experience, notably gained during his triumphant spell at Manchester United. His standout crossing ability, paired with astute dribbling, provides Everton with a potent attacking edge. Young's right foot, a reliable asset, complements his exceptional crossing prowess. Beyond offensive contributions, his defensive aptitude shines in tackles and interceptions. A leader with sharp vision and composed demeanor, Young adds both technical prowess and a winning mentality to Everton's roster, promising a valuable impact.",
             "bio": "Ashley Simon Young, born on July 9, 1985, is an English professional footballer, currently a full-back for Everton in the Premier League. Starting as a winger at Watford, he rose to prominence in their promotion-winning 2005–06 season. Young has had successful stints with Aston Villa, Manchester United, and Inter Milan, winning multiple trophies. He returned to Aston Villa in 2021 before joining Everton in 2023. Young earned 39 caps for England, featuring in Euro 2012 and the 2018 World Cup."
         },
         {
-            "id": 220031,
-            "name": "Oliver MCBurnie",
-            "age": 1996,
-            "nationality": "Scotland",
-            "position": "ST",
-            "overall": 72,
-            "potential": 73,
-            "height": 191,
-            "weight": 77,
+            "id": 270937,
+            "name": "Luke Harris",
+            "age": 2005,
+            "nationality": "Wales",
+            "position": "CAM",
+            "overall": 61,
+            "potential": 84,
+            "modifier": 2,
+            "height": 168,
+            "weight": 63,
             "foot": "Right",
             "skills": 3,
             "weakFoot": 3,
             "workRate": "Medium/Medium",
-            "realFace": "Yes",
-            "value": 2700000,
-            "wage": 27000,
-            "releaseClause": 5600000,
-            "contract": 2024,
+            "realFace": false,
+            "value": 1000000,
+            "wage": 4000,
+            "releaseClause": 2900000,
+            "contract": 2025,
             "teamHistory": [
                 {
                     "team": {
-                        "id": 1794,
-                        "name": "Sheffield Utd",
+                        "id": 144,
+                        "name": "Fulham FC",
                         "league": "Premier League (ENG)"
                     },
-                    "season": "2019-"
+                    "season": "2023-"
                 },
                 {
                     "team": {
-                        "id": 1960,
-                        "name": "Swansea City",
-                        "league": "Championship (ENG)"
+                        "id": 144,
+                        "name": "Fulham FC U21",
+                        "league": "Premier League U21 (ENG)"
                     },
-                    "season": "2018-19"
+                    "season": "2021-23"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "Wales",
+                    "season": "2023-"
                 },
                 {
-                    "team": {
-                        "id": 1932,
-                        "name": "Barnsley FC",
-                        "league": "Championship (ENG)"
-                    },
-                    "season": "2018"
+                    "name": "Wales U21",
+                    "season": "2023"
                 },
                 {
-                    "team": {
-                        "id": 1960,
-                        "name": "Swansea City",
-                        "league": "Championship (ENG)"
-                        
-                    },
-                    "season": "2016-18"
+                    "name": "Wales U19",
+                    "season": "2021-23"
                 },
                 {
+                    "name": "Wales U18",
+                    "season": "2021"
+                },
+                {
+                    "name": "Wales U17",
+                    "season": "2021"
+                },
+                {
+                    "name": "Wales U16",
+                    "season": "2019-20"
+                }
+            ],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "analysis": "Luke Harris, the talented Welsh player from Fulham FC, is emerging as one of the brightest prospects in English and Welsh football. His remarkable crossing ability stands out, providing a valuable contribution in the offensive realm. With a powerful right foot and admirable dribbling skills, Harris shows significant potential to become a dynamic force on the field. His defensive prowess and impressive agility add to his multifaceted skill set. Endorsed by Ryan Giggs, Harris is on a promising trajectory in the sports arena.",
+            "bio": "Luke Harris, born on March 4, 2005, is a talented midfielder for Premier League side Fulham and the Wales under-21 national team. Hailing from Jersey, he attended St. Clement School and made waves with a remarkable hat-trick for Fulham's under-23s in February 2022. Harris secured a professional contract until 2025 and made his Premier League debut in October 2022. Recognized as the 'Rising Star' at the 2022 Channel Islands Sports Awards, he has also represented Wales at various age levels, earning a senior call-up in September 2022."
+        },
+        {
+            "id": 203215,
+            "name": "Alex Cairns",
+            "age": 1993,
+            "nationality": "England",
+            "position": "GK",
+            "overall": 63,
+            "potential": 63,
+            "modifier": 1,
+            "height": 183,
+            "weight": 72,
+            "foot": "Left",
+            "skills": 1,
+            "weakFoot": 3,
+            "workRate": "Medium/High",
+            "realFace": false,
+            "value": 220000,
+            "wage": 2700,
+            "releaseClause": null,
+            "contract": 2025,
+            "teamHistory": [
+                {
                     "team": {
-                        "id": 1962,
-                        "name": "Bristol Rovers",
+                        "id": 113926,
+                        "name": "Salford City",
                         "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 1941,
+                        "name": "Hartlepool Utd",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 112260,
+                        "name": "Fleetwood Town",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2016-22"
+                },
+                {
+                    "team": {
+                        "id": 1797,
+                        "name": "Rotherdam Utd",
+                        "league": "Championship (ENG)"
                     },
                     "season": "2016"
                 },
                 {
                     "team": {
-                        "id": 1960,
-                        "name": "Swansea City",
+                        "id": 1924,
+                        "name": "Chesterfield FC",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2015-16"
+                },
+                {
+                    "team": {
+                        "id": 8,
+                        "name": "Leeds United",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2011-15"
+                },
+                {
+                    "team": {
+                        "id": 8,
+                        "name": "Leeds United U18",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2008-11"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
+        },
+        {
+            "id": 264497,
+            "name": "Joel Torrance",
+            "age": 2002,
+            "nationality": "England",
+            "position": "GK",
+            "overall": 56,
+            "potential": 59,
+            "modifier": 1,
+            "height": 195,
+            "weight": 89,
+            "foot": "Right",
+            "skills": 1,
+            "weakFoot": 2,
+            "workRate": "Medium/High",
+            "realFace": false,
+            "value": 130000,
+            "wage": 1300,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U21",
+                        "league": "League Two U21 (ENG)"
+                    },
+                    "season": "2021-23"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
+        },
+        {
+            "id": 192319,
+            "name": "Luke Garbutt",
+            "age": 1993,
+            "nationality": "England",
+            "position": "LB",
+            "overall": 66,
+            "potential": 66,
+            "modifier": 2,
+            "height": 179,
+            "weight": 73,
+            "foot": "Left",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "High/Medium",
+            "realFace": true,
+            "value": 625000,
+            "wage": 4600,
+            "releaseClause": null,
+            "contract": 2025,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 1926,
+                        "name": "Blackpool",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2020-23"
+                },
+                {
+                    "team": {
+                        "id": 94,
+                        "name": "Ipswich Town",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2019-20"
+                },
+                {
+                    "team": {
+                        "id": 1951,
+                        "name": "Oxford Utd.",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2018-19"
+                },
+                {
+                    "team": {
+                        "id": 7,
+                        "name": "Everton",
+                        "league": "Premier League (ENG)"
+                    },
+                    "season": "2017-18"
+                },
+                {
+                    "team": {
+                        "id": 1917,
+                        "name": "Wigan Athletic",
+                        "league": "Championship (ENG)"
+                    },
+                    "season": "2016-17"
+                },
+                {
+                    "team": {
+                        "id": 144,
+                        "name": "Fulham FC",
                         "league": "Championship (ENG)"
                     },
                     "season": "2015-16"
                 },
                 {
                     "team": {
-                        "id": 112254,
-                        "name": "Newport County",
-                        "league": "League Two (ENG)"
+                        "id": 7,
+                        "name": "Everton",
+                        "league": "Premier League (ENG)"
                     },
-                    "season": "2015"
+                    "season": "2014-15"
                 },
                 {
                     "team": {
-                        "id": 1960,
-                        "name": "Swansea City",
-                        "league": "Championship (ENG)"
-                    },
-                    "season": "2015"
-                },
-                {
-                    "team": {
-                        "id": 1804,
-                        "name": "Bradford City",
+                        "id": 240016,
+                        "name": "Colchester Utd",
                         "league": "League One (ENG)"
                     },
-                    "season": "2015"
-                },     
+                    "season": "2013-14"
+                },
+                {
+                    "team": {
+                        "id": 7,
+                        "name": "Everton",
+                        "league": "Premier League (ENG)"
+                    },
+                    "season": "2012-13"
+                },
+                {
+                    "team": {
+                        "id": 7,
+                        "name": "Everton",
+                        "league": "Premier League (ENG)"
+                    },
+                    "season": "2012-13"
+                },
+                {
+                    "team": {
+                        "id": 240011,
+                        "name": "Cheltenham Town",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2011-12"
+                },
+                {
+                    "team": {
+                        "id": 7,
+                        "name": "Everton",
+                        "league": "Premier League (ENG)"
+                    },
+                    "season": "2011"
+                },
+                {
+                    "team": {
+                        "id": 7,
+                        "name": "Everton U18",
+                        "league": "Premier League U18 (ENG)"
+                    },
+                    "season": "2009-11"
+                },
+                {
+                    "team": {
+                        "id": 8,
+                        "name": "Leeds United U18",
+                        "league": "Championship U18(ENG)"
+                    },
+                    "season": "2008-09"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "England U21",
+                    "season": "2014-15"
+                },
+                {
+                    "name": "England U20",
+                    "season": "2013-14"
+                },
+                {
+                    "name": "England U19",
+                    "season": "2011-13"
+                },
+                {
+                    "name": "England U18",
+                    "season": "2010-11"
+                },
+                {
+                    "name": "England U17",
+                    "season": "2008-10"
+                },
+                {
+                    "name": "England U16",
+                    "season": "2007-08"
+                }
+            ],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
+        },
+        {
+            "id": 231481,
+            "name": "Theo Vassell",
+            "age": 1997,
+            "nationality": "England",
+            "position": "CB",
+            "overall": 66,
+            "potential": 66,
+            "modifier": 0,
+            "height": 184,
+            "weight": 70,
+            "foot": "Right",
+            "skills": 2,
+            "weakFoot": 5,
+            "workRate": "High/High",
+            "realFace": false,
+            "value": 675000,
+            "wage": 4600,
+            "releaseClause": null,
+            "contract": 2025,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2021-"
+                },
+                {
+                    "team": {
+                        "id": 1947,
+                        "name": "Wrexham AFC",
+                        "league": "National League (ENG)"
+                    },
+                    "season": "2020-21"
+                },
+                {
+                    "team": {
+                        "id": 200061,
+                        "name": "Macclesfield Town",
+                        "league": "National League (ENG)"
+                    },
+                    "season": "2019-20"
+                },
+                {
+                    "team": {
+                        "id": 1928,
+                        "name": "Port Vale",
+                        "league": "League One (ENG)"
+                    },
+                    "season": "2018-19"
+                },
+                {
+                    "team": {
+                        "id": 1803,
+                        "name": "Walsall",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2016-19"
+                },
                 {
                     "team": {
                         "id": 444444,
                         "name": "Chester",
                         "league": "National League (ENG)"
                     },
-                    "season": "2015"
+                    "season": "2015-16"
                 },
                 {
                     "team": {
-                        "id": 1804,
-                        "name": "Bradford City",
-                        "league": "League One (ENG)"
+                        "id": 220069,
+                        "name": "Oldham Athletic",
+                        "league": "National League (ENG)"
                     },
-                    "season": "2013-15"
+                    "season": "2015-16"
                 },
                 {
                     "team": {
-                        "id": 1804,
-                        "name": "Bradford City U18",
-                        "league": "League One U21 (ENG)"
+                        "id": 1806,
+                        "name": "Stoke City U18",
+                        "league": "Championship U18 (ENG)"
                     },
-                    "season": "2010-13"
+                    "season": "2019-20"
                 }
             ],
-            "analysis":"Oliver McBurnie, is a key player for Sheffield United, bringing notable skills, particularly in finishing and aerial play. His combativeness and leadership are highlighted, providing essential motivation to the team. With the ability to make an immediate impact, McBurnie stands out as an influential figure, not just for his technical talent but also for the inspiration he brings to the team.",
-            "bio": "Oliver Robert McBurnie, born on June 4, 1996, is a seasoned professional footballer renowned for his role as a striker with Sheffield United in the Premier League and the Scotland national team. With his roots in youth football at Leeds United, McBurnie initiated his career at Bradford City, undertaking two loan stints at Chester. Subsequently joining Swansea City, he gained valuable experience through loan spells at Newport County, Bristol Rovers, and Barnsley. Despite being born in England, McBurnie proudly represents Scotland on the international stage, marking his senior debut in March 2018."
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 277266,
-            "name": "Bailey Rice",
-            "age": 2006,
-            "nationality": "Scotland",
-            "position": "CDM",
-            "overall": 59,
-            "potential": 85,
-            "height": 180,
-            "weight": 70,
+            "id": 240446,
+            "name": "Curtis Tilt",
+            "age": 1991,
+            "nationality": "Jamaica",
+            "position": "CB",
+            "overall": 67,
+            "potential": 67,
+            "modifier": 0,
+            "height": 189,
+            "weight": 75,
             "foot": "Left",
             "skills": 2,
-            "weakFoot": 3,
-            "workRate": "Medium/Medium",
-            "realFace": "No",
-            "value": 875000,
-            "wage": 500,
-            "releaseClause": 2500000,
-            "contract": 2026,
+            "weakFoot": 4,
+            "workRate": "High/High",
+            "realFace": false,
+            "value": 550000,
+            "wage": 5400,
+            "releaseClause": null,
+            "contract": 2025,
             "teamHistory": [
                 {
                     "team": {
-                        "id": 86,
-                        "name": "Rangers FC",
-                        "league": "Premiership (SCT)"
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
                     },
                     "season": "2023-"
-                },
-                {
-                    "team": {
-                        "id": 86,
-                        "name": "Rangers FC U18",
-                        "league": "Premiership U18 (SCT)"
-                    },
-                    "season": "2022-23"
-                },
-                {
-                    "team": {
-                        "id": 83,
-                        "name": "Motherwell FC",
-                        "league": "Premiership (SCT)"
-                    },
-                    "season": "2021-22"
-                },
-                {
-                    "team": {
-                        "id": 83,
-                        "name": "Motherwell FC U17",
-                        "league": "Premiership U17 (SCT)"
-                    },
-                    "season": "2020-21"
                 }
             ],
-            "analysis":"At 17, Bailey Rice shines in Scottish football, making significant contributions to the Rangers. His unique left foot and skillful feints showcase exceptional technical prowess for his age. Offensively, Rice displays short-pass precision and admirable vision. Despite his youth, he captains Scotland's U20s, revealing not just talent but early leadership. Versatile in defense, he shows solid tackling abilities. With notable speed and agility, Rice navigates the field effortlessly. The future looks promising for this young Scottish talent, hinting at a bright trajectory as he continues to develop.",
-            "bio": "Born on October 4, 2006, Scottish footballer Bailey Rice plays for Rangers in the Scottish Premiership. A Motherwell youth academy product, Rice joined Rangers on June 30, 2022, rejecting a contract with Motherwell. Making his senior debut in February 2023 against Livingston, he became Rangers' youngest post-war league player at 16 years and 137 days, second only to Derek Ferguson in all competitions."
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 265789,
-            "name": "Charlie Savage",
-            "age": 2003,
-            "nationality": "Wales",
-            "position": "CDM",
-            "overall": 63,
-            "potential": 75,
-            "height": 182,
-            "weight": 72,
+            "id": 248815,
+            "name": "Kevin Berkoe",
+            "age": 2001,
+            "nationality": "England",
+            "position": "CB",
+            "overall": 57,
+            "potential": 62,
+            "modifier": 2,
+            "height": 178,
+            "weight": 69,
             "foot": "Left",
-            "skills": 3,
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/High",
+            "realFace": false,
+            "value": 190000,
+            "wage": 2100,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
+        },
+        {
+            "id": 278067,
+            "name": "Tosin Olopade",
+            "age": 2004,
+            "nationality": "Ireland",
+            "position": "RB",
+            "overall": 52,
+            "potential": 61,
+            "modifier": 2,
+            "height": 177,
+            "weight": 71,
+            "foot": "Right",
+            "skills": 2,
             "weakFoot": 2,
-            "workRate": "Medium/Medium",
-            "realFace": "No",
+            "workRate": "Medium/High",
+            "realFace": false,
+            "value": 140000,
+            "wage": 1200,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
+        },
+        {
+            "id": 233051,
+            "name": "Luke Bolton",
+            "age": 2000,
+            "nationality": "England",
+            "position": "RM",
+            "overall": 67,
+            "potential": 69,
+            "modifier": 1,
+            "height": 174,
+            "weight": 72,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "High/Medium",
+            "realFace": true,
             "value": 1100000,
-            "wage": 1000,
-            "releaseClause": 2100000,
+            "wage": 5100,
+            "releaseClause": null,
             "contract": 2027,
             "teamHistory": [
                 {
                     "team": {
-                        "id": 1793,
-                        "name": "Reading FC",
-                        "league": "League One (ENG)"
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
                     },
                     "season": "2023-"
-                },
-                {
-                    "team": {
-                        "id": 561,
-                        "name": "Forest Green Rovers",
-                        "league": "League One (ENG)"
-                    },
-                    "season": "2023"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Manchester United U21",
-                        "league": "Premier League U21 (ENG)"
-                    },
-                    "season": "2021-23"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Manchester United U18",
-                        "league": "Premier League U18 (ENG)"
-                    },
-                    "season": "2019-21"
                 }
             ],
-            "analysis":"Charlie Savage, the Welsh midfielder from Reading FC, possesses a well-rounded skill set. His standout ability lies in precise crossing, making him a valuable asset on the offensive front. With a left-footed prowess and adept dribbling, Savage seamlessly navigates the pitch. A technically proficient player, he showcases finesse in both passing and set-piece execution. His defensive attributes, marked by solid tackling and positional awareness, contribute to a versatile and reliable presence on the field. Savage's game is defined by a strategic vision and a commendable level of composure, making him a notable midfielder for Reading FC.",
-            "bio": "Charlie William Henry Savage, born on May 2, 2003, is a talented midfielder for EFL League One's Reading and the Wales national team. Following his father Robbie Savage's footsteps, he began his football journey at Manchester United. Savage made his professional debut with United in the 2021-22 UEFA Champions League. After a stint with Forest Green Rovers in 2022-23, he signed a four-year contract with Reading in July 2023, showcasing his prowess with a goal in August. Savage, a versatile central midfielder, combines defensive strength with attacking flair, distinguishing himself from his father's playing style. He has represented Wales at various youth levels and earned his first senior cap in October 2023."
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 275522,
-            "name": "Lennon Miller",
-            "age": 2006,
+            "id": 241982,
+            "name": "Elliot Watt",
+            "age": 2000,
             "nationality": "Scotland",
             "position": "CM",
-            "overall": 59,
-            "potential": 85,
-            "height": 182,
+            "overall": 70,
+            "potential": 72,
+            "modifier": 1,
+            "height": 179,
             "weight": 72,
-            "foot": "Dir",
-            "skills": 2,
-            "weakFoot": 3,
-            "workRate": "Medium/Medium",
-            "realFace": "No",
-            "value": 900000,
-            "wage": 500,
-            "releaseClause": 2500000,
-            "contract": 2025,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 83,
-                        "name": "Motherwell FC",
-                        "league": "Premiership (SCT)"
-                    },
-                    "season": "2023-"
-                },
-                {
-                    "team": {
-                        "id": 83,
-                        "name": "Motherwell FC U18",
-                        "league": "Premiership U18 (SCT)"
-                    },
-                    "season": "2022-23"
-                }
-            ],
-            "analysis":"Lennon Miller, the Scottish midfielder for Motherwell FC, possesses a remarkable potential of 85. With a predominantly right foot, Miller showcases a notable ability in crossing and short passing. His agility and acceleration make him agile on the field, complemented by a commendable vision for the game. While his defensive skills may benefit from improvement, Miller's overall versatility and promising potential position him as an asset in the midfield.",
-            "bio": "Lennon Miller, born on 25 August 2006, is a Scottish midfielder for Motherwell. Making history at 16 as Motherwell's youngest player, he debuted in a Scottish League Cup victory. His Scottish Premiership journey started against Rangers in 2022, followed by a crucial appearance against Celtic in 2023. In the 2023–24 season, he began as a regular but faced a red card against Livingston. Internationally, he dazzled with a Goal of the Year for Scotland's under-16s. The son of former Scotland international Lee Miller, Lennon overcame personal loss and impressed at Coltness High School."
-        },
-        {
-            "id": 270964,
-            "name": "Jobe Bellingham",
-            "age": 2005,
-            "nationality": "England",
-            "position": "CAM",
-            "overall": 64,
-            "potential": 82,
-            "height": 187,
-            "weight": 73,
-            "foot": "Dir",
+            "foot": "Right",
             "skills": 3,
-            "weakFoot": 3,
-            "workRate": "Medium/Medium",
-            "realFace": "No",
-            "value": 1500000,
-            "wage": 1000,
-            "releaseClause": 3800000,
+            "weakFoot": 4,
+            "workRate": "High/High",
+            "realFace": true,
+            "value": 1700000,
+            "wage": 8400,
+            "releaseClause": null,
             "contract": 2028,
             "teamHistory": [
                 {
                     "team": {
-                        "id": 106,
-                        "name": "Sunderland",
-                        "league": "Championship (ENG)"
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
                     },
                     "season": "2023-"
-                },
-                {
-                    "team": {
-                        "id": 88,
-                        "name": "Birmingham City",
-                        "league": "Championship (ENG)"
-                    },
-                    "season": "2022-23"
-                },
-                {
-                    "team": {
-                        "id": 88,
-                        "name": "Birmingham City U18",
-                        "league": "Championship U18 (ENG)"
-                    },
-                    "season": "2021-22"
                 }
             ],
-            "analysis":"Jobe Bellingham, the English attacking midfielder for AFC Sunderland, exhibits remarkable potential, standing out for his considerable crossing prowess. With a dominant right foot and significant dribbling ability, he brings a high level of finesse to the field. Bellingham's game is characterized by exceptional vision, composure, and a strong work ethic. His impressive acceleration, agility, and resilience make him a standout prospect in the football world.",
-            "bio": "Jobe Samuel Patrick Bellingham, born on September 23, 2005, is a talented English footballer excelling as a midfielder or forward for EFL Championship's Sunderland. Rising through Birmingham City's academy, he made his mark in the 2021–22 season, showcasing his skills and earning a professional contract. Bellingham's journey continued with Sunderland in 2023, where his prowess on the field is making waves. Additionally, he has represented England at various youth levels, demonstrating his promising international career."
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 268445,
-            "name": "Rhys Bennett",
-            "age": 2003,
+            "id": 251516,
+            "name": "Ossama Ashley",
+            "age": 2000,
             "nationality": "England",
-            "position": "CB",
-            "overall": 61,
-            "potential": 78,
-            "height": 187,
-            "weight": 75,
-            "foot": "Dir",
-            "skills": 2,
-            "weakFoot": 3,
+            "position": "CDM",
+            "overall": 65,
+            "potential": 67,
+            "modifier": 0,
+            "height": 180,
+            "weight": 82,
+            "foot": "Right",
+            "skills": 4,
+            "weakFoot": 5,
             "workRate": "Medium/High",
-            "realFace": "No",
-            "value": 800000,
-            "wage": 7000,
-            "releaseClause": 2000000,
+            "realFace": false,
+            "value": 700000,
+            "wage": 3500,
+            "releaseClause": null,
             "contract": 2025,
             "teamHistory": [
                 {
                     "team": {
-                        "id": 11,
-                        "name": "Man United",
-                        "league": "Premier League (ENG)"
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
                     },
                     "season": "2023-"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Man United U21",
-                        "league": "Premier League U21 (ENG)"
-                    },
-                    "season": "2022-23"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Man United U18",
-                        "league": "Premier League U18 (ENG)"
-                    },
-                    "season": "2020-22"
                 }
             ],
-            "analysis":"Rhys Bennett, the English defender for Manchester United, showcases a well-rounded skill set. His notable crossing ability and strong defensive presence make him a valuable asset on the field. Bennett's proficiency in aerial duels, coupled with his composed tackling style, bolsters the team's backline. With a keen sense of positioning and commendable work ethic, he contributes both defensively and offensively. A disciplined player, Bennett's clean tackling style exemplifies his commitment to the game.",
-            "bio": "Denton-born and bred, the under-18s captain at Manchester United, Bennett, debuted in the 2020/21 season against Blackburn Rovers. Leading the team to the FA Youth Cup in 2021/22, he's a well-grounded centre-back who regularly visits his primary school in Denton. Thrilled by every Old Trafford appearance, Bennett embraces the dream, vowing to give his all and cherishing each moment on the iconic pitch."
-        }
-    ],
-    "teams": [
-        {
-            "id": 2,
-            "name": "Aston Villa",
-            "league": "Premier League (ENG)"
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 7,
-            "name": "Everton",
-            "league": "Premier League (ENG)"
+            "id": 265412,
+            "name": "Harvey Vale",
+            "age": 2003,
+            "nationality": "England",
+            "position": "CAM",
+            "overall": 66,
+            "potential": 81,
+            "modifier": 0,
+            "height": 181,
+            "weight": 76,
+            "foot": "Left",
+            "skills": 4,
+            "weakFoot": 4,
+            "workRate": "High/Medium",
+            "realFace": true,
+            "value": 1700000,
+            "wage": 3700,
+            "releaseClause": null,
+            "contract": 2029,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 11,
-            "name": "Manchester United",
-            "league": "Premier League (ENG)"
+            "id": 267868,
+            "name": "Sammy Braybrooke",
+            "age": 2004,
+            "nationality": "England",
+            "position": "CM",
+            "overall": 65,
+            "potential": 82,
+            "modifier": 0,
+            "height": 170,
+            "weight": 56,
+            "foot": "Right",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 1600000,
+            "wage": 2500,
+            "releaseClause": null,
+            "contract": 2029,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 44,
-            "name": "Internazionale",
-            "league": "Serie A (ITA)"
+            "id": 272705,
+            "name": "Noah Mawene",
+            "age": 2004,
+            "nationality": "England",
+            "position": "CM",
+            "overall": 61,
+            "potential": 80,
+            "modifier": 0,
+            "height": 186,
+            "weight": 74,
+            "foot": "Right",
+            "skills": 2,
+            "weakFoot": 4,
+            "workRate": "High/Medium",
+            "realFace": false,
+            "value": 725000,
+            "wage": 1700,
+            "releaseClause": null,
+            "contract": 2028,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 83,
-            "name": "Motherwell FC",
-            "league": "Premiership (SCT)"
+            "id": 273465,
+            "name": "Liam Humbles",
+            "age": 2003,
+            "nationality": "England",
+            "position": "CAM",
+            "overall": 51,
+            "potential": 63,
+            "modifier": 0,
+            "height": 177,
+            "weight": 71,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 120000,
+            "wage": 1900,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isLoan": false,
+            "buyClause": null,
+            "isStarter": false,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 86,
-            "name": "Rangers FC",
-            "league": "Premiership (SCT)"
+            "id": 280153,
+            "name": "Keith Tierney",
+            "age": 2006,
+            "nationality": "Nothern",
+            "position": "RM",
+            "overall": 53,
+            "potential": 65,
+            "modifier": 0,
+            "height": 171,
+            "weight": 75,
+            "foot": "Right",
+            "skills": 4,
+            "weakFoot": 3,
+            "workRate": "High/Medium",
+            "realFace": false,
+            "value": 180000,
+            "wage": 500,
+            "releaseClause": null,
+            "contract": 2028,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 144,
-            "name": "Fulham FC",
-            "league": "Premier League (ENG)"
+            "id": 280551,
+            "name": "Will Watson",
+            "age": 2006,
+            "nationality": "England",
+            "position": "CAM",
+            "overall": 66,
+            "potential": 93,
+            "modifier": 0,
+            "height": 180,
+            "weight": 78,
+            "foot": "Right",
+            "skills": 5,
+            "weakFoot": 4,
+            "workRate": "Medium/Low",
+            "realFace": false,
+            "value": 2900000,
+            "wage": 650,
+            "releaseClause": null,
+            "contract": 2027,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 1793,
-            "name": "Reading FC",
-            "league": "League One (ENG)"
+            "id": 233727,
+            "name": "Connor McLennan",
+            "age": 1999,
+            "nationality": "Scotland",
+            "position": "RW",
+            "overall": 64,
+            "potential": 64,
+            "modifier": 1,
+            "height": 181,
+            "weight": 69,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 4,
+            "workRate": "High/Medium",
+            "realFace": false,
+            "value": 575000,
+            "wage": 3800,
+            "releaseClause": null,
+            "contract": 2026,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 1794,
-            "name": "Sheffield United",
-            "league": "Premier League (ENG)"
+            "id": 242967,
+            "name": "Callum Morton",
+            "age": 1999,
+            "nationality": "England",
+            "position": "ST",
+            "overall": 63,
+            "potential": 66,
+            "modifier": 0,
+            "height": 178,
+            "weight": 65,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "High/High",
+            "realFace": true,
+            "value": 575000,
+            "wage": 3400,
+            "releaseClause": null,
+            "contract": 2025,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 1795,
-            "name": "Watford",
-            "league": "Championship (ENG)"
+            "id": 257630,
+            "name": "Krisztofer Horváth",
+            "age": 2001,
+            "nationality": "Hungary",
+            "position": "CF",
+            "overall": 67,
+            "potential": 78,
+            "modifier": 0,
+            "height": 185,
+            "weight": 72,
+            "foot": "Right",
+            "skills": 5,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 2000000,
+            "wage": 5700,
+            "releaseClause": null,
+            "contract": 2027,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 1804,
-            "name": "Bradford City",
-            "league": "League Two (ENG)"
-            
+            "id": 265548,
+            "name": "Marcus Dackers",
+            "age": 2002,
+            "nationality": "Wales",
+            "position": "ST",
+            "overall": 58,
+            "potential": 62,
+            "modifier": 0,
+            "height": 201,
+            "weight": 91,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 2,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 250000,
+            "wage": 2300,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 1932,
-            "name": "Barnsley FC",
-            "league": "League One (ENG)"
+            "id": 275467,
+            "name": "Djavan Pedro",
+            "age": 2003,
+            "nationality": "England",
+            "position": "ST",
+            "overall": 54,
+            "potential": 69,
+            "modifier": 0,
+            "height": 183,
+            "weight": 74,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 3,
+            "workRate": "Medium/Low",
+            "realFace": false,
+            "value": 140000,
+            "wage": 2100,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 1960,
-            "name": "Swansea City",
-            "league": "Championship (ENG)"
+            "id": 278963,
+            "name": "Da Costa",
+            "age": 2003,
+            "nationality": "Ireland",
+            "position": "RW",
+            "overall": 55,
+            "potential": 66,
+            "modifier": 1,
+            "height": 169,
+            "weight": 66,
+            "foot": "Left",
+            "skills": 4,
+            "weakFoot": 4,
+            "workRate": "High/Medium",
+            "realFace": false,
+            "value": 240000,
+            "wage": 2100,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 1962,
-            "name": "Bristol Rovers",
-            "league": "League One (ENG)"
+            "id": 280099,
+            "name": "Kai Lancaster",
+            "age": 2005,
+            "nationality": "England",
+            "position": "ST",
+            "overall": 58,
+            "potential": 73,
+            "modifier": 4,
+            "height": 185,
+            "weight": 79,
+            "foot": "Left",
+            "skills": 5,
+            "weakFoot": 5,
+            "workRate": "High/Medium",
+            "realFace": false,
+            "value": 400000,
+            "wage": 1200,
+            "releaseClause": null,
+            "contract": 2027,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 112254,
-            "name": "Newport County",
-            "league": "League Two (ENG)"
+            "id": 263684,
+            "name": "Ethan Ingram",
+            "age": 2003,
+            "nationality": "England",
+            "position": "RB",
+            "overall": 60,
+            "potential": 72,
+            "modifier": 2,
+            "height": 180,
+            "weight": 70,
+            "foot": "Right",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "High/High",
+            "realFace": false,
+            "value": 475000,
+            "wage": 1800,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": true,
+            "buyClause": 400000,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 113926,
-            "name": "Salford City",
-            "league": "League Two (ENG)"
+            "id": 264115,
+            "name": "Dylan Williams",
+            "age": 2003,
+            "nationality": "England",
+            "position": "LB",
+            "overall": 62,
+            "potential": 76,
+            "modifier": 2,
+            "height": 177,
+            "weight": 64,
+            "foot": "Left",
+            "skills": 2,
+            "weakFoot": 2,
+            "workRate": "High/Medium",
+            "realFace": true,
+            "value": 775000,
+            "wage": 2100,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": true,
+            "buyClause": 400000,
+            "isScouted": false,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 444444,
-            "name": "Chester",
-            "league": "National League (ENG)"
-        }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "title": "Oficial: Solskjaer is the new head coach of Salford City FC",
-            "description": "Ole Gunnar Solskjaer is the new head coach of Salford City FC! The football legend brings his passion and expertise to lead our team to new heights! ⚽️👊 Welcome to Salford, Ole! 🙌 #SolskjaerAtSalford",
-            "date": "16 Jun",
-            "category": "Twitter",
-            "image": true
+            "id": 268550,
+            "name": "Joshua Feeney",
+            "age": 2005,
+            "nationality": "England",
+            "position": "CB",
+            "overall": 59,
+            "potential": 80,
+            "modifier": 0,
+            "height": 193,
+            "weight": 76,
+            "foot": "Right",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "value": 575000,
+            "wage": 5000,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": true,
+            "buyClause": 400000,
+            "bio": "",
+            "analysis": ""
         },
         {
-            "id": 2,
-            "title": "Salford City FC will do pre-season in Italy",
-            "description": "The Ammies are set to dazzle in an unannounced pre-season tournament in Italy!",
-            "date": "16 Jun",
-            "category": "News",
-            "image": false
+            "id": 279117,
+            "name": "Alfie Dorrington",
+            "age": 2005,
+            "nationality": "England",
+            "position": "CB",
+            "overall": 62,
+            "potential": 82,
+            "modifier": 0,
+            "height": 192,
+            "weight": 78,
+            "foot": "Right",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "High/Medium",
+            "realFace": false,
+            "value": 875000,
+            "wage": 5000,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City",
+                        "league": "League Two (ENG)"
+                    },
+                    "season": "2023-"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": true,
+            "isLoan": true,
+            "buyClause": 400000,
+            "bio": "",
+            "analysis": ""
         }
     ]
 }
