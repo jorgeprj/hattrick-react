@@ -1,6 +1,6 @@
 import { FaArrowUp, FaArrowDown } from 'react-icons/fa';
 
-const HeaderList = ({ column, sortColumn, sortOrder, handleSort }) => {
+const Header = ({ column, sortColumn, sortOrder, handleSort }) => {
     return (
         <th onClick={() => handleSort(column)} className='click'>
             {column} {sortColumn === column && (
@@ -10,4 +10,4 @@ const HeaderList = ({ column, sortColumn, sortOrder, handleSort }) => {
     );
 };
 
-export default HeaderList;
+export default Header;

@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import { calculateFutzScore } from '../../utils/calculateFutzScoreUtils';
 
-import HeaderList from './headerList/HeaderList';
-import ScoutPlayer from './scoutPlayer/ScoutPlayer';
+import Header from './header/Header';
+import Player from './player/Player';
 
-import './ScoutList.css';
+import './List.css';
+import { calculateFutzScore } from '../../utils/futzScore';
 
-const ScoutList = ({ players, setPlayers, year }) => {
+const List = ({ scoutedPlayers, setScoutedPlayers, year }) => {
 
     const [sortColumn, setSortColumn] = useState('');
     const [sortOrder, setSortOrder] = useState('');
@@ -17,7 +17,7 @@ const ScoutList = ({ players, setPlayers, year }) => {
         setSortColumn(column);
         setSortOrder(newOrder);
 
-        const sortedPlayers = [...players].sort((a, b) => {
+        const sortedPlayers = [...scoutedPlayers].sort((a, b) => {
             let aValue, bValue;
 
             if (column === 'Overall') {
@@ -39,7 +39,7 @@ const ScoutList = ({ players, setPlayers, year }) => {
             return newOrder === 'asc' ? aValue - bValue : bValue - aValue;
         });
 
-        setPlayers(sortedPlayers);
+        setScoutedPlayers(sortedPlayers);
     };
 
     useEffect(() => {
@@ -54,17 +54,17 @@ const ScoutList = ({ players, setPlayers, year }) => {
                     <th></th>
                     <th></th>
                     <th></th>
-                    <HeaderList column='Age' sortColumn={sortColumn} sortOrder={sortOrder} handleSort={handleSort} />
-                    <HeaderList column='Contract' sortColumn={sortColumn} sortOrder={sortOrder} handleSort={handleSort} />
-                    <HeaderList column='Overall' sortColumn={sortColumn} sortOrder={sortOrder} handleSort={handleSort} />
-                    <HeaderList column='FutzScore' sortColumn={sortColumn} sortOrder={sortOrder} handleSort={handleSort} />
+                    <Header column='Age' sortColumn={sortColumn} sortOrder={sortOrder} handleSort={handleSort} />
+                    <Header column='Contract' sortColumn={sortColumn} sortOrder={sortOrder} handleSort={handleSort} />
+                    <Header column='Overall' sortColumn={sortColumn} sortOrder={sortOrder} handleSort={handleSort} />
+                    <Header column='FutzScore' sortColumn={sortColumn} sortOrder={sortOrder} handleSort={handleSort} />
                 </tr>
             </thead>
             <tbody>
-                {players.map(player => (<ScoutPlayer player={player} year={year} key={player.id} />))}
+                {scoutedPlayers.map(player => (<Player player={player} year={year} key={player.id} />))}
             </tbody>
         </table>
     )
 }
 
-export default ScoutList
+export default List
