@@ -1,0 +1,9 @@
+.dashboard-overview{
+    padding: 2em;
+}
+
+.dashboard-overview .timeline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

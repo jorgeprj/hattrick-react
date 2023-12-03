@@ -1,21 +1,53 @@
-import { useState } from 'react';
-import DashboardHeader from '../../components/dashboardLayout/dashboardHeader/DashboardHeader';
 import './Dashboard.css';
-import DashboardOverview from './overview/DashboardOverview';
 
-const Dashboard = ( {posts} ) => {
+import { useEffect, useState } from 'react';
+import { getPlayers } from '../../services/players/playersService';
+
+import Header from '../../components/dashboard/header/Header';
+import Overview from './overview/Overview';
+import Squad from './squad/Squad';
+
+const Dashboard = () => {
     const [section, setSection] = useState('overview')
+
+    const coach = {
+        "id": 999999,
+        "name": "Ole Solskjaer",
+        "nationality": "Norway",
+    }
+
+    const [teamPlayers, setTeamPlayers] = useState(null);
+
+    useEffect(() => {
+        const fetchTeamPlayers = async () => {
+            try {
+                const allPlayersData = await getPlayers();
+
+                const salfordCityPlayers = allPlayersData.filter(player =>
+                    player.teamHistory[0].team.name === "Salford City"
+                );
+
+                setTeamPlayers(salfordCityPlayers);
+            } catch (error) {
+                console.error('Error fetching players:', error);
+            }
+        };
+
+        fetchTeamPlayers();
+    }, []);
 
     let componentToRender;
 
     if (section === 'overview') {
-        componentToRender = <DashboardOverview posts={posts}/>;
+        componentToRender = <Overview />;
+    } else if (section === 'squad') {
+        componentToRender = <Squad teamPlayers={teamPlayers} coach={coach} />;
     }
 
     return (
         <div className='dashboard'>
             <header>
-                <DashboardHeader section={section} setSection={setSection} />
+                <Header section={section} setSection={setSection} />
             </header>
             <section>
                 {componentToRender}
