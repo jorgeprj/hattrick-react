@@ -1,8 +1,8 @@
-import './DashboardHeader.css'
+import './Header.css'
 
-const DashboardHeader = ({ section, setSection }) => {
+const Header = ({ section, setSection }) => {
 
-    const sections = ['overview', 'squad', 'table'];
+    const sections = ['overview', 'squad', 'youth academy'];
 
     const handleClick = (section) => {
         setSection(section);
@@ -36,4 +36,4 @@ const DashboardHeader = ({ section, setSection }) => {
     )
 }
 
-export default DashboardHeader
+export default Header

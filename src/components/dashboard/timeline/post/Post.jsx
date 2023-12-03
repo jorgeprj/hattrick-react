@@ -1,8 +1,8 @@
-import './DashboardPost.css'
+import './Post.css'
 
-import { FaXTwitter, FaChartSimple, FaFire } from 'react-icons/fa6'
+import { FaXTwitter, FaChartSimple, FaFire, FaNewspaper } from 'react-icons/fa6'
 
-const DashboardPost = ({ post }) => {
+const Post = ({ post }) => {
 
     let iconToRender;
 
@@ -11,13 +11,15 @@ const DashboardPost = ({ post }) => {
     } else if (post.category === 'Stats') {
         iconToRender = <FaChartSimple/>;
     } else if (post.category === "News") {
+        iconToRender = <FaNewspaper/>;
+    } else if (post.category === "Match") {
         iconToRender = <FaFire/>;
     }
 
     return (
         <div className='dashboard-post'>
             <div className={`post-basic-info ${post.category}`}>
-                {iconToRender}
+                <span>{iconToRender}</span>
                 <p>{post.date}</p>
             </div>
             <div className='post-info'>
@@ -29,4 +31,4 @@ const DashboardPost = ({ post }) => {
     )
 }
 
-export default DashboardPost
+export default Post

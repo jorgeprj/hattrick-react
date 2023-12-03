@@ -1,0 +1,59 @@
+.dashboard-employee-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2em;
+    width: 300px;
+    cursor: pointer;
+}
+.dashboard-employee-card:hover{
+    transform: scale(1.02);
+}
+
+.dashboard-employee-card .employee-infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dashboard-employee-card .employee-photo{
+    margin-right: 1em;
+}
+
+.dashboard-employee-card .employee-photo img{
+    width: 64px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 50%;
+}
+
+.dashboard-employee-card .employee-basic-infos{
+    margin-right: 2em;
+}
+
+.dashboard-employee-card .employee-basic-infos h4{
+    font-weight: 500;
+}
+
+.dashboard-employee-card .employee-basic-infos .country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dashboard-employee-card .employee-basic-infos .country h5{
+    margin-right: 0.5em;
+    color: var(--text-low);
+    font-weight: 500;
+}
+
+.dashboard-employee-card .employee-basic-infos .country img{
+    height: 14px;
+}
+
+.dashboard-employee-card .employee-infos .employee-icon svg{
+    font-size: 1.5em;
+}

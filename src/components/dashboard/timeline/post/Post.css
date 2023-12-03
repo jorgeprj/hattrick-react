@@ -21,7 +21,7 @@
 .dashboard-post .post-basic-info svg{
     font-size: 2em;
     padding: 0.2em;
-    background-color: var(--primary-color);
+    background-color: var(--red);
     border-radius: 50%;
     margin-right: 0.2em;
     color: #fff;
