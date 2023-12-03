@@ -1,19 +1,36 @@
+import './Player.css'
+
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './Player.css'
+
 import Loading from '../../components/layout/loading/Loading';
+import SideCard from '../../components/player/sideCard/SideCard';
+import Header from '../../components/player/header/Header';
+import { getPlayers } from '../../services/players/playersService';
+import TextCard from '../../components/player/textCard/TextCard';
 
-import PlayerSideCard from '../../components/playerLayout/playerSideCard/PlayerSideCard';
-import PlayerHeader from '../../components/playerLayout/playerHeader/PlayerHeader';
-import PlayerAnalysis from '../../components/playerLayout/playerTextCard/playerAnalysis/PlayerAnalysis';
-import PlayerTextCard from '../../components/playerLayout/playerTextCard/PlayerTextCard';
 
-
-const Player = ({ players, year }) => {
+const Player = ({ year }) => {
     const { id } = useParams();
 
     const [isLoading, setIsLoading] = useState(true);
     const [player, setPlayer] = useState(null);
+
+    const [players, setPlayers] = useState(null);
+
+    useEffect(() => {
+        const fetchPlayers = async () => {
+            try {
+                const allPlayersData = await getPlayers();
+
+                setPlayers(allPlayersData);
+            } catch (error) {
+                console.error('Error fetching players:', error);
+            }
+        };
+
+        fetchPlayers();
+    }, []);
 
     useEffect(() => {
         const delay = 1000;
@@ -34,14 +51,10 @@ const Player = ({ players, year }) => {
     return (
         <div className='player'>
             <section className='side-section'>
-                <PlayerSideCard player={player} year={year} />
+                <SideCard player={player} year={year} />
             </section>
             <section className='main-section'>
-                <PlayerHeader player={player} year={year}/>
-                <div className='row'>
-                    <PlayerAnalysis player={player} year={year}/>
-                    <PlayerTextCard title={"Biography"} text={player.bio}/>
-                </div>
+                <Header player={player} year={year}/>
             </section>
         </div>
     );
