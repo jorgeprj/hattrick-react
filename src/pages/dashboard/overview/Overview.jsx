@@ -7,6 +7,7 @@ import Loading from '../../../components/layout/loading/Loading';
 import Timeline from '../../../components/dashboard/timeline/Timeline';
 import TransferCard from '../../../components/dashboard/transferCard/TransferCard';
 import { getTransfers } from '../../../services/transfers/transfersService';
+import Transfers from '../../../components/dashboard/transfers/Transfers';
 
 
 const Overview = ({ year }) => {
@@ -52,9 +53,7 @@ const Overview = ({ year }) => {
 		<div className='dashboard-overview'>
 			<div className='transfers'>
 				<h4>Last Transfers</h4>
-				{transfers
-					.filter(transfer => transfer.year === year)
-					.map(transfer => <TransferCard key={transfer.id} transfer={transfer} />)}
+				<Transfers transfers={transfers} year={year} />
 			</div>
 			<div className='timeline'>
 				<h4>Last News</h4>
