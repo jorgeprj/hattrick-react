@@ -15,7 +15,10 @@ const Header = ({ section, setSection }) => {
                     <img src="./src/assets/teams/113926.png" alt="Team Logo" />
                 </div>
                 <div className='team-basic-info'>
-                    <h3>Salford City</h3>
+                    <div className='trophys'>
+                        <h3>Salford City</h3>
+                        <img src="./src/assets/trophys/4.png" alt="EFL League Two" />
+                    </div>
                     <div className='country'>
                         <img src="./src/assets/flags/england.png" alt="England" />
                         <h4>England</h4>

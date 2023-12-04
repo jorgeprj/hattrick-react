@@ -26,6 +26,17 @@
     margin-left: 1em;
 }
 
+.dashboard-header .team-basic-info .trophys{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dashboard-header .team-basic-info .trophys img{
+    height: 24px;
+    margin-left: 0.5em;
+}
+
 .dashboard-header .team-basic-info h4{
     font-size: 0.8em;
     color: var(--text-medium);
