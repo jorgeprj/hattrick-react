@@ -3,3 +3,30 @@
     font-weight: 600;
     margin-bottom: 1em;
 }
+
+.dashboard-timeline .show-older-button,
+.dashboard-timeline .show-less-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 0.9em;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-top: 1em;
+    font-weight: 600;
+}
+.dashboard-timeline .show-less-button svg,
+.dashboard-timeline .show-older-button svg {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 8px;
+    font-size: 26px;
+    padding: 4px;
+}
