@@ -3,6 +3,10 @@
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 2em;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .dashboard-post .post-basic-info{

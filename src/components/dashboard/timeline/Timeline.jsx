@@ -1,3 +1,5 @@
+import './Timeline.css'
+
 import Post from './post/post'
 
 const Timeline = ( {posts} ) => {
