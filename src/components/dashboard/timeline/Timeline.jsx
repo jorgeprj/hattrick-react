@@ -11,7 +11,7 @@ const Timeline = ({ posts }) => {
     const handleLoadMore = () => {
         if (visiblePosts + 4 >= posts.length) {
             setVisiblePosts(posts.length);
-        }else{
+        } else {
             setVisiblePosts(visiblePosts + 4);
         }
     };
@@ -22,10 +22,18 @@ const Timeline = ({ posts }) => {
                 <Post key={post.id} post={post} />
             ))}
             {visiblePosts < posts.length && (
-                <button className="show-older-button" onClick={handleLoadMore}>
-                    <FaAngleDown />
-                    Show Older
-                </button>
+                <div className='buttons'>
+                    <button className="show-older-button" onClick={handleLoadMore}>
+                        <FaAngleDown />
+                        Show Older
+                    </button>
+                    {visiblePosts > 4 && (
+                        <button className="show-less-button" onClick={() => setVisiblePosts(4)}>
+                            <FaAngleUp />
+                            Show Less
+                        </button>
+                    )}
+                </div>
 
             )}
 

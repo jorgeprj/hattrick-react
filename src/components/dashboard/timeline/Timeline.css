@@ -20,6 +20,7 @@
     text-align: left;
     margin-top: 1em;
     font-weight: 600;
+    margin-right: 1em;
 }
 .dashboard-timeline .show-less-button svg,
 .dashboard-timeline .show-older-button svg {
@@ -29,4 +30,10 @@
     margin-right: 8px;
     font-size: 26px;
     padding: 4px;
+}
+
+.dashboard-timeline .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
