@@ -5,7 +5,9 @@ export const formatCurrency = (value) => {
         return `€${(value / 1000).toFixed(0)}K`;
     } else if (value === null) {
         return `None`;
-    }  else {
+    } else if (value && typeof value === 'string'){
+        return value;
+    } else {
         return `€${value}`;
     }
 };
