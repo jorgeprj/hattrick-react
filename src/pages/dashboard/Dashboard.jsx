@@ -7,7 +7,7 @@ import Header from '../../components/dashboard/header/Header';
 import Overview from './overview/Overview';
 import Squad from './squad/Squad';
 
-const Dashboard = () => {
+const Dashboard = ( {year} ) => {
     const [section, setSection] = useState('overview')
 
     const coach = {
@@ -39,7 +39,7 @@ const Dashboard = () => {
     let componentToRender;
 
     if (section === 'overview') {
-        componentToRender = <Overview />;
+        componentToRender = <Overview year={year} />;
     } else if (section === 'squad') {
         componentToRender = <Squad teamPlayers={teamPlayers} coach={coach} />;
     }

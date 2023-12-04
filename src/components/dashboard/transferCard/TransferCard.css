@@ -1,0 +1,72 @@
+.transfer-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.transfer-card .transfer-player,
+.transfer-card .value,
+.transfer-card .transfer-team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.transfer-card .transfer-player,
+.transfer-card .transfer-team{
+    position: relative;
+}
+
+.transfer-card .transfer-player .player-data,
+.transfer-card .transfer-player .team-data{
+    position: relative;
+    display: inline-block;
+}
+
+.team-image {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 24px; 
+    height: 24px; 
+    z-index: 1;
+}
+
+.transfer-card .transfer-player .player-photo,
+.transfer-card .transfer-team .team-logo{
+    width: 64px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 50%;
+}
+
+.transfer-card .transfer-team img{
+    padding: 0.5em;
+}
+
+.transfer-card .transfer-player h4,
+.transfer-card .transfer-team h4{
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.transfer-card .value{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.transfer-card .value h2{
+    font-size: 1.5em;
+}
+
+.transfer-card .value svg{
+    color: var(--primary-color);
+}

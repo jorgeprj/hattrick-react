@@ -5,7 +5,7 @@ import Navbar from "./components/layout/navbar/Navbar.jsx";
 
 function App() {
 
-	const year = 2023;
+	const year = 2024;
 
 	return (
 		<div>

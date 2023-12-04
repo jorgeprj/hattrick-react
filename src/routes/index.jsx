@@ -10,7 +10,7 @@ export const AppRoutes = ( {year} ) => {
     return (
         <Routes>
             <Route path="/" element={<Navigate to="/dashboard"/>}/>
-            <Route path="/dashboard" element={<Dashboard/>}/>
+            <Route path="/dashboard" element={<Dashboard year={year}/>}/>
             <Route path="/scouts" element={<Scouts year={year}/>}/>
             <Route path="/player/scout/:id" element={<ScoutPlayer year={year}/>}/>
             <Route path="/player/:id" element={<Player year={year}/>}/>

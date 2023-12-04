@@ -2,19 +2,12 @@ import './PlayerCard.css';
 
 import { getOverallColor } from '../../../utils/overallColor';
 import { useNavigate } from 'react-router-dom';
+import { abbreviateName } from '../../../utils/abbreviateName';
 
 const PlayerCard = ({ player }) => {
 
 	const navigate = useNavigate();
 	const redirectToPlayerPage = () => navigate(`/player/${player.id}`);
-
-	const abbreviateName = (name) => {
-		if (name.length > 11) {
-			const [firstName, lastName] = name.split(' ');
-			return `${firstName.charAt(0)}. ${lastName}`;
-		}
-		return name;
-	};
 
 	return (
 		<div className='dashboard-player-card' onClick={redirectToPlayerPage}>
