@@ -1,6 +1,6 @@
 import './Post.css'
 
-import { FaXTwitter, FaChartSimple, FaFire, FaNewspaper } from 'react-icons/fa6'
+import { FaXTwitter, FaChartSimple, FaFire, FaNewspaper, FaTruckMedical } from 'react-icons/fa6'
 
 const Post = ({ post }) => {
 
@@ -14,7 +14,10 @@ const Post = ({ post }) => {
         iconToRender = <FaNewspaper/>;
     } else if (post.category === "Match") {
         iconToRender = <FaFire/>;
+    } else if (post.category === "Medical") {
+        iconToRender = <FaTruckMedical/>;
     }
+
 
     return (
         <div className='dashboard-post'>
