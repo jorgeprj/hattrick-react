@@ -32,8 +32,8 @@
         },
         {
             "id": 18,
-            "name": "Tottenham Sprus",
-            "league":"Premier League (ENG)"
+            "name": "Tottenham Hotspur",
+            "league": "Premier League (ENG)"
         },
         {
             "id": 19,
@@ -61,6 +61,11 @@
             "league": "Premiership (SCT)"
         },
         {
+            "id": 91,
+            "name": "Derby County",
+            "league": "League One (ENG)"
+        },
+        {
             "id": 94,
             "name": "Ipswich Town",
             "league": "Championship (ENG)"
@@ -81,9 +86,19 @@
             "league": "Premier League (ENG)"
         },
         {
+            "id": 149,
+            "name": "Lincoln City",
+            "league":"League One (ENG)"
+        },
+        {
             "id": 181,
             "name": "Dundee United",
             "league": "Premiership (SCT)"
+        },
+        {
+            "id": 561,
+            "name": "Forest Green Rovers",
+            "league": "League Two (ENG)"
         },
         {
             "id": 1793,
@@ -129,6 +144,11 @@
             "id": 1806,
             "name": "Stoke City",
             "league": "Championship (ENG)"
+        },
+        {
+            "id": 1808,
+            "name": "Brighton & Hove Albion",
+            "league": "Premier League (ENG)"
         },
         {
             "id": 1917,
@@ -198,7 +218,7 @@
         {
             "id": 112259,
             "name": "AFC Wimbledon",
-            "league":"League Two (ENG)"
+            "league": "League Two (ENG)"
         },
         {
             "id": 113926,
@@ -244,7 +264,7 @@
     "posts": [
         {
             "id": 1,
-            "title": "Oficial: Solskjaer is the new head coach of Salford City FC",
+            "title": "Official: Solskjaer is the new head coach of Salford City FC",
             "description": "Ole Gunnar Solskjaer is the new head coach of Salford City FC! The football legend brings his passion and expertise to lead our team to new heights! ⚽️👊 Welcome to Salford, Ole! 🙌 #SolskjaerAtSalford",
             "date": "30 Jun",
             "category": "Twitter",
@@ -259,14 +279,194 @@
             "hasImage": false
         },
         {
-            "id": 23,
+            "id": 3,
             "title": "Salford City 0 x 2 Port Vale",
             "description": "Salford City lose on Ole Gunnar Solskjaer's debut.",
             "date": "14 Jul",
-            "category": "News",
+            "category": "Match",
             "hasImage": false
+        },
+        {
+            "id": 4,
+            "title": "Salford City 1 x 2 AFC Wimbledon",
+            "description": "Despite a spirited effort, the team fell 2-1 to AFC Wimbledon in the EFL League Two opener.",
+            "date": "29 Jul",
+            "category": "Match",
+            "hasImage": false
+        },
+        {
+            "id": 5,
+            "title": "Chelsea 4 x 2 Salford City",
+            "description": "Salford City bows out of the Carabao Cup after a hard-fought match against Chelsea, ending 4-2.",
+            "date": "29 Aug",
+            "category": "Match",
+            "hasImage": false
+        },
+        {
+            "id": 6,
+            "title": "Callum Henderson shining bright!",
+            "description": "Currently leading the pack as the top scorer in EFL League Two with an impressive 11 goals.",
+            "date": "8 Jan",
+            "category": "Stats",
+            "hasImage": false
+        },
+        {
+            "id": 7,
+            "title": "Official: Harvey Vale is an Amimie!",
+            "description": "We're thrilled to welcome the talented Harvey Vale to the Salford City family! 🔴⚽️ The midfielder joins us in a stellar move for £820k. Let's create some unforgettable moments together! 🌟 #WelcomeHarvey #SalfordCity",
+            "date": "9 Jan",
+            "category": "Twitter",
+            "hasImage": true
+        },
+        {
+            "id": 8,
+            "title": "Official: Salford City confirm the sale of Callum Hendry",
+            "description": "We bid farewell to a true talent, Callum Hendry, as he embarks on a new journey with Coventry for a record-breaking £950k! 📈 Thank you, Callum, for your contributions. Wishing you the best in your next chapter! 🌟 #SalfordCity",
+            "date": "13 Jan",
+            "category": "Twitter",
+            "hasImage": true
+        },
+        {
+            "id": 9,
+            "title": "Salford City 0 x 4 Arsenal",
+            "description": "Salford City faced a formidable challenge against Arsenal, concluding with a 4-0 scoreline. The journey may end here, but the team's resilience and spirit remain unshaken. Commendable effort from both sides. On to the next chapter! ",
+            "date": "27 Jan",
+            "category": "Match",
+            "hasImage": false
+        },
+        {
+            "id": 10,
+            "title": "Salford City Secures Sammy Braybrooke from Leicester City",
+            "description": "Thrilled to announce the arrival of Sammy Braybrooke from Leicester City for an exciting £540k! 🤝 Welcome to the Salford City squad, Sammy! ⚽️ Let's make some magic happen! 🌟 #WelcomeSammy #SalfordCity #NewBeginnings",
+            "date": "31 Jan",
+            "category": "Twitter",
+            "hasImage": true
+        },
+        {
+            "id": 11,
+            "title": "Stevenage 3 x 4 (P) Salford City",
+            "description": "Salford City secures a thrilling spot in the EFL Trophy Semis, triumphing over Stevenage in a nail-biting penalty shootout (4-3). Next up, a face-off with Bolton awaits! ",
+            "date": "31 Jan",
+            "category": "Match",
+            "hasImage": false
+        },
+        {
+            "id": 12,
+            "title": "Official: Kai Lancaster Extends Contract with Salford City until 2029! ",
+            "description": "Thrilled to announce the extension of Kai Lancaster's contract until 2029! 🌟 At just 18, this promising goal-scorer has been making waves. Exciting times ahead as we continue this journey together! ⚽️🔴 #KaiLancaster #ContractRenewal #FutureStar",
+            "date": "31 Jan",
+            "category": "News",
+            "hasImage": true
+        },
+        {
+            "id": 13,
+            "title": "Salford City 0 x 2 Bolton",
+            "description": "Salford City faces a setback in the EFL Trophy, falling short to Bolton with a 2-0 score in the semi-final. Tough match, but the journey continues.",
+            "date": "21 Feb",
+            "category": "Match",
+            "hasImage": false
+        },
+        {
+            "id": 14,
+            "title": "Official: Salford City Secures Legendary Keeper Tom Heaton",
+            "description": "Delighted to announce a pre-contract agreement with the legendary English goalkeeper, Tom Heaton, for the 2024-25 season! 🧤🌟 Welcome to Salford City, Tom! A true veteran presence between the posts. 🔴⚽️ #TomHeaton #SalfordCity",
+            "date": "25 Feb",
+            "category": "Match",
+            "hasImage": true
+        },
+        {
+            "id": 15,
+            "title": "🚨 Injury Update: Luke Bolton Faces 2-Month Layoff 🚑",
+            "description": "Regrettably, Luke Bolton will be sidelined for the next 2 months due to an injury setback. Wishing him a speedy recovery and looking forward to seeing him back on the pitch stronger than ever! 💪🔴 #GetWellSoonLuke #SalfordCity #InjuryUpdate",
+            "date": "27 Feb",
+            "category": "Medical",
+            "hasImage": false
+        },
+        {
+            "id": 16,
+            "title": "🚨 Injury Update: Harvey Vale Faces 3-Month Layoff 🚑",
+            "description": "Unfortunately, Harvey Vale will be sidelined for the next 3 months due to an injury setback. Our thoughts are with him during this time, and we eagerly anticipate his strong return to the field! 💪🔴 #GetWellSoonHarvey #SalfordCity #InjuryUpdate",
+            "date": "14 Mar",
+            "category": "Medical",
+            "hasImage": false
+        },
+        {
+            "id": 17,
+            "title": "🦁Rising Star Alert! Will Watson call-up to the England U19 squad",
+            "description": "Congratulations to Will Watson on his call-up to the England U19 squad! 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽️ A well-deserved recognition of his talent. Best of luck, Will! 🔴🦁 #WillWatson #EnglandU19 #SalfordCity",
+            "date": "18 Mar",
+            "category": "News",
+            "hasImage": true
+        },
+        {
+            "id": 18,
+            "title": "Salford City 1 x 5 Stockport",
+            "description": "Salford City faces a setback with a 5-1 loss to Stockport in the EFL League Two. Postponing the title dreams by at least 2 rounds. We'll regroup, come back stronger, and keep pushing! ",
+            "date": "27 Apr",
+            "category": "Match",
+            "hasImage": false
+        },
+        {
+            "id": 19,
+            "title": "Salford City 4 x 0 Accrington",
+            "description": "Salford City triumphs with a commanding 4-0 win against Accrington, putting us just one draw away from clinching the EFL League Two title!",
+            "date": "4 May",
+            "category": "Match",
+            "hasImage": false
+        },
+        {
+            "id": 20,
+            "title": "Salford City FC Clinches EFL League Two Title!",
+            "description": "Historic moment for Salford City FC! 🎉 Clinching the EFL League Two title, they've secured promotion to EFL League One under the astute leadership of Ole Gunnar Solskjaer. A first professional title in England for the legendary manager! 🏴󠁧󠁢󠁥󠁮󠁧󠁿🔝 #SalfordCityFC #EFLChampions",
+            "date": "11 May",
+            "category": "Twitter",
+            "hasImage": true
+        },
+        {
+            "id": 21,
+            "title": "🏆 Player of the Season Honors! 🌟",
+            "description": "We're thrilled to announce that Kai Lancaster has officially been crowned the Player of the Season in the EFL League Two! 🏅⚽️ A well-deserved recognition for his outstanding contributions. Congratulations, Kai! 🔴 #PlayerOfTheSeason #KaiLancaster #SalfordCity",
+            "date": "15 May",
+            "category": "News",
+            "hasImage": true
+        },
+        {
+            "id": 22,
+            "title": "🏆EFL League Two Final Standings",
+            "description": "Salford City clinches the top spot and the championship title! 🎉⚽️ A season of hard work and dedication pays off. Congratulations to all teams on a competitive season!",
+            "date": "15 May",
+            "category": "News",
+            "hasImage": true
+        },
+        {
+            "id": 23,
+            "title": "🌟 EFL League Two Team of the Season! 🌟",
+            "description": "Thrilled to unveil our standout players who've earned a spot in the Team of the Season. Congratulations to each exceptional talent for their contributions! ",
+            "date": "15 May",
+            "category": "Stats",
+            "hasImage": true
         }
     ],
+    "coach": {
+        "name": "Ole Solskjaer",
+        "nationality": "Norway",
+        "stats": [
+            {
+                "season": "2023",
+                "matches": 62,
+                "wins": 38,
+                "draws": 12,
+                "losses": 12
+            }
+        ],
+        "titles": [
+            {
+                "id": 4,
+                "name": "EFL Football League Two",
+                "season": "2023"
+            }
+        ]
+    },
     "players": [
         {
             "id": 268445,
@@ -292,32 +492,28 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2024-"
                 },
                 {
                     "team": {
                         "id": 11,
-                        "name": "Man United",
-                        "league": "Premier League (ENG)"
+                        "name": "Man United"
                     },
                     "season": "2023-24"
                 },
                 {
                     "team": {
                         "id": 11,
-                        "name": "Man United U21",
-                        "league": "Premier League U21 (ENG)"
+                        "name": "Man United U21"
                     },
                     "season": "2022-23"
                 },
                 {
                     "team": {
                         "id": 11,
-                        "name": "Man United U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Man United U18"
                     },
                     "season": "2020-22"
                 }
@@ -328,7 +524,19 @@
             "buyClause": 460000,
             "isScouted": true,
             "bio": "Rhys Bennett, the English defender for Manchester United, showcases a well-rounded skill set. His notable crossing ability and strong defensive presence make him a valuable asset on the field. Bennett's proficiency in aerial duels, coupled with his composed tackling style, bolsters the team's backline. With a keen sense of positioning and commendable work ethic, he contributes both defensively and offensively. A disciplined player, Bennett's clean tackling style exemplifies his commitment to the game.",
-            "analysis": "Denton-born and bred, the under-18s captain at Manchester United, Bennett, debuted in the 2020/21 season against Blackburn Rovers. Leading the team to the FA Youth Cup in 2021/22, he's a well-grounded centre-back who regularly visits his primary school in Denton. Thrilled by every Old Trafford appearance, Bennett embraces the dream, vowing to give his all and cherishing each moment on the iconic pitch."
+            "analysis": "Denton-born and bred, the under-18s captain at Manchester United, Bennett, debuted in the 2020/21 season against Blackburn Rovers. Leading the team to the FA Youth Cup in 2021/22, he's a well-grounded centre-back who regularly visits his primary school in Denton. Thrilled by every Old Trafford appearance, Bennett embraces the dream, vowing to give his all and cherishing each moment on the iconic pitch.",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 11,
+                    "goals": 1,
+                    "assists": 0,
+                    "matchesWithoutGoals": 1,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 270964,
@@ -354,24 +562,21 @@
                 {
                     "team": {
                         "id": 106,
-                        "name": "Sunderland",
-                        "league": "Championship (ENG)"
+                        "name": "Sunderland"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 88,
-                        "name": "Birmingham City",
-                        "league": "Championship (ENG)"
+                        "name": "Birmingham City"
                     },
                     "season": "2022-23"
                 },
                 {
                     "team": {
                         "id": 88,
-                        "name": "Birmingham City U18",
-                        "league": "Championship U18 (ENG)"
+                        "name": "Birmingham City U18"
                     },
                     "season": "2021-22"
                 }
@@ -403,7 +608,10 @@
             "buyClause": null,
             "isScouted": true,
             "bio": "Jobe Bellingham, the English attacking midfielder for AFC Sunderland, exhibits remarkable potential, standing out for his considerable crossing prowess. With a dominant right foot and significant dribbling ability, he brings a high level of finesse to the field. Bellingham's game is characterized by exceptional vision, composure, and a strong work ethic. His impressive acceleration, agility, and resilience make him a standout prospect in the football world.",
-            "analysis": "Jobe Samuel Patrick Bellingham, born on September 23, 2005, is a talented English footballer excelling as a midfielder or forward for EFL Championship's Sunderland. Rising through Birmingham City's academy, he made his mark in the 2021–22 season, showcasing his skills and earning a professional contract. Bellingham's journey continued with Sunderland in 2023, where his prowess on the field is making waves. Additionally, he has represented England at various youth levels, demonstrating his promising international career."
+            "analysis": "Jobe Samuel Patrick Bellingham, born on September 23, 2005, is a talented English footballer excelling as a midfielder or forward for EFL Championship's Sunderland. Rising through Birmingham City's academy, he made his mark in the 2021–22 season, showcasing his skills and earning a professional contract. Bellingham's journey continued with Sunderland in 2023, where his prowess on the field is making waves. Additionally, he has represented England at various youth levels, demonstrating his promising international career.",
+            "hasStats": false,
+            "stats": [],
+            "awards": []
         },
         {
             "id": 275522,
@@ -429,16 +637,14 @@
                 {
                     "team": {
                         "id": 83,
-                        "name": "Motherwell FC",
-                        "league": "Premiership (SCT)"
+                        "name": "Motherwell FC"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 83,
-                        "name": "Motherwell FC U18",
-                        "league": "Premiership U18 (SCT)"
+                        "name": "Motherwell FC U18"
                     },
                     "season": "2022-23"
                 }
@@ -462,7 +668,10 @@
             "buyClause": null,
             "isScouted": true,
             "analysis": "Lennon Miller, the Scottish midfielder for Motherwell FC, possesses a remarkable potential of 85. With a predominantly right foot, Miller showcases a notable ability in crossing and short passing. His agility and acceleration make him agile on the field, complemented by a commendable vision for the game. While his defensive skills may benefit from improvement, Miller's overall versatility and promising potential position him as an asset in the midfield.",
-            "bio": "Lennon Miller, born on 25 August 2006, is a Scottish midfielder for Motherwell. Making history at 16 as Motherwell's youngest player, he debuted in a Scottish League Cup victory. His Scottish Premiership journey started against Rangers in 2022, followed by a crucial appearance against Celtic in 2023. In the 2023–24 season, he began as a regular but faced a red card against Livingston. Internationally, he dazzled with a Goal of the Year for Scotland's under-16s. The son of former Scotland international Lee Miller, Lennon overcame personal loss and impressed at Coltness High School."
+            "bio": "Lennon Miller, born on 25 August 2006, is a Scottish midfielder for Motherwell. Making history at 16 as Motherwell's youngest player, he debuted in a Scottish League Cup victory. His Scottish Premiership journey started against Rangers in 2022, followed by a crucial appearance against Celtic in 2023. In the 2023–24 season, he began as a regular but faced a red card against Livingston. Internationally, he dazzled with a Goal of the Year for Scotland's under-16s. The son of former Scotland international Lee Miller, Lennon overcame personal loss and impressed at Coltness High School.",
+            "hasStats": false,
+            "stats": [],
+            "awards": []
         },
         {
             "id": 265789,
@@ -488,32 +697,28 @@
                 {
                     "team": {
                         "id": 1793,
-                        "name": "Reading FC",
-                        "league": "League One (ENG)"
+                        "name": "Reading FC"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 561,
-                        "name": "Forest Green Rovers",
-                        "league": "League One (ENG)"
+                        "name": "Forest Green Rovers"
                     },
                     "season": "2023"
                 },
                 {
                     "team": {
                         "id": 11,
-                        "name": "Manchester United U21",
-                        "league": "Premier League U21 (ENG)"
+                        "name": "Manchester United U21"
                     },
                     "season": "2021-23"
                 },
                 {
                     "team": {
                         "id": 11,
-                        "name": "Manchester United U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Manchester United U18"
                     },
                     "season": "2019-21"
                 }
@@ -545,7 +750,10 @@
             "buyClause": null,
             "isScouted": true,
             "analysis": "Charlie Savage, the Welsh midfielder from Reading FC, possesses a well-rounded skill set. His standout ability lies in precise crossing, making him a valuable asset on the offensive front. With a left-footed prowess and adept dribbling, Savage seamlessly navigates the pitch. A technically proficient player, he showcases finesse in both passing and set-piece execution. His defensive attributes, marked by solid tackling and positional awareness, contribute to a versatile and reliable presence on the field. Savage's game is defined by a strategic vision and a commendable level of composure, making him a notable midfielder for Reading FC.",
-            "bio": "Charlie William Henry Savage, born on May 2, 2003, is a talented midfielder for EFL League One's Reading and the Wales national team. Following his father Robbie Savage's footsteps, he began his football journey at Manchester United. Savage made his professional debut with United in the 2021-22 UEFA Champions League. After a stint with Forest Green Rovers in 2022-23, he signed a four-year contract with Reading in July 2023, showcasing his prowess with a goal in August. Savage, a versatile central midfielder, combines defensive strength with attacking flair, distinguishing himself from his father's playing style. He has represented Wales at various youth levels and earned his first senior cap in October 2023."
+            "bio": "Charlie William Henry Savage, born on May 2, 2003, is a talented midfielder for EFL League One's Reading and the Wales national team. Following his father Robbie Savage's footsteps, he began his football journey at Manchester United. Savage made his professional debut with United in the 2021-22 UEFA Champions League. After a stint with Forest Green Rovers in 2022-23, he signed a four-year contract with Reading in July 2023, showcasing his prowess with a goal in August. Savage, a versatile central midfielder, combines defensive strength with attacking flair, distinguishing himself from his father's playing style. He has represented Wales at various youth levels and earned his first senior cap in October 2023.",
+            "hasStats": false,
+            "stats": [],
+            "awards": []
         },
         {
             "id": 277266,
@@ -571,32 +779,28 @@
                 {
                     "team": {
                         "id": 86,
-                        "name": "Rangers FC",
-                        "league": "Premiership (SCT)"
+                        "name": "Rangers FC"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 86,
-                        "name": "Rangers FC U18",
-                        "league": "Premiership U18 (SCT)"
+                        "name": "Rangers FC U18"
                     },
                     "season": "2022-23"
                 },
                 {
                     "team": {
                         "id": 83,
-                        "name": "Motherwell FC",
-                        "league": "Premiership (SCT)"
+                        "name": "Motherwell FC"
                     },
                     "season": "2021-22"
                 },
                 {
                     "team": {
                         "id": 83,
-                        "name": "Motherwell FC U17",
-                        "league": "Premiership U17 (SCT)"
+                        "name": "Motherwell FC U17"
                     },
                     "season": "2020-21"
                 }
@@ -620,7 +824,10 @@
             "buyClause": null,
             "isScouted": true,
             "analysis": "At 17, Bailey Rice shines in Scottish football, making significant contributions to the Rangers. His unique left foot and skillful feints showcase exceptional technical prowess for his age. Offensively, Rice displays short-pass precision and admirable vision. Despite his youth, he captains Scotland's U20s, revealing not just talent but early leadership. Versatile in defense, he shows solid tackling abilities. With notable speed and agility, Rice navigates the field effortlessly. The future looks promising for this young Scottish talent, hinting at a bright trajectory as he continues to develop.",
-            "bio": "Born on October 4, 2006, Scottish footballer Bailey Rice plays for Rangers in the Scottish Premiership. A Motherwell youth academy product, Rice joined Rangers on June 30, 2022, rejecting a contract with Motherwell. Making his senior debut in February 2023 against Livingston, he became Rangers' youngest post-war league player at 16 years and 137 days, second only to Derek Ferguson in all competitions."
+            "bio": "Born on October 4, 2006, Scottish footballer Bailey Rice plays for Rangers in the Scottish Premiership. A Motherwell youth academy product, Rice joined Rangers on June 30, 2022, rejecting a contract with Motherwell. Making his senior debut in February 2023 against Livingston, he became Rangers' youngest post-war league player at 16 years and 137 days, second only to Derek Ferguson in all competitions.",
+            "hasStats": false,
+            "stats": [],
+            "awards": []
         },
         {
             "id": 220031,
@@ -646,96 +853,84 @@
                 {
                     "team": {
                         "id": 1794,
-                        "name": "Sheffield Utd",
-                        "league": "Premier League (ENG)"
+                        "name": "Sheffield Utd"
                     },
                     "season": "2019-"
                 },
                 {
                     "team": {
                         "id": 1960,
-                        "name": "Swansea City",
-                        "league": "Championship (ENG)"
+                        "name": "Swansea City"
                     },
                     "season": "2018-19"
                 },
                 {
                     "team": {
                         "id": 1932,
-                        "name": "Barnsley FC",
-                        "league": "Championship (ENG)"
+                        "name": "Barnsley FC"
                     },
                     "season": "2018"
                 },
                 {
                     "team": {
                         "id": 1960,
-                        "name": "Swansea City",
-                        "league": "Championship (ENG)"
+                        "name": "Swansea City"
                     },
                     "season": "2016-18"
                 },
                 {
                     "team": {
                         "id": 1962,
-                        "name": "Bristol Rovers",
-                        "league": "League Two (ENG)"
+                        "name": "Bristol Rovers"
                     },
                     "season": "2016"
                 },
                 {
                     "team": {
                         "id": 1960,
-                        "name": "Swansea City",
-                        "league": "Championship (ENG)"
+                        "name": "Swansea City"
                     },
                     "season": "2015-16"
                 },
                 {
                     "team": {
                         "id": 112254,
-                        "name": "Newport County",
-                        "league": "League Two (ENG)"
+                        "name": "Newport County"
                     },
                     "season": "2015"
                 },
                 {
                     "team": {
                         "id": 1960,
-                        "name": "Swansea City",
-                        "league": "Championship (ENG)"
+                        "name": "Swansea City"
                     },
                     "season": "2015"
                 },
                 {
                     "team": {
                         "id": 1804,
-                        "name": "Bradford City",
-                        "league": "League One (ENG)"
+                        "name": "Bradford City"
                     },
                     "season": "2015"
                 },
                 {
                     "team": {
                         "id": 444444,
-                        "name": "Chester",
-                        "league": "National League (ENG)"
+                        "name": "Chester"
                     },
                     "season": "2015"
                 },
                 {
                     "team": {
                         "id": 1804,
-                        "name": "Bradford City",
-                        "league": "League One (ENG)"
+                        "name": "Bradford City"
                     },
                     "season": "2013-15"
                 },
                 {
                     "team": {
                         "id": 1804,
-                        "name": "Bradford City U18",
-                        "league": "League One U21 (ENG)"
+                        "name": "Bradford City U18"
                     },
                     "season": "2010-13"
                 }
@@ -759,7 +954,10 @@
             "buyClause": null,
             "isScouted": true,
             "analysis": "Oliver McBurnie, is a key player for Sheffield United, bringing notable skills, particularly in finishing and aerial play. His combativeness and leadership are highlighted, providing essential motivation to the team. With the ability to make an immediate impact, McBurnie stands out as an influential figure, not just for his technical talent but also for the inspiration he brings to the team.",
-            "bio": "Oliver Robert McBurnie, born on June 4, 1996, is a seasoned professional footballer renowned for his role as a striker with Sheffield United in the Premier League and the Scotland national team. With his roots in youth football at Leeds United, McBurnie initiated his career at Bradford City, undertaking two loan stints at Chester. Subsequently joining Swansea City, he gained valuable experience through loan spells at Newport County, Bristol Rovers, and Barnsley. Despite being born in England, McBurnie proudly represents Scotland on the international stage, marking his senior debut in March 2018."
+            "bio": "Oliver Robert McBurnie, born on June 4, 1996, is a seasoned professional footballer renowned for his role as a striker with Sheffield United in the Premier League and the Scotland national team. With his roots in youth football at Leeds United, McBurnie initiated his career at Bradford City, undertaking two loan stints at Chester. Subsequently joining Swansea City, he gained valuable experience through loan spells at Newport County, Bristol Rovers, and Barnsley. Despite being born in England, McBurnie proudly represents Scotland on the international stage, marking his senior debut in March 2018.",
+            "hasStats": false,
+            "stats": [],
+            "awards": []
         },
         {
             "id": 152908,
@@ -785,56 +983,49 @@
                 {
                     "team": {
                         "id": 7,
-                        "name": "Everton",
-                        "league": "Premier League (ENG)"
+                        "name": "Everton"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 2,
-                        "name": "Aston Villa",
-                        "league": "Premier League (ENG)"
+                        "name": "Aston Villa"
                     },
                     "season": "2021-23"
                 },
                 {
                     "team": {
                         "id": 44,
-                        "name": "Internazionale",
-                        "league": "Serie A (ITA)"
+                        "name": "Internazionale"
                     },
                     "season": "2020-21"
                 },
                 {
                     "team": {
                         "id": 11,
-                        "name": "Manchester United",
-                        "league": "Premier League (ENG)"
+                        "name": "Manchester United"
                     },
                     "season": "2011-20"
                 },
                 {
                     "team": {
                         "id": 2,
-                        "name": "Aston Villa",
-                        "league": "Premier League (ENG)"
+                        "name": "Aston Villa"
                     },
                     "season": "2007-11"
                 },
                 {
                     "team": {
                         "id": 1795,
-                        "name": "Watford",
-                        "league": "Premier League (ENG)"
+                        "name": "Watford"
                     },
                     "season": "2003-07"
                 },
                 {
                     "team": {
                         "id": 1795,
-                        "name": "Watford U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Watford U18"
                     },
                     "season": "2000-03"
                 }
@@ -854,7 +1045,10 @@
             "buyClause": null,
             "isScouted": true,
             "analysis": "Ashley Young, a seasoned English veteran at 37, brings a wealth of experience, notably gained during his triumphant spell at Manchester United. His standout crossing ability, paired with astute dribbling, provides Everton with a potent attacking edge. Young's right foot, a reliable asset, complements his exceptional crossing prowess. Beyond offensive contributions, his defensive aptitude shines in tackles and interceptions. A leader with sharp vision and composed demeanor, Young adds both technical prowess and a winning mentality to Everton's roster, promising a valuable impact.",
-            "bio": "Ashley Simon Young, born on July 9, 1985, is an English professional footballer, currently a full-back for Everton in the Premier League. Starting as a winger at Watford, he rose to prominence in their promotion-winning 2005–06 season. Young has had successful stints with Aston Villa, Manchester United, and Inter Milan, winning multiple trophies. He returned to Aston Villa in 2021 before joining Everton in 2023. Young earned 39 caps for England, featuring in Euro 2012 and the 2018 World Cup."
+            "bio": "Ashley Simon Young, born on July 9, 1985, is an English professional footballer, currently a full-back for Everton in the Premier League. Starting as a winger at Watford, he rose to prominence in their promotion-winning 2005–06 season. Young has had successful stints with Aston Villa, Manchester United, and Inter Milan, winning multiple trophies. He returned to Aston Villa in 2021 before joining Everton in 2023. Young earned 39 caps for England, featuring in Euro 2012 and the 2018 World Cup.",
+            "hasStats": false,
+            "stats": [],
+            "awards": []
         },
         {
             "id": 270937,
@@ -880,16 +1074,14 @@
                 {
                     "team": {
                         "id": 144,
-                        "name": "Fulham FC",
-                        "league": "Premier League (ENG)"
+                        "name": "Fulham FC"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 144,
-                        "name": "Fulham FC U21",
-                        "league": "Premier League U21 (ENG)"
+                        "name": "Fulham FC U21"
                     },
                     "season": "2021-23"
                 }
@@ -925,7 +1117,10 @@
             "buyClause": null,
             "isScouted": true,
             "analysis": "Luke Harris, the talented Welsh player from Fulham FC, is emerging as one of the brightest prospects in English and Welsh football. His remarkable crossing ability stands out, providing a valuable contribution in the offensive realm. With a powerful right foot and admirable dribbling skills, Harris shows significant potential to become a dynamic force on the field. His defensive prowess and impressive agility add to his multifaceted skill set. Endorsed by Ryan Giggs, Harris is on a promising trajectory in the sports arena.",
-            "bio": "Luke Harris, born on March 4, 2005, is a talented midfielder for Premier League side Fulham and the Wales under-21 national team. Hailing from Jersey, he attended St. Clement School and made waves with a remarkable hat-trick for Fulham's under-23s in February 2022. Harris secured a professional contract until 2025 and made his Premier League debut in October 2022. Recognized as the 'Rising Star' at the 2022 Channel Islands Sports Awards, he has also represented Wales at various age levels, earning a senior call-up in September 2022."
+            "bio": "Luke Harris, born on March 4, 2005, is a talented midfielder for Premier League side Fulham and the Wales under-21 national team. Hailing from Jersey, he attended St. Clement School and made waves with a remarkable hat-trick for Fulham's under-23s in February 2022. Harris secured a professional contract until 2025 and made his Premier League debut in October 2022. Recognized as the 'Rising Star' at the 2022 Channel Islands Sports Awards, he has also represented Wales at various age levels, earning a senior call-up in September 2022.",
+            "hasStats": false,
+            "stats": [],
+            "awards": []
         },
         {
             "id": 203215,
@@ -951,56 +1146,49 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 1941,
-                        "name": "Hartlepool Utd",
-                        "league": "League Two (ENG)"
+                        "name": "Hartlepool Utd"
                     },
                     "season": "2022-23"
                 },
                 {
                     "team": {
                         "id": 112260,
-                        "name": "Fleetwood Town",
-                        "league": "League One (ENG)"
+                        "name": "Fleetwood Town"
                     },
                     "season": "2016-22"
                 },
                 {
                     "team": {
                         "id": 1797,
-                        "name": "Rotherdam Utd",
-                        "league": "Championship (ENG)"
+                        "name": "Rotherdam Utd"
                     },
                     "season": "2016"
                 },
                 {
                     "team": {
                         "id": 1924,
-                        "name": "Chesterfield FC",
-                        "league": "League One (ENG)"
+                        "name": "Chesterfield FC"
                     },
                     "season": "2015-16"
                 },
                 {
                     "team": {
                         "id": 8,
-                        "name": "Leeds United",
-                        "league": "Championship (ENG)"
+                        "name": "Leeds United"
                     },
                     "season": "2011-15"
                 },
                 {
                     "team": {
                         "id": 8,
-                        "name": "Leeds United U18",
-                        "league": "Championship (ENG)"
+                        "name": "Leeds United U18"
                     },
                     "season": "2008-11"
                 }
@@ -1011,7 +1199,24 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 52,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 21,
+                    "modifier": 1
+                }
+            ],
+            "awards": [
+                {
+                    "name": "EFL Football League Two Best Goalkeeper",
+                    "season": 2023
+                }
+            ]
         },
         {
             "id": 264497,
@@ -1037,16 +1242,14 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two U21 (ENG)"
+                        "name": "Salford City U21"
                     },
                     "season": "2021-23"
                 }
@@ -1057,7 +1260,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 5,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 3
+                }
+            ],
+            "awards": []
         },
         {
             "id": 192319,
@@ -1083,120 +1298,98 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 1926,
-                        "name": "Blackpool",
-                        "league": "Championship (ENG)"
+                        "name": "Blackpool"
                     },
                     "season": "2020-23"
                 },
                 {
                     "team": {
                         "id": 94,
-                        "name": "Ipswich Town",
-                        "league": "League One (ENG)"
+                        "name": "Ipswich Town"
                     },
                     "season": "2019-20"
                 },
                 {
                     "team": {
                         "id": 1951,
-                        "name": "Oxford Utd.",
-                        "league": "League One (ENG)"
+                        "name": "Oxford Utd."
                     },
                     "season": "2018-19"
                 },
                 {
                     "team": {
                         "id": 7,
-                        "name": "Everton",
-                        "league": "Premier League (ENG)"
+                        "name": "Everton"
                     },
                     "season": "2017-18"
                 },
                 {
                     "team": {
                         "id": 1917,
-                        "name": "Wigan Athletic",
-                        "league": "Championship (ENG)"
+                        "name": "Wigan Athletic"
                     },
                     "season": "2016-17"
                 },
                 {
                     "team": {
                         "id": 144,
-                        "name": "Fulham FC",
-                        "league": "Championship (ENG)"
+                        "name": "Fulham FC"
                     },
                     "season": "2015-16"
                 },
                 {
                     "team": {
                         "id": 7,
-                        "name": "Everton",
-                        "league": "Premier League (ENG)"
+                        "name": "Everton"
                     },
                     "season": "2014-15"
                 },
                 {
                     "team": {
                         "id": 240016,
-                        "name": "Colchester Utd",
-                        "league": "League One (ENG)"
+                        "name": "Colchester Utd"
                     },
                     "season": "2013-14"
                 },
                 {
                     "team": {
                         "id": 7,
-                        "name": "Everton",
-                        "league": "Premier League (ENG)"
-                    },
-                    "season": "2012-13"
-                },
-                {
-                    "team": {
-                        "id": 7,
-                        "name": "Everton",
-                        "league": "Premier League (ENG)"
+                        "name": "Everton"
                     },
                     "season": "2012-13"
                 },
                 {
                     "team": {
                         "id": 240011,
-                        "name": "Cheltenham Town",
-                        "league": "League Two (ENG)"
+                        "name": "Cheltenham Town"
                     },
                     "season": "2011-12"
                 },
                 {
                     "team": {
                         "id": 7,
-                        "name": "Everton",
-                        "league": "Premier League (ENG)"
+                        "name": "Everton"
                     },
                     "season": "2011"
                 },
                 {
                     "team": {
                         "id": 7,
-                        "name": "Everton U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Everton U18"
                     },
                     "season": "2009-11"
                 },
                 {
                     "team": {
                         "id": 8,
-                        "name": "Leeds United U18",
-                        "league": "Championship U18(ENG)"
+                        "name": "Leeds United U18"
                     },
                     "season": "2008-09"
                 }
@@ -1232,7 +1425,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 50,
+                    "goals": 1,
+                    "assists": 4,
+                    "matchesWithoutGoals": 19,
+                    "modifier": 1
+                }
+            ],
+            "awards": []
         },
         {
             "id": 231481,
@@ -1258,64 +1463,56 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2021-"
                 },
                 {
                     "team": {
                         "id": 1947,
-                        "name": "Wrexham AFC",
-                        "league": "National League (ENG)"
+                        "name": "Wrexham AFC"
                     },
                     "season": "2020-21"
                 },
                 {
                     "team": {
                         "id": 200061,
-                        "name": "Macclesfield Town",
-                        "league": "National League (ENG)"
+                        "name": "Macclesfield Town"
                     },
                     "season": "2019-20"
                 },
                 {
                     "team": {
                         "id": 1928,
-                        "name": "Port Vale",
-                        "league": "League One (ENG)"
+                        "name": "Port Vale"
                     },
                     "season": "2018-19"
                 },
                 {
                     "team": {
                         "id": 1803,
-                        "name": "Walsall",
-                        "league": "League Two (ENG)"
+                        "name": "Walsall"
                     },
                     "season": "2016-19"
                 },
                 {
                     "team": {
                         "id": 444444,
-                        "name": "Chester",
-                        "league": "National League (ENG)"
+                        "name": "Chester"
                     },
                     "season": "2015-16"
                 },
                 {
                     "team": {
                         "id": 220069,
-                        "name": "Oldham Athletic",
-                        "league": "National League (ENG)"
+                        "name": "Oldham Athletic"
                     },
                     "season": "2015-16"
                 },
                 {
                     "team": {
                         "id": 1806,
-                        "name": "Stoke City U18",
-                        "league": "Championship U18 (ENG)"
+                        "name": "Stoke City U18"
                     },
                     "season": "2019-20"
                 }
@@ -1326,7 +1523,24 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 52,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 20,
+                    "modifier": 2
+                }
+            ],
+            "awards": [
+                {
+                    "name": "EFL Football League Two Player of the Best Team",
+                    "season": 2023
+                }
+            ]
         },
         {
             "id": 240446,
@@ -1352,48 +1566,42 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 1917,
-                        "name": "Wigan Athletic",
-                        "league": "League One (ENG)"
+                        "name": "Wigan Athletic"
                     },
                     "season": "2020-23"
                 },
                 {
                     "team": {
                         "id": 1797,
-                        "name": "Rotherdam Utd",
-                        "league": "Championship (ENG)"
+                        "name": "Rotherdam Utd"
                     },
                     "season": "2020-22"
                 },
                 {
                     "team": {
                         "id": 1926,
-                        "name": "Blackpool",
-                        "league": "Championship (ENG)"
+                        "name": "Blackpool"
                     },
                     "season": "2017-20"
                 },
                 {
                     "team": {
                         "id": 1947,
-                        "name": "Wrexham AFC",
-                        "league": "League Two (ENG)"
+                        "name": "Wrexham AFC"
                     },
                     "season": "2016-17"
                 },
                 {
                     "team": {
                         "id": 555555,
-                        "name": "Telford United",
-                        "league": "National League (ENG)"
+                        "name": "Telford United"
                     },
                     "season": "2015-16"
                 }
@@ -1409,7 +1617,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 35,
+                    "goals": 0,
+                    "assists": 7,
+                    "matchesWithoutGoals": 9,
+                    "modifier": 1
+                }
+            ],
+            "awards": []
         },
         {
             "id": 248815,
@@ -1435,72 +1655,63 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two U21 (ENG)"
+                        "name": "Salford City U21"
                     },
                     "season": "2023"
                 },
                 {
                     "team": {
                         "id": 666666,
-                        "name": "Maidstone Utd",
-                        "league": "National League (ENG)"
+                        "name": "Maidstone Utd"
                     },
                     "season": "2023"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two U21 (ENG)"
+                        "name": "Salford City U21"
                     },
                     "season": "2021-23"
                 },
                 {
                     "team": {
                         "id": 555555,
-                        "name": "Telford United",
-                        "league": "National League (ENG)"
+                        "name": "Telford United"
                     },
                     "season": "2021"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two U21 (ENG)"
+                        "name": "Salford City U21"
                     },
                     "season": "2020-21"
                 },
                 {
                     "team": {
                         "id": 1951,
-                        "name": "Oxford United U21",
-                        "league": "League One U21 (ENG)"
+                        "name": "Oxford United U21"
                     },
                     "season": "2019-20"
                 },
                 {
                     "team": {
                         "id": 110,
-                        "name": "Wolves U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Wolves U18"
                     },
                     "season": "2017-19"
                 },
                 {
                     "team": {
                         "id": 5,
-                        "name": "Chelsea Youth",
-                        "league": "Premier League Youth (ENG)"
+                        "name": "Chelsea Youth"
                     },
                     "season": "2015-17"
                 }
@@ -1511,7 +1722,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 25,
+                    "goals": 1,
+                    "assists": 0,
+                    "matchesWithoutGoals": 4,
+                    "modifier": 3
+                }
+            ],
+            "awards": []
         },
         {
             "id": 278067,
@@ -1537,24 +1760,21 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two U21(ENG)"
+                        "name": "Salford City U21"
                     },
                     "season": "2023"
                 },
                 {
                     "team": {
                         "id": 1796,
-                        "name": "Burnley U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Burnley U18"
                     },
                     "season": "2021-23"
                 }
@@ -1565,7 +1785,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 4,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 3
+                }
+            ],
+            "awards": []
         },
         {
             "id": 233051,
@@ -1591,64 +1823,56 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2022-"
                 },
                 {
                     "team": {
                         "id": 10,
-                        "name": "Man City U23",
-                        "league": "Premier League U23 (ENG)"
+                        "name": "Man City U23"
                     },
                     "season": "2021-22"
                 },
                 {
                     "team": {
                         "id": 181,
-                        "name": "Dundee United",
-                        "league": "Premiership (SCT)"
+                        "name": "Dundee United"
                     },
                     "season": "2020-21"
                 },
                 {
                     "team": {
                         "id": 10,
-                        "name": "Man City U23",
-                        "league": "Premier League U23 (ENG)"
+                        "name": "Man City U23"
                     },
                     "season": "2020"
                 },
                 {
                     "team": {
                         "id": 1923,
-                        "name": "Luton Town",
-                        "league": "League One (ENG)"
+                        "name": "Luton Town"
                     },
                     "season": "2019-20"
                 },
                 {
                     "team": {
                         "id": 10,
-                        "name": "Man City U23",
-                        "league": "Premier League U23 (ENG)"
+                        "name": "Man City U23"
                     },
                     "season": "2017-19"
                 },
                 {
                     "team": {
                         "id": 10,
-                        "name": "Man City U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Man City U18"
                     },
                     "season": "2016-17"
                 },
                 {
                     "team": {
                         "id": 10,
-                        "name": "Man City Youth",
-                        "league": "Premier League Youth (ENG)"
+                        "name": "Man City Youth"
                     },
                     "season": "2014-16"
                 }
@@ -1664,7 +1888,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 46,
+                    "goals": 2,
+                    "assists": 8,
+                    "matchesWithoutGoals": 18,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 241982,
@@ -1690,40 +1926,35 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2022-"
                 },
                 {
                     "team": {
                         "id": 1804,
-                        "name": "Bradford City",
-                        "league": "League One (ENG)"
+                        "name": "Bradford City"
                     },
                     "season": "2020-22"
                 },
                 {
                     "team": {
                         "id": 110,
-                        "name": "Wolverhampton U21",
-                        "league": "Premier League U21 (ENG)"
+                        "name": "Wolverhampton U21"
                     },
                     "season": "2018-20"
                 },
                 {
                     "team": {
                         "id": 110,
-                        "name": "Wolverhampton U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Wolverhampton U18"
                     },
                     "season": "2016-18"
                 },
                 {
                     "team": {
                         "id": 1801,
-                        "name": "Preston North End U18",
-                        "league": "League One U18 (ENG)"
+                        "name": "Preston North End U18"
                     },
                     "season": "2014-16"
                 }
@@ -1755,7 +1986,24 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 48,
+                    "goals": 7,
+                    "assists": 12,
+                    "matchesWithoutGoals": 22,
+                    "modifier": 6
+                }
+            ],
+            "awards": [
+                {
+                    "name": "EFL Football League Two Player of the Best Team",
+                    "season": 2023
+                }
+            ]
         },
         {
             "id": 251516,
@@ -1781,42 +2029,37 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 240016,
-                        "name": "Colchester Utd",
-                        "league": "League Two (ENG)"
+                        "name": "Colchester Utd"
                     },
                     "season": "2022-23"
                 },
                 {
                     "team": {
                         "id": 19,
-                        "name": "West Ham U21",
-                        "league": "Premier League U21 (ENG)"
+                        "name": "West Ham U21"
                     },
                     "season": "2020-22"
                 },
                 {
                     "team": {
                         "id": 112259,
-                        "name": "AFC Wimbledon",
-                        "league": "League Two (ENG)"
+                        "name": "AFC Wimbledon"
                     },
-                    "season": "2019-20" 
+                    "season": "2019-20"
                 },
                 {
                     "team": {
                         "id": 112259,
-                        "name": "AFC Wimbledon U18",
-                        "league": "League Two U18(ENG)"
+                        "name": "AFC Wimbledon U18"
                     },
-                    "season": "2017-19" 
+                    "season": "2017-19"
                 }
             ],
             "nationalTeam": [],
@@ -1825,7 +2068,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 41,
+                    "goals": 1,
+                    "assists": 4,
+                    "matchesWithoutGoals": 16,
+                    "modifier": 5
+                }
+            ],
+            "awards": []
         },
         {
             "id": 265412,
@@ -1851,56 +2106,49 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2024-"
                 },
                 {
                     "team": {
                         "id": 1962,
-                        "name": "Bristol Rovers",
-                        "league": "League One (ENG)"
+                        "name": "Bristol Rovers"
                     },
                     "season": "2023"
                 },
                 {
                     "team": {
                         "id": 5,
-                        "name": "Chelsea U21",
-                        "league": "Premier League U21 (ENG)"
+                        "name": "Chelsea U21"
                     },
                     "season": "2023"
                 },
                 {
                     "team": {
                         "id": 1952,
-                        "name": "Hull City",
-                        "league": "Championship (ENG)"
+                        "name": "Hull City"
                     },
                     "season": "2022-23"
                 },
                 {
                     "team": {
                         "id": 5,
-                        "name": "Chelsea U21",
-                        "league": "Premier League U21 (ENG)"
+                        "name": "Chelsea U21"
                     },
                     "season": "2021-22"
                 },
                 {
                     "team": {
                         "id": 5,
-                        "name": "Chelsea U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Chelsea U18"
                     },
                     "season": "2020-21"
                 },
                 {
                     "team": {
                         "id": 5,
-                        "name": "Chelsea Youth",
-                        "league": "Premier League Youth (ENG)"
+                        "name": "Chelsea Youth"
                     },
                     "season": "2018-20"
                 }
@@ -1932,7 +2180,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 19,
+                    "goals": 5,
+                    "assists": 3,
+                    "matchesWithoutGoals": 4,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 267868,
@@ -1958,32 +2218,28 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2024-"
                 },
                 {
                     "team": {
                         "id": 95,
-                        "name": "Leicester City",
-                        "league": "Championship (ENG)"
+                        "name": "Leicester City"
                     },
                     "season": "2023-24"
                 },
                 {
                     "team": {
                         "id": 95,
-                        "name": "Leicester City U21",
-                        "league": "Championship U21 (ENG)"
+                        "name": "Leicester City U21"
                     },
                     "season": "2021-23"
                 },
                 {
                     "team": {
                         "id": 95,
-                        "name": "Leicester City U18",
-                        "league": "Championship U18 (ENG)"
+                        "name": "Leicester City U18"
                     },
                     "season": "2019-21"
                 }
@@ -2003,7 +2259,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 17,
+                    "goals": 4,
+                    "assists": 1,
+                    "matchesWithoutGoals": 6,
+                    "modifier": 1
+                }
+            ],
+            "awards": []
         },
         {
             "id": 272705,
@@ -2029,24 +2297,21 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2024-"
                 },
                 {
                     "team": {
                         "id": 1801,
-                        "name": "Preston North End",
-                        "league": "League One (ENG)"
+                        "name": "Preston North End"
                     },
                     "season": "2023-24"
                 },
                 {
                     "team": {
                         "id": 1801,
-                        "name": "Preston North End U18",
-                        "league": "League One (ENG)"
+                        "name": "Preston North End U18"
                     },
                     "season": "2021-23"
                 }
@@ -2057,7 +2322,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 20,
+                    "goals": 1,
+                    "assists": 0,
+                    "matchesWithoutGoals": 1,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 273465,
@@ -2083,24 +2360,21 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two U21 (ENG)"
+                        "name": "Salford City U21"
                     },
                     "season": "2023"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U18",
-                        "league": "League Two U18 (ENG)"
+                        "name": "Salford City U18"
                     },
                     "season": "2021-23"
                 }
@@ -2111,7 +2385,19 @@
             "isStarter": false,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 5,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 3
+                }
+            ],
+            "awards": []
         },
         {
             "id": 280153,
@@ -2137,16 +2423,14 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two U21 (ENG)"
+                        "name": "Salford City U21"
                     },
                     "season": "2022-23"
                 }
@@ -2157,7 +2441,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 2,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 1
+                }
+            ],
+            "awards": []
         },
         {
             "id": 280551,
@@ -2183,35 +2479,49 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City U21"
                     },
                     "season": "2023"
                 },
                 {
                     "team": {
                         "id": 11,
-                        "name": "Manchester United U18",
-                        "league": "Premier League U18 (ENG)"
+                        "name": "Manchester United U18"
                     },
                     "season": "2022-23"
                 }
             ],
-            "nationalTeam": [],
+            "nationalTeam": [
+                {
+                    "name": "England U19",
+                    "season": "2024-"
+                }
+            ],
             "isStarter": false,
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 17,
+                    "goals": 1,
+                    "assists": 3,
+                    "matchesWithoutGoals": 4,
+                    "modifier": 9
+                }
+            ],
+            "awards": []
         },
         {
             "id": 233727,
@@ -2237,32 +2547,28 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
                 },
                 {
                     "team": {
                         "id": 77,
-                        "name": "Aberdeen FC",
-                        "league": "Premiership (SCT)"
+                        "name": "Aberdeen FC"
                     },
                     "season": "2018-23"
                 },
                 {
                     "team": {
                         "id": 77,
-                        "name": "Aberdeen FC U20",
-                        "league": "Premiership U20 (SCT)"
+                        "name": "Aberdeen FC U20"
                     },
                     "season": "2015-18"
                 },
                 {
                     "team": {
                         "id": 77,
-                        "name": "Aberdeen FC U17",
-                        "league": "Premiership U17 (SCT)"
+                        "name": "Aberdeen FC U17"
                     },
                     "season": "2013-15"
                 }
@@ -2286,7 +2592,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 48,
+                    "goals": 10,
+                    "assists": 7,
+                    "matchesWithoutGoals": 11,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 242967,
@@ -2312,10 +2630,79 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
-                    "season": "2023-"
+                    "season": "2024-"
+                },
+                {
+                    "team": {
+                        "id": 561,
+                        "name": "Forest Green Rovers"
+                    },
+                    "season": "2023-24"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City"
+                    },
+                    "season": "2023"
+                },
+                {
+                    "team": {
+                        "id": 112260,
+                        "name": "Fleetwood Town"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 109,
+                        "name": "West Brom U21"
+                    },
+                    "season": "2022"
+                },
+                {
+                    "team": {
+                        "id": 1938,
+                        "name": "Peterborough"
+                    },
+                    "season": "2022"
+                },
+                {
+                    "team": {
+                        "id": 109,
+                        "name": "West Brom U21"
+                    },
+                    "season": "2022"
+                },
+                {
+                    "team": {
+                        "id": 112260,
+                        "name": "Fleetwood Town"
+                    },
+                    "season": "2021-22"
+                },
+                {
+                    "team": {
+                        "id": 149,
+                        "name": "Lincoln City"
+                    },
+                    "season": "2021"
+                },
+                {
+                    "team": {
+                        "id": 109,
+                        "name": "West Brom U21"
+                    },
+                    "season": "2017-20"
+                },
+                {
+                    "team": {
+                        "id": 109,
+                        "name": "West Brom U18"
+                    },
+                    "season": "2017"
                 }
             ],
             "nationalTeam": [],
@@ -2324,7 +2711,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 30,
+                    "goals": 9,
+                    "assists": 8,
+                    "matchesWithoutGoals": 11,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 257630,
@@ -2350,10 +2749,16 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U21"
+                    },
+                    "season": "2023"
                 }
             ],
             "nationalTeam": [],
@@ -2362,7 +2767,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 23,
+                    "goals": 2,
+                    "assists": 7,
+                    "matchesWithoutGoals": 4,
+                    "modifier": 4
+                }
+            ],
+            "awards": []
         },
         {
             "id": 265548,
@@ -2388,10 +2805,44 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U21"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 444444,
+                        "name": "Chester"
+                    },
+                    "season": "2022"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U21"
+                    },
+                    "season": "2021-22"
+                },
+                {
+                    "team": {
+                        "id": 1808,
+                        "name": "Brighton U18"
+                    },
+                    "season": "2020-21"
+                },
+                {
+                    "team": {
+                        "id": 1808,
+                        "name": "Brighton Youth"
+                    },
+                    "season": "2019-20"
                 }
             ],
             "nationalTeam": [],
@@ -2400,7 +2851,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 5,
+                    "goals": 0,
+                    "assists": 2,
+                    "matchesWithoutGoals": 1,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 275467,
@@ -2426,10 +2889,16 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U21"
+                    },
+                    "season": "2021-23"
                 }
             ],
             "nationalTeam": [],
@@ -2438,7 +2907,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 2,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 3
+                }
+            ],
+            "awards": []
         },
         {
             "id": 278963,
@@ -2464,10 +2945,16 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
                     "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U21"
+                    },
+                    "season": "2021-23"
                 }
             ],
             "nationalTeam": [],
@@ -2476,7 +2963,19 @@
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 9,
+                    "goals": 1,
+                    "assists": 0,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 3
+                }
+            ],
+            "awards": []
         },
         {
             "id": 280099,
@@ -2524,13 +3023,39 @@
                     "season": "2023"
                 }
             ],
-            "nationalTeam": [],
+            "nationalTeam": [
+                {
+                    "name": "England U19",
+                    "season": "2024-"
+                }
+            ],
             "isStarter": true,
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 42,
+                    "goals": 22,
+                    "assists": 10,
+                    "matchesWithoutGoals": 12,
+                    "modifier": 7
+                }
+            ],
+            "awards": [
+                {
+                    "name": "EFL Football League Two Top Goal Scorer - 22 goals",
+                    "season": 2023
+                },
+                {
+                    "name": "EFL Football League Two Best Player",
+                    "season": 2023
+                }
+            ]
         },
         {
             "id": 263684,
@@ -2555,11 +3080,39 @@
             "teamHistory": [
                 {
                     "team": {
+                        "id": 109,
+                        "name": "West Brom"
+                    },
+                    "season": "2024-"
+                },
+                {
+                    "team": {
                         "id": 113926,
                         "name": "Salford City",
                         "league": "League Two (ENG)"
                     },
-                    "season": "2023-"
+                    "season": "2023-24"
+                },
+                {
+                    "team": {
+                        "id": 109,
+                        "name": "West Brom"
+                    },
+                    "season": "2023"
+                },
+                {
+                    "team": {
+                        "id": 109,
+                        "name": "West Brom U21"
+                    },
+                    "season": "2021-23"
+                },
+                {
+                    "team": {
+                        "id": 109,
+                        "name": "West Brom U18"
+                    },
+                    "season": "2019-21"
                 }
             ],
             "nationalTeam": [],
@@ -2568,7 +3121,19 @@
             "buyClause": 400000,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 40,
+                    "goals": 0,
+                    "assists": 1,
+                    "matchesWithoutGoals": 7,
+                    "modifier": 4
+                }
+            ],
+            "awards": []
         },
         {
             "id": 264115,
@@ -2594,19 +3159,72 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
-                    "season": "2023-"
+                    "season": "2024-"
+                },
+                {
+                    "team": {
+                        "id": 5,
+                        "name": "Chelsea"
+                    },
+                    "season": "2023-24"
+                },
+                {
+                    "team": {
+                        "id": 5,
+                        "name": "Chelsea Youth"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 91,
+                        "name": "Derby County"
+                    },
+                    "season": "2021-22"
+                },
+                {
+                    "team": {
+                        "id": 91,
+                        "name": "Derby County U18"
+                    },
+                    "season": "2020-21"
+                },
+                {
+                    "team": {
+                        "id": 91,
+                        "name": "Derby County Youth"
+                    },
+                    "season": "2019-20"
+                },
+                {
+                    "team": {
+                        "id": 110,
+                        "name": "Wolves Youth"
+                    },
+                    "season": "2018-19"
                 }
             ],
             "nationalTeam": [],
             "isStarter": true,
-            "isLoan": true,
-            "buyClause": 430000,
+            "isLoan": false,
+            "buyClause": null,
             "isScouted": false,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 22,
+                    "goals": 0,
+                    "assists": 1,
+                    "matchesWithoutGoals": 9,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 268550,
@@ -2632,18 +3250,63 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
                     },
-                    "season": "2023-"
+                    "season": "2024-"
+                },
+                {
+                    "team": {
+                        "id": 2,
+                        "name": "Aston Villa"
+                    },
+                    "season": "2023-24"
+                },
+                {
+                    "team": {
+                        "id": 2,
+                        "name": "Aston Villa U23"
+                    },
+                    "season": "2021-23"
+                },
+                {
+                    "team": {
+                        "id": 112260,
+                        "name": "Fleetwood Town U19"
+                    },
+                    "season": "2020-21"
                 }
             ],
-            "nationalTeam": [],
+            "nationalTeam": [
+                {
+                    "name": "England U18",
+                    "season": "2022-23"
+                },
+                {
+                    "name": "England U17",
+                    "season": "2021-22"
+                },
+                {
+                    "name": "England U16",
+                    "season": "2021"
+                }
+            ],
             "isStarter": false,
             "isLoan": true,
             "buyClause": 650000,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 16,
+                    "goals": 0,
+                    "assists": 1,
+                    "matchesWithoutGoals": 1,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
         },
         {
             "id": 279117,
@@ -2669,109 +3332,228 @@
                 {
                     "team": {
                         "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "name": "Salford City"
+                    },
+                    "season": "2024"
+                },
+                {
+                    "team": {
+                        "id": 18,
+                        "name": "Tottenham Hotspur"
+                    },
+                    "season": "2023-24"
+                },
+                {
+                    "team": {
+                        "id": 18,
+                        "name": "Tottenham Hotspur U21"
+                    },
+                    "season": "2023"
+                },
+                {
+                    "team": {
+                        "id": 18,
+                        "name": "Tottenham Hotspur U18"
+                    },
+                    "season": "2021-23"
+                },
+                {
+                    "team": {
+                        "id": 18,
+                        "name": "Tottenham Hotspur Youth"
+                    },
+                    "season": "2020-21"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "England U21",
+                    "season": "2024-"
+                },
+                {
+                    "name": "England U19",
+                    "season": "2023-24"
+                },
+                {
+                    "name": "England U18",
+                    "season": "2022-23"
+                },
+                {
+                    "name": "England U17",
+                    "season": "2021-22"
+                },
+                {
+                    "name": "England U16",
+                    "season": "2020-21"
+                },
+                {
+                    "name": "England U15",
+                    "season": "2019-20"
+                }
+            ],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "bio": "",
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 23,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 9,
+                    "modifier": 3
+                }
+            ],
+            "awards": []
+        },
+        {
+            "id": 280518,
+            "name": "Joseph Miles",
+            "age": 2007,
+            "nationality": "England",
+            "position": "LW",
+            "overall": 55,
+            "potential": 66,
+            "modifier": 2,
+            "height": 179,
+            "weight": 73,
+            "foot": "Left",
+            "skills": 2,
+            "weakFoot": 4,
+            "workRate": "High/Medium",
+            "realFace": false,
+            "value": 220000,
+            "wage": 550,
+            "releaseClause": null,
+            "contract": 2024,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City"
                     },
                     "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U21"
+                    },
+                    "season": "2021-23"
                 }
             ],
             "nationalTeam": [],
-            "isStarter": true,
-            "isLoan": true,
+            "isStarter": false,
+            "isLoan": false,
             "buyClause": 480000,
             "bio": "",
-            "analysis": ""
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2023,
+                    "matches": 23,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 9,
+                    "modifier": 3
+                }
+            ],
+            "awards": []
         }
     ],
     "transfers": [
         {
             "id": 1,
-            "player":{
+            "player": {
                 "id": 203756,
                 "name": "Matt Smith",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 710,
-                "name":"Djurgardens"
+                "name": "Djurgardens"
             },
             "value": 300000,
             "year": 2024
         },
         {
             "id": 2,
-            "player":{
+            "player": {
                 "id": 193173,
                 "name": "Matty Lund",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 110745,
-                "name":"Jagiellonia"
+                "name": "Jagiellonia"
             },
             "value": 270000,
             "year": 2024
         },
         {
             "id": 3,
-            "player":{
+            "player": {
                 "id": 268445,
                 "name": "Rhys Bennett",
                 "team": {
                     "id": 11,
-                    "name":"Man United"
+                    "name": "Man United"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113926,
-                "name":"Salford City"
+                "name": "Salford City"
             },
             "value": "Loan",
             "year": 2024
         },
         {
             "id": 4,
-            "player":{
+            "player": {
                 "id": 225847,
                 "name": "Stevie Mallan",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113142,
-                "name":"Alanyaspor"
+                "name": "Alanyaspor"
             },
             "value": 720000,
             "year": 2024
         },
         {
             "id": 5,
-            "player":{
+            "player": {
                 "id": -1,
                 "name": "Alfie Henderson",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 1940,
-                "name":"Mansfield"
+                "name": "Mansfield"
             },
             "value": 100000,
             "year": 2024
         },
         {
             "id": 6,
-            "player":{
+            "player": {
                 "id": 272705,
                 "name": "Noah Mawene",
                 "team": {
@@ -2779,16 +3561,16 @@
                     "name": "Preston"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113926,
-                "name":"Salford City"
+                "name": "Salford City"
             },
             "value": "Trade",
             "year": 2024
         },
         {
             "id": 7,
-            "player":{
+            "player": {
                 "id": 268550,
                 "name": "Joshua Feeney",
                 "team": {
@@ -2796,169 +3578,169 @@
                     "name": "Aston Villa"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113926,
-                "name":"Salford City"
+                "name": "Salford City"
             },
             "value": "Loan",
             "year": 2024
         },
         {
             "id": 8,
-            "player":{
+            "player": {
                 "id": 200744,
                 "name": "Ryan Watson",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 10032,
-                "name":"FC Lugano"
+                "name": "FC Lugano"
             },
             "value": 520000,
             "year": 2024
         },
         {
             "id": 9,
-            "player":{
+            "player": {
                 "id": 263975,
                 "name": "Kelly N'Mai",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 112222,
-                "name":"Harrogate"
+                "name": "Harrogate"
             },
             "value": 420000,
             "year": 2024
         },
         {
             "id": 10,
-            "player":{
+            "player": {
                 "id": -1,
                 "name": "Alfonso Molina",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 1938,
-                "name":"Peterborough"
+                "name": "Peterborough"
             },
             "value": 820000,
             "year": 2024
         },
         {
             "id": 11,
-            "player":{
+            "player": {
                 "id": 265412,
-                "name": "Harvey Vale" ,
+                "name": "Harvey Vale",
                 "team": {
                     "id": 1962,
                     "name": "Bristol Rovers"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113926,
-                "name":"Salford City"
+                "name": "Salford City"
             },
             "value": 820000,
             "year": 2024
         },
         {
             "id": 12,
-            "player":{
+            "player": {
                 "id": 240599,
                 "name": "Callum Hendry",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 1800,
-                "name":"Coventry"
+                "name": "Coventry"
             },
             "value": 950000,
             "year": 2024
         },
         {
             "id": 13,
-            "player":{
+            "player": {
                 "id": 197774,
                 "name": "Conor McAleny",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 110738,
-                "name":"Pisa"
+                "name": "Pisa"
             },
             "value": 710000,
             "year": 2024
         },
         {
             "id": 14,
-            "player":{
+            "player": {
                 "id": 241379,
                 "name": "Odin Bailey",
                 "team": {
                     "id": 113926,
-                    "name":"Salford City"
+                    "name": "Salford City"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113378,
-                "name":"Sepsi OSK"
+                "name": "Sepsi OSK"
             },
             "value": 540000,
             "year": 2024
         },
         {
             "id": 15,
-            "player":{
+            "player": {
                 "id": 267868,
                 "name": "Sammy Braybrooke",
                 "team": {
                     "id": 95,
-                    "name":"Leicester"
+                    "name": "Leicester"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113926,
-                "name":"Salford City"
+                "name": "Salford City"
             },
             "value": 540000,
             "year": 2024
         },
         {
             "id": 16,
-            "player":{
+            "player": {
                 "id": 279117,
                 "name": "Alfie Dorrington",
                 "team": {
                     "id": 18,
-                    "name":"Tottenham"
+                    "name": "Tottenham"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113926,
-                "name":"Salford City"
+                "name": "Salford City"
             },
             "value": "Loan",
             "year": 2024
         },
         {
             "id": 17,
-            "player":{
+            "player": {
                 "id": 264115,
                 "name": "Dylan Williams",
                 "team": {
@@ -2966,11 +3748,45 @@
                     "name": "Chelsea"
                 }
             },
-            "team":{
+            "team": {
                 "id": 113926,
-                "name":"Salford City"
+                "name": "Salford City"
             },
             "value": "Loan",
+            "year": 2024
+        },
+        {
+            "id": 18,
+            "player": {
+                "id": 279117,
+                "name": "Alfie Dorrington",
+                "team": {
+                    "id": 18,
+                    "name": "Tottenham"
+                }
+            },
+            "team": {
+                "id": 113926,
+                "name": "Salford City"
+            },
+            "value": 480000,
+            "year": 2024
+        },
+        {
+            "id": 19,
+            "player": {
+                "id": 264115,
+                "name": "Dylan Williams",
+                "team": {
+                    "id": 5,
+                    "name": "Chelsea"
+                }
+            },
+            "team": {
+                "id": 113926,
+                "name": "Salford City"
+            },
+            "value": 430000,
             "year": 2024
         }
     ]
