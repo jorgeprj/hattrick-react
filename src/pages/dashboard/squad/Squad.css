@@ -16,3 +16,8 @@
     gap: 2em;
 }
 
+.dashboard-squad .squad-stats{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}

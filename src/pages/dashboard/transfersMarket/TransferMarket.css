@@ -1,16 +1,12 @@
-.dashboard-overview{
+.transfer-market{
     display: flex;
     flex-direction: row;
     padding: 2em;
     gap: 4em;
 }
 
-.dashboard-overview h4{
+.transfer-market h4{
     font-size: 1.2em;
     font-weight: 600;
     margin-bottom: 1em;
-}
-
-.dashboard-overview .main-employees .section{
-    margin-bottom: 2em;
 }

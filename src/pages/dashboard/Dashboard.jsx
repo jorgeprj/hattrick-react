@@ -7,27 +7,16 @@ import Header from '../../components/dashboard/header/Header';
 import Overview from './overview/Overview';
 import Squad from './squad/Squad';
 import { getCoach } from '../../services/coach/coachService';
+import TransferMarket from './transfersMarket/TransferMarket';
+import { getTransfers } from '../../services/transfers/transfersService';
+import Loading from '../../components/layout/loading/Loading';
 
 const Dashboard = ( {year} ) => {
+    const [isLoading, setIsLoading] = useState(true);
     const [section, setSection] = useState('overview')
-
-    const [coach, setCoach] = useState(null);
-
-    useEffect(() => {
-        const fetchCoach = async () => {
-            try {
-                const coachData = await getCoach();
-
-                setCoach(coachData);
-            } catch (error) {
-                console.error('Error fetching players:', error);
-            }
-        };
-
-        fetchCoach();
-    }, []);
-
     const [teamPlayers, setTeamPlayers] = useState(null);
+    const [transfers, setTransfers] = useState(null);
+    const [coach, setCoach] = useState(null);
 
     useEffect(() => {
         const fetchTeamPlayers = async () => {
@@ -47,18 +36,53 @@ const Dashboard = ( {year} ) => {
         fetchTeamPlayers();
     }, []);
 
+    useEffect(() => {
+		const fetchTransfers = async () => {
+			const transfersData = await getTransfers();
+			setTransfers(transfersData.reverse());
+		};
+
+		fetchTransfers();
+	}, []);
+
+	useEffect(() => {
+		const fetchCoach = async () => {
+			const coachData = await getCoach();
+			setCoach(coachData);
+		};
+
+		fetchCoach();
+	}, []);
+    
+
+    useEffect(() => {
+		const delay = 500;
+
+		const timeoutId = setTimeout(() => {
+			setIsLoading(false);
+		}, delay);
+
+		return () => clearTimeout(timeoutId);
+	}, []);
+
+	if (isLoading) {
+		return <Loading />;
+	}
+
     let componentToRender;
 
     if (section === 'overview') {
-        componentToRender = <Overview year={year} />;
+        componentToRender = <Overview teamPlayers={teamPlayers}  />;
     } else if (section === 'squad') {
-        componentToRender = <Squad teamPlayers={teamPlayers} coach={coach} />;
+        componentToRender = <Squad teamPlayers={teamPlayers} year={year}/>;
+    } else if (section === 'transfers') {
+        componentToRender = <TransferMarket transfers={transfers} year={year} />;
     }
 
     return (
         <div className='dashboard'>
             <header>
-                <Header section={section} setSection={setSection} />
+                <Header section={section} setSection={setSection} coach={coach} />
             </header>
             <section>
                 {componentToRender}

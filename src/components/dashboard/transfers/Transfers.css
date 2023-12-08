@@ -1,5 +1,5 @@
-.transfers .show-more-button,
-.transfers .show-less-button{
+.show-more-button,
+.show-less-button{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,8 +16,8 @@
     font-weight: 600;
     margin-right: 1em;
 }
-.transfers .show-less-button svg,
-.transfers .show-more-button svg {
+.show-less-button svg,
+.show-more-button svg {
     display: flex;
     align-items: center;
     text-align: center;
@@ -26,7 +26,7 @@
     padding: 4px;
 }
 
-.transfers .buttons{
+.buttons{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

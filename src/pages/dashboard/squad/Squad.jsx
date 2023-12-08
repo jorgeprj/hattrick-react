@@ -1,16 +1,26 @@
 import './Squad.css'
 
-import EmployeeCard from '../../../components/dashboard/employeeCard/EmployeeCard'
 import PlayerCard from '../../../components/dashboard/playerCard/PlayerCard'
+import StatCard from '../../../components/dashboard/statCard/StatCard'
+import { formatCurrency } from '../../../utils/formatCurrency';
 
+const Squad = ({ teamPlayers, year }) => {
 
-const Squad = ({ teamPlayers, coach }) => {
+	const startingPlayers = teamPlayers.filter(player => player.isStarter);
+
+	const startersAge = (startingPlayers.reduce((sum, player) => sum + (year - player.age), 0)) / startingPlayers.length;
+	const startersOverall = (startingPlayers.reduce((sum, player) => sum + player.overall, 0)) / startingPlayers.length;
+	const averageAge = (teamPlayers.reduce((sum, player) => sum + (year - player.age), 0)) / teamPlayers.length;
+	const averageWage = (teamPlayers.reduce((sum, player) => sum + player.wage, 0)) / teamPlayers.length;
 
 	return (
 		<div className='dashboard-squad'>
-			<div className='squad-class'>
-				<h3>Coach</h3>
-				<EmployeeCard id={999999} name={coach.name} nationality={coach.nationality} role={"Coach"} />
+			<div className='squad-stats'>
+				<StatCard name={"Total Players"} value={teamPlayers.length} />
+				<StatCard name={"Starters Overall"} value={startersOverall.toFixed(0)} />
+				<StatCard name={"Starters Age"} value={startersAge.toFixed(1)} />
+				<StatCard name={"Average Age"} value={averageAge.toFixed(1)} />
+				<StatCard name={"Average Wage"} value={formatCurrency(averageWage)} />
 			</div>
 			<div className='squad-class'>
 				<h3>Goalkeepers</h3>

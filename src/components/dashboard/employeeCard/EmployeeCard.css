@@ -36,6 +36,7 @@
 
 .dashboard-employee-card .employee-basic-infos h4{
     font-weight: 500;
+    margin-bottom: 0 !important;
 }
 
 .dashboard-employee-card .employee-basic-infos .country{

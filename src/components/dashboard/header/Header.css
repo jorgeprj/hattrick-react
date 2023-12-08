@@ -11,6 +11,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-header .team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .dashboard-header .team-photo img {
@@ -94,4 +101,51 @@
 .dashboard-header nav ul li:hover,
 .dashboard-header nav ul li.active{
     color: var(--text-high);
+}
+
+
+.dashboard-header .coach-infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.dashboard-header .coach-photo{
+    margin-right: 1em;
+}
+
+.dashboard-header .coach-photo img{
+    width: 64px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 50%;
+}
+
+.dashboard-header .coach-basic-infos{
+    margin-right: 2em;
+}
+
+.dashboard-header .coach-basic-infos h4{
+    font-weight: 500;
+    margin-bottom: 0 !important;
+}
+
+.dashboard-header .coach-basic-infos .country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dashboard-header .coach-basic-infos .country h5{
+    margin-right: 0.5em;
+    color: var(--text-low);
+    font-weight: 500;
+}
+
+.dashboard-header .coach-basic-infos .country img{
+    height: 14px;
+}
+
+.dashboard-header .coach-infos .coach-icon svg{
+    font-size: 1.5em;
 }
