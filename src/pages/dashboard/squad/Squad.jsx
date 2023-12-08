@@ -10,7 +10,7 @@ const Squad = ({ teamPlayers, coach }) => {
 		<div className='dashboard-squad'>
 			<div className='squad-class'>
 				<h3>Coach</h3>
-				<EmployeeCard id={coach.id} name={coach.name} nationality={coach.nationality} role={"Coach"} />
+				<EmployeeCard id={999999} name={coach.name} nationality={coach.nationality} role={"Coach"} />
 			</div>
 			<div className='squad-class'>
 				<h3>Goalkeepers</h3>

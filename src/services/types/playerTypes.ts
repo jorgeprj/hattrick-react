@@ -28,4 +28,7 @@ export interface Player {
     isScouted: boolean;
     bio: string;
     analysis: string;
+    hasStats: boolean;
+    stats: ["season", "games", "goals", "assists", "gamesWithoutGoals", "modifier"];
+    awards: ["season", "name"]
 }

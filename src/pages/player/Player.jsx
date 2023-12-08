@@ -7,7 +7,8 @@ import Loading from '../../components/layout/loading/Loading';
 import SideCard from '../../components/player/sideCard/SideCard';
 import Header from '../../components/player/header/Header';
 import { getPlayers } from '../../services/players/playersService';
-import TextCard from '../../components/player/textCard/TextCard';
+import StatsCard from '../../components/player/statsCard/StatsCard';
+import AwardsCard from '../../components/player/awardsCard/AwardsCard';
 
 
 const Player = ({ year }) => {
@@ -54,7 +55,15 @@ const Player = ({ year }) => {
                 <SideCard player={player} year={year} />
             </section>
             <section className='main-section'>
-                <Header player={player} year={year}/>
+                <Header player={player} year={year} />
+                <section className='row'>
+                    {player.hasStats && player.stats[0].season === (year - 1) &&
+                        <StatsCard player={player} year={year} />
+                    }
+                    {player.awards.length > 0 &&
+                        <AwardsCard player={player} />
+                    }
+                </section>
             </section>
         </div>
     );
