@@ -4,10 +4,16 @@ import { useNavigate } from 'react-router-dom';
 import { getOverallColor } from '../../../utils/overallColor';
 import { calculateFutzScore } from '../../../utils/futzScore';
 
-const Player = ({ player, year }) => {
+const Player = ({ player, teams, year }) => {
 
     const navigate = useNavigate();
     const redirectToPlayerPage = () => navigate(`/player/scout/${player.id}`);
+
+    const getTeam = function(teamId) {
+        const foundTeam = teams.find(team => team.id === teamId);
+      
+        return foundTeam;
+    };
 
     return (
         <tr onClick={redirectToPlayerPage} className='scouted-player'>
@@ -16,8 +22,8 @@ const Player = ({ player, year }) => {
             </td>
             <td className='player-info'>
                 <span className='player-name'>{player.name}</span>
-                <span className='player-team-name'>{player.teamHistory[0].team.name}</span>
-                <span className='player-team-league'>{player.teamHistory[0].team.league}</span>
+                <span className='player-team-name'>{getTeam(player.teamHistory[0].team.id).name}</span>
+                <span className='player-team-league'>{getTeam(player.teamHistory[0].team.id).league}</span>
             </td>
             <td className={`player-position ${player.position}`}>
                 {player.position}

@@ -6,10 +6,10 @@ import Player from './player/Player';
 import './List.css';
 import { calculateFutzScore } from '../../utils/futzScore';
 
-const List = ({ scoutedPlayers, setScoutedPlayers, year }) => {
-
+const List = ({ scoutedPlayers, setScoutedPlayers, teams, year }) => {
     const [sortColumn, setSortColumn] = useState('');
     const [sortOrder, setSortOrder] = useState('');
+
 
     const handleSort = (column) => {
         const newOrder = sortColumn === column && sortOrder === 'desc' ? 'asc' : 'desc';
@@ -44,7 +44,8 @@ const List = ({ scoutedPlayers, setScoutedPlayers, year }) => {
 
     useEffect(() => {
         handleSort('FutzScore');
-      }, []); 
+    }, []); 
+
 
     return (
         <table className='scout-list'>
@@ -61,7 +62,7 @@ const List = ({ scoutedPlayers, setScoutedPlayers, year }) => {
                 </tr>
             </thead>
             <tbody>
-                {scoutedPlayers.map(player => (<Player player={player} year={year} key={player.id} />))}
+                {scoutedPlayers.map(player => (<Player player={player} teams={teams} year={year} key={player.id} />))}
             </tbody>
         </table>
     )
