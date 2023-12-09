@@ -11,7 +11,7 @@ import TransferMarket from './transfersMarket/TransferMarket';
 import { getTransfers } from '../../services/transfers/transfersService';
 import Loading from '../../components/layout/loading/Loading';
 
-const Dashboard = ( {year} ) => {
+const Dashboard = ({ year }) => {
     const [isLoading, setIsLoading] = useState(true);
     const [section, setSection] = useState('overview')
     const [teamPlayers, setTeamPlayers] = useState(null);
@@ -19,62 +19,47 @@ const Dashboard = ( {year} ) => {
     const [coach, setCoach] = useState(null);
 
     useEffect(() => {
-        const fetchTeamPlayers = async () => {
+        const fetchData = async () => {
             try {
                 const allPlayersData = await getPlayers();
-
                 const salfordCityPlayers = allPlayersData.filter(player =>
                     player.teamHistory[0].team.name === "Salford City"
                 );
-
                 setTeamPlayers(salfordCityPlayers);
+
+                const transfersData = await getTransfers();
+                setTransfers(transfersData.reverse());
+
+                const coachData = await getCoach();
+                setCoach(coachData);
             } catch (error) {
-                console.error('Error fetching players:', error);
+                console.error('Error fetching data:', error);
             }
         };
-
-        fetchTeamPlayers();
+        fetchData();
     }, []);
 
-    useEffect(() => {
-		const fetchTransfers = async () => {
-			const transfersData = await getTransfers();
-			setTransfers(transfersData.reverse());
-		};
-
-		fetchTransfers();
-	}, []);
-
-	useEffect(() => {
-		const fetchCoach = async () => {
-			const coachData = await getCoach();
-			setCoach(coachData);
-		};
-
-		fetchCoach();
-	}, []);
-    
 
     useEffect(() => {
-		const delay = 500;
+        const delay = 500;
 
-		const timeoutId = setTimeout(() => {
-			setIsLoading(false);
-		}, delay);
+        const timeoutId = setTimeout(() => {
+            setIsLoading(false);
+        }, delay);
 
-		return () => clearTimeout(timeoutId);
-	}, []);
+        return () => clearTimeout(timeoutId);
+    }, []);
 
-	if (isLoading) {
-		return <Loading />;
-	}
+    if (isLoading) {
+        return <Loading />;
+    }
 
     let componentToRender;
 
     if (section === 'overview') {
-        componentToRender = <Overview teamPlayers={teamPlayers}  />;
+        componentToRender = <Overview teamPlayers={teamPlayers} />;
     } else if (section === 'squad') {
-        componentToRender = <Squad teamPlayers={teamPlayers} year={year}/>;
+        componentToRender = <Squad teamPlayers={teamPlayers} year={year} />;
     } else if (section === 'transfers') {
         componentToRender = <TransferMarket transfers={transfers} year={year} />;
     }
