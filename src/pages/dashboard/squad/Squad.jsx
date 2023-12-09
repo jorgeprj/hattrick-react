@@ -27,6 +27,7 @@ const Squad = ({ teamPlayers, year }) => {
 				<div className='squad-position'>
 					{teamPlayers
 						.filter(player => player.position === "GK")
+						.sort((a, b) => b.overall - a.overall)
 						.map(filteredPlayer => (
 							<PlayerCard key={filteredPlayer.id} player={filteredPlayer} />
 						))}
@@ -37,6 +38,7 @@ const Squad = ({ teamPlayers, year }) => {
 				<div className='squad-position'>
 					{teamPlayers
 						.filter(player => player.position === "CB")
+						.sort((a, b) => b.overall - a.overall)
 						.map(filteredPlayer => (
 							<PlayerCard key={filteredPlayer.id} player={filteredPlayer} />
 						))}
@@ -48,6 +50,7 @@ const Squad = ({ teamPlayers, year }) => {
 				<div className='squad-position'>
 					{teamPlayers
 						.filter(player => player.position === "RB")
+						.sort((a, b) => b.overall - a.overall)
 						.map(filteredPlayer => (
 							<PlayerCard key={filteredPlayer.id} player={filteredPlayer} />
 						))}
@@ -59,6 +62,7 @@ const Squad = ({ teamPlayers, year }) => {
 				<div className='squad-position'>
 					{teamPlayers
 						.filter(player => player.position === "LB")
+						.sort((a, b) => b.overall - a.overall)
 						.map(filteredPlayer => (
 							<PlayerCard key={filteredPlayer.id} player={filteredPlayer} />
 						))}
@@ -75,6 +79,7 @@ const Squad = ({ teamPlayers, year }) => {
 							player.position === "CAM" ||
 							player.position === "RM" ||
 							player.position === "LM")
+						.sort((a, b) => b.overall - a.overall)
 						.map(filteredPlayer => (
 							<PlayerCard key={filteredPlayer.id} player={filteredPlayer} />
 						))}
@@ -90,6 +95,7 @@ const Squad = ({ teamPlayers, year }) => {
 							player.position === "LW" ||
 							player.position === "CF" ||
 							player.position === "ST")
+						.sort((a, b) => b.overall - a.overall)
 						.map(filteredPlayer => (
 							<PlayerCard key={filteredPlayer.id} player={filteredPlayer} />
 						))}
