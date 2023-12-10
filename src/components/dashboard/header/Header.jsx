@@ -5,7 +5,7 @@ import { FaClipboard } from 'react-icons/fa6';
 
 const Header = ({ section, setSection, coach }) => {
 
-    const sections = ['overview', 'squad', 'youth academy', 'transfers'];
+    const sections = ['overview', 'feed', 'squad', 'youth academy', 'transfers'];
 
     const handleClick = (section) => {
         setSection(section);

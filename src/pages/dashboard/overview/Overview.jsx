@@ -1,24 +1,13 @@
 import './Overview.css'
 
 import { useEffect, useState } from 'react';
-import { getPosts } from '../../../services/posts/postsService';
 
 import Loading from '../../../components/layout/loading/Loading';
-import Timeline from '../../../components/dashboard/timeline/Timeline';
 import EmployeeCard from '../../../components/dashboard/employeeCard/EmployeeCard'
+import Tactics from '../../../components/dashboard/tactics/Tactics';
 
 const Overview = ({ teamPlayers }) => {
-	const [posts, setPosts] = useState(null);
 	const [isLoading, setIsLoading] = useState(true);
-
-	useEffect(() => {
-		const fetchPosts = async () => {
-			const postsData = await getPosts();
-			setPosts(postsData);
-		};
-
-		fetchPosts();
-	}, []);
 
 	useEffect(() => {
 		const delay = 500;
@@ -33,7 +22,6 @@ const Overview = ({ teamPlayers }) => {
 	if (isLoading) {
 		return <Loading />;
 	}
-
 
 	const startingPlayers = teamPlayers.filter(player => player.isStarter);
 
@@ -67,11 +55,10 @@ const Overview = ({ teamPlayers }) => {
 					<h4>Biggest Potential</h4>
 					<EmployeeCard id={potentialPlayer.id} name={potentialPlayer.name} nationality={potentialPlayer.nationality} role={""} />
 				</div>
-
 			</div>
-			<div className='timeline'>
-				<h4>Last News</h4>
-				<Timeline posts={posts} />
+			<div className='tactic-squad'>
+				<h4>Starters</h4>
+				<Tactics startingPlayers={startingPlayers} />
 			</div>
 		</div>
 	)

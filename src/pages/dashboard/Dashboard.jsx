@@ -10,6 +10,7 @@ import { getCoach } from '../../services/coach/coachService';
 import TransferMarket from './transfersMarket/TransferMarket';
 import { getTransfers } from '../../services/transfers/transfersService';
 import Loading from '../../components/layout/loading/Loading';
+import Feed from './feed/Feed';
 
 const Dashboard = ({ year }) => {
     const [isLoading, setIsLoading] = useState(true);
@@ -62,6 +63,8 @@ const Dashboard = ({ year }) => {
         componentToRender = <Squad teamPlayers={teamPlayers} year={year} />;
     } else if (section === 'transfers') {
         componentToRender = <TransferMarket transfers={transfers} year={year} />;
+    } else if (section === 'feed') {
+        componentToRender = <Feed />;
     }
 
     return (
