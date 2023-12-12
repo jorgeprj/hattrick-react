@@ -52,6 +52,8 @@ export const calculateFutzScore = (player, currentYear) => {
 
     const financialScore = (player.wage/1000)*2;
 
+    const playStylesScore = (player.playStyles.length * 20);
+
     const futzScore =
         overallScore*4 +
         ageScore*3 +
@@ -61,6 +63,7 @@ export const calculateFutzScore = (player, currentYear) => {
         physicalScore -
         financialScore +
         nationalityScore +
+        playStylesScore +
         leagueScore;
 
     return (futzScore/100).toFixed(2);
