@@ -1,0 +1,26 @@
+.player-styles {
+    display: flex;
+    flex-direction: column;
+}
+
+.play-style{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.play-style .icon{
+    margin-right: 8px;
+}
+
+.play-style .icon img {
+    display: flex;
+    align-items: center;
+    width: 32px;
+}
+
+.play-style h4{
+    font-size: 0.9em;
+    color: var(--text-medium);
+}

@@ -5,6 +5,7 @@ import TeamHistory from './teamHistory/TeamHistory';
 
 import { FaArrowRightArrowLeft } from 'react-icons/fa6';
 import NationalHistory from './nationalHistory/NationalHistory';
+import PlayStyles from './playStyles/PlayStyles';
 
 
 const SideCard = ({ player, year }) => {
@@ -22,7 +23,7 @@ const SideCard = ({ player, year }) => {
                     <h5 className='first-name'>{playerName[0]}</h5>
                     <h4 className='second-name'>
                         {playerName[1]}
-                        {player.isLoan && (<span className='loan'><FaArrowRightArrowLeft/></span>)}
+                        {player.isLoan && (<span className='loan'><FaArrowRightArrowLeft /></span>)}
                     </h4>
                 </div>
                 <div className='player-tags'>
@@ -65,16 +66,24 @@ const SideCard = ({ player, year }) => {
                     </div>
                 </div>
             </section>
-            <div className='line'></div>
+            {player.playStyles[0] && (
+                <section>
+                    <div className='line'></div>
+                    <h3>Play Styles</h3>
+                    <PlayStyles player={player} />
+                </section>
+            )}
+
             {player.nationalTeam[0] && (
-                            <section>
-                                <h3>National Team</h3>
-                                <NationalHistory player={player}/>
-                                <div className='line'></div>
-                            </section>
-            ) 
+                <section>
+                    <div className='line'></div>
+                    <h3>National Team</h3>
+                    <NationalHistory player={player} />
+                </section>
+            )
             }
             <section>
+                <div className='line'></div>
                 <h3>Club History</h3>
                 <TeamHistory player={player} />
             </section>
