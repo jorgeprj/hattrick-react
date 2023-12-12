@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 import Loading from '../../components/layout/loading/Loading';
 import SideCard from '../../components/player/sideCard/SideCard';
 import Header from '../../components/player/header/Header';
-import { getPlayers } from '../../services/players/playersService';
+import { getPlayer } from '../../services/players/playersService';
 import StatsCard from '../../components/player/statsCard/StatsCard';
 import AwardsCard from '../../components/player/awardsCard/AwardsCard';
 
@@ -17,34 +17,20 @@ const Player = ({ year }) => {
     const [isLoading, setIsLoading] = useState(true);
     const [player, setPlayer] = useState(null);
 
-    const [players, setPlayers] = useState(null);
-
     useEffect(() => {
-        const fetchPlayers = async () => {
+        const fetchData = async () => {
             try {
-                const allPlayersData = await getPlayers();
-
-                setPlayers(allPlayersData);
+                const playerData = await getPlayer(id);
+                setPlayer(playerData);
+                setIsLoading(false);
             } catch (error) {
-                console.error('Error fetching players:', error);
+                console.error('Error fetching player:', error);
             }
         };
-
-        fetchPlayers();
-    }, []);
-
-    useEffect(() => {
-        const delay = 1000;
-
-        const timeoutId = setTimeout(() => {
-            const foundPlayer = players.find((p) => p.id === parseInt(id, 10));
-            setPlayer(foundPlayer);
-            setIsLoading(false);
-        }, delay);
-
-        return () => clearTimeout(timeoutId);
-    }, [id, players]);
-
+    
+        fetchData();
+    }, [id]);
+    
     if (isLoading) {
         return <Loading />;
     }
