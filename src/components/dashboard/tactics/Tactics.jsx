@@ -12,17 +12,17 @@ const Tactics = ({ startingPlayers }) => {
     };
 
     const players = [
-        { ...startingPlayers[6], top: '520px', left: '170px' },
-        { ...startingPlayers[9], top: '420px', left: '100px' },
-        { ...startingPlayers[8], top: '420px', left: '240px' },
-        { ...startingPlayers[7], top: '360px', left: '170px' },
-        { ...startingPlayers[5], top: '320px', left: '20px' },
-        { ...startingPlayers[1], top: '320px', left: '320px' },
-        { ...startingPlayers[4], top: '250px', left: '100px' },
-        { ...startingPlayers[2], top: '250px', left: '240px' },
-        { ...startingPlayers[0], top: '160px', left: '170px' },
-        { ...startingPlayers[10], top: '60px', left: '100px' },
-        { ...startingPlayers[3], top: '60px', left: '240px' },
+        { ...startingPlayers[5], top: '520px', left: '170px' }, //GK
+        { ...startingPlayers[7], top: '420px', left: '100px' }, //CBL
+        { ...startingPlayers[9], top: '420px', left: '240px' }, //CBR
+        { ...startingPlayers[6], top: '360px', left: '170px' }, //CBC
+        { ...startingPlayers[4], top: '320px', left: '20px' }, //LB
+        { ...startingPlayers[8], top: '320px', left: '320px' }, //RB
+        { ...startingPlayers[10], top: '250px', left: '100px' }, //CM
+        { ...startingPlayers[2], top: '250px', left: '240px' }, //CM
+        { ...startingPlayers[0], top: '160px', left: '170px' }, //CAM
+        { ...startingPlayers[3], top: '60px', left: '100px' }, //ATA
+        { ...startingPlayers[1], top: '60px', left: '240px' }, //ATA
     ];
 
     const averageOverall = startingPlayers.reduce((soma, jogador) => soma + jogador.overall, 0) / startingPlayers.length;
@@ -35,7 +35,7 @@ const Tactics = ({ startingPlayers }) => {
                     <h4>5-2-1-2</h4>
                 </div>
                 <div className='overall'>
-                    <h4>{averageOverall}</h4>
+                    <h4>{averageOverall.toFixed(0)}</h4>
                 </div>
             </div>
             <Field>

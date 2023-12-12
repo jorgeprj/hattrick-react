@@ -1,0 +1,82 @@
+.dashboard-scout-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2em;
+    width: min-content;
+    cursor: pointer;
+}
+.dashboard-scout-card:hover{
+    transform: scale(1.02);
+}
+
+.dashboard-scout-card .scout-infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.dashboard-scout-card .scout-photo{
+    margin-right: 1em;
+}
+
+.dashboard-scout-card .scout-photo img{
+    width: 64px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 50%;
+}
+
+
+.dashboard-scout-card .scout-basic-infos h4{
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    white-space: nowrap;
+}
+
+.dashboard-scout-card .country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dashboard-scout-card .country h5{
+    margin-right: 0.5em;
+    color: var(--text-low);
+    font-weight: 500;
+}
+
+.dashboard-scout-card .country img{
+    height: 14px;
+}
+
+.dashboard-scout-card .scout-infos .scout-icon svg{
+    font-size: 1.5em;
+}
+
+.dashboard-scout-card .scouting-network{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+
+.dashboard-scout-card .scouting-network.first{
+    margin-bottom: 1em;
+}
+
+
+.dashboard-scout-card .scouting-network h4{
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--text-medium);
+    margin: 0;
+}
+
+.dashboard-scout-card .scouting-network svg{
+    color: #ffbc37;
+}

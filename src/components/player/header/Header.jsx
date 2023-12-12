@@ -14,7 +14,7 @@ const Header = ({ player, year }) => {
                     <p>
                         {player.overall}
                         <span className={player.modifier > 0 ? 'green' : 'red'}>
-                            {player.modifier > 0 ? `+${player.modifier}` : player.modifier}
+                            {player.modifier !== 0 ? (player.modifier > 0 ? `+${player.modifier}` : `${player.modifier}`) : ''}
                         </span>
                     </p>
                 </div>

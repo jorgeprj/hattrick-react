@@ -3,8 +3,9 @@ import './Overview.css'
 import { useEffect, useState } from 'react';
 
 import Loading from '../../../components/layout/loading/Loading';
-import EmployeeCard from '../../../components/dashboard/employeeCard/EmployeeCard'
+import EmployeeCard from '../../../components/dashboard/scoutCard/ScoutCard'
 import Tactics from '../../../components/dashboard/tactics/Tactics';
+import PlayerCard from '../../../components/dashboard/playerCard/PlayerCard';
 
 const Overview = ({ teamPlayers }) => {
 	const [isLoading, setIsLoading] = useState(true);
@@ -45,15 +46,15 @@ const Overview = ({ teamPlayers }) => {
 			<div className='main-employees'>
 				<div className='section'>
 					<h4>Best Player</h4>
-					<EmployeeCard id={bestPlayer.id} name={bestPlayer.name} nationality={bestPlayer.nationality} role={""} />
+					<PlayerCard player={bestPlayer} />
 				</div>
 				<div className='section'>
 					<h4>Top Scorer</h4>
-					<EmployeeCard id={scorerPlayer.id} name={scorerPlayer.name} nationality={scorerPlayer.nationality} role={""} />
+					<PlayerCard player={scorerPlayer} />
 				</div>
 				<div className='section'>
 					<h4>Biggest Potential</h4>
-					<EmployeeCard id={potentialPlayer.id} name={potentialPlayer.name} nationality={potentialPlayer.nationality} role={""} />
+					<PlayerCard player={potentialPlayer} />
 				</div>
 			</div>
 			<div className='tactic-squad'>
