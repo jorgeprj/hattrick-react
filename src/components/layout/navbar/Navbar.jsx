@@ -10,10 +10,6 @@ const Navbar = () => {
 		{
 			name: 'Scouts',
             path: '/scouts',
-		},
-		{
-			name: 'Ranking',
-            path: '/rankings',
 		}
 	];
 
