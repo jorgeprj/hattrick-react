@@ -14,7 +14,7 @@ const Header = ({ section, setSection, coach }) => {
     return (
         <div className='dashboard-header'>
             <header>
-                <div className='team'>
+                <div className='team-info'>
                     <div className='team-photo'>
                         <img src="./src/assets/teams/113926.png" alt="Team Logo" />
                     </div>
@@ -27,22 +27,6 @@ const Header = ({ section, setSection, coach }) => {
                             <img src="./src/assets/flags/england.png" alt="England" />
                             <h4>England</h4>
                         </div>
-                    </div>
-                </div>
-
-                <div className='coach-infos'>
-                    <div className='coach-photo'>
-                        <img src={`./src/assets/players/999999.png`} alt={`coach ${coach.id} Image`} />
-                    </div>
-                    <div className='coach-basic-infos'>
-                        <h4>{coach.name}</h4>
-                        <div className='country'>
-                            <h5>{coach.nationality}</h5>
-                            <img src={`./src/assets/flags/${coach.nationality}.png`} alt={`${coach.nationality}`} />
-                        </div>
-                    </div>
-                    <div className='coach-icon'>
-                        <FaClipboard />
                     </div>
                 </div>
             </header>

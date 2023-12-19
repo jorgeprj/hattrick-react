@@ -14,7 +14,7 @@
     justify-content: space-between;
 }
 
-.dashboard-header .team{
+.dashboard-header .team-info{
     display: flex;
     flex-direction: row;
     align-items: center;

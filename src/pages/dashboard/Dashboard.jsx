@@ -12,6 +12,7 @@ import { getTransfers } from '../../services/transfers/transfersService';
 import Loading from '../../components/layout/loading/Loading';
 import Feed from './feed/Feed';
 import Academy from './academy/Academy';
+import { getTeam } from '../../services/teams/teamsService';
 
 const Dashboard = ({ year }) => {
     const [isLoading, setIsLoading] = useState(true);
@@ -19,6 +20,7 @@ const Dashboard = ({ year }) => {
     const [teamPlayers, setTeamPlayers] = useState(null);
     const [transfers, setTransfers] = useState(null);
     const [coach, setCoach] = useState(null);
+    const [team, setTeam] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -34,6 +36,9 @@ const Dashboard = ({ year }) => {
 
                 const coachData = await getCoach();
                 setCoach(coachData);
+
+                const teamData = await getTeam(113926);
+                setTeam(teamData);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -59,7 +64,7 @@ const Dashboard = ({ year }) => {
     let componentToRender;
 
     if (section === 'overview') {
-        componentToRender = <Overview teamPlayers={teamPlayers} />;
+        componentToRender = <Overview team={team} teamPlayers={teamPlayers} />;
     } else if (section === 'squad') {
         componentToRender = <Squad teamPlayers={teamPlayers} year={year} />;
     } else if (section === 'transfers') {

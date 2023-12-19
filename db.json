@@ -303,7 +303,22 @@
         {
             "id": 113926,
             "name": "Salford City",
-            "league": "League Two (ENG)"
+            "league": "League Two (ENG)",
+            "clubInfo": {
+                "completedName": "Salford City Football Club",
+                "founded": 1940,
+                "location": "Salford, Greater Manchester",
+                "wiki": [
+                    "Founded in 1940, Salford City Football Club has a rich and diverse history spanning over seven decades. Located in Salford, Greater Manchester, the club has always had a close connection with the neighboring and renowned football city, Manchester.",
+                    "During its early decades, Salford City competed in various regional leagues and achieved notable successes in local competitions. While it may not have reached national spotlight, the club was a valuable part of the local community, providing fans with exciting moments.",
+                    "However, it was from 2014 that Salford City entered a new chapter in its history. In this year, the club was acquired by a notable consortium known as the 'Class of 92.' Comprising former Manchester United players - Gary Neville, Ryan Giggs, Nicky Butt, Phil Neville, and Paul Scholes - along with businessman Peter Lim, owner of Valencia in Spain, this group brought a new vision and significant resources to the club.",
+                    "In a further significant development, in 2019, the iconic former player David Beckham, a member of the 'Class of 92,' acquired a 10% stake in the club. His entry into the shareholder board brought even more prestige and resources to Salford City, solidifying the commitment of football's big names to the club's future success.",
+                    "The entry of the 'Class of 92' and the addition of David Beckham mark a transformative moment for Salford City. Substantial investments were made in infrastructure, facilities, and, crucially, in the player roster. The goal was clear: to elevate the club to higher echelons of English football.",
+                    "In the following years, Salford City experienced a meteoric rise through the ranks of English football divisions. Achieving consecutive titles and promotions, the club swiftly moved from lower levels to non-professional leagues, establishing itself as a formidable opponent.",
+                    "This remarkable trajectory culminated in a historic milestone in 2019 when Salford City secured promotion to the Football League for the first time in the club's history. The team earned this honor by winning the National League play-offs, securing their place in the fourth tier of English football.",
+                    "This achievement not only marked a moment of triumph for the club but also stood as a testament to the commitment and vision of the \"Class of 92\" in transforming Salford City into a respected force in the English football landscape. The club is now poised to take on new challenges and script the next chapter of its history in the world of football."
+                  ]
+            }
         },
         {
             "id": 200061,
