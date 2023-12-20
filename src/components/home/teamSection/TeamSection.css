@@ -1,0 +1,78 @@
+.team-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 12em;
+    width: 100%;
+    background-color: var(--text-high);;
+    padding: 2em;
+    border-radius: 6px;
+    margin-top: 2em;
+}
+
+.team-section .header{
+    color: #fff;
+    margin-right: 2em;
+}
+
+.team-section .header h2{
+    font-size: 1.75em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.team-section .header h2::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 3em;
+    background-color: #545454;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.team-section .header p{
+    width: 35em;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 0.5em;
+}
+
+.team-section .sections{
+    height: 100%;
+}
+
+.team-section .sections{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40em;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-section .sections button{
+    font-size: 1.1em;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+
+.team-section .sections button:hover{
+    background-color: #fff;
+    color: var(--text-high);
+}
+
+@media screen and (max-width: 768px){
+    .team-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-section .header{
+        margin-right: 0;
+        margin-bottom: 2em;
+    }
+}

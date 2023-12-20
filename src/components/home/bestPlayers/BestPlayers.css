@@ -1,0 +1,119 @@
+.best-players{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #eeeeee;
+    padding: 2em 4em;
+    max-width: max-content;
+}
+
+.best-players h3{
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+    font-weight: 400;
+}
+
+.best-players h3 span{
+    font-weight: 700;
+}
+
+.best-players h3:after{
+    content: "";
+    display: block;
+    width: 5%;
+    min-width: 6em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15); 
+    bottom: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+}
+
+.best-players p span{
+    font-weight: 600;
+}
+
+.best-players .players-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    gap: 1em;
+}
+
+.best-players .players-list .player-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15); 
+}
+
+.best-players .players-list .player-list:last-child{
+    border-bottom: 0;
+}
+
+.best-players .players-list .player-list .player-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.best-players .players-list .player-list .player-image{
+    height: 3.5em;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-right: 1em;
+}
+
+.best-players .players-list .player-list .player-infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.best-players .players-list .player-list .player-infos h4{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.best-players .players-list .player-list .player-infos p{
+    font-size: 0.8em;
+}
+
+.best-players .players-list .player-list .player-infos .country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.best-players .players-list .player-list .player-infos .country img{
+    height: 0.8em;
+    margin-right: 0.4em;
+}
+
+.best-players .players-list .player-list .player-infos .country p{
+    font-weight: 500;
+    color: var(--text-medium);
+}
+
+.best-players .players-list .player-list  .player-overall{
+    font-weight: 600;
+}
+
+
+.best-players button{
+    max-width: fit-content;
+    margin-top: 1em;
+    color: #fff;
+    background-color: var(--text-high);
+}
+
+
+.best-players button:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media screen and (max-width: 500px) {
+    .best-players {
+        max-width: 100%;
+    }
+}

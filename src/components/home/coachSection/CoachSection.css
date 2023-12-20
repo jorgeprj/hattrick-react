@@ -1,0 +1,90 @@
+.coach-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coach-section .coach-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.coach-section .coach-content img{
+    max-width: 30em;
+    max-height: 25em;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    margin-right: 1em;
+} 
+
+.coach-section .coach-content .text h4{
+    font-size: 1.5em;
+}
+
+.coach-section .coach-content .text .coach-header{
+    margin-bottom: 1em;
+}
+
+.coach-section .coach-content .text .subtitle{
+    display: flex;
+    align-items: center;
+    color: var(--text-medium);
+    font-weight: 500;
+}
+
+.coach-section .coach-content .text .subtitle svg{
+    font-size: 1.1em;
+    margin-right: 0.5em;
+}
+
+
+.coach-section .coach-content .text p{
+    max-width: 40em;
+}
+
+.coach-section .coach-content .text p strong{
+    color: var(--text-medium);
+}
+
+.coach-section .coach-content .text .icons{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.coach-section .coach-content .text .icons svg{
+    font-size: 1.25em;
+    color: var(--text-low);
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.coach-section .coach-content .text .icons svg:hover{
+    color: var(--text-high);
+}
+
+.coach-section .coach-content .text .icons button{
+    color: #fff;
+    background-color: var(--text-high);
+}
+
+.coach-section .coach-content .text .icons button:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media screen and (max-width: 1000px) {
+    .coach-section .coach-content img{
+        margin-bottom: 1em;
+        margin-right: 0;
+    }
+    .coach-section .coach-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .coach-section .coach-content .text p{
+        max-width: 30em;
+    }
+}
