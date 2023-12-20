@@ -1,10 +1,9 @@
-.player{
-    display: grid;
-    grid-template-columns: auto 1fr;
-    padding: 2em;
+.player .content .column-3 .player-stats .stats{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
 }
 
-.main-section .row{
-    display: flex;
-    flex-direction: row;
+.player .content .column-3 .player-stats .stats p{
+    font-size: 0.9em;
 }

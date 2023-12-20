@@ -1,15 +1,18 @@
+import React, { useEffect, useState } from 'react'
 import './Player.css'
-
-import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-
 import Loading from '../../components/layout/loading/Loading';
-import SideCard from '../../components/player/sideCard/SideCard';
-import Header from '../../components/player/header/Header';
 import { getPlayer } from '../../services/players/playersService';
-import StatsCard from '../../components/player/statsCard/StatsCard';
-import AwardsCard from '../../components/player/awardsCard/AwardsCard';
+import { useParams } from 'react-router-dom';
+import Header from '../../components/player/header/Header';
+import TransferInfo from '../../components/player/transferInfo/TransferInfo';
+import BasicInfo from '../../components/player/basicInfo/BasicInfo';
+import TeamHistory from '../../components/player/teamHistory/TeamHistory';
+import NationalHistory from '../../components/player/nationalHistory/NationalHistory';
 
+import { FaAward } from 'react-icons/fa6';
+
+import PlayStyles from '../../components/player/playStyles/PLayStyles';
+import Footer from '../../components/layout/footer/Footer';
 
 const Player = ({ year }) => {
     const { id } = useParams();
@@ -27,32 +30,96 @@ const Player = ({ year }) => {
                 console.error('Error fetching player:', error);
             }
         };
-    
+
         fetchData();
     }, [id]);
-    
+
     if (isLoading) {
         return <Loading />;
     }
 
     return (
         <div className='player'>
-            <section className='side-section'>
-                <SideCard player={player} year={year} />
-            </section>
-            <section className='main-section'>
-                <Header player={player} year={year} />
-                <section className='row'>
-                    {player.hasStats && player.stats[0].season === (year - 1) &&
-                        <StatsCard player={player} year={year} />
-                    }
-                    {player.awards.length > 0 &&
-                        <AwardsCard player={player} />
-                    }
+            <h1>
+                {player.name}
+                <span>{player.position}</span>
+            </h1>
+            <section className='content'>
+                <section className='column-1'>
+                    <Header player={player} year={year} />
+                    <section className='player-infos'>
+                        <TransferInfo player={player} year={year} />
+                        <BasicInfo player={player} year={year} />
+                        <section className='other-infos'>
+                            {player.nationalTeam.length > 0 && <NationalHistory player={player} />}
+                            <TeamHistory player={player} />
+                        </section>
+                    </section>
+                </section>
+                <section className='column-2'>
+                    <div className='title'>
+                        <h2>Detailed sheet</h2>
+                        <h4>|</h4>
+                        <p>Discussion</p>
+                    </div>
+                    <section className='player-content'>
+                        <section>
+                            <h3>Biography</h3>
+                            <p>{player.bio}</p>
+                        </section>
+                        {player.awards.length > 0 && (
+                            <section>
+                                <h3>Player Awards</h3>
+                                <div className='awards'>
+                                    {player.awards.map(award => (
+                                        <p className='award' key={`${award.name} ${award.season}`}>
+                                            <FaAward />
+                                            {award.name}
+                                            : {award.season}
+                                        </p>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
+                    </section>
+                </section>
+                <section className='column-3'>
+                    {player.playStyles.length > 0 && (
+                        <section>
+                            <PlayStyles player={player} />
+                        </section>
+                    )}
+                    {player.stats.length > 0 && player.stats[0].season === year - 1 && (
+                        <section className='player-stats'>
+                            <h4>Last Season Stats</h4>
+                            <div className='stats'>
+                                <p>Matches: <strong>{player.stats[0].matches}</strong></p>
+                                <p>Goals: <strong>{player.stats[0].goals}</strong></p>
+                                <p>Assists: <strong>{player.stats[0].assists}</strong></p>
+                                <p>Matches without goals: <strong>{player.stats[0].matchesWithoutGoals}</strong></p>
+                                <p>Modifier: <strong>{player.stats[0].modifier}</strong></p>
+                            </div>
+                        </section>
+                    )}
+
+                    <section>
+                        <h4>Author</h4>
+                        <div className='logo'>hattrick</div>
+                    </section>
+                    <section>
+                        <h4>Sources</h4>
+                        <div className='links'>
+                            <a href="https://sofifa.com">https://sofifa.com</a>
+                            <a href="https://www.wikipedia.org">https://www.wikipedia.org</a>
+                            <a href="https://www.transfermarkt.com">https://www.transfermarkt.com</a>
+                        </div>
+                    </section>
                 </section>
             </section>
+            <Footer />
         </div>
-    );
+
+    )
 }
 
-export default Player;
+export default Player
