@@ -30,7 +30,7 @@ export const calculateFutzScore = (player, currentYear) => {
     const potentialScore = Math.max(0, player.potential - player.overall) * 3.5;
 
     const yearsLeftInContract = player.contract - currentYear;
-    const contractScore = (yearsLeftInContract * 4);
+    const contractScore = (yearsLeftInContract * 3);
 
     const realFaceScore = player.realFace ? 50 : 0;
 
@@ -50,8 +50,6 @@ export const calculateFutzScore = (player, currentYear) => {
 
     const leagueScore = leagueValues[player.teamHistory[0].team.league] || 0;
 
-    const financialScore = (player.wage/1000)*2;
-
     const playStylesScore = (player.playStyles.length * 20);
 
     const futzScore =
@@ -60,8 +58,7 @@ export const calculateFutzScore = (player, currentYear) => {
         potentialScore*3 -
         contractScore*4 +
         realFaceScore +
-        physicalScore -
-        financialScore +
+        physicalScore +
         nationalityScore +
         playStylesScore +
         leagueScore;

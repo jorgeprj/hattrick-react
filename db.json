@@ -136,6 +136,11 @@
             "league": "League One (ENG)"
         },
         {
+            "id": 1792,
+            "name": "Norwich City",
+            "league": "Championship (ENG)"
+        },
+        {
             "id": 1793,
             "name": "Reading FC",
             "league": "League One (ENG)"
@@ -226,6 +231,11 @@
             "league": "League One (ENG)"
         },
         {
+            "id": 1929,
+            "name": "Plymouth Argyle",
+            "league": "League One (ENG)"
+        },
+        {
             "id": 1932,
             "name": "Barnsley FC",
             "league": "League One (ENG)"
@@ -249,6 +259,11 @@
             "id": 1941,
             "name": "Hartlepool Utd",
             "league": "League Two (ENG)"
+        },
+        {
+            "id": 1943,
+            "name": "AFC Bournemouth",
+            "league": "Championship (ENG)"
         },
         {
             "id": 1947,
@@ -304,6 +319,7 @@
             "id": 113926,
             "name": "Salford City",
             "league": "League Two (ENG)",
+            "summary": "Salford City FC, owned by the Class of '92 (Neville, Scholes, Giggs, Butt, Beckham), competes in English football leagues.",
             "clubInfo": {
                 "completedName": "Salford City Football Club",
                 "founded": 1940,
@@ -543,12 +559,17 @@
         }
     ],
     "coach": {
-        "name": "Solskjaer",
+        "name": "Ole Gunnar Solskjær",
         "nationality": "Norway",
         "stats": [
             {
-                "season": "2023",
-                "matches": 62,
+                "season": 2023,
+                "wins": 38,
+                "draws": 12,
+                "losses": 12
+            },
+            {
+                "season": 2024,
                 "wins": 38,
                 "draws": 12,
                 "losses": 12
@@ -558,9 +579,17 @@
             {
                 "id": 4,
                 "name": "EFL Football League Two",
+                "team": 113926,
                 "season": "2023"
+            },
+            {
+                "id": 3,
+                "name": "EFL Football League One",
+                "team": 113926,
+                "season": "2024"
             }
-        ]
+        ],
+        "bio": "Ole Gunnar Solskjær, born on February 26, 1973, in Kristiansund, is a former Norwegian footballer and coach who is currently at the helm of the Salford City FC project aiming for the Premier League. During his playing career, he distinguished himself at Manchester United, where he became an icon, recognized as a \"supersub\" for his effectiveness as a substitute. His fame reached its peak when he scored the decisive goal in the UEFA Champions League final in 1998–99, contributing to the memorable comeback against Bayern Munich."
     },
     "players": [
         {
@@ -631,6 +660,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": true,
+            "isPriority": false,
             "bio": "Rhys Bennett, the English defender for Manchester United, showcases a well-rounded skill set. His notable crossing ability and strong defensive presence make him a valuable asset on the field. Bennett's proficiency in aerial duels, coupled with his composed tackling style, bolsters the team's backline. With a keen sense of positioning and commendable work ethic, he contributes both defensively and offensively. A disciplined player, Bennett's clean tackling style exemplifies his commitment to the game.",
             "analysis": "Denton-born and bred, the under-18s captain at Manchester United, Bennett, debuted in the 2020/21 season against Blackburn Rovers. Leading the team to the FA Youth Cup in 2021/22, he's a well-grounded centre-back who regularly visits his primary school in Denton. Thrilled by every Old Trafford appearance, Bennett embraces the dream, vowing to give his all and cherishing each moment on the iconic pitch.",
             "hasStats": true,
@@ -652,18 +682,18 @@
             "age": 2005,
             "nationality": "England",
             "position": "CAM",
-            "overall": 71,
+            "overall": 73,
             "potential": 82,
             "modifier": 4,
             "height": 187,
             "weight": 73,
             "foot": "Right",
-            "skills": 3,
-            "weakFoot": 3,
-            "workRate": "Medium/Medium",
+            "skills": 5,
+            "weakFoot": 5,
+            "workRate": "High/Medium",
             "realFace": false,
             "playStyles": [],
-            "value": 2800000,
+            "value": 5500000,
             "wage": 6000,
             "releaseClause": null,
             "contract": 2029,
@@ -723,11 +753,26 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": true,
+            "isPriority": false,
             "bio": "Jobe Bellingham, the English attacking midfielder for AFC Sunderland, exhibits remarkable potential, standing out for his considerable crossing prowess. With a dominant right foot and significant dribbling ability, he brings a high level of finesse to the field. Bellingham's game is characterized by exceptional vision, composure, and a strong work ethic. His impressive acceleration, agility, and resilience make him a standout prospect in the football world.",
             "analysis": "Jobe Samuel Patrick Bellingham, born on September 23, 2005, is a talented English footballer excelling as a midfielder or forward for EFL Championship's Sunderland. Rising through Birmingham City's academy, he made his mark in the 2021–22 season, showcasing his skills and earning a professional contract. Bellingham's journey continued with Sunderland in 2023, where his prowess on the field is making waves. Additionally, he has represented England at various youth levels, demonstrating his promising international career.",
-            "hasStats": false,
-            "stats": [],
-            "awards": []
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 47,
+                    "goals": 18,
+                    "assists": 14,
+                    "matchesWithoutGoals": 21,
+                    "modifier": 5
+                }
+            ],
+            "awards": [
+                {
+                    "name": "EFL Football League One Team of the Season",
+                    "season": "2024-25"
+                }
+            ]
         },
         {
             "id": 275522,
@@ -791,6 +836,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": true,
+            "isPriority": false,
             "analysis": "Lennon Miller, the Scottish midfielder for Motherwell FC, possesses a remarkable potential of 85. With a predominantly right foot, Miller showcases a notable ability in crossing and short passing. His agility and acceleration make him agile on the field, complemented by a commendable vision for the game. While his defensive skills may benefit from improvement, Miller's overall versatility and promising potential position him as an asset in the midfield.",
             "bio": "Lennon Miller, born on 25 August 2006, is a Scottish midfielder for Motherwell. Making history at 16 as Motherwell's youngest player, he debuted in a Scottish League Cup victory. His Scottish Premiership journey started against Rangers in 2022, followed by a crucial appearance against Celtic in 2023. In the 2023–24 season, he began as a regular but faced a red card against Livingston. Internationally, he dazzled with a Goal of the Year for Scotland's under-16s. The son of former Scotland international Lee Miller, Lennon overcame personal loss and impressed at Coltness High School.",
             "hasStats": false,
@@ -879,6 +925,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": true,
+            "isPriority": false,
             "analysis": "Charlie Savage, the Welsh midfielder from Reading FC, possesses a well-rounded skill set. His standout ability lies in precise crossing, making him a valuable asset on the offensive front. With a left-footed prowess and adept dribbling, Savage seamlessly navigates the pitch. A technically proficient player, he showcases finesse in both passing and set-piece execution. His defensive attributes, marked by solid tackling and positional awareness, contribute to a versatile and reliable presence on the field. Savage's game is defined by a strategic vision and a commendable level of composure, making him a notable midfielder for Reading FC.",
             "bio": "Charlie William Henry Savage, born on May 2, 2003, is a talented midfielder for EFL League One's Reading and the Wales national team. Following his father Robbie Savage's footsteps, he began his football journey at Manchester United. Savage made his professional debut with United in the 2021-22 UEFA Champions League. After a stint with Forest Green Rovers in 2022-23, he signed a four-year contract with Reading in July 2023, showcasing his prowess with a goal in August. Savage, a versatile central midfielder, combines defensive strength with attacking flair, distinguishing himself from his father's playing style. He has represented Wales at various youth levels and earned his first senior cap in October 2023.",
             "hasStats": false,
@@ -961,6 +1008,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": true,
+            "isPriority": false,
             "analysis": "At 17, Bailey Rice shines in Scottish football, making significant contributions to the Rangers. His unique left foot and skillful feints showcase exceptional technical prowess for his age. Offensively, Rice displays short-pass precision and admirable vision. Despite his youth, he captains Scotland's U20s, revealing not just talent but early leadership. Versatile in defense, he shows solid tackling abilities. With notable speed and agility, Rice navigates the field effortlessly. The future looks promising for this young Scottish talent, hinting at a bright trajectory as he continues to develop.",
             "bio": "Born on October 4, 2006, Scottish footballer Bailey Rice plays for Rangers in the Scottish Premiership. A Motherwell youth academy product, Rice joined Rangers on June 30, 2022, rejecting a contract with Motherwell. Making his senior debut in February 2023 against Livingston, he became Rangers' youngest post-war league player at 16 years and 137 days, second only to Derek Ferguson in all competitions.",
             "hasStats": false,
@@ -974,13 +1022,13 @@
             "nationality": "Scotland",
             "position": "ST",
             "overall": 73,
-            "potential": 73,
-            "modifier": 1,
+            "potential": 74,
+            "modifier": 0,
             "height": 191,
             "weight": 77,
             "foot": "Right",
-            "skills": 3,
-            "weakFoot": 3,
+            "skills": 5,
+            "weakFoot": 4,
             "workRate": "Medium/Medium",
             "realFace": true,
             "playStyles": [
@@ -993,8 +1041,8 @@
                     "name": "Aerial"
                 }
             ],
-            "value": 2200000,
-            "wage": 19500,
+            "value": 2600000,
+            "wage": 12000,
             "releaseClause": null,
             "contract": 2027,
             "teamHistory": [
@@ -1108,10 +1156,20 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "analysis": "Oliver McBurnie, is a key player for Sheffield United, bringing notable skills, particularly in finishing and aerial play. His combativeness and leadership are highlighted, providing essential motivation to the team. With the ability to make an immediate impact, McBurnie stands out as an influential figure, not just for his technical talent but also for the inspiration he brings to the team.",
             "bio": "Oliver Robert McBurnie, born on June 4, 1996, is a seasoned professional footballer renowned for his role as a striker with Sheffield United in the Premier League and the Scotland national team. With his roots in youth football at Leeds United, McBurnie initiated his career at Bradford City, undertaking two loan stints at Chester. Subsequently joining Swansea City, he gained valuable experience through loan spells at Newport County, Bristol Rovers, and Barnsley. Despite being born in England, McBurnie proudly represents Scotland on the international stage, marking his senior debut in March 2018.",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 19,
+                    "goals": 17,
+                    "assists": 10,
+                    "matchesWithoutGoals": 10,
+                    "modifier": 1
+                }
+            ],
             "awards": [
                 {
                     "name": "Barnsley Player of the Year",
@@ -1210,6 +1268,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "analysis": "Ashley Young, a seasoned English veteran at 37, brings a wealth of experience, notably gained during his triumphant spell at Manchester United. His standout crossing ability, paired with astute dribbling, provides Everton with a potent attacking edge. Young's right foot, a reliable asset, complements his exceptional crossing prowess. Beyond offensive contributions, his defensive aptitude shines in tackles and interceptions. A leader with sharp vision and composed demeanor, Young adds both technical prowess and a winning mentality to Everton's roster, promising a valuable impact.",
             "bio": "Ashley Simon Young, born on July 9, 1985, is an English professional footballer, currently a full-back for Everton in the Premier League. Starting as a winger at Watford, he rose to prominence in their promotion-winning 2005–06 season. Young has had successful stints with Aston Villa, Manchester United, and Inter Milan, winning multiple trophies. He returned to Aston Villa in 2021 before joining Everton in 2023. Young earned 39 caps for England, featuring in Euro 2012 and the 2018 World Cup.",
             "hasStats": false,
@@ -1290,6 +1349,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": true,
+            "isPriority": false,
             "analysis": "Luke Harris, the talented Welsh player from Fulham FC, is emerging as one of the brightest prospects in English and Welsh football. His remarkable crossing ability stands out, providing a valuable contribution in the offensive realm. With a powerful right foot and admirable dribbling skills, Harris shows significant potential to become a dynamic force on the field. His defensive prowess and impressive agility add to his multifaceted skill set. Endorsed by Ryan Giggs, Harris is on a promising trajectory in the sports arena.",
             "bio": "Luke Harris, born on March 4, 2005, is a talented midfielder for Premier League side Fulham and the Wales under-21 national team. Hailing from Jersey, he attended St. Clement School and made waves with a remarkable hat-trick for Fulham's under-23s in February 2022. Harris secured a professional contract until 2025 and made his Premier League debut in October 2022. Recognized as the 'Rising Star' at the 2022 Channel Islands Sports Awards, he has also represented Wales at various age levels, earning a senior call-up in September 2022.",
             "hasStats": false,
@@ -1380,6 +1440,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -1449,6 +1510,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -1622,6 +1684,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -1737,6 +1800,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -1779,6 +1843,13 @@
             "releaseClause": null,
             "contract": 2025,
             "teamHistory": [
+                {
+                    "team": {
+                        "id": -1,
+                        "name": "Retired"
+                    },
+                    "season": "2025-"
+                },
                 {
                     "team": {
                         "id": 113926,
@@ -1832,6 +1903,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -1945,6 +2017,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -2016,6 +2089,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -2140,6 +2214,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -2163,12 +2238,12 @@
             "position": "CM",
             "overall": 74,
             "potential": 74,
-            "modifier": 2,
+            "modifier": 0,
             "height": 179,
             "weight": 72,
             "foot": "Right",
-            "skills": 3,
-            "weakFoot": 4,
+            "skills": 5,
+            "weakFoot": 5,
             "workRate": "High/High",
             "realFace": true,
             "playStyles": [
@@ -2185,8 +2260,8 @@
                     "name": "Intercept"
                 }
             ],
-            "value": 2600000,
-            "wage": 10000,
+            "value": 3900000,
+            "wage": 14000,
             "releaseClause": null,
             "contract": 2029,
             "teamHistory": [
@@ -2252,10 +2327,19 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
             "stats": [
+                {
+                    "season": 2024,
+                    "matches": 46,
+                    "goals": 7,
+                    "assists": 15,
+                    "matchesWithoutGoals": 22,
+                    "modifier": 2
+                },
                 {
                     "season": 2023,
                     "matches": 48,
@@ -2267,12 +2351,16 @@
             ],
             "awards": [
                 {
-                    "name": "EFL Football League Two Player of the Best Team",
-                    "season": 2023
+                    "name": "EFL Football League Two Team of the Season",
+                    "season": "2023-24"
                 },
                 {
                     "name": "Salford City Player of the Season",
                     "season": "2023-24"
+                },
+                {
+                    "name": "EFL Football League One Team of the Season",
+                    "season": "2024-25"
                 }
             ]
         },
@@ -2346,6 +2434,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -2367,9 +2456,9 @@
             "age": 2003,
             "nationality": "England",
             "position": "CAM",
-            "overall": 71,
+            "overall": 72,
             "potential": 81,
-            "modifier": 4,
+            "modifier": 0,
             "height": 181,
             "weight": 76,
             "foot": "Left",
@@ -2387,8 +2476,8 @@
                     "name": "Technical"
                 }
             ],
-            "value": 2100000,
-            "wage": 2100,
+            "value": 4500000,
+            "wage": 8000,
             "releaseClause": null,
             "contract": 2029,
             "teamHistory": [
@@ -2468,10 +2557,19 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
             "stats": [
+                {
+                    "season": 2024,
+                    "matches": 44,
+                    "goals": 27,
+                    "assists": 15,
+                    "matchesWithoutGoals": 20,
+                    "modifier": 6
+                },
                 {
                     "season": 2023,
                     "matches": 19,
@@ -2481,7 +2579,24 @@
                     "modifier": 2
                 }
             ],
-            "awards": []
+            "awards": [
+                {
+                    "name": "Chelsea Academy Player of the Year",
+                    "season": "2021-22"
+                },
+                {
+                    "name": "UEFA European Under-19 Championship Team of the Tournament",
+                    "season": "2022"
+                },
+                {
+                    "name": "Salford City Player of the Season",
+                    "season": "2024-25"
+                },
+                {
+                    "name": "EFL Football League One Player of the Season",
+                    "season": "2024-25"
+                }
+            ]
         },
         {
             "id": 267868,
@@ -2489,9 +2604,9 @@
             "age": 2004,
             "nationality": "England",
             "position": "CM",
-            "overall": 70,
+            "overall": 74,
             "potential": 82,
-            "modifier": 2,
+            "modifier": 0,
             "height": 170,
             "weight": 56,
             "foot": "Right",
@@ -2500,8 +2615,8 @@
             "workRate": "High/High",
             "realFace": false,
             "playStyles": [],
-            "value": 2500000,
-            "wage": 4000,
+            "value": 8000000,
+            "wage": 16000,
             "releaseClause": null,
             "contract": 2029,
             "teamHistory": [
@@ -2510,7 +2625,7 @@
                         "id": 1794,
                         "name": "Sheffield United"
                     },
-                    "season": "2025"
+                    "season": "2025-"
                 },
                 {
                     "team": {
@@ -2554,9 +2669,10 @@
             "isStarter": false,
             "isLoan": false,
             "buyClause": null,
-            "isScouted": false,
-            "bio": "",
-            "analysis": "",
+            "isScouted": true,
+            "isPriority": true,
+            "bio": "Samuel Charles Braybrooke, born on March 12, 2004, is an English midfielder for EFL Championship's Sheffield United. Hailing from Wigston, scouted by Bill Ward at Oadby Owls, he joined Leicester Academy and stands out at 5ft 7in. Known as \"Modric\" and \"Leicester Iniesta,\" Braybrooke signed a pro contract until 2024. Making his debut in November 2022, he faced a setback with an anterior cruciate ligament injury in February 2023. An England U19 captain, he briefly gained attention in Mexico due to documentation errors.",
+            "analysis": "Sammy Brayboroke, the English midfielder from Sheffield United, boasts a commendable overall skill set. Renowned for his exceptional ball control and precise short passing, Brayboroke orchestrates plays with finesse. His adeptness in long passing adds strategic depth to his game, while a balanced combination of agility and reactions enhances his on-field responsiveness. Additionally, his defensive capabilities shine through well-timed standing tackles and marked composure. A reliable playmaker, Brayboroke's prowess contributes significantly to the team's dynamic playstyle.",
             "hasStats": true,
             "stats": [
                 {
@@ -2626,6 +2742,7 @@
             "isLoan": true,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -2697,6 +2814,7 @@
             "buyClause": null,
             "isStarter": false,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -2761,6 +2879,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -2782,18 +2901,18 @@
             "age": 2006,
             "nationality": "England",
             "position": "CAM",
-            "overall": 70,
+            "overall": 71,
             "potential": 93,
-            "modifier": 2,
+            "modifier": 0,
             "height": 180,
             "weight": 78,
             "foot": "Right",
             "skills": 5,
-            "weakFoot": 4,
+            "weakFoot": 5,
             "workRate": "High/Low",
             "realFace": false,
             "playStyles": [],
-            "value": 3300000,
+            "value": 5000000,
             "wage": 4000,
             "releaseClause": null,
             "contract": 2027,
@@ -2830,10 +2949,19 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
             "stats": [
+                {
+                    "season": 2024,
+                    "matches": 43,
+                    "goals": 5,
+                    "assists": 8,
+                    "matchesWithoutGoals": 5,
+                    "modifier": 3
+                },
                 {
                     "season": 2023,
                     "matches": 17,
@@ -2926,6 +3054,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -3058,6 +3187,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -3122,6 +3252,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -3214,6 +3345,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -3278,6 +3410,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -3342,6 +3475,7 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -3363,9 +3497,9 @@
             "age": 2005,
             "nationality": "England",
             "position": "ST",
-            "overall": 64,
-            "potential": 73,
-            "modifier": 3,
+            "overall": 65,
+            "potential": 79,
+            "modifier": 0,
             "height": 185,
             "weight": 79,
             "foot": "Left",
@@ -3379,8 +3513,8 @@
                     "name": "Power Header"
                 }
             ],
-            "value": 875000,
-            "wage": 1000,
+            "value": 1500000,
+            "wage": 5000,
             "releaseClause": null,
             "contract": 2029,
             "teamHistory": [
@@ -3419,10 +3553,19 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
             "stats": [
+                {
+                    "season": 2024,
+                    "matches": 31,
+                    "goals": 8,
+                    "assists": 7,
+                    "matchesWithoutGoals": 5,
+                    "modifier": 4
+                },
                 {
                     "season": 2023,
                     "matches": 42,
@@ -3435,11 +3578,15 @@
             "awards": [
                 {
                     "name": "EFL Football League Two Top Goal Scorer - 22 goals",
-                    "season": 2023
+                    "season": "2023-24"
                 },
                 {
-                    "name": "EFL Football League Two Best Player",
-                    "season": 2023
+                    "name":"EFL Football League Two Player of the Season",
+                    "season": "2023-24"
+                },
+                {
+                    "name":"EFL Football League Two Young Player of the Season",
+                    "season": "2023-24"
                 }
             ]
         },
@@ -3507,6 +3654,7 @@
             "isLoan": true,
             "buyClause": 400000,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
@@ -3528,9 +3676,9 @@
             "age": 2003,
             "nationality": "England",
             "position": "LB",
-            "overall": 69,
+            "overall": 70,
             "potential": 76,
-            "modifier": 4,
+            "modifier": 0,
             "height": 177,
             "weight": 64,
             "foot": "Left",
@@ -3539,10 +3687,10 @@
             "workRate": "High/High",
             "realFace": true,
             "playStyles": [],
-            "value": 775000,
-            "wage": 7500,
+            "value": 2000000,
+            "wage": 6800,
             "releaseClause": null,
-            "contract": 2024,
+            "contract": 2030,
             "teamHistory": [
                 {
                     "team": {
@@ -3599,10 +3747,19 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "bio": "",
             "analysis": "",
             "hasStats": true,
             "stats": [
+                {
+                    "season": 2024,
+                    "matches": 46,
+                    "goals": 2,
+                    "assists": 3,
+                    "matchesWithoutGoals": 21,
+                    "modifier": 5
+                },
                 {
                     "season": 2023,
                     "matches": 22,
@@ -3620,9 +3777,9 @@
             "age": 2005,
             "nationality": "England",
             "position": "CB",
-            "overall": 64,
+            "overall": 66,
             "potential": 80,
-            "modifier": 2,
+            "modifier": 0,
             "height": 193,
             "weight": 76,
             "foot": "Right",
@@ -3631,17 +3788,24 @@
             "workRate": "Medium/High",
             "realFace": false,
             "playStyles": [],
-            "value": 675000,
-            "wage": 2300,
+            "value": 1300000,
+            "wage": 3600,
             "releaseClause": null,
-            "contract": 2025,
+            "contract": 2030,
             "teamHistory": [
+                {
+                    "team": {
+                        "id": 1952,
+                        "name": "Hull City"
+                    },
+                    "season": "2025"
+                },
                 {
                     "team": {
                         "id": 113926,
                         "name": "Salford City"
                     },
-                    "season": "2024-"
+                    "season": "2024-25"
                 },
                 {
                     "team": {
@@ -3687,6 +3851,14 @@
             "hasStats": true,
             "stats": [
                 {
+                    "season": 2024,
+                    "matches": 2,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 1,
+                    "modifier": 5
+                },
+                {
                     "season": 2023,
                     "matches": 16,
                     "goals": 0,
@@ -3705,7 +3877,7 @@
             "position": "CB",
             "overall": 67,
             "potential": 82,
-            "modifier": 2,
+            "modifier": 0,
             "height": 192,
             "weight": 78,
             "foot": "Right",
@@ -3714,7 +3886,7 @@
             "workRate": "High/Medium",
             "realFace": false,
             "playStyles": [],
-            "value": 150000,
+            "value": 200000,
             "wage": 3000,
             "releaseClause": null,
             "contract": 2030,
@@ -3789,6 +3961,14 @@
             "hasStats": true,
             "stats": [
                 {
+                    "season": 2024,
+                    "matches": 20,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 5,
+                    "modifier": 3
+                },
+                {
                     "season": 2023,
                     "matches": 23,
                     "goals": 0,
@@ -3831,6 +4011,13 @@
             "contract": 2024,
             "teamHistory": [
                 {
+                    "team":{
+                        "id": 112260,
+                        "name":"Fleetwood Town"
+                    },
+                    "season":"2025-"
+                },
+                {
                     "team": {
                         "id": 113926,
                         "name": "Salford City"
@@ -3870,9 +4057,9 @@
             "age": 1986,
             "nationality": "England",
             "position": "GK",
-            "overall": 69,
+            "overall": 67,
             "potential": 72,
-            "modifier": -1,
+            "modifier": 0,
             "height": 188,
             "weight": 85,
             "foot": "Right",
@@ -3886,11 +4073,18 @@
                     "name": "Far Throw"
                 }
             ],
-            "value": 275000,
+            "value": 325000,
             "wage": 10000,
             "releaseClause": null,
             "contract": 2025,
             "teamHistory": [
+                {
+                    "team": {
+                        "id": -1,
+                        "name": "Retired"
+                    },
+                    "season": "2025-"
+                },
                 {
                     "team": {
                         "id": 113926,
@@ -4007,9 +4201,31 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
-            "awards": []
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 35,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 16,
+                    "modifier": -3
+                }
+            ],
+            "awards": [
+                {
+                    "name": "PFA Championship Team of the Year",
+                    "season": "2015-16"
+                },
+                {
+                    "name":"EFL Football League One Best Goalkeeper",
+                    "season": "2024-25"
+                },
+                {
+                    "name": "Salford City FC Hall of Fame",
+                    "season": "2024-25"
+                }
+            ]
         },
         {
             "id": 169588,
@@ -4017,7 +4233,7 @@
             "age": 1988,
             "nationality": "Nothern",
             "position": "CB",
-            "overall": 72,
+            "overall": 69,
             "potential": 75,
             "modifier": 0,
             "height": 188,
@@ -4033,7 +4249,7 @@
                     "name": "Long Ball Pass"
                 }
             ],
-            "value": 775000,
+            "value": 725000,
             "wage": 8000,
             "releaseClause": null,
             "contract": 2026,
@@ -4118,9 +4334,23 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
-            "awards": []
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 44,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 23,
+                    "modifier": -3
+                }
+            ],
+            "awards": [
+                {
+                    "name":"EFL Football League One Team of the Season",
+                    "season": "2024-25"
+                }
+            ]
         },
         {
             "id": 232381,
@@ -4130,7 +4360,7 @@
             "position": "ST",
             "overall": 72,
             "potential": 72,
-            "modifier": 1,
+            "modifier": 0,
             "height": 191,
             "weight": 93,
             "foot": "Right",
@@ -4139,7 +4369,7 @@
             "workRate": "Medium/Medium",
             "realFace": true,
             "playStyles": [],
-            "value": 2200000,
+            "value": 2000000,
             "wage": 12500,
             "releaseClause": null,
             "contract": 2025,
@@ -4149,7 +4379,7 @@
                         "id": 113926,
                         "name": "Salford City"
                     },
-                    "season": "2024-"
+                    "season": "2024-25"
                 },
                 {
                     "team": {
@@ -4219,8 +4449,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 16,
+                    "goals": 6,
+                    "assists": 1,
+                    "matchesWithoutGoals": 4,
+                    "modifier": 1
+                }
+            ],
             "awards": []
         },
         {
@@ -4245,10 +4484,10 @@
                     "name": "Far Throw"
                 }
             ],
-            "value": 1700000,
+            "value": 2100000,
             "wage": 4000,
             "releaseClause": null,
-            "contract": 2027,
+            "contract": 2030,
             "teamHistory": [
                 {
                     "team": {
@@ -4287,8 +4526,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 23,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 13,
+                    "modifier": 5
+                }
+            ],
             "awards": []
         },
         {
@@ -4297,8 +4545,8 @@
             "age": 1992,
             "nationality": "Ireland",
             "position": "RB",
-            "overall": 71,
-            "potential": 71,
+            "overall": 72,
+            "potential": 72,
             "modifier": 0,
             "height": 188,
             "weight": 82,
@@ -4308,7 +4556,7 @@
             "workRate": "High/Medium",
             "realFace": true,
             "playStyles": [],
-            "value": 1100000,
+            "value": 1400000,
             "wage": 9000,
             "releaseClause": null,
             "contract": 2027,
@@ -4395,8 +4643,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 18,
+                    "goals": 0,
+                    "assists": 1,
+                    "matchesWithoutGoals": 4,
+                    "modifier": 1
+                }
+            ],
             "awards": []
         },
         {
@@ -4545,8 +4802,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 16,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 5,
+                    "modifier": 1
+                }
+            ],
             "awards": []
         },
         {
@@ -4656,8 +4922,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 38,
+                    "goals": 0,
+                    "assists": 1,
+                    "matchesWithoutGoals": 18,
+                    "modifier": 1
+                }
+            ],
             "awards": []
         },
         {
@@ -4666,9 +4941,9 @@
             "age": 2001,
             "nationality": "England",
             "position": "LB",
-            "overall": 71,
+            "overall": 72,
             "potential": 74,
-            "modifier": 3,
+            "modifier":0,
             "height": 188,
             "weight": 81,
             "foot": "Left",
@@ -4689,10 +4964,17 @@
             "teamHistory": [
                 {
                     "team": {
+                        "id": 1796,
+                        "name": "Burnley"
+                    },
+                    "season": "2025-"
+                },
+                {
+                    "team": {
                         "id": 113926,
                         "name": "Salford City"
                     },
-                    "season": "2024-"
+                    "season": "2024-25"
                 },
                 {
                     "team": {
@@ -4756,8 +5038,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 35,
+                    "goals": 1,
+                    "assists": 4,
+                    "matchesWithoutGoals": 7,
+                    "modifier": 4
+                }
+            ],
             "awards": []
         },
         {
@@ -4796,7 +5087,7 @@
                         "id": 113926,
                         "name": "Salford City"
                     },
-                    "season": "2024-"
+                    "season": "2024-25"
                 },
                 {
                     "team": {
@@ -4840,8 +5131,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 14,
+                    "goals": 0,
+                    "assists": 2,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 1
+                }
+            ],
             "awards": []
         },
         {
@@ -4850,9 +5150,9 @@
             "age": 1998,
             "nationality": "England",
             "position": "CM",
-            "overall": 67,
+            "overall": 68,
             "potential": 68,
-            "modifier": 2,
+            "modifier": 0,
             "height": 178,
             "weight": 80,
             "foot": "Right",
@@ -4928,8 +5228,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 22,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 4,
+                    "modifier": 3
+                }
+            ],
             "awards": []
         },
         {
@@ -4938,7 +5247,7 @@
             "age": 2006,
             "nationality": "England",
             "position": "CDM",
-            "overall": 66,
+            "overall": 67,
             "potential": 74,
             "modifier": 2,
             "height": 187,
@@ -4946,11 +5255,11 @@
             "foot": "Right",
             "skills": 2,
             "weakFoot": 4,
-            "workRate": "Low/Low",
+            "workRate": "Low/High",
             "realFace": false,
             "playStyles": [],
-            "value": 140000,
-            "wage": 1000,
+            "value": 160000,
+            "wage": 1400,
             "releaseClause": null,
             "contract": 2030,
             "teamHistory": [
@@ -4982,8 +5291,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 12,
+                    "goals": 1,
+                    "assists": 1,
+                    "matchesWithoutGoals": 2,
+                    "modifier": 3
+                }
+            ],
             "awards": []
         },
         {
@@ -5053,7 +5371,7 @@
             "age": 2008,
             "nationality": "Wales",
             "position": "CB",
-            "overall": 58,
+            "overall": 60,
             "potential": 84,
             "modifier": 4,
             "height": 185,
@@ -5104,8 +5422,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 25,
+                    "goals": 1,
+                    "assists": 0,
+                    "matchesWithoutGoals": 10,
+                    "modifier": 6
+                }
+            ],
             "awards": []
         },
         {
@@ -5114,9 +5441,9 @@
             "age": 2006,
             "nationality": "England",
             "position": "CB",
-            "overall": 63,
+            "overall": 65,
             "potential": 84,
-            "modifier": 5,
+            "modifier": 0,
             "height": 189,
             "weight": 71,
             "foot": "Right",
@@ -5125,7 +5452,7 @@
             "workRate": "Medium/High",
             "realFace": false,
             "playStyles": [],
-            "value": 850000,
+            "value": 1500000,
             "wage": 500,
             "releaseClause": null,
             "contract": 2025,
@@ -5165,8 +5492,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 0,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 7
+                }
+            ],
             "awards": []
         },
         {
@@ -5175,9 +5511,9 @@
             "age": 2008,
             "nationality": "England",
             "position": "ST",
-            "overall": 58,
+            "overall": 60,
             "potential": 82,
-            "modifier": 3,
+            "modifier": 0,
             "height": 178,
             "weight": 73,
             "foot": "Left",
@@ -5226,8 +5562,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 0,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 0,
+                    "modifier": 5
+                }
+            ],
             "awards": []
         },
         {
@@ -5236,9 +5581,9 @@
             "age": 2008,
             "nationality": "England",
             "position": "CM",
-            "overall": 65,
+            "overall": 66,
             "potential": 82,
-            "modifier": 10,
+            "modifier": 0,
             "height": 182,
             "weight": 77,
             "foot": "Right",
@@ -5256,7 +5601,7 @@
                     "name": "Relentless"
                 }
             ],
-            "value": 1200000,
+            "value": 1700000,
             "wage": 1000,
             "releaseClause": null,
             "contract": 2025,
@@ -5296,8 +5641,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 38,
+                    "goals": 7,
+                    "assists": 4,
+                    "matchesWithoutGoals": 11,
+                    "modifier": 11
+                }
+            ],
             "awards": []
         },
         {
@@ -5306,7 +5660,7 @@
             "age": 2007,
             "nationality": "England",
             "position": "GK",
-            "overall": 56,
+            "overall": 57,
             "potential": 77,
             "modifier": 5,
             "height": 195,
@@ -5322,7 +5676,7 @@
                     "name": "Rush Out"
                 }
             ],
-            "value": 230000,
+            "value": 3250000,
             "wage": 500,
             "releaseClause": null,
             "contract": 2025,
@@ -5362,8 +5716,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 12,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 5,
+                    "modifier": 6
+                }
+            ],
             "awards": []
         },
         {
@@ -5372,9 +5735,9 @@
             "age": 2003,
             "nationality": "England",
             "position": "CB",
-            "overall": 68,
+            "overall": 70,
             "potential": 78,
-            "modifier": 4,
+            "modifier": 0,
             "height": 185,
             "weight": 78,
             "foot": "Left",
@@ -5388,8 +5751,8 @@
                     "name": "Long Throw"
                 }
             ],
-            "value": 2200000,
-            "wage": 11500,
+            "value": 2800000,
+            "wage": 15500,
             "releaseClause": null,
             "contract": 2025,
             "teamHistory": [
@@ -5445,12 +5808,21 @@
             ],
             "nationalTeam": [],
             "isStarter": true,
-            "isLoan": true,
-            "buyClause": 1500000,
+            "isLoan": false,
+            "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 48,
+                    "goals": 2,
+                    "assists": 1,
+                    "matchesWithoutGoals": 22,
+                    "modifier": 6
+                }
+            ],
             "awards": []
         },
         {
@@ -5459,9 +5831,9 @@
             "age": 2003,
             "nationality": "England",
             "position": "ST",
-            "overall": 70,
+            "overall": 71,
             "potential": 78,
-            "modifier": 5,
+            "modifier": 0,
             "height": 182,
             "weight": 74,
             "foot": "Right",
@@ -5541,7 +5913,16 @@
             "bio": "",
             "analysis": "",
             "hasStats": false,
-            "stats": [],
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 21,
+                    "goals": 8,
+                    "assists": 9,
+                    "matchesWithoutGoals": 9,
+                    "modifier": 6
+                }
+            ],
             "awards": []
         },
         {
@@ -5550,9 +5931,9 @@
             "age": 2004,
             "nationality": "England",
             "position": "CAM",
-            "overall": 67,
+            "overall": 68,
             "potential": 81,
-            "modifier": 2,
+            "modifier": 0,
             "height": 173,
             "weight": 65,
             "foot": "Right",
@@ -5574,10 +5955,10 @@
                     "name": "Slide Tackle"
                 }
             ],
-            "value": 2100000,
+            "value": 2500000,
             "wage": 10500,
             "releaseClause": null,
-            "contract": 2025,
+            "contract": 2026,
             "teamHistory": [
                 {
                     "team": {
@@ -5628,8 +6009,17 @@
             "buyClause": 1700000,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 33,
+                    "goals": 2,
+                    "assists": 2,
+                    "matchesWithoutGoals": 7,
+                    "modifier": 3
+                }
+            ],
             "awards": []
         },
         {
@@ -5638,8 +6028,8 @@
             "age": 1993,
             "nationality": "Greece",
             "position": "RB",
-            "overall": 71,
-            "potential": 71,
+            "overall": 72,
+            "potential": 72,
             "modifier": 0,
             "height": 175,
             "weight": 67,
@@ -5708,8 +6098,17 @@
             "buyClause": null,
             "bio": "",
             "analysis": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 20,
+                    "goals": 0,
+                    "assists": 4,
+                    "matchesWithoutGoals": 10,
+                    "modifier": 1
+                }
+            ],
             "awards": []
         },
         {
@@ -5718,15 +6117,15 @@
             "age": 2003,
             "nationality": "England",
             "position": "CB",
-            "overall": 72,
+            "overall": 73,
             "potential": 80,
-            "modifier": 1,
+            "modifier": 0,
             "height": 180,
             "weight": 76,
             "foot": "Right",
             "skills": 2,
             "weakFoot": 4,
-            "workRate": "Medium/Medium",
+            "workRate": "Medium/HIgh",
             "realFace": false,
             "playStyles": [
                 {
@@ -5746,7 +6145,7 @@
                     "name": "Anticipate"
                 }
             ],
-            "value": 4200000,
+            "value": 5500000,
             "wage": 3700,
             "releaseClause": null,
             "contract": 2029,
@@ -5787,14 +6186,28 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "analysis": "Ronnie Edwards, the English defender for Peterborough United, is a robust force in the backline. With a solid overall rating, his standout attributes lie in exceptional defensive prowess. Edwards showcases impeccable marking and tackling skills, making him a formidable opponent for any striker. His physical strength and aerial ability, coupled with swift sprint speed, contribute to a well-rounded defensive presence. Edwards' proficiency in defensive fundamentals makes him a stalwart asset for the team.",
             "bio": "Ronnie Lee Edwards, born on March 28, 2003, is an English professional footballer and defender for Peterborough United. Beginning his journey at Barnet's academy at the age of nine, Edwards swiftly rose through the ranks. His senior debut at sixteen showcased his talent. After five appearances for Barnet, he joined Peterborough United in August 2020. Edwards made significant contributions, earning his place in the England U19 and U20 squads, winning the 2022 UEFA European Under-19 Championship and representing England in the 2023 FIFA U-20 World Cup.",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 51,
+                    "goals": 1,
+                    "assists": 1,
+                    "matchesWithoutGoals": 91,
+                    "modifier": 5
+                }
+            ],
             "awards": [
                 {
                     "name": "Peterborough United Player of the Season",
                     "season": "2021-22"
+                },
+                {
+                    "name": "EFL Football League One Best Defender",
+                    "season": 2024
                 }
             ]
         },
@@ -5804,9 +6217,9 @@
             "age": 1999,
             "nationality": "Wales",
             "position": "LB",
-            "overall": 71,
+            "overall": 72,
             "potential": 74,
-            "modifier": 1,
+            "modifier": 0,
             "height": 181,
             "weight": 70,
             "foot": "Left",
@@ -5881,10 +6294,20 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "analysis": "",
             "bio": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 14,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 1,
+                    "modifier": 1
+                }
+            ],
             "awards": []
         },
         {
@@ -5893,9 +6316,9 @@
             "age": 2004,
             "nationality": "England",
             "position": "CDM",
-            "overall": 68,
+            "overall": 69,
             "potential": 79,
-            "modifier": 1,
+            "modifier": 0,
             "height": 191,
             "weight": 80,
             "foot": "Right",
@@ -5904,8 +6327,8 @@
             "workRate": "Medium/Medium",
             "realFace": false,
             "playStyles": [],
-            "value": 2100000,
-            "wage": 2800,
+            "value": 2700000,
+            "wage": 5400,
             "releaseClause": null,
             "contract": 2029,
             "teamHistory": [
@@ -5975,10 +6398,20 @@
             "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "analysis": "",
             "bio": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 11,
+                    "goals": 3,
+                    "assists": 1,
+                    "matchesWithoutGoals": 3,
+                    "modifier": 1
+                }
+            ],
             "awards": []
         },
         {
@@ -5987,9 +6420,9 @@
             "age": 2003,
             "nationality": "England",
             "position": "LW",
-            "overall": 69,
+            "overall": 70,
             "potential": 76,
-            "modifier": 1,
+            "modifier": 0,
             "height": 174,
             "weight": 65,
             "foot": "Right",
@@ -5998,10 +6431,10 @@
             "workRate": "High/Medium",
             "realFace": false,
             "playStyles": [],
-            "value": 2700000,
-            "wage": 4000,
+            "value": 2800000,
+            "wage": 16500,
             "releaseClause": null,
-            "contract": 2029,
+            "contract": 2031,
             "teamHistory": [
                 {
                     "team": {
@@ -6099,14 +6532,24 @@
                     "season": "2016-17"
                 }
             ],
-            "isStarter": false,
-            "isLoan": true,
+            "isStarter": true,
+            "isLoan": false,
             "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "analysis": "",
             "bio": "",
-            "hasStats": false,
-            "stats": [],
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 17,
+                    "goals": 10,
+                    "assists": 6,
+                    "matchesWithoutGoals": 5,
+                    "modifier": 2
+                }
+            ],
             "awards": []
         },
         {
@@ -6115,9 +6558,9 @@
             "age": 2003,
             "nationality": "England",
             "position": "CDM",
-            "overall": 70,
+            "overall": 72,
             "potential": 81,
-            "modifier": 1,
+            "modifier": 0,
             "height": 183,
             "weight": 70,
             "foot": "Right",
@@ -6126,8 +6569,8 @@
             "workRate": "Medium/Low",
             "realFace": true,
             "playStyles": [],
-            "value": 2900000,
-            "wage": 4000,
+            "value": 4500000,
+            "wage": 15000,
             "releaseClause": null,
             "contract": 2029,
             "teamHistory": [
@@ -6198,12 +6641,515 @@
                     "season": "2021-22"
                 }
             ],
-            "isStarter": true,
-            "isLoan": true,
-            "buyClause": 2400000,
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
             "isScouted": false,
+            "isPriority": false,
             "analysis": "",
             "bio": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 21,
+                    "goals": 2,
+                    "assists": 0,
+                    "matchesWithoutGoals": 7,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
+        },
+        {
+            "id": 264120,
+            "name": "Andrew Moran",
+            "age": 2003,
+            "nationality": "Ireland",
+            "position": "ST",
+            "overall": 71,
+            "potential": 79,
+            "modifier": 0,
+            "height": 177,
+            "weight": 73,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 4,
+            "workRate": "Medium/Medium",
+            "realFace": false,
+            "playStyles": [],
+            "value": 3600000,
+            "wage": 5100,
+            "releaseClause": null,
+            "contract": 2029,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City"
+                    },
+                    "season": "2025-"
+                },
+                {
+                    "team": {
+                        "id": 1808,
+                        "name": "Brighton & Hove Albion"
+                    },
+                    "season": "2023-25"
+                },
+                {
+                    "team": {
+                        "id": 1808,
+                        "name": "Brighton & Hove Albion U21"
+                    },
+                    "season": "2021-23"
+                },
+                {
+                    "team": {
+                        "id": 1808,
+                        "name": "Brighton & Hove Albion U18"
+                    },
+                    "season": "2020-21"
+                },
+                {
+                    "team": {
+                        "id": 1,
+                        "name": "Bray Wanderers"
+                    },
+                    "season": "2020"
+                },
+                {
+                    "team": {
+                        "id": 1,
+                        "name": "Bray Academy"
+                    },
+                    "season": "2019-20"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "Ireland",
+                    "season": "2023"
+                },
+                {
+                    "name": "Ireland U21",
+                    "season": "2021-22"
+                },
+                {
+                    "name": "Ireland U19",
+                    "season": "2021"
+                },
+                {
+                    "name": "Ireland U17",
+                    "season": "2019"
+                },
+                {
+                    "name": "Ireland U16",
+                    "season": "2018"
+                }
+            ],
+            "isStarter": false,
+            "isLoan": true,
+            "buyClause": 1700000,
+            "isScouted": false,
+            "isPriority": false,
+            "analysis": "",
+            "bio": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 21,
+                    "goals": 2,
+                    "assists": 0,
+                    "matchesWithoutGoals": 7,
+                    "modifier": 2
+                }
+            ],
+            "awards": []
+        },
+        {
+            "id": 280142,
+            "name": "Theo Watkins",
+            "age": 2007,
+            "nationality": "England",
+            "position": "CB",
+            "overall": 68,
+            "potential": 93,
+            "modifier": 0,
+            "height": 181,
+            "weight": 80,
+            "foot": "Left",
+            "skills": 4,
+            "weakFoot": 3,
+            "workRate": "Medium/High",
+            "realFace": false,
+            "playStyles": [
+                {
+                    "id": 9,
+                    "name": "Tiki Taka"
+                },
+                {
+                    "id": 22,
+                    "name": "Anticipate"
+                },
+                {
+                    "id": 26,
+                    "name": "Relentless"
+                }
+            ],
+            "value": 3100000,
+            "wage": 2000,
+            "releaseClause": null,
+            "contract": 2030,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City"
+                    },
+                    "season": "2025-"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U21"
+                    },
+                    "season": "2024-25"
+                },
+                {
+                    "team": {
+                        "id": 113926,
+                        "name": "Salford City U18"
+                    },
+                    "season": "2022-24"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": false,
+            "isPriority": false,
+            "bio": "",
+            "analysis": "",
+            "hasStats": true,
+            "stats": [
+                {
+                    "season": 2024,
+                    "matches": 6,
+                    "goals": 0,
+                    "assists": 0,
+                    "matchesWithoutGoals": 2,
+                    "modifier": 4
+                }
+            ],
+            "awards": []
+        },
+        {
+            "id": 243353,
+            "name": "Bali Mumba",
+            "age": 2001,
+            "nationality": "England",
+            "position": "LM",
+            "overall": 75,
+            "potential": 79,
+            "modifier": 0,
+            "height": 168,
+            "weight": 61,
+            "foot": "Right",
+            "skills": 3,
+            "weakFoot": 5,
+            "workRate": "High/High",
+            "realFace": true,
+            "playStyles": [
+                {
+                    "id": 12,
+                    "name": "Flair"
+                },
+                {
+                    "id": 15,
+                    "name": "Technical"
+                },
+                {
+                    "id": 27,
+                    "name": "Quick Step"
+                }
+            ],
+            "value": 7000000,
+            "wage": 13000,
+            "releaseClause": null,
+            "contract": 2028,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 1929,
+                        "name": "Plymouth Argyle"
+                    },
+                    "season": "2022-"
+                },
+                {
+                    "team": {
+                        "id": 1938,
+                        "name": "Peterborough"
+                    },
+                    "season": "2022"
+                },
+                {
+                    "team": {
+                        "id": 1792,
+                        "name": "Norwich City"
+                    },
+                    "season": "2020-22"
+                },
+                {
+                    "team": {
+                        "id": 106,
+                        "name": "AFC Sunderland U23"
+                    },
+                    "season": "2018-20"
+                },
+                {
+                    "team": {
+                        "id": 106,
+                        "name": "AFC Sunderland U18"
+                    },
+                    "season": "2017-18"
+                },
+                {
+                    "team": {
+                        "id": 106,
+                        "name": "AFC Sunderland Youth"
+                    },
+                    "season": "2016-17"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name":"England U19",
+                    "season": "2019"
+                },
+                {
+                    "name":"England U18",
+                    "season": "2018-19"
+                },
+                {
+                    "name":"England U17",
+                    "season": "2017-18"
+                },
+                {
+                    "name":"England U16",
+                    "season": "2016"
+                },
+                {
+                    "name":"England U15",
+                    "season": "2016"
+                }
+            ],
+            "isStarter": true,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "isPriority": true,
+            "bio": "Bali Alef Mumba, born on October 8, 2001, is an English professional footballer excelling as a full-back for Plymouth Argyle in the EFL Championship. Starting at Sunderland, he became their youngest captain in 2018. After a stint with Norwich City, he contributed significantly to Peterborough United's FA Cup triumph on loan. His impactful loan to Plymouth Argyle saw him clinch the League One title. Mumba secured a permanent move to Plymouth in July 2023, showcasing his versatility and goal-scoring prowess. Internationally, he has represented England across various age groups.",
+            "analysis": "Bali Mumba, the dynamic English wing-back from Plymouth Argyle, brings a unique blend of agility and acceleration to the pitch. His exceptional balance and ball control make him a formidable force on the wing, while his precise crossing ability amplifies his impact in the attacking third. Mumba's defensive prowess, marked by solid standing and sliding tackles, adds resilience to his game. A player with remarkable versatility, Mumba's skillful dribbling and vision make him a valuable asset on both ends of the field.",
+            "hasStats": false,
+            "stats": [],
+            "awards": [
+                {
+                    "name":"EFL Football League One Team of the Season",
+                    "season": "2022-23"
+                },
+                {
+                    "name":"EFL Football League One Young Player of the Season",
+                    "season": "2022-23"
+                }
+            ]
+        },
+        {
+            "id": 253461,
+            "name": "Luke Cundle",
+            "age": 2002,
+            "nationality": "England",
+            "position": "CM",
+            "overall": 71,
+            "potential": 77,
+            "modifier": 0,
+            "height": 170,
+            "weight": 62,
+            "foot": "Right",
+            "skills": 2,
+            "weakFoot": 3,
+            "workRate": "Medium/Medium",
+            "realFace": true,
+            "playStyles": [
+                {
+                    "id": 11,
+                    "name": "First Touch"
+                }
+            ],
+            "value": 3000000,
+            "wage": 29500,
+            "releaseClause": null,
+            "contract": 2026,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 110,
+                        "name": "Wolverhampton"
+                    },
+                    "season": "2024-"
+                },
+                {
+                    "team": {
+                        "id": 1929,
+                        "name": "Plymouth Argyle"
+                    },
+                    "season": "2023-24"
+                },
+                {
+                    "team": {
+                        "id": 1960,
+                        "name": "Swansea City"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 110,
+                        "name": "Wolverhampton"
+                    },
+                    "season": "2021-22"
+                },
+                {
+                    "team": {
+                        "id": 110,
+                        "name": "Wolverhampton U21"
+                    },
+                    "season": "2020-21"
+                },
+                {
+                    "team": {
+                        "id": 110,
+                        "name": "Wolverhampton U18"
+                    },
+                    "season": "2018-20"
+                },
+                {
+                    "team": {
+                        "id": 110,
+                        "name": "Wolverhampton Youth"
+                    },
+                    "season": "2014-18"
+                }
+            ],
+            "nationalTeam": [],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "isPriority": true,
+            "bio": "Luke James Cundle, born on 26 April 2002, is an English footballer currently shining as an attacking midfielder for Premier League Wolverhampton Wanderers. Graduating from Wolves' academy, he marked his debut in a 2019 EFL Cup victory against Reading. Cundle's noteworthy moments include appearances in the Premier League Asia Trophy Final and his Premier League debut in a 3–1 triumph over Southampton. His ascent continues with a full Premier League debut in a 2–0 victory against Tottenham Hotspur on 13 February 2022.",
+            "analysis": "Luke Cundle, the English midfielder for Wolves, showcases a well-rounded skill set on the field. His adept ball control and precise short passing contribute to a fluid offensive game, complemented by an agile and balanced movement style. Cundle's acceleration and vision make him an asset in creating scoring opportunities. Additionally, his composed demeanor underlines his reliability in crucial moments. While he may need improvement in defensive aspects, his promising potential suggests a player poised for growth and impact.",
+            "hasStats": false,
+            "stats": [],
+            "awards": []
+        },
+        {
+            "id": 225748,
+            "name": "Todd Cantwell",
+            "age": 1998,
+            "nationality": "England",
+            "position": "CAM",
+            "overall": 77,
+            "potential": 79,
+            "modifier": 0,
+            "height": 177,
+            "weight": 70,
+            "foot": "Right",
+            "skills": 4,
+            "weakFoot": 3,
+            "workRate": "High/Medium",
+            "realFace": true,
+            "playStyles": [
+                {
+                    "id": 11,
+                    "name": "First Touch"
+                },
+                {
+                    "id": 12,
+                    "name": "Flair"
+                },
+                {
+                    "id": 15,
+                    "name": "Technical"
+                }
+            ],
+            "value": 11000000,
+            "wage": 44000,
+            "releaseClause": null,
+            "contract": 2028,
+            "teamHistory": [
+                {
+                    "team": {
+                        "id": 86,
+                        "name": "Rangers FC"
+                    },
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 1792,
+                        "name": "Norwich City"
+                    },
+                    "season": "2022-23"
+                },
+                {
+                    "team": {
+                        "id": 1943,
+                        "name": "AFC Bournemouth"
+                    },
+                    "season": "2022"
+                },
+                {
+                    "team": {
+                        "id": 1792,
+                        "name": "Norwich City"
+                    },
+                    "season": "2018-22"
+                },
+                {
+                    "team": {
+                        "id": 1792,
+                        "name": "Norwich City U21"
+                    },
+                    "season": "2015-18"
+                },
+                {
+                    "team": {
+                        "id": 1792,
+                        "name": "Norwich City 18"
+                    },
+                    "season": "2013-15"
+                }
+            ],
+            "nationalTeam": [
+                {
+                    "name": "England U21",
+                    "season": "2019-20"
+                },
+                {
+                    "name": "England U17",
+                    "season": "2014-15"
+                }
+            ],
+            "isStarter": false,
+            "isLoan": false,
+            "buyClause": null,
+            "isScouted": true,
+            "isPriority": true,
+            "bio": "Todd Owen Cantwell, born on February 27, 1998, is an English midfielder currently playing for Rangers in the Scottish Premiership. He started his career at Norwich City, making his senior debut in January 2018 and accumulating 129 appearances over six seasons. Cantwell also had loan spells at Fortuna Sittard and AFC Bournemouth. In January 2023, he joined Rangers. Cantwell has represented England at the under-17 and under-21 levels, showcasing his talent internationally.",
+            "analysis": "Todd Cantwell, the skilled English midfielder for Rangers, brings finesse to the field. His standout attribute lies in impeccable ball control, coupled with a remarkable flair for first-touch play. With a potent combination of agility and acceleration, Cantwell maneuvers through opponents effortlessly, showcasing his impressive dribbling skills. His vision on the field is exemplary, contributing to his ability to position himself strategically, making him a valuable asset in the attacking lineup.",
             "hasStats": false,
             "stats": [],
             "awards": []
