@@ -1,0 +1,236 @@
+.player h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.player h1 svg{
+    font-size: 0.75em;
+    margin-right: 0.4em;
+}
+
+
+.player h1 span{
+    font-size: 0.75em;
+    color: var(--text-low);
+    margin-left: 0.4em;
+    margin-top: 0.25em;
+}
+
+.player .content {
+    display: flex;
+    gap: 4em;
+    padding: 2em 4em;
+}
+
+.player .content .column-1,
+.player .content .column-3 {
+    flex: 1;
+}
+
+.player .content .column-2 {
+    flex: 2;
+}
+
+.player .content .column-1 .player-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.player .content .column-1 .player-infos h4{
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.player .content .column-1 .player-infos h4:after{
+    content: "";
+    display: block;
+    width: 5%;
+    min-width: 3em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    bottom: 0;
+    margin-top: 0.5em;
+}
+
+.player .content .column-1 .player-infos .other-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+}
+.player .content .column-1 .player-infos .other-infos .team-history,
+.player .content .column-1 .player-infos .other-infos .national-history,
+.player .content .column-1 .player-infos .other-infos .play-styles{
+    width: 50%;
+}
+
+.player .content .column-1 .player-infos .show-older-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+    border: none;
+    color: var(--text-high);
+    font-size: 0.9em;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 0.5em;
+}
+
+.player .content .column-1 .player-infos .show-older-button svg {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+
+.player .content .column-1 .player-infos .show-older-button:hover {
+    text-decoration: underline;
+}
+
+.player .content .column-1 .player-infos .collapse-button {
+    background: none;
+    border: none;
+    color: var(--text-high);
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-right: 30%;
+}
+
+.player .content .column-1 .player-infos .collapse-button:hover {
+    text-decoration: underline;
+}
+
+.player .content .column-2 .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.player .content .column-2 .title h2{
+    font-size: 1.25em;
+}
+
+.player .content .column-2 .title h4{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.player .content .column-2 .title p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.player .content .column-2 .player-content{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    background-color: #eee;
+    border-radius: 6px;
+    gap: 2em;
+}
+
+.player .content .column-2 .player-content h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.player .content .column-2 .player-content h3::after{
+    content: "";
+    display: block;
+    width: 36%;
+    min-width: 6em;
+    border-bottom: 2px solid var(--text-high);
+    bottom: 0;
+    margin-top: 1em;
+}
+
+.player .content .column-2 .player-content .awards{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.player .content .column-2 .player-content .award{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.player .content .column-2 .player-content .award svg{
+    margin-right: 0.5em;
+}
+
+.player .content .column-3{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.player .content .column-3 h4{
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.player .content .column-3 .logo{
+    border-radius: 6px;
+}
+
+
+.player .content .column-3 .links{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.player .content .column-3 .links a{
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+}
+.player .content .column-3 .links a:hover{
+    color: var(--link);
+}
+
+
+@media screen and (max-width: 1000px) {
+    .player .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .player .content .column-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .player .content .column-1 .player-infos .other-infos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4em;
+        width: 100%;
+    }
+    .player .content .column-1 .player-infos .other-infos .club-history,
+    .player .content .column-1 .player-infos .other-infos .national-team,
+    .player .content .column-1 .player-infos .other-infos .play-styles{
+        max-width: calc(33% - 2em);
+    }
+    
+}
