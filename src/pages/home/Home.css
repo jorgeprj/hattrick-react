@@ -1,0 +1,217 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+}
+
+.home .featured,
+.home .content {
+    padding: 2em 4em;
+}
+
+.home .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    min-height: 300px;
+    color: #fff;
+
+    background-image: url(../../assets/menu_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.home .main .logo {
+    font-size: 1em;
+    color: #fff
+}
+
+.home .main h2 {
+    font-size: 2em
+}
+
+.home .main p {
+    text-align: center;
+    max-width: 35%;
+    min-width: 300px;
+    font-size: 1em;
+}
+
+.home .main button {
+    margin-top: 1em;
+}
+
+.home .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.75em;
+    margin-bottom: 4em;
+}
+
+.home .title h3 {
+    font-size: 1.75em;
+    margin-bottom: 0.2em;
+    font-weight: 700;
+}
+
+.home .title h3 span {
+    font-weight: 400;
+    margin-left: 0.25em;
+}
+
+.home .title p {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: var(--text-medium);
+    font-weight: 500;
+}
+
+.home .title p svg {
+    color: var(--text-medium);
+    margin-right: 0.5em;
+}
+
+.home .title:after {
+    content: "";
+    display: block;
+    width: 5%;
+    min-width: 6em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    bottom: 0;
+    margin-top: 1em;
+}
+
+.home .featured {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home .content .players-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.home .salford-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+}
+
+.home .salford-section .salford-banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--text-high);
+    color: #fff;
+}
+
+.home .salford-section .salford-banner img {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home .salford-section .salford-banner .text {
+    display: flex;
+    flex-direction: column;
+    padding: 4em 2em;
+    text-align: left;
+    justify-content: center;
+}
+
+.home .salford-section .salford-banner .text h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    line-height: normal;
+}
+
+.home .salford-section .salford-banner .text p {
+    max-width: 80%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.home .salford-section .salford-banner .buttons {
+    display: flex;
+    gap: 2em;
+    margin-top: 1.25em;
+}
+
+.home .salford-section .salford-banner .buttons button {
+    max-width: fit-content;
+}
+
+.home .salford-section .salford-banner .buttons .donate {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.home .salford-section .salford-banner .buttons .donate:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+.home .content .title.final-section{
+    display: flex;
+    align-items: start;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.home .content .title.final-section h3{
+    margin: 0;
+}
+
+.home .content.final-section button{
+    margin-top: 1em;
+    color: #fff;
+    background-color: var(--text-high);
+}
+
+.home .content.final-section button:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media screen and (max-width: 768px) {
+    .home .salford-section{
+        display: flex;
+        justify-content: center;
+    }
+    .home .salford-section .salford-banner {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .home .salford-section .salford-banner img {
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .home .salford-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home .salford-section .salford-banner {
+        width: 100%;
+    }
+}
