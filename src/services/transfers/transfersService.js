@@ -1,4 +1,4 @@
-import API_BASE_URL from '../apiConfig';
+import API_BASE_URL from '../config';
 
 export const getTransfers = async () => {
     try {
