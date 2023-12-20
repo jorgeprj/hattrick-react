@@ -18,27 +18,3 @@
 .national-history .national-teams .player-national .national-tag {
     margin-right: 0.5em;
 }
-
-.national-history .national-teams .player-national .national-tag img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.2em;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 0.2em;
-}
-
-.national-history .national-teams .player-national .national-text h5 {
-    font-size: 0.8em;
-    color: var(--text-medium);
-    font-weight: 700;
-    white-space: nowrap;
-}
-
-.national-history .national-teams .player-national .national-text h6 {
-    font-size: 0.8em;
-    color: var(--text-medium);
-    font-weight: 500;
-    white-space: nowrap;
-}

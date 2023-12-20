@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import './CoachSection.css'
 
-import { useNavigate } from 'react-router-dom'
-
 import { FaRegClipboard, FaTrophy, FaChartSimple } from 'react-icons/fa6'
 import CoachStatsModal from '../../modals/coachStatsModal/CoachStatsModal';
 import TitlesModal from '../../modals/titlesModal/TitlesModal';
+import Button from '../../shared/button/Button';
 
 const CoachSection = ({ coach }) => {
 
@@ -19,9 +18,6 @@ const CoachSection = ({ coach }) => {
     const toggleStats = () => {
         setStatsModal(!statsModal);
     }
-
-    const navigate = useNavigate();
-	const redirectToCoachPage = () => navigate(`/coach`);
 
     return (
         <div className='coach-section'>
@@ -39,9 +35,7 @@ const CoachSection = ({ coach }) => {
                     <div className='icons'>
                         <FaTrophy onClick={toggleTitles}/>
                         <FaChartSimple onClick={toggleStats} />
-                        <button onClick={redirectToCoachPage}>
-                            Read more
-                        </button>
+                        <Button text={"Read more"} link={"/coach"}/>
                     </div>
                 </div>
             </div>

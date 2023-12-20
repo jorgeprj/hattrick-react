@@ -18,7 +18,9 @@
 }
 
 .titles-list .title-details {
+    display: flex;
     flex-grow: 1;
+    align-items: center;
 }
 
 .titles-list .title-details h4{

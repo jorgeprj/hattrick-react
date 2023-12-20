@@ -4,6 +4,14 @@
     height: 100vw;
 }
 
+.home .green-btn button{
+    background-color: var(--primary-color);
+}
+
+.home .green-btn button:hover{
+    background-color: var(--high-green);
+}
+
 .home .featured,
 .home .content {
     padding: 2em 4em;
@@ -41,7 +49,7 @@
     font-size: 1em;
 }
 
-.home .main button {
+.home .main .green-btn button{
     margin-top: 1em;
 }
 
@@ -153,13 +161,13 @@
     max-width: fit-content;
 }
 
-.home .salford-section .salford-banner .buttons .donate {
+.home .salford-section .salford-banner .buttons .donate button {
     background-color: transparent;
     color: rgba(255, 255, 255, 0.4);
     border: 2px solid rgba(255, 255, 255, 0.4);
 }
 
-.home .salford-section .salford-banner .buttons .donate:hover {
+.home .salford-section .salford-banner .buttons .donate button:hover {
     color: #fff;
     border: 2px solid #fff;
 }

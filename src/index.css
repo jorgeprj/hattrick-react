@@ -54,22 +54,61 @@ button {
     border: none;
     padding: 0.5em 2em;
     border-radius: 20px;
-    color: var(--text-high);
     font-size: 0.9em;
     font-weight: 600;
-    background-color: var(--primary-color);
     cursor: pointer;
 }
 
-button:hover{
-    background-color: var(--high-green);
-}
 
 .logo{
     font-family: 'Montserrat', sans-serif;
     color: var(--text-high);
     font-size: 1.5em;
     font-weight: 500;
+}
+
+.button .show-older-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+    border: none;
+    color: var(--text-high);
+    font-size: 0.9em;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 0.5em;
+}
+
+.button .show-older-button svg {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+
+.button .show-older-button:hover {
+    text-decoration: underline;
+}
+
+.button .collapse-button {
+    background: none;
+    border: none;
+    color: var(--text-high);
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-right: 30%;
+}
+
+.button .collapse-button:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {

@@ -3,14 +3,15 @@ import './Header.css'
 import PotentialRating from '../../ratings/potentialRating/PotentialRating'
 import HattrickRating from '../../ratings/hattrickRating/HattrickRating'
 import { calculateFutzScore } from '../../../utils/futzScore'
+import PlayerHead from '../../shared/playerHead/PlayerHead'
 
 
 const Header = ({ player, year }) => {
     return (
         <section className='player-header'>
-            <div className='player-image'>
+            <div className='player-head'>
                 <img className='flag' src={`../../src/assets/flags/${player.nationality}.png`} alt={`Flag of ${player.nationality}`} />
-                <img src={`../../src/assets/players/heads/${player.id}.png`} alt={`Player ${player.id} image`} />
+                <PlayerHead playerId={player.id}/>
             </div>
             <section className='player-stats'>
                 <div>

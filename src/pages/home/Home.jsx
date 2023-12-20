@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import './Home.css'
 
 import { getTeam } from '../../services/teams/teamsService';
@@ -13,6 +12,7 @@ import TeamSection from '../../components/home/teamSection/TeamSection';
 import PlayerCard from '../../components/home/playerCard/PlayerCard';
 import Footer from '../../components/layout/footer/Footer';
 import BestPlayers from '../../components/home/bestPlayers/BestPlayers';
+import Button from '../../components/shared/button/Button';
 
 const Home = ({ year }) => {
 
@@ -21,10 +21,6 @@ const Home = ({ year }) => {
     const [players, setPlayers] = useState(null);
     const [teamPlayers, setTeamPlayers] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
-
-    const navigate = useNavigate();
-    const redirectToTeamPage = () => navigate(`/teams/${team.id}`);
-
 
     useEffect(() => {
         const fetchData = async () => {
@@ -73,9 +69,9 @@ const Home = ({ year }) => {
                     Experience realistic career mode with Salford City FC.
                     Let the game begin!
                 </p>
-                <button onClick={redirectToTeamPage}>
-                    Salford City FC
-                </button>
+                <div className='green-btn'>
+                    <Button text={"Salford City FC"} link={`/teams/${team.id}`}/>
+                </div>
             </section>
 
             <section className='content'>
@@ -127,12 +123,12 @@ const Home = ({ year }) => {
                             one of the greatest realistic career mode in the world ? Become a hattrick teammate
                         </p>
                         <div className='buttons'>
-                            <button>
-                                Create account
-                            </button>
-                            <button className='donate'>
-                                Donate
-                            </button>
+                            <div className='green-btn'>
+                                <Button text={"Create account"} link={`/#`}/>
+                            </div>
+                            <div className='donate'>
+                                <Button text={"Create account"} link={`/#`}/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,9 +158,7 @@ const Home = ({ year }) => {
                         depth, and, most importantly, an abundance of fun.
                     </p>
                 </div>
-                <button>
-                    Go to store
-                </button>
+                <Button text={"Go to store"} link={`/#`}/>
             </section>
             <Footer />
         </div>

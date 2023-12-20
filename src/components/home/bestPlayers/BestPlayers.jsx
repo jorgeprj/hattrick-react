@@ -1,6 +1,8 @@
 import React from 'react'
 
 import './BestPlayers.css'
+import Button from '../../shared/button/Button'
+import PlayerHead from '../../shared/playerHead/PlayerHead'
 
 const BestPlayers = ({ players }) => {
     return (
@@ -15,7 +17,7 @@ const BestPlayers = ({ players }) => {
                 .map(player => (
                     <div className='player-list'>
                         <div className='player-info'>
-                            <img src={`../src/assets/players/heads/${player.id}.png`} alt="Player" className='player-image'/>
+                            <PlayerHead playerId={player.id}/>
                             <div className='player-infos'>
                                 <h4>{player.name}</h4>
                                 <div className='country'>
@@ -30,9 +32,7 @@ const BestPlayers = ({ players }) => {
                     </div>
                 ))}
             </div>
-            <button>
-                View all
-            </button>
+            <Button text={"View all"} link={`/#`}/>
         </div>
     )
 }

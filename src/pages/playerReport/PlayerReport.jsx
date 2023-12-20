@@ -1,5 +1,4 @@
 import React from 'react'
-import './PlayerReport.css'
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
@@ -41,7 +40,7 @@ const PlayerReport = ({ year }) => {
     return (
         <div className='player'>
             <h1>
-                {player.name} 
+                {player.name}
                 <span>{player.position}</span>
             </h1>
             <section className='content'>
@@ -71,7 +70,7 @@ const PlayerReport = ({ year }) => {
                             <h3>Analysis</h3>
                             <p>{player.analysis}</p>
                         </section>
-                        {player.awards.length > 0 &&(
+                        {player.awards.length > 0 && (
                             <section>
                                 <h3>Player Awards</h3>
                                 <div className='awards'>
@@ -93,6 +92,20 @@ const PlayerReport = ({ year }) => {
                             <PlayStyles player={player} />
                         </section>
                     )}
+
+                    {player.stats.length > 0 && (
+                        <section className='player-stats'>
+                            <h4>{player.stats[0].season} Stats</h4>
+                            <div className='stats'>
+                                <p>Matches: <strong>{player.stats[0].matches}</strong></p>
+                                <p>Goals: <strong>{player.stats[0].goals}</strong></p>
+                                <p>Assists: <strong>{player.stats[0].assists}</strong></p>
+                                <p>Matches without goals: <strong>{player.stats[0].matchesWithoutGoals}</strong></p>
+                                <p>Modifier: <strong>{player.stats[0].modifier}</strong></p>
+                            </div>
+                        </section>
+                    )}
+
                     <section>
                         <h4>Author</h4>
                         <div className='logo'>hattrick</div>

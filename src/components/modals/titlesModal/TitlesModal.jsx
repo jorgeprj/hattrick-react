@@ -32,11 +32,6 @@ const TitlesModal = ({ titles, onClose }) => {
                 <div className="titles-list">
                     {titles.map((title) => (
                         <div key={title.id} className="title-item">
-                            <img
-                                src={`../src/assets/trophies/${title.id}.png`}
-                                alt={`Trophy ${title.name}`}
-                                className="trophy-image"
-                            />
                             <div className="title-details">
                                 <div className='team-logo'>
                                     <img

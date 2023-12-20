@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './PlayerCard.css'
-import { useNavigate } from 'react-router-dom'
-
 
 import { FaChartSimple, FaMagnifyingGlass } from 'react-icons/fa6'
+import Button from '../../shared/button/Button'
+import PlayerStatsModal from '../../modals/playerStatsModal/PlayerStatsModal'
 
 const PlayerCard = ({ player }) => {
 
-	const navigate = useNavigate();
-	const redirectToPlayerPage = () => navigate(`/player/report/${player.id}`);
+    const [stats, setStats] = useState(false)
+
+    const toggleStats = () => {
+        setStats(!stats)
+    }
 
     return (
         <div className='player-card'>
@@ -22,10 +25,15 @@ const PlayerCard = ({ player }) => {
                 <p><strong>{player.bio.split(' ').slice(0, 3).join(' ')} </strong>{player.bio.split(' ').slice(3).join(' ')}</p>
             </div>
             <div className='icons'>
-                {player.hasStats && (<FaChartSimple />)}
-                <button onClick={redirectToPlayerPage}>
-                    Report
-                </button>
+                {player.hasStats && (
+                    <>
+                        <FaChartSimple onClick={toggleStats} />
+                        {stats && (
+                            <PlayerStatsModal stats={player.stats} onClose={toggleStats} />
+                        )}
+                    </>
+                )}
+                <Button text={"Report"} link={`/player/report/${player.id}`} />
             </div>
         </div>
     )

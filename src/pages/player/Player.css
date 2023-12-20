@@ -57,6 +57,18 @@
     margin-top: 0.5em;
 }
 
+.player .content .column-1 .player-infos h5,
+.player .content .column-1 .player-infos h6{
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.player .content .column-1 .player-infos h6{
+    font-weight: 500;
+}
+
 .player .content .column-1 .player-infos .other-infos{
     display: flex;
     flex-direction: column;
@@ -67,50 +79,6 @@
 .player .content .column-1 .player-infos .other-infos .national-history,
 .player .content .column-1 .player-infos .other-infos .play-styles{
     width: 50%;
-}
-
-.player .content .column-1 .player-infos .show-older-button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: none;
-    border: none;
-    color: var(--text-high);
-    font-size: 0.9em;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    font-weight: 600;
-    margin-top: 0.5em;
-}
-
-.player .content .column-1 .player-infos .show-older-button svg {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-right: 0.5em;
-    font-size: 1em;
-}
-
-.player .content .column-1 .player-infos .show-older-button:hover {
-    text-decoration: underline;
-}
-
-.player .content .column-1 .player-infos .collapse-button {
-    background: none;
-    border: none;
-    color: var(--text-high);
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    text-align: right;
-    margin-right: 30%;
-}
-
-.player .content .column-1 .player-infos .collapse-button:hover {
-    text-decoration: underline;
 }
 
 .player .content .column-2 .title{
@@ -197,11 +165,6 @@
 .player .content .column-3 .player-stats .stats p{
     font-size: 0.9em;
 }
-
-.player .content .column-3 .logo{
-    border-radius: 6px;
-}
-
 
 .player .content .column-3 .links{
     display: flex;

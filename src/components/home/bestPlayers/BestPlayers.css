@@ -60,8 +60,6 @@
 
 .best-players .players-list .player-list .player-image{
     height: 3.5em;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.05);
     margin-right: 1em;
 }
 

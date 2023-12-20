@@ -1,15 +1,14 @@
-.player-header .player-image{
+.player-header .player-head{
     position: relative;
     display: inline-block;
 }
 
-.player-header .player-image img{
+.player-header .player-head .player-image{
     width: 16em;
-    border-radius: 6px;
-    background-color: #eee;
+    height: 16em;
 }
 
-.player-header .player-image .flag{
+.player-header .player-head .flag{
     position: absolute;
     bottom: 7px;
     right: 0;
