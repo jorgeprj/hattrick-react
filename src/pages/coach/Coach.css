@@ -1,0 +1,173 @@
+.coach h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.coach .content .column-1,
+.coach .content .column-3 {
+    flex: 1;
+}
+
+.coach .content .column-2 {
+    flex: 2;
+}
+
+.coach .content {
+    display: flex;
+    gap: 4em;
+    padding: 2em 4em;
+}
+
+.coach .coach-image{
+    position: relative;
+    display: inline-block;
+}
+
+.coach .coach-image .player-image{
+    width: 16em;
+    height: 16em;
+}
+
+.coach .coach-image .flag{
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    height: 2em;
+    max-width: fit-content;
+    z-index: 1;
+}
+
+.coach .content .column-1 .coach-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.coach .content .column-1 .coach-infos h4{
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.coach .content .column-1 .coach-infos h4:after{
+    content: "";
+    display: block;
+    width: 5%;
+    min-width: 3em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    bottom: 0;
+    margin-top: 0.5em;
+}
+
+
+.coach .content .column-2 .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.coach .content .column-2 .title h2{
+    font-size: 1.25em;
+}
+
+.coach .content .column-2 .title h4{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.coach .content .column-2 .title p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.coach .content .column-2 .coach-content{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    background-color: #eee;
+    border-radius: 6px;
+    gap: 2em;
+}
+
+.coach .content .column-2 .coach-content h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.coach .content .column-2 .coach-content h3::after{
+    content: "";
+    display: block;
+    width: 36%;
+    min-width: 6em;
+    border-bottom: 2px solid var(--text-high);
+    bottom: 0;
+    margin-top: 1em;
+}
+
+.coach .content .column-2 .coach-content .awards{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.coach .content .column-2 .coach-content .award{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.coach .content .column-2 .coach-content .award svg{
+    margin-right: 0.5em;
+}
+
+
+.coach .content .column-2 .coach-content .award .team-image{
+    max-height: 1.5em;
+    margin-right: 0.5em;
+}
+
+.coach .content .column-3{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.coach .content .column-3 h4{
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.coach .content .column-3 .coach-stats .stats{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.coach .content .column-3 .coach-stats .stats p{
+    font-size: 0.9em;
+}
+
+.coach .content .column-3 .links{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.coach .content .column-3 .links a{
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+}
+.coach .content .column-3 .links a:hover{
+    color: var(--link);
+}

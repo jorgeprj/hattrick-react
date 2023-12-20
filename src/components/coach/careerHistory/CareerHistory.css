@@ -1,0 +1,33 @@
+.career-history {
+    display: flex;
+    flex-direction: column;
+}
+
+.career-history .teams {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.career-history .teams .coach-team {
+    display: flex;
+    flex-direction: row;
+}
+
+.career-history .teams .coach-team .team-tag {
+    margin-right: 0.5em;
+}
+
+.career-history .teams .coach-team .team-text h5 {
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.career-history .teams .coach-team .team-text  h6 {
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 500;
+    white-space: nowrap;
+}
