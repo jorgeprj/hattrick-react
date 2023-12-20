@@ -1,0 +1,69 @@
+.not-found{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 4em;
+    position: relative;
+}
+
+.not-found .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../src/assets/pattern.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.025; 
+}
+
+.not-found .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.not-found .content .text{
+    max-width: 50%;
+    margin-right: 10em;
+    opacity: 1 !important;
+}
+
+.not-found .content .text h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.not-found .content .text p{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.not-found .content .text a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.not-found .content .text a svg{
+    margin-right: 1em;
+}
+
+.not-found .content .text a:hover{
+    text-decoration: underline;
+}
+
+.not-found .content .error h1{
+    font-size: 10em;
+    font-weight: 400;
+}
