@@ -1,0 +1,44 @@
+.national-history {
+    display: flex;
+    flex-direction: column;
+}
+
+.national-history .national-teams{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.national-history .national-teams .player-national {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.national-history .national-teams .player-national .national-tag {
+    margin-right: 0.5em;
+}
+
+.national-history .national-teams .player-national .national-tag img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 0.2em;
+}
+
+.national-history .national-teams .player-national .national-text h5 {
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.national-history .national-teams .player-national .national-text h6 {
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 500;
+    white-space: nowrap;
+}

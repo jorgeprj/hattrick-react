@@ -1,55 +1,38 @@
-import './Header.css';
-
-import { formatCurrency } from '../../../utils/formatCurrency';
-import { getOverallColor } from '../../../utils/overallColor';
+import React from 'react'
+import './Header.css'
+import PotentialRating from '../../ratings/potentialRating/PotentialRating'
+import HattrickRating from '../../ratings/hattrickRating/HattrickRating'
+import { calculateFutzScore } from '../../../utils/futzScore'
 
 
 const Header = ({ player, year }) => {
-
     return (
-        <div className='player-header'>
-            <div className='header-info'>
-                <div className={`player-overall ${getOverallColor(player.overall)}`}>
-                    <h4>Overall</h4>
-                    <p>
-                        {player.overall}
-                        <span className={player.modifier > 0 ? 'green' : 'red'}>
-                            {player.modifier !== 0 ? (player.modifier > 0 ? `+${player.modifier}` : `${player.modifier}`) : ''}
-                        </span>
-                    </p>
-                </div>
-                <div className='player-value'>
-                    <h4>Value</h4>
-                    <p>{formatCurrency(player.value)}</p>
-                </div>
-                <div className='player-wage'>
-                    <h4>Wage</h4>
-                    <p>{formatCurrency(player.wage)}</p>
-                </div>
-                <div className='player-release-clause'>
-                    {player.buyClause ?
-                        (<div>
-                            <h4>Buy clause</h4>
-                            <p>{formatCurrency(player.buyClause)}</p>
-                        </div>) : (
-                            <div>
-                                <h4>Release clause</h4>
-                                <p>{formatCurrency(player.releaseClause)}</p>
-                            </div>
-                        )}
-
-                </div>
-                <div className='player-contract'>
-                    <h4>Contract until</h4>
-                    {player.contract === (year + 1) ? (
-                        <p className='available'>{player.contract}</p>
-                    ) : (
-                        <p>{player.contract}</p>
-                    )}
-                </div>
-
+        <section className='player-header'>
+            <div className='player-image'>
+                <img className='flag' src={`../../src/assets/flags/${player.nationality}.png`} alt={`Flag of ${player.nationality}`} />
+                <img src={`../../src/assets/players/heads/${player.id}.png`} alt={`Player ${player.id} image`} />
             </div>
-        </div>
+            <section className='player-stats'>
+                <div>
+                    <h4>
+                        {player.overall}
+                        <div className='rating'>
+                            <PotentialRating overall={player.overall} potential={player.potential} />
+                        </div>
+                    </h4>
+                    <p>Overall</p>
+                </div>
+                <div>
+                    <h4>
+                        {calculateFutzScore(player, year)}
+                        <div className='rating'>
+                            <HattrickRating hattrick={calculateFutzScore(player, year)} />
+                        </div>
+                    </h4>
+                    <p>Hat3Score</p>
+                </div>
+            </section>
+        </section>
     )
 }
 

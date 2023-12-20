@@ -1,81 +1,48 @@
-.player-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #fff;
-    border-radius: 8px;
-    margin: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 2em;
+.player-header .player-image{
+    position: relative;
+    display: inline-block;
 }
 
-.header-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+.player-header .player-image img{
+    width: 16em;
+    border-radius: 6px;
+    background-color: #eee;
 }
 
-.header-info h4{
-    margin-right: 2em;
-    color: var(--text-medium);
+.player-header .player-image .flag{
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    height: 2em;
+    max-width: fit-content;
+    z-index: 1;
+}
+
+.player-header .player-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    max-width: 16em;
+    margin-top: 1em;
+}
+
+.player-header .player-stats p{
     font-size: 0.9em;
-    font-weight: 500;
-    white-space: nowrap;
+    color: var(--text-low);
 }
 
-.header-info p{
-    justify-content: center;
-    align-items: center;
-    color: var(--text-high);
-    font-weight: 600;
+.player-header .player-stats h4{
+    font-size: 2em;
 }
 
-.header-info p span{
-    justify-content: center;
+.player-header .player-stats h4{
+    display: flex;
+    flex-direction: row;
     align-items: center;
+}
+
+.player-header .player-stats h4 .rating svg{
+    font-size: 0.6em;
     margin-left: 0.5em;
-}
-
-.header-info .player-overall.high-green p{
-    color: var(--high-green);
-}
-
-.header-info .player-overall.green p{
-    color: var(--green);
-}
-
-.header-info .player-overall.yellow p{
-    color: var(--yellow);
-}
-
-.header-info .player-overall.orange p{
-    color: var(--orange);
-}
-
-.header-info .player-overall.red p{
-    color: var(--red);
-}
-
-.player-header .player-contract .available{
-    cursor: pointer;
-}
-
-.player-header .player-contract .available:hover::after{
-    content: "Available";
-    font-size: 12px;
-    font-weight: 600;
-    background: var(--primary-color);
-    color: white;
-    padding: 10px;
-    border-radius: 4px;
-    margin-left: 10px;
-} 
-
-.green {
-    color: var(--primary-color);
-  }
-  
-.red {
-    color: red;
 }

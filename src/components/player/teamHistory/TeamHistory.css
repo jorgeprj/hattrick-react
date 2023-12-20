@@ -1,0 +1,43 @@
+.team-history {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-history .teams {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.team-history .teams .player-team {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-history .teams .player-team .team-tag {
+    margin-right: 0.5em;
+}
+
+.team-history .teams .player-team .team-tag img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 0.2em;
+}
+
+.team-history .teams .player-team .team-text h5 {
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.team-history .teams .player-team .team-text  h6 {
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 500;
+    white-space: nowrap;
+}
