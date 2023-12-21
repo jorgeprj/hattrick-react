@@ -6,12 +6,14 @@ import { getPlayers } from '../../services/players/playersService';
 import { getCoach } from '../../services/coach/coachService';
 import { FaClockRotateLeft } from 'react-icons/fa6'
 
+import CoachSection from '../../components/pages/home/coachSection/CoachSection';
+import TeamSection from '../../components/pages/home/teamSection/TeamSection';
+import PlayerCard from '../../components/pages/home/playerCard/PlayerCard';
+import BestPlayers from '../../components/pages/home/bestPlayers/BestPlayers';
+
 import Loading from '../../components/layout/loading/Loading';
-import CoachSection from '../../components/home/coachSection/CoachSection';
-import TeamSection from '../../components/home/teamSection/TeamSection';
-import PlayerCard from '../../components/home/playerCard/PlayerCard';
 import Footer from '../../components/layout/footer/Footer';
-import BestPlayers from '../../components/home/bestPlayers/BestPlayers';
+
 import Button from '../../components/shared/button/Button';
 
 const Home = ({ year }) => {
@@ -70,7 +72,7 @@ const Home = ({ year }) => {
                     Let the game begin!
                 </p>
                 <div className='green-btn'>
-                    <Button text={"Salford City FC"} link={`/teams/${team.id}`}/>
+                    <Button text={"Salford City FC"} link={`/team/${team.id}`}/>
                 </div>
             </section>
 
