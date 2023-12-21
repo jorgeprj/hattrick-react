@@ -1,8 +1,9 @@
 import React from 'react'
 
 import './BestPlayers.css'
-import Button from '../../shared/button/Button'
-import PlayerHead from '../../shared/playerHead/PlayerHead'
+import Button from '../../../shared/button/Button'
+import PlayerHead from '../../../shared/playerHead/PlayerHead'
+import { Link } from 'react-router-dom'
 
 const BestPlayers = ({ players }) => {
     return (
@@ -15,9 +16,11 @@ const BestPlayers = ({ players }) => {
                 .sort((a, b) => b.overall - a.overall)
                 .slice(0, 3)
                 .map(player => (
-                    <div className='player-list'>
+                    <div className='player-list' key={player.id}>
                         <div className='player-info'>
-                            <PlayerHead playerId={player.id}/>
+                            <Link to={`/player/${player.id}`}>
+                                <PlayerHead playerId={player.id}/>
+                            </Link>
                             <div className='player-infos'>
                                 <h4>{player.name}</h4>
                                 <div className='country'>

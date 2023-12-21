@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import './PlayerCard.css'
 
 import { FaChartSimple, FaMagnifyingGlass } from 'react-icons/fa6'
-import Button from '../../shared/button/Button'
-import PlayerStatsModal from '../../modals/playerStatsModal/PlayerStatsModal'
+import Button from '../../../shared/button/Button'
+import PlayerStatsModal from '../../../modals/playerStatsModal/PlayerStatsModal'
+import { Link } from 'react-router-dom'
 
 const PlayerCard = ({ player }) => {
 
@@ -15,7 +16,9 @@ const PlayerCard = ({ player }) => {
 
     return (
         <div className='player-card'>
-            <img src={`../src/assets/players/${player.id}.png`} alt={`${player.name} image`} className='player-image' />
+            <Link to={`/player/report/${player.id}`}>
+                <img src={`../src/assets/players/${player.id}.png`} alt={`${player.name} image`} className='player-image' />
+            </Link>
             <h3>{player.name} <span>{player.position}</span></h3>
             <div className='low-info'>
                 <FaMagnifyingGlass />

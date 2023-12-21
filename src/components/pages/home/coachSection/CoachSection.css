@@ -17,7 +17,12 @@
     object-position: center;
     border-radius: 6px;
     margin-right: 1em;
-} 
+    transition: 0.1s;
+}
+
+.coach-section .coach-content img:hover{
+    transform: scale(1.02);
+}
 
 .coach-section .coach-content .text h4{
     font-size: 1.5em;

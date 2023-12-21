@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import './CoachSection.css'
 
 import { FaRegClipboard, FaTrophy, FaChartSimple } from 'react-icons/fa6'
-import CoachStatsModal from '../../modals/coachStatsModal/CoachStatsModal';
-import TitlesModal from '../../modals/titlesModal/TitlesModal';
-import Button from '../../shared/button/Button';
+import CoachStatsModal from '../../../modals/coachStatsModal/CoachStatsModal';
+import TitlesModal from '../../../modals/titlesModal/TitlesModal';
+import Button from '../../../shared/button/Button';
+import { Link } from 'react-router-dom';
 
 const CoachSection = ({ coach }) => {
 
@@ -22,7 +23,9 @@ const CoachSection = ({ coach }) => {
     return (
         <div className='coach-section'>
             <div className='coach-content'>
-                <img src={`./src/assets/${coach.name.toLowerCase().replace(/ /g, "")}.jpg`} alt="Ole Gunnar Solskjaer" />
+                <Link to={"/coach"}>
+                    <img src={`./src/assets/${coach.name.toLowerCase().replace(/ /g, "")}.jpg`} alt="Ole Gunnar Solskjaer" />
+                </Link>
                 <div className='text'>
                     <section className='coach-header'>
                         <h4>{coach.name}</h4>

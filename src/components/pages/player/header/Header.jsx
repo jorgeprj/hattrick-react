@@ -1,9 +1,9 @@
 import React from 'react'
 import './Header.css'
-import PotentialRating from '../../ratings/potentialRating/PotentialRating'
-import HattrickRating from '../../ratings/hattrickRating/HattrickRating'
-import { calculateFutzScore } from '../../../utils/futzScore'
-import PlayerHead from '../../shared/playerHead/PlayerHead'
+import PotentialRating from '../../../ratings/potentialRating/PotentialRating'
+import HattrickRating from '../../../ratings/hattrickRating/HattrickRating'
+import { calculateFutzScore } from '../../../../utils/futzScore'
+import PlayerHead from '../../../shared/playerHead/PlayerHead'
 
 
 const Header = ({ player, year }) => {

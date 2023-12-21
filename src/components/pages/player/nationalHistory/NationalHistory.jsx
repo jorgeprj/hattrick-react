@@ -3,7 +3,7 @@ import './NationalHistory.css'
 
 import { useState } from 'react';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6"
-import TeamTag from '../../shared/teamTag/TeamTag';
+import TeamTag from '../../../shared/teamTag/TeamTag';
 
 const NationalHistory = ({ player }) => {
     const [showAllNational, setShowAllNational] = useState(false);
@@ -16,7 +16,7 @@ const NationalHistory = ({ player }) => {
                 {nationalToDisplay.map((team, index) => (
                     <div key={index} className='player-national'>
                         <div className="national-tag">
-                            <TeamTag path={`../../src/assets/nationalTeams/${player.nationality}.png`}/>
+                            <TeamTag path={`../../src/assets/nationalTeams/${player.nationality}.png`} />
                         </div>
                         <div className='national-text'>
                             <h5>{team.name}</h5>
@@ -25,17 +25,19 @@ const NationalHistory = ({ player }) => {
                     </div>
                 ))}
                 {player.nationalTeam.length > 2 && !showAllNational && (
-                    <>
+                    <div className='button'>
                         <button className="show-older-button" onClick={() => setShowAllNational(true)}>
                             <FaAngleDown />
                             Show Older
                         </button>
-                    </>
+                    </div>
                 )}
                 {showAllNational && (
-                    <button className="collapse-button" onClick={() => setShowAllNational(false)}>
-                        <FaAngleUp />
-                    </button>
+                    <div className='button'>
+                        <button className="collapse-button" onClick={() => setShowAllNational(false)}>
+                            <FaAngleUp />
+                        </button>
+                    </div>
                 )}
             </div>
         </section>

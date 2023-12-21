@@ -1,6 +1,6 @@
 import React from 'react'
 import './BasicInfo.css'
-import StarRating from '../../ratings/starRating/StarRating'
+import StarRating from '../../../ratings/starRating/StarRating'
 
 const BasicInfo = ({ player, year }) => {
     return (
@@ -34,7 +34,6 @@ const BasicInfo = ({ player, year }) => {
                 </div>
             </div>
         </section>
-
     )
 }
 

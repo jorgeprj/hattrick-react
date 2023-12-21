@@ -1,29 +1,31 @@
 import React from 'react'
-import './CareerHistory.css'
+import './TeamHistory.css'
 
 import { useState } from 'react';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6"
-import TeamTag from '../../shared/teamTag/TeamTag';
+import TeamTag from '../../../shared/teamTag/TeamTag';
 
 
-const CareerHistory = ({ coach }) => {
+const TeamHistory = ({ player }) => {
     const [showAllTeams, setShowAllTeams] = useState(false);
-    const teamsToDisplay = showAllTeams ? coach.careerHistory : coach.careerHistory.slice(0, 3);
+    const teamsToDisplay = showAllTeams ? player.teamHistory : player.teamHistory.slice(0, 2);
 
     return (
-        <section className='career-history'>
-            <h4>Career History</h4>
+        <section className='team-history'>
+            <h4>Club History</h4>
             <div className='teams'>
                 {teamsToDisplay.map((team, index) => (
-                    <div key={index} className='coach-team'>
-                        <TeamTag path={`../../src/assets/teams/${team.team.id}.png`}/>
+                    <div key={index} className='player-team'>
+                        <div className="teams-tag">
+                            <TeamTag path={`../../src/assets/teams/${team.team.id}.png`} />
+                        </div>
                         <div className='team-text'>
                             <h5>{team.team.name}</h5>
-                            <h6>{team.position} ({team.season})</h6>
+                            <h6>{team.season}</h6>
                         </div>
                     </div>
                 ))}
-                {coach.careerHistory.length > 2 && !showAllTeams && (
+                {player.teamHistory.length > 2 && !showAllTeams && (
                     <div className='button'>
                         <button className="show-older-button" onClick={() => setShowAllTeams(true)}>
                             <FaAngleDown />
@@ -36,6 +38,7 @@ const CareerHistory = ({ coach }) => {
                         <button className="collapse-button" onClick={() => setShowAllTeams(false)}>
                             <FaAngleUp />
                         </button>
+
                     </div>
                 )}
             </div>
@@ -43,4 +46,4 @@ const CareerHistory = ({ coach }) => {
     )
 }
 
-export default CareerHistory
+export default TeamHistory

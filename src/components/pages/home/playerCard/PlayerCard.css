@@ -9,6 +9,12 @@
     object-fit: cover;
     object-position: center;
     border-radius: 6px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.player-card .player-image:hover{
+    transform: scale(1.05);
 }
 
 .player-card h3{
