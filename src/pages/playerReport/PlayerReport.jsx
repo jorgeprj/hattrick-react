@@ -2,16 +2,18 @@ import React from 'react'
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import Loading from '../../components/layout/loading/Loading';
 import { getPlayer } from '../../services/players/playersService';
-import Footer from '../../components/layout/footer/Footer';
-import Header from '../../components/player/header/Header';
-import BasicInfo from '../../components/player/basicInfo/BasicInfo';
-import PlayStyles from '../../components/player/playStyles/PLayStyles';
-import NationalHistory from '../../components/player/nationalHistory/NationalHistory';
-import TeamHistory from '../../components/player/teamHistory/TeamHistory';
-import TransferInfo from '../../components/player/transferInfo/TransferInfo';
 import { FaAward } from 'react-icons/fa6';
+
+import Header from '../../components/pages/player/header/Header';
+import BasicInfo from '../../components/pages/player/basicInfo/BasicInfo';
+import PlayStyles from '../../components/pages/player/playStyles/PlayStyles';
+import NationalHistory from '../../components/pages/player/nationalHistory/NationalHistory';
+import TeamHistory from '../../components/pages/player/teamHistory/TeamHistory';
+import TransferInfo from '../../components/pages/player/transferInfo/TransferInfo';
+
+import Loading from '../../components/layout/loading/Loading';
+import Footer from '../../components/layout/footer/Footer';
 
 const PlayerReport = ({ year }) => {
     const { id } = useParams();
