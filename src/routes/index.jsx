@@ -4,6 +4,7 @@ import NotFound from '../pages/notFound/NotFound'
 import PlayerReport from '../pages/playerReport/PlayerReport'
 import Player from '../pages/player/Player'
 import Coach from '../pages/coach/Coach'
+import Team from '../pages/team/Team'
 
 export const AppRoutes = ({year}) => {
 
@@ -14,6 +15,7 @@ export const AppRoutes = ({year}) => {
             <Route path="/coach" element={<Coach year={year} />}/>
             <Route path="/player/:id" element={<Player year={year} />}/>
             <Route path="/player/report/:id" element={<PlayerReport year={year} />}/>
+            <Route path="/team/:id" element={<Team year={year} />}/>
             <Route path="*" element={<NotFound />}/>
         </Routes>
     )

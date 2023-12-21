@@ -3,332 +3,401 @@
         {
             "id": 2,
             "name": "Aston Villa",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 4,
             "name": "Bolton Wanderers",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 5,
             "name": "Chelsea",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 7,
             "name": "Everton",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 8,
             "name": "Leeds United",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 10,
             "name": "Manchester City",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 11,
             "name": "Manchester United",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 12,
             "name": "Middlesbrough",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 14,
             "name": "Nottingham Forest",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 15,
             "name": "Queens Park Rangers",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 18,
             "name": "Tottenham Hotspur",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 19,
             "name": "West Ham",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 44,
             "name": "Internazionale",
-            "league": "Serie A (ITA)"
+            "league": "Serie A",
+            "country": "Italy"
         },
         {
             "id": 77,
             "name": "Aberdeen FC",
-            "league": "Premiership (SCT)"
+            "league": "Premiership",
+            "country": "Scotland"
         },
         {
             "id": 83,
             "name": "Motherwell FC",
-            "league": "Premiership (SCT)"
+            "league": "Premiership",
+            "country": "Scotland"
         },
         {
             "id": 86,
             "name": "Rangers FC",
-            "league": "Premiership (SCT)"
+            "league": "Premiership",
+            "country": "Scotland"
         },
         {
             "id": 91,
             "name": "Derby County",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 94,
             "name": "Ipswich Town",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 95,
             "name": "Leicester City",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 110,
             "name": "Wolverhampton",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 127,
             "name": "Shrewsburry Town",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 144,
             "name": "Fulham FC",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 149,
             "name": "Lincoln City",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 181,
             "name": "Dundee United",
-            "league": "Premiership (SCT)"
+            "league": "Premiership",
+            "country": "Scotland"
         },
         {
             "id": 417,
             "name": "Molde",
-            "league": "Eliteserien (NOR)"
+            "league": "Eliteserien",
+            "country": "Norway"
         },
         {
             "id": 561,
             "name": "Forest Green Rovers",
-            "league": "League Two (ENG)"
+            "league": "League Two",
+            "country": "England"
         },
         {
             "id": 673,
             "name": "KRC Genk",
-            "league": "Jupiler Pro League (BEL)"
+            "league": "Jupiler Pro League",
+            "country": "Belgium"
         },
         {
             "id": 1790,
             "name": "Portsmouth",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1792,
             "name": "Norwich City",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1793,
             "name": "Reading FC",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1794,
             "name": "Sheffield United",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 1795,
             "name": "Watford",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1796,
             "name": "Burnley",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 1797,
             "name": "Rotherdam Utd",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1798,
             "name": "MK Dons",
-            "league": "League Two (ENG)"
+            "league": "League Two",
+            "country": "England"
         },
         {
             "id": 1801,
             "name": "Preston North End",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1803,
             "name": "Walsall",
-            "league": "League Two (ENG)"
+            "league": "League Two",
+            "country": "England"
         },
         {
             "id": 1804,
             "name": "Bradford City",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1806,
             "name": "Stoke City",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1807,
             "name": "Sheffield Wednesday",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1808,
             "name": "Brighton & Hove Albion",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 1917,
             "name": "Wigan Athletic",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1919,
             "name": "Bristol City",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1923,
             "name": "Luton Town",
-            "league": "Premier League (ENG)"
+            "league": "Premier League",
+            "country": "England"
         },
         {
             "id": 1924,
             "name": "Chesterfield FC",
-            "league": "National League (ENG)"
+            "league": "National League",
+            "country": "England"
         },
         {
             "id": 1926,
             "name": "Blackpool",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1928,
             "name": "Port Vale",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1929,
             "name": "Plymouth Argyle",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1932,
             "name": "Barnsley FC",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1933,
             "name": "Wycombe Wanderers",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1935,
             "name": "Colchester Utd",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1938,
             "name": "Peterborough",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1941,
             "name": "Hartlepool Utd",
-            "league": "League Two (ENG)"
+            "league": "League Two",
+            "country": "England"
         },
         {
             "id": 1943,
             "name": "AFC Bournemouth",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1947,
             "name": "Wrexham AFC",
-            "league": "League Two (ENG)"
+            "league": "League Two",
+            "country": "England"
         },
         {
             "id": 1951,
             "name": "Oxford United",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 1952,
             "name": "Hull City",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1960,
             "name": "Swansea City",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "England"
         },
         {
             "id": 1961,
             "name": "Cardiff City",
-            "league": "Championship (ENG)"
+            "league": "Championship",
+            "country": "Wales"
         },
         {
             "id": 1962,
             "name": "Bristol Rovers",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 110374,
             "name": "Fiorentina",
-            "league": "Serie A (ITA)"
+            "league": "Serie A",
+            "country": "Italy"
         },
         {
             "id": 111811,
             "name": "Monza",
-            "league": "Serie A (ITA)"
+            "league": "Serie A",
+            "country": "Italy"
         },
         {
             "id": 112254,
             "name": "Newport County",
-            "league": "League Two (ENG)"
+            "league": "League Two",
+            "country": "England"
         },
         {
             "id": 112259,
             "name": "AFC Wimbledon",
-            "league": "League Two (ENG)"
+            "league": "League Two",
+            "country": "England"
         },
         {
             "id": 113926,
             "name": "Salford City",
-            "league": "League Two (ENG)",
+            "league": "League Two",
+            "country": "England",
             "summary": "Salford City FC, owned by the Class of '92 (Neville, Scholes, Giggs, Butt, Beckham), competes in English football leagues.",
             "clubInfo": {
                 "completedName": "Salford City Football Club",
+                "nickname": "The Ammies",
                 "founded": 1940,
                 "location": "Salford, Greater Manchester",
+                "ground": "Moor Lane",
+                "capacity": 5106,
+                "owner": "Project 92 Limited",
                 "wiki": [
                     "Founded in 1940, Salford City Football Club has a rich and diverse history spanning over seven decades. Located in Salford, Greater Manchester, the club has always had a close connection with the neighboring and renowned football city, Manchester.",
                     "During its early decades, Salford City competed in various regional leagues and achieved notable successes in local competitions. While it may not have reached national spotlight, the club was a valuable part of the local community, providing fans with exciting moments.",
@@ -344,37 +413,44 @@
         {
             "id": 200061,
             "name": "Macclesfield Town",
-            "league": "National League (ENG)"
+            "league": "National League",
+            "country": "England"
         },
         {
             "id": 220069,
             "name": "Oldham Athletic",
-            "league": "National League (ENG)"
+            "league": "National League",
+            "country": "England"
         },
         {
             "id": 240011,
             "name": "Cheltenham Town",
-            "league": "League One (ENG)"
+            "league": "League One",
+            "country": "England"
         },
         {
             "id": 240016,
             "name": "Colchester Utd",
-            "league": "League Two (ENG)"
+            "league": "League Two",
+            "country": "England"
         },
         {
             "id": 444444,
             "name": "Chester",
-            "league": "National League (ENG)"
+            "league": "National League",
+            "country": "England"
         },
         {
             "id": 555555,
             "name": "Telford United",
-            "league": "National League (ENG)"
+            "league": "National League",
+            "country": "England"
         },
         {
             "id": 666666,
             "name": "Maidstone Utd",
-            "league": "National League (ENG)"
+            "league": "National League",
+            "country": "England"
         }
     ],
     "posts": [
@@ -571,9 +647,9 @@
         "stats": [
             {
                 "season": 2024,
-                "wins": 38,
-                "draws": 12,
-                "losses": 12
+                "wins": 41,
+                "draws": 13,
+                "losses": 7
             },
             {
                 "season": 2023,
@@ -3607,7 +3683,8 @@
                     "team": {
                         "id": 113926,
                         "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "league": "League Two",
+                        "country": "England"
                     },
                     "season": "2023-"
                 },
@@ -3615,7 +3692,8 @@
                     "team": {
                         "id": 113926,
                         "name": "Salford City U21",
-                        "league": "League Two (ENG)"
+                        "league": "League Two",
+                        "country": "England"
                     },
                     "season": "2023"
                 },
@@ -3623,7 +3701,8 @@
                     "team": {
                         "id": 11,
                         "name": "Manchester United U18",
-                        "league": "Premier League U18 (ENG)"
+                        "league": "Premier League U18",
+                        "country": "England"
                     },
                     "season": "2023"
                 }
@@ -3708,7 +3787,8 @@
                     "team": {
                         "id": 113926,
                         "name": "Salford City",
-                        "league": "League Two (ENG)"
+                        "league": "League Two",
+                        "country": "England"
                     },
                     "season": "2023-24"
                 },
