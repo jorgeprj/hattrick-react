@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
+
 import './Coach.css'
+
 import { getCoach } from '../../services/coach/coachService';
-import Loading from '../../components/layout/loading/Loading';
-import CareerHistory from '../../components/coach/careerHistory/CareerHistory';
+
 import Footer from '../../components/layout/footer/Footer';
+import Loading from '../../components/layout/loading/Loading';
+import CareerHistory from '../../components/pages/coach/careerHistory/CareerHistory';
 import PlayerHead from '../../components/shared/playerHead/PlayerHead';
 
 
