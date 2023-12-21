@@ -6,12 +6,6 @@
     margin-top: 1em;
 }
 
-.player h1 svg{
-    font-size: 0.75em;
-    margin-right: 0.4em;
-}
-
-
 .player h1 span{
     font-size: 0.75em;
     color: var(--text-low);

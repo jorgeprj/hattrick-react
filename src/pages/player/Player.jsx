@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import './Player.css'
-import Loading from '../../components/layout/loading/Loading';
-import { getPlayer } from '../../services/players/playersService';
-import { useParams } from 'react-router-dom';
-import Header from '../../components/player/header/Header';
-import TransferInfo from '../../components/player/transferInfo/TransferInfo';
-import BasicInfo from '../../components/player/basicInfo/BasicInfo';
-import TeamHistory from '../../components/player/teamHistory/TeamHistory';
-import NationalHistory from '../../components/player/nationalHistory/NationalHistory';
-
 import { FaAward } from 'react-icons/fa6';
 
-import PlayStyles from '../../components/player/playStyles/PLayStyles';
+
+import { getPlayer } from '../../services/players/playersService';
+import { useParams } from 'react-router-dom';
+
+import Header from '../../components/pages/player/header/Header';
+import TransferInfo from '../../components/pages/player/transferInfo/TransferInfo';
+import BasicInfo from '../../components/pages/player/basicInfo/BasicInfo';
+import TeamHistory from '../../components/pages/player/teamHistory/TeamHistory';
+import NationalHistory from '../../components/pages/player/nationalHistory/NationalHistory';
+import PlayStyles from '../../components/pages/player/playStyles/PlayStyles';
+
+import Loading from '../../components/layout/loading/Loading';
 import Footer from '../../components/layout/footer/Footer';
 
 const Player = ({ year }) => {
