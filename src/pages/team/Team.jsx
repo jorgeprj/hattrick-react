@@ -10,6 +10,7 @@ import BasicInfo from '../../components/pages/team/basicInfo/BasicInfo';
 
 import Loading from '../../components/layout/loading/Loading';
 import Footer from '../../components/layout/footer/Footer';
+import KitsSection from '../../components/pages/team/kitsSection/KitsSection';
 
 const Team = ({ year }) => {
     const { id } = useParams();
@@ -29,7 +30,7 @@ const Team = ({ year }) => {
                 setPlayers(playersData);
 
                 const teamPlayers = playersData.filter(player =>
-                    player.teamHistory[0].team.name === "Salford City"
+                    player.teamHistory[0].team.id == id
                 );
                 setTeamPlayers(teamPlayers);
 
@@ -71,13 +72,7 @@ const Team = ({ year }) => {
                     {team.clubInfo &&
                         <section className='team-infos'>
                             <BasicInfo team={team} />
-                            <section>
-                                <h4>Kits</h4>
-                                <div className='kits'>
-                                    <img src={`../../src/assets/teams/kits/kit1/${team.id}.png`} alt={`${team.name} Kit 1`} />
-                                    <img src={`../../src/assets/teams/kits/kit2/${team.id}.png`} alt={`${team.name} Kit 1`} />
-                                </div>
-                            </section>
+                            <KitsSection team={team} />
                         </section>
                     }
 
@@ -106,24 +101,26 @@ const Team = ({ year }) => {
                 </section>
 
                 <section className='column-3'>
-                    <section>
-                        <div className='team-players-number'>
-                            <h4>Team Players</h4>
-                            <p>{teamPlayers.length}</p>
-                        </div>
+                    {teamPlayers.length > 0 && (
+                        <section>
+                            <div className='team-players-number'>
+                                <h4>Team Players</h4>
+                                <p>{teamPlayers.length}</p>
+                            </div>
 
-                        <div className='team-players'>
-                            {teamPlayers
-                                .sort((a, b) => b.overall - a.overall)
-                                .map(player => (
-                                <div className='player-ball'>
-                                    <Link to={`/player/${player.id}`}>
-                                        <img className='player-image' src={`../../src/assets/players/heads/${player.id}.png`} alt={`Player ${player.id} head`} />
-                                    </Link>
-                                </div>
-                            ))}
-                        </div>
-                    </section>
+                            <div className='team-players'>
+                                {teamPlayers
+                                    .sort((a, b) => b.overall - a.overall)
+                                    .map(player => (
+                                        <div className='player-ball'>
+                                            <Link to={`/player/${player.id}`}>
+                                                <img className='player-image' src={`../../src/assets/players/heads/${player.id}.png`} alt={`Player ${player.id} head`} />
+                                            </Link>
+                                        </div>
+                                    ))}
+                            </div>
+                        </section>
+                    )}
                     <section>
                         <h4>Author</h4>
                         <div className='logo'>hattrick</div>
@@ -138,7 +135,7 @@ const Team = ({ year }) => {
                     </section>
                 </section>
             </section>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
