@@ -31,6 +31,10 @@
     align-items: center;
 }
 
+.basic-info .infos .column-2 .team:hover{
+    text-decoration: underline;
+}
+
 .basic-info .infos .column-2 .team .team-image{
     max-height: 1.2em;
     margin-right: 0.2em;

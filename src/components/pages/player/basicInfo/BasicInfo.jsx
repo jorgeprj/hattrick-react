@@ -1,6 +1,7 @@
 import React from 'react'
 import './BasicInfo.css'
 import StarRating from '../../../ratings/starRating/StarRating'
+import { Link } from 'react-router-dom'
 
 const BasicInfo = ({ player, year }) => {
     return (
@@ -21,7 +22,9 @@ const BasicInfo = ({ player, year }) => {
                 <div className='column-2'>
                     <p className='team'>
                         <img className='team-image' src={`../../src/assets/teams/${player.teamHistory[0].team.id}.png`} alt={`Team ${player.teamHistory[0].team.id} image`} />
-                        {player.teamHistory[0].team.name}
+                        <Link to={`/team/${player.teamHistory[0].team.id}`}>
+                            {player.teamHistory[0].team.name}
+                        </Link>
                     </p>
                     <p>{year - Number(player.age)} years</p>
                     <p>{player.height / 100} m</p>

@@ -1,8 +1,9 @@
 import React from 'react'
 import './TeamSection.css'
+import { Link } from 'react-router-dom'
 
 
-const TeamSection = ({team}) => {
+const TeamSection = ({ team }) => {
     return (
         <div className='team-section'>
             <div className='header'>
@@ -11,28 +12,30 @@ const TeamSection = ({team}) => {
             </div>
             <div className='sections'>
                 <div>
+                    <Link to={`/team/${team.id}`}>
+                        <button>
+                            Wiki
+                        </button>
+                    </Link>
+                </div>
+                <div>
                     <button>
-                        Wiki
+                        Rules
                     </button>
                 </div>
                 <div>
                     <button>
-                        Dashboard
+                        Squad
                     </button>
                 </div>
                 <div>
                     <button>
-                        Scouts
+                        Goals
                     </button>
                 </div>
                 <div>
                     <button>
-                        Timeline
-                    </button>
-                </div>
-                <div>
-                    <button>
-                        Players
+                        Transfers
                     </button>
                 </div>
             </div>

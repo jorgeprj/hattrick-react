@@ -17,3 +17,7 @@
 .team-history .teams .player-team .teams-tag {
     margin-right: 0.5em;
 }
+
+.team-history .teams .player-team .team-text .link:hover{
+    text-decoration: underline;
+}
