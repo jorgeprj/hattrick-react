@@ -1,5 +1,6 @@
 import React from 'react'
 import './NotFound.css'
+
 import { FaArrowRight } from 'react-icons/fa6'
 
 const NotFound = () => {
