@@ -21,7 +21,7 @@ const leagueValues = {
 }
 
 
-export const calculateFutzScore = (player, currentYear) => {
+export const calculateHatScore = (player, currentYear) => {
     const overallScore = (player.overall * player.overall) / 80; //0 to 100
 
     const age = (currentYear - player.age);
@@ -53,7 +53,7 @@ export const calculateFutzScore = (player, currentYear) => {
     const playStylesScore = (player.playStyles.length * 20);
 
     const futzScore =
-        overallScore*4 +
+        overallScore*3.5 +
         ageScore*3 +
         potentialScore*3 -
         contractScore*4 +
