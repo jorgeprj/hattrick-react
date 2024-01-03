@@ -4,390 +4,1258 @@
             "id": 2,
             "name": "Aston Villa",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Aston Villa Football Club",
+                "nickname": "Villans",
+                "founded": 1874,
+                "location": "Birmingham, England",
+                "ground": "Villa Park",
+                "capacity": 42788,
+                "owner": "NSWE Group",
+                "wiki": [
+                    "Founded in 1874, Aston Villa Football Club has a rich history in English football. The club, based in Birmingham, England, has been a prominent figure in the football landscape and has a strong fan base.",
+                    "Aston Villa has achieved significant success in both domestic and international competitions. The club has won numerous league titles and has a proud tradition of developing top-tier players.",
+                    "The iconic Villa Park serves as the home ground for the Villans, providing a historic and passionate backdrop for the team's matches.",
+                    "Under the ownership of the NSWE Group, Aston Villa continues to strive for excellence, aiming to secure its position as a competitive force in modern football."
+                ]
+            }
         },
         {
             "id": 4,
             "name": "Bolton Wanderers",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Bolton Wanderers Football Club",
+                "nickname": "Trotters",
+                "founded": 1874,
+                "location": "Bolton, England",
+                "ground": "University of Bolton Stadium",
+                "capacity": 28723,
+                "owner": "Football Ventures (Whites) Limited",
+                "wiki": [
+                    "Founded in 1874, Bolton Wanderers Football Club has a storied history in English football. The club, based in Bolton, England, has experienced both triumphs and challenges over the years.",
+                    "Bolton Wanderers has a dedicated fan base and a strong presence in the local community. The University of Bolton Stadium serves as the team's home ground, where memorable moments in the club's history have unfolded.",
+                    "Under the ownership of Football Ventures (Whites) Limited, Bolton Wanderers is committed to building a sustainable future and achieving success in its endeavors."
+                ]
+            }
         },
         {
             "id": 5,
             "name": "Chelsea",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Chelsea Football Club",
+                "nickname": "Blues",
+                "founded": 1905,
+                "location": "London, England",
+                "ground": "Stamford Bridge",
+                "capacity": 40834,
+                "owner": "BlueCo",
+                "wiki": [
+                    "Founded in 1905, Chelsea Football Club is a powerhouse in English and international football. The club, based in London, England, has a rich history of success and a global fan base.",
+                    "Chelsea has achieved numerous domestic and international titles, solidifying its position as one of the elite football clubs. The iconic Stamford Bridge is the venue where Chelsea has celebrated many historic victories.",
+                    "Under the ownership of BlueCo, Chelsea has undergone significant transformations, investing in top-tier talent and facilities. The club continues to be a major force in the footballing world."
+                ]
+            }
         },
         {
             "id": 7,
             "name": "Everton",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Everton Football Club",
+                "nickname": "Toffees",
+                "founded": 1878,
+                "location": "Liverpool, England",
+                "ground": "Goodison Park",
+                "capacity": 39986,
+                "owner": "Farhad Moshiri",
+                "wiki": [
+                    "Founded in 1878, Everton Football Club has a rich heritage in English football. The club, based in Liverpool, England, has a strong connection with its loyal fan base.",
+                    "Everton has a storied history of competing at the highest levels, with successes both domestically and in European competitions. Goodison Park, the club's historic home ground, has witnessed memorable moments in football history.",
+                    "Under the ownership of Farhad Moshiri, Everton continues to aspire to new heights, with investments in the squad and infrastructure. The club aims to build on its legacy and compete for top honors."
+                ]
+            }
         },
         {
             "id": 8,
             "name": "Leeds United",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Leeds United Football Club",
+                "nickname": "Whites",
+                "founded": 1919,
+                "location": "Leeds, England",
+                "ground": "Elland Road",
+                "capacity": 40169,
+                "owner": "Andrea Radrizzani",
+                "wiki": [
+                    "Founded in 1919, Leeds United Football Club is an integral part of English football history. The club, based in Leeds, England, has a strong and passionate fan base, making it a significant force in the footballing landscape.",
+                    "Leeds United, affectionately known as the Whites, has experienced both triumphs and challenges, with a legacy of success in domestic and European competitions. Elland Road, the historic home ground, is the stage for the club's exciting football.",
+                    "Under the ownership of Andrea Radrizzani, Leeds United has undergone a resurgence, returning to the Premier League and reclaiming its position among the elite. The club's commitment to attacking football and youth development reflects its ambitious vision.",
+                    "As Leeds United continues to compete at the highest levels, the fans and the club are united in their pursuit of glory, aiming to create new memories and solidify their place in the storied history of English football."
+                ]
+            }
         },
         {
             "id": 10,
             "name": "Manchester City",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Manchester City Football Club",
+                "nickname": "Citizens",
+                "founded": 1880,
+                "location": "Manchester, England",
+                "ground": "Etihad Stadium",
+                "capacity": 53097,
+                "owner": "City Football Group",
+                "wiki": [
+                    "Founded in 1880, Manchester City Football Club is a prominent force in English football. The club, based in Manchester, England, has experienced a remarkable rise to the summit of the sport.",
+                    "Manchester City has achieved domestic and international success, winning league titles and making a mark in prestigious competitions. The Etihad Stadium, the club's home ground, is a modern arena hosting thrilling football encounters.",
+                    "Under the ownership of the City Football Group, Manchester City continues to set high standards, focusing on excellence both on and off the pitch. The club remains a symbol of ambition and success in the footballing world."
+                ]
+            }
         },
         {
             "id": 11,
             "name": "Manchester United",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Manchester United Football Club",
+                "nickname": "Red Devils",
+                "founded": 1878,
+                "location": "Manchester, England",
+                "ground": "Old Trafford",
+                "capacity": 74879,
+                "owner": "Manchester United plc",
+                "wiki": [
+                    "Founded in 1878, Manchester United Football Club is one of the most iconic football clubs globally. The club, based in Manchester, England, boasts a rich history and a massive fan following.",
+                    "Manchester United has achieved unparalleled success, winning numerous league titles and European trophies. Old Trafford, the historic home ground, is a symbol of footballing heritage and passion.",
+                    "Under the ownership of Manchester United plc, the club continues to be a powerhouse in the footballing world. With a commitment to excellence, Manchester United remains a force to be reckoned with in every competition."
+                ]
+            }
         },
         {
             "id": 12,
             "name": "Middlesbrough",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Middlesbrough Football Club",
+                "nickname": "Boro",
+                "founded": 1876,
+                "location": "Middlesbrough, England",
+                "ground": "Riverside Stadium",
+                "capacity": 34500,
+                "owner": "Steve Gibson",
+                "wiki": [
+                    "Founded in 1876, Middlesbrough Football Club has a storied history in English football. The club, based in Middlesbrough, England, has been a significant presence in both local and national competitions.",
+                    "Middlesbrough, affectionately known as Boro, has a passionate fan base and a legacy of memorable moments on the field. The Riverside Stadium, the club's modern home ground, is witness to the team's highs and lows.",
+                    "Under the ownership of Steve Gibson, Middlesbrough remains dedicated to its community and aims for success in the Championship. The club's commitment to developing talent and playing attractive football is central to its identity.",
+                    "As Middlesbrough continues its journey in English football, the fans and the club look forward to creating new chapters in their history, filled with excitement, achievements, and a strong sense of community."
+                ]
+            }
         },
         {
             "id": 14,
             "name": "Nottingham Forest",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Nottingham Forest Football Club",
+                "nickname": "Tricky Trees",
+                "founded": 1865,
+                "location": "Nottingham, England",
+                "ground": "City Ground",
+                "capacity": 30576,
+                "owner": "Evangelos Marinakis",
+                "wiki": [
+                    "Founded in 1865, Nottingham Forest Football Club has a prestigious history in English football. The club, based in Nottingham, England, has played a crucial role in shaping the landscape of the sport.",
+                    "Nottingham Forest has a legacy of domestic and European success, with historic triumphs in league competitions and continental tournaments. The City Ground, the club's home ground, has witnessed unforgettable moments in football history.",
+                    "Under the ownership of Evangelos Marinakis, Nottingham Forest is poised for new achievements, with a focus on building a competitive squad and contributing to the club's storied legacy."
+                ]
+            }
         },
         {
             "id": 15,
             "name": "Queens Park Rangers",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Queens Park Rangers Football Club",
+                "nickname": "Hoops",
+                "founded": 1882,
+                "location": "London, England",
+                "ground": "Loftus Road",
+                "capacity": 18439,
+                "owner": "Tony Fernandes",
+                "wiki": [
+                    "Founded in 1882, Queens Park Rangers Football Club is a respected entity in English football. The club, based in London, England, has a rich history and a devoted fan base.",
+                    "Queens Park Rangers has faced challenges and celebrated successes, with memorable moments in both league and cup competitions. Loftus Road, the club's historic home ground, is a place of passion and excitement.",
+                    "Under the ownership of Tony Fernandes, Queens Park Rangers continues to build on its legacy, aiming for success in the Championship and beyond. The club remains a symbol of resilience and determination in the footballing landscape."
+                ]
+            }
         },
         {
             "id": 18,
             "name": "Tottenham Hotspur",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Tottenham Hotspur Football Club",
+                "nickname": "Spurs",
+                "founded": 1882,
+                "location": "London, England",
+                "ground": "Tottenham Hotspur Stadium",
+                "capacity": 62717,
+                "owner": "ENIC International Ltd",
+                "wiki": [
+                    "Founded in 1882, Tottenham Hotspur Football Club is a football institution with a rich and storied history. The club, based in London, England, has a global fan base and is synonymous with entertaining and stylish football.",
+                    "Tottenham Hotspur, affectionately known as the Spurs, has a legacy of success in domestic competitions and European tournaments. The state-of-the-art Tottenham Hotspur Stadium, the club's home ground, is a modern spectacle for football enthusiasts.",
+                    "Under the ownership of ENIC International Ltd, Tottenham Hotspur continues to pursue excellence, combining tradition with innovation. The club's commitment to youth development and attractive football aligns with its ambitions in both domestic and international arenas.",
+                    "As Tottenham Hotspur competes at the highest levels, the fans and the club look forward to creating new chapters in their illustrious history, filled with thrilling moments, triumphs, and a relentless pursuit of success."
+                ]
+            }
         },
         {
             "id": 19,
             "name": "West Ham",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "West Ham United Football Club",
+                "nickname": "Hammers",
+                "founded": 1895,
+                "location": "London, England",
+                "ground": "London Stadium",
+                "capacity": 60000,
+                "owner": "David Sullivan, David Gold",
+                "wiki": [
+                    "Founded in 1895, West Ham United Football Club has a rich history and a devoted fan base. The club, based in London, England, is known for its passionate supporters and memorable moments in English football.",
+                    "West Ham, affectionately known as the Hammers, has had a notable presence in domestic competitions, with historic triumphs and a tradition of developing talented players. The modern London Stadium is the club's home ground, providing a vibrant setting for football.",
+                    "Under the ownership of David Sullivan and David Gold, West Ham continues to strive for success, combining a commitment to tradition with a modern approach. The club's focus on community engagement and youth development reflects its integral role in London's football landscape.",
+                    "As West Ham competes in the Premier League, the fans and the club share a collective ambition to write new chapters in their storied history, filled with pride, passion, and the pursuit of glory."
+                ]
+            }
         },
         {
             "id": 44,
             "name": "Internazionale",
             "league": "Serie A",
-            "country": "Italy"
+            "country": "Italy",
+            "clubInfo": {
+                "completedName": "FC Internazionale Milano",
+                "nickname": "Nerazzurri",
+                "founded": 1908,
+                "location": "Milan, Italy",
+                "ground": "San Siro",
+                "capacity": 80018,
+                "owner": "Suning Holdings Group",
+                "wiki": [
+                    "Founded in 1908, FC Internazionale Milano, commonly known as Inter, is one of the most successful and iconic football clubs in Italy. Based in Milan, the Nerazzurri have a storied history and a massive fan following.",
+                    "Inter has achieved numerous domestic and international titles, including multiple Serie A championships and UEFA Champions League triumphs. The legendary San Siro stadium is the home ground, where fans witness thrilling football moments.",
+                    "Under the ownership of the Suning Holdings Group, Inter continues to pursue excellence, investing in top talent and modernizing the club's infrastructure. The Nerazzurri remain a symbol of ambition and success in the world of football."
+                ]
+            }
         },
         {
             "id": 77,
             "name": "Aberdeen FC",
             "league": "Premiership",
-            "country": "Scotland"
+            "country": "Scotland",
+            "clubInfo": {
+                "completedName": "Aberdeen Football Club",
+                "nickname": "Dons",
+                "founded": 1903,
+                "location": "Aberdeen, Scotland",
+                "ground": "Pittodrie Stadium",
+                "capacity": 21405,
+                "owner": "Dave Cormack",
+                "wiki": [
+                    "Founded in 1903, Aberdeen Football Club, known as the Dons, is a respected Scottish football institution. Based in Aberdeen, the club has a loyal fan base and a history of competing at the highest levels of Scottish football.",
+                    "Aberdeen has clinched domestic honors, including league championships and Scottish Cup victories. The historic Pittodrie Stadium is the venue where the Dons showcase their talent and determination.",
+                    "Under the ownership of Dave Cormack, Aberdeen FC is committed to building a sustainable future and achieving success in Scottish football. The club remains a source of pride for the local community and its passionate supporters."
+                ]
+            }
         },
         {
             "id": 83,
             "name": "Motherwell FC",
             "league": "Premiership",
-            "country": "Scotland"
+            "country": "Scotland",
+            "clubInfo": {
+                "completedName": "Motherwell Football Club",
+                "nickname": "Steelmen",
+                "founded": 1886,
+                "location": "Motherwell, Scotland",
+                "ground": "Fir Park",
+                "capacity": 13742,
+                "owner": "Les Hutchison",
+                "wiki": [
+                    "Founded in 1886, Motherwell Football Club, known as the Steelmen, is a distinguished Scottish football club. Based in Motherwell, the club has a proud tradition and a connection with its devoted fan base.",
+                    "Motherwell has experienced highs in Scottish football, with notable achievements in league competitions and cup tournaments. Fir Park, the club's home ground, holds the memories of historic football moments.",
+                    "Under the ownership of Les Hutchison, Motherwell FC is dedicated to its community and strives for success in the Premiership. The Steelmen aim to build on their legacy and remain a formidable presence in Scottish football."
+                ]
+            }
         },
         {
             "id": 86,
             "name": "Rangers FC",
             "league": "Premiership",
-            "country": "Scotland"
+            "country": "Scotland",
+            "clubInfo": {
+                "completedName": "Rangers Football Club",
+                "nickname": "Gers",
+                "founded": 1872,
+                "location": "Glasgow, Scotland",
+                "ground": "Ibrox Stadium",
+                "capacity": 50862,
+                "owner": "Rangers International Football Club plc",
+                "wiki": [
+                    "Founded in 1872, Rangers Football Club, known as the Gers, is one of the most successful and storied football clubs in Scotland. Based in Glasgow, the club has a rich history and a passionate fan base.",
+                    "Rangers has a legacy of success in Scottish football, winning numerous league titles and domestic cups. Ibrox Stadium, the iconic home ground, is witness to the Gers' remarkable footballing moments.",
+                    "Under the ownership of Rangers International Football Club plc, Rangers FC continues to be a force in Scottish football. The club's commitment to excellence and its loyal fan base make it a symbol of pride in Glasgow and beyond."
+                ]
+            }
         },
         {
             "id": 91,
             "name": "Derby County",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Derby County Football Club",
+                "nickname": "Rams",
+                "founded": 1884,
+                "location": "Derby, England",
+                "ground": "Pride Park Stadium",
+                "capacity": 33597,
+                "owner": "Mel Morris",
+                "wiki": [
+                    "Founded in 1884, Derby County Football Club, known as the Rams, is a historic English football club. Based in Derby, the club has a strong tradition and a dedicated fan base.",
+                    "Derby County has experienced successes in English football, including memorable moments in league competitions and domestic cups. Pride Park Stadium, the modern home ground, is a symbol of the Rams' aspirations.",
+                    "Under the ownership of Mel Morris, Derby County is committed to building a competitive squad and achieving success in EFL League One. The Rams aim to create new chapters in their history and make their mark in English football."
+                ]
+            }
         },
         {
             "id": 94,
             "name": "Ipswich Town",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Ipswich Town Football Club",
+                "nickname": "Tractor Boys",
+                "founded": 1878,
+                "location": "Ipswich, England",
+                "ground": "Portman Road",
+                "capacity": 30311,
+                "owner": "Gamechanger 20 Ltd",
+                "wiki": [
+                    "Founded in 1878, Ipswich Town Football Club, known as the Tractor Boys, is a respected English football institution. Based in Ipswich, the club has a rich history and a loyal fan base.",
+                    "Ipswich Town has achieved notable successes in English football, with triumphs in league competitions and the UEFA Cup. Portman Road, the historic home ground, has witnessed unforgettable football moments.",
+                    "Under the ownership of Gamechanger 20 Ltd, Ipswich Town is on a journey to reclaim its position in English football. The Tractor Boys aim to build on their legacy and compete at the highest levels in the Championship."
+                ]
+            }
         },
         {
             "id": 95,
             "name": "Leicester City",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Leicester City Football Club",
+                "nickname": "Foxes",
+                "founded": 1884,
+                "location": "Leicester, England",
+                "ground": "King Power Stadium",
+                "capacity": 32312,
+                "owner": "King Power International Group",
+                "wiki": [
+                    "Founded in 1884, Leicester City Football Club, known as the Foxes, is an integral part of English football history. Based in Leicester, the club has a legacy of triumphs and a devoted fan base.",
+                    "Leicester City has experienced remarkable successes, including the historic Premier League title in the 2015-2016 season. King Power Stadium, the modern home ground, is witness to the Foxes' exciting football.",
+                    "Under the ownership of King Power International Group, Leicester City continues to compete at the highest levels. The club's commitment to youth development and attacking football reflects its ambitious vision for sustained success."
+                ]
+            }
         },
         {
             "id": 110,
             "name": "Wolverhampton",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Wolverhampton Wanderers F.C.",
+                "nickname": "Wolves",
+                "founded": 1877,
+                "location": "Wolverhampton, England",
+                "ground": "Molineux Stadium",
+                "capacity": 31750,
+                "owner": "Fosun International",
+                "wiki": [
+                    "Founded in 1877, Wolverhampton Wanderers Football Club, known as the Wolves, is a historic English football club. Based in Wolverhampton, the club has a proud tradition and a passionate fan base.",
+                    "Wolves have experienced successes in English football, with historic triumphs in league competitions and the FA Cup. Molineux Stadium, the iconic home ground, is the stage for the Wolves' exciting brand of football.",
+                    "Under the ownership of Fosun International, Wolverhampton Wanderers continues to compete in the Premier League with ambition and flair. The club's commitment to developing young talent and entertaining football makes it a prominent figure in English football."
+                ]
+            }
         },
         {
             "id": 127,
             "name": "Shrewsburry Town",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Shrewsbury Town Football Club",
+                "nickname": "Salop",
+                "founded": 1886,
+                "location": "Shrewsbury, England",
+                "ground": "Montgomery Waters Meadow",
+                "capacity": 9875,
+                "owner": "Roland Wycherley",
+                "wiki": [
+                    "Founded in 1886, Shrewsbury Town Football Club, affectionately known as Salop, is a historic English football club. Based in Shrewsbury, the club has a rich tradition and a devoted fan base.",
+                    "Shrewsbury Town has experienced successes in lower league football and remains a source of pride for the local community. Montgomery Waters Meadow, the club's home ground, is witness to exciting football moments.",
+                    "Under the ownership of Roland Wycherley, Shrewsbury Town continues to compete with determination in EFL League One. The club looks forward to creating new chapters in its history and achieving success on the football pitch."
+                ]
+            }
         },
         {
             "id": 144,
             "name": "Fulham FC",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Fulham Football Club",
+                "nickname": "Cottagers",
+                "founded": 1879,
+                "location": "London, England",
+                "ground": "Craven Cottage",
+                "capacity": 18700,
+                "owner": "Shahid Khan",
+                "wiki": [
+                    "Founded in 1879, Fulham Football Club, known as the Cottagers, is a well-established English football club. Based in London, the club has a storied history and a passionate fan base.",
+                    "Fulham has experienced success in various divisions of English football and has a tradition of attractive football. Craven Cottage, the historic home ground, is a symbol of the club's rich heritage.",
+                    "Under the ownership of Shahid Khan, Fulham FC aspires to compete at the highest levels, and the club's fans eagerly anticipate exciting moments and achievements in the Premier League."
+                ]
+            }
         },
         {
             "id": 149,
             "name": "Lincoln City",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Lincoln City Football Club",
+                "nickname": "Imps",
+                "founded": 1884,
+                "location": "Lincoln, England",
+                "ground": "LNER Stadium",
+                "capacity": 10127,
+                "owner": "Clive Nates",
+                "wiki": [
+                    "Founded in 1884, Lincoln City Football Club, affectionately known as the Imps, is a historic English football club. Based in Lincoln, the club has a strong tradition and a dedicated fan base.",
+                    "Lincoln City has had notable successes in lower league football and has a reputation for its passionate supporters. LNER Stadium, the club's home ground, is witness to thrilling football moments.",
+                    "Under the ownership of Clive Nates, Lincoln City is on a journey to build on its legacy and compete with determination in EFL League One. The Imps aim to create lasting memories for their fans."
+                ]
+            }
         },
         {
             "id": 181,
             "name": "Dundee United",
             "league": "Premiership",
-            "country": "Scotland"
+            "country": "Scotland",
+            "clubInfo": {
+                "completedName": "Dundee United Football Club",
+                "nickname": "Tangerines",
+                "founded": 1909,
+                "location": "Dundee, Scotland",
+                "ground": "Tannadice Park",
+                "capacity": 14583,
+                "owner": "Mark Ogren",
+                "wiki": [
+                    "Founded in 1909, Dundee United Football Club, known as the Tangerines, is a respected Scottish football club. Based in Dundee, the club has a storied history and a loyal fan base.",
+                    "Dundee United has achieved success in Scottish football, including winning the Scottish Premier League. Tannadice Park, the historic home ground, is witness to the club's triumphs and memorable moments.",
+                    "Under the ownership of Mark Ogren, Dundee United continues to compete with ambition in the Premiership. The Tangerines aim to build on their legacy and make their mark in Scottish football."
+                ]
+            }
         },
         {
             "id": 417,
             "name": "Molde",
             "league": "Eliteserien",
-            "country": "Norway"
+            "country": "Norway",
+            "clubInfo": {
+                "completedName": "Molde Fotballklubb",
+                "nickname": "Blues",
+                "founded": 1911,
+                "location": "Molde, Norway",
+                "ground": "Aker Stadion",
+                "capacity": 11800,
+                "owner": "Kjell Inge Røkke",
+                "wiki": [
+                    "Founded in 1911, Molde Fotballklubb, known as the Blues, is a distinguished Norwegian football club. Based in Molde, the club has a rich history and a dedicated fan base.",
+                    "Molde has achieved success in Norwegian football, including multiple Eliteserien titles. Aker Stadion, the club's home ground, is a vibrant setting for exciting football moments.",
+                    "Under the ownership of Kjell Inge Røkke, Molde continues to compete with determination and ambition in the Eliteserien. The Blues aim to maintain their standing as a top football club in Norway."
+                ]
+            }
         },
         {
             "id": 561,
             "name": "Forest Green Rovers",
-            "league": "League Two",
-            "country": "England"
+            "league": "EFL League Two",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Forest Green Rovers Football Club",
+                "nickname": "Rovers",
+                "founded": 1889,
+                "location": "Nailsworth, England",
+                "ground": "The New Lawn",
+                "capacity": 5141,
+                "owner": "Dale Vince",
+                "wiki": [
+                    "Founded in 1889, Forest Green Rovers Football Club, known as the Rovers, is an environmentally conscious English football club. Based in Nailsworth, the club has a unique identity and a passionate fan base.",
+                    "Forest Green Rovers has experienced success in lower league football and is known for its commitment to sustainability. The New Lawn, the club's eco-friendly home ground, is a symbol of its innovative approach.",
+                    "Under the ownership of Dale Vince, Forest Green Rovers continues to make strides in football and environmental sustainability. The Rovers aim to inspire positive change both on and off the football pitch."
+                ]
+            }
         },
         {
             "id": 673,
             "name": "KRC Genk",
             "league": "Jupiler Pro League",
-            "country": "Belgium"
+            "country": "Belgium",
+            "clubInfo": {
+                "completedName": "Koninklijke Racing Club Genk",
+                "nickname": "Smurfs",
+                "founded": 1988,
+                "location": "Genk, Belgium",
+                "ground": "Luminus Arena",
+                "capacity": 23626,
+                "owner": "Paul Kerkhofs",
+                "wiki": [
+                    "Founded in 1988, Koninklijke Racing Club Genk, known as the Smurfs, is a successful Belgian football club. Based in Genk, the club has rapidly risen to prominence in Belgian football.",
+                    "KRC Genk has achieved success in the Jupiler Pro League, winning multiple league titles. Luminus Arena, the club's modern home ground, is a vibrant venue for thrilling football.",
+                    "Under the ownership of Paul Kerkhofs, KRC Genk continues to be a force in Belgian football. The Smurfs aim to maintain their competitive edge and entertain their passionate fan base."
+                ]
+            }
         },
         {
             "id": 1790,
             "name": "Portsmouth",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Portsmouth Football Club",
+                "nickname": "Pompey",
+                "founded": 1898,
+                "location": "Portsmouth, England",
+                "ground": "Fratton Park",
+                "capacity": 21491,
+                "owner": "Michael Eisner",
+                "wiki": [
+                    "Founded in 1898, Portsmouth Football Club, known as Pompey, is a historic English football club. Based in Portsmouth, the club has a proud tradition and a dedicated fan base.",
+                    "Portsmouth has achieved success in English football, including winning the FA Cup. Fratton Park, the club's iconic home ground, is a symbol of its rich history.",
+                    "Under the ownership of Michael Eisner, Portsmouth FC continues to compete with determination in EFL League One. The club looks forward to creating new chapters in its storied history."
+                ]
+            }
         },
         {
             "id": 1792,
             "name": "Norwich City",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Norwich City Football Club",
+                "nickname": "Canaries",
+                "founded": 1902,
+                "location": "Norwich, England",
+                "ground": "Carrow Road",
+                "capacity": 27244,
+                "owner": "Delia Smith and Michael Wynn-Jones",
+                "wiki": [
+                    "Founded in 1902, Norwich City Football Club, known as the Canaries, is a well-established English football club. Based in Norwich, the club has a rich history and a passionate fan base.",
+                    "Norwich City has experienced success in various divisions of English football, including the top flight. Carrow Road, the club's home ground, is a vibrant setting for thrilling football.",
+                    "Under the ownership of Delia Smith and Michael Wynn-Jones, Norwich City FC aims to compete at the highest levels and continue to be a source of pride for its fans."
+                ]
+            }
         },
         {
             "id": 1793,
             "name": "Reading FC",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Reading Football Club",
+                "nickname": "Royals",
+                "founded": 1871,
+                "location": "Reading, England",
+                "ground": "Madejski Stadium",
+                "capacity": 24024,
+                "owner": "Dai Yongge and Dai Xiu Li",
+                "wiki": [
+                    "Founded in 1871, Reading Football Club, known as the Royals, is a distinguished English football club. Based in Reading, the club has a storied history and a loyal fan base.",
+                    "Reading FC has experienced success in lower league football and the Championship. Madejski Stadium, the club's home ground, is witness to thrilling football moments.",
+                    "Under the ownership of Dai Yongge and Dai Xiu Li, Reading FC aims to compete with ambition and entertain its passionate fan base. The Royals look forward to building on their legacy in English football."
+                ]
+            }
         },
         {
             "id": 1794,
             "name": "Sheffield United",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Sheffield United Football Club",
+                "nickname": "Blades",
+                "founded": 1889,
+                "location": "Sheffield, England",
+                "ground": "Bramall Lane",
+                "capacity": 32702,
+                "owner": "Prince Abdullah",
+                "wiki": [
+                    "Founded in 1889, Sheffield United Football Club, known as the Blades, is a historic English football club. Based in Sheffield, the club has a rich tradition and a passionate fan base.",
+                    "Sheffield United has experienced success in English football, including winning the First Division. Bramall Lane, the club's iconic home ground, is a symbol of its storied history.",
+                    "Under the ownership of Abdullah bin Musa'ad bin Abdulaziz Al Saud, Sheffield United FC aims to compete at the highest levels and add new chapters to its legacy in the Premier League."
+                ]
+            }
         },
         {
             "id": 1795,
             "name": "Watford",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Watford Football Club",
+                "nickname": "The Hornets",
+                "founded": 1881,
+                "location": "Watford, England",
+                "ground": "Vicarage Road",
+                "capacity": 22200,
+                "owner": "Gino Pozzo",
+                "wiki": [
+                    "Founded in 1881, Watford Football Club, known as The Hornets, is a renowned English football club based in Watford. The club has a storied history and a dedicated fan base.",
+                    "Vicarage Road, the historic home ground, is where Watford has experienced memorable football moments. Under the ownership of Gino Pozzo, the club continues to aim for success and compete at the highest levels in English football."
+                ]
+            }
         },
         {
             "id": 1796,
             "name": "Burnley",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Burnley Football Club",
+                "nickname": "The Clarets",
+                "founded": 1882,
+                "location": "Burnley, England",
+                "ground": "Turf Moor",
+                "capacity": 21944,
+                "owner": "ALK Capital",
+                "wiki": [
+                    "Founded in 1882, Burnley Football Club, known as The Clarets, is a historic English football club based in Burnley. The club has a proud tradition and a dedicated fan base.",
+                    "Turf Moor, the iconic home ground, has been witness to Burnley's memorable football journey. Under the ownership of ALK Capital, Burnley FC continues to strive for success and compete in the Premier League."
+                ]
+            }
         },
         {
             "id": 1797,
-            "name": "Rotherdam Utd",
-            "league": "Championship",
-            "country": "England"
+            "name": "Rotherham Utd",
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Rotherham United Football Club",
+                "nickname": "The Millers",
+                "founded": 1925,
+                "location": "Rotherham, England",
+                "ground": "New York Stadium",
+                "capacity": 12021,
+                "owner": "Tony Stewart",
+                "wiki": [
+                    "Founded in 1925, Rotherham United Football Club, known as The Millers, is an English football club based in Rotherham. The club has a rich history and a loyal fan base.",
+                    "New York Stadium, the modern home ground, is where Rotherham United has experienced memorable football moments. Under the ownership of Tony Stewart, the club continues to compete in the Championship with determination and spirit."
+                ]
+            }
         },
         {
             "id": 1798,
             "name": "MK Dons",
-            "league": "League Two",
-            "country": "England"
+            "league": "EFL League Two",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Milton Keynes Dons Football Club",
+                "nickname": "The Dons",
+                "founded": 2004,
+                "location": "Milton Keynes, England",
+                "ground": "Stadium MK",
+                "capacity": 30500,
+                "owner": "Pete Winkelman",
+                "wiki": [
+                    "Founded in 2004, Milton Keynes Dons Football Club, known as The Dons, is a relatively young English football club based in Milton Keynes. The club has quickly become a prominent figure in the football scene.",
+                    "Stadium MK, the modern home ground, is where MK Dons showcase their talent. Under the ownership of Pete Winkelman, the club is focused on building a sustainable footballing legacy in Milton Keynes."
+                ]
+            }
         },
         {
             "id": 1801,
             "name": "Preston North End",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Preston North End Football Club",
+                "nickname": "The Lilywhites",
+                "founded": 1880,
+                "location": "Preston, England",
+                "ground": "Deepdale",
+                "capacity": 23408,
+                "owner": "Trevor Hemmings",
+                "wiki": [
+                    "Founded in 1880, Preston North End Football Club, known as The Lilywhites, is a historic English football club based in Preston. The club has a rich history and a passionate fan base.",
+                    "Deepdale, the iconic home ground, is where Preston North End has witnessed historic football moments. Under the ownership of Trevor Hemmings, the club continues to strive for success and compete in EFL League One."
+                ]
+            }
         },
         {
             "id": 1803,
             "name": "Walsall",
-            "league": "League Two",
-            "country": "England"
+            "league": "EFL League Two",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Walsall Football Club",
+                "nickname": "The Saddlers",
+                "founded": 1888,
+                "location": "Walsall, England",
+                "ground": "Bescot Stadium",
+                "capacity": 11300,
+                "owner": "Leigh Pomlett",
+                "wiki": [
+                    "Founded in 1888, Walsall Football Club, known as The Saddlers, is a well-established English football club based in Walsall. The club has a long history and a loyal fan base.",
+                    "Bescot Stadium, the home ground, has been witness to memorable football moments. Under the ownership of Leigh Pomlett, Walsall FC aims to build on its legacy and compete at the highest levels in League Two."
+                ]
+            }
         },
         {
             "id": 1804,
             "name": "Bradford City",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Bradford City Football Club",
+                "nickname": "The Bantams",
+                "founded": 1903,
+                "location": "Bradford, England",
+                "ground": "Utilita Energy Stadium",
+                "capacity": 25136,
+                "owner": "Stefan Rupp",
+                "wiki": [
+                    "Founded in 1903, Bradford City Football Club, known as The Bantams, is a historic English football club based in Bradford. The club has a rich history and a dedicated fan base.",
+                    "Utilita Energy Stadium, the iconic home ground, is where Bradford City has witnessed unforgettable football moments. Under the ownership of Stefan Rupp, the club aims for success and competitiveness in EFL League One."
+                ]
+            }
         },
         {
             "id": 1806,
             "name": "Stoke City",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Stoke City Football Club",
+                "nickname": "The Potters",
+                "founded": 1863,
+                "location": "Stoke-on-Trent, England",
+                "ground": "bet365 Stadium",
+                "capacity": 30300,
+                "owner": "Bet365 Group",
+                "wiki": [
+                    "Founded in 1863, Stoke City Football Club, known as The Potters, is a long-established English football club based in Stoke-on-Trent. The club has a proud history and a passionate fan base.",
+                    "bet365 Stadium, the modern home ground, is where Stoke City showcases its footballing prowess. Under the ownership of Bet365 Group, the club aims to compete at the highest levels in the Championship."
+                ]
+            }
         },
         {
             "id": 1807,
             "name": "Sheffield Wednesday",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Sheffield Wednesday Football Club",
+                "nickname": "The Owls",
+                "founded": 1867,
+                "location": "Sheffield, England",
+                "ground": "Hillsborough",
+                "capacity": 39812,
+                "owner": "Dejphon Chansiri",
+                "wiki": [
+                    "Founded in 1867, Sheffield Wednesday Football Club, known as The Owls, is a historic English football club based in Sheffield. The club has a rich history and a dedicated fan base.",
+                    "Hillsborough, the iconic home ground, is where Sheffield Wednesday has witnessed historic football moments. Under the ownership of Dejphon Chansiri, the club aims for success and competitiveness in the Championship."
+                ]
+            }
         },
         {
             "id": 1808,
             "name": "Brighton & Hove Albion",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Brighton & Hove Albion Football Club",
+                "nickname": "The Seagulls",
+                "founded": 1901,
+                "location": "Brighton, England",
+                "ground": "Falmer Stadium",
+                "capacity": 30750,
+                "owner": "Tony Bloom",
+                "wiki": [
+                    "Founded in 1901, Brighton & Hove Albion Football Club, known as The Seagulls, is a respected English football club based in Brighton. The club has a storied history and a passionate fan base.",
+                    "Falmer Stadium, the modern home ground, is where Brighton & Hove Albion showcases its footballing prowess. Under the ownership of Tony Bloom, the club competes at the highest levels in the Premier League."
+                ]
+            }
         },
         {
             "id": 1917,
             "name": "Wigan Athletic",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Wigan Athletic Football Club",
+                "nickname": "The Latics",
+                "founded": 1932,
+                "location": "Wigan, England",
+                "ground": "DW Stadium",
+                "capacity": 25133,
+                "owner": "Phoenix 2021 Limited",
+                "wiki": [
+                    "Founded in 1932, Wigan Athletic Football Club, known as The Latics, is an English football club based in Wigan. The club has a rich history and a dedicated fan base.",
+                    "DW Stadium, the iconic home ground, is where Wigan Athletic has witnessed historic football moments. Under the ownership of Phoenix 2021 Limited, the club aims for success and competitiveness in EFL League One."
+                ]
+            }
         },
         {
             "id": 1919,
             "name": "Bristol City",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Bristol City Football Club",
+                "nickname": "The Robins",
+                "founded": 1894,
+                "location": "Bristol, England",
+                "ground": "Ashton Gate Stadium",
+                "capacity": 27867,
+                "owner": "Stephen Lansdown",
+                "wiki": [
+                    "Founded in 1894, Bristol City Football Club, known as The Robins, is a historic English football club based in Bristol. The club has a rich history and a passionate fan base.",
+                    "Ashton Gate Stadium, the iconic home ground, is where Bristol City has witnessed historic football moments. Under the ownership of Stephen Lansdown, the club competes at the highest levels in the Championship."
+                ]
+            }
         },
         {
             "id": 1923,
             "name": "Luton Town",
             "league": "Premier League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Luton Town Football Club",
+                "nickname": "The Hatters",
+                "founded": 1885,
+                "location": "Luton, England",
+                "ground": "Kenilworth Road",
+                "capacity": 10500,
+                "owner": "Luton Town Football Club 2020 Ltd",
+                "wiki": [
+                    "Founded in 1885, Luton Town Football Club, known as The Hatters, is a well-established English football club based in Luton. The club has a rich history and a dedicated fan base.",
+                    "Kenilworth Road, the historic home ground, is where Luton Town has witnessed unforgettable football moments. Under the ownership of Luton Town Football Club 2020 Ltd, the club competes in the Premier League."
+                ]
+            }
         },
         {
             "id": 1924,
             "name": "Chesterfield FC",
             "league": "National League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Chesterfield Football Club",
+                "nickname": "The Spireites",
+                "founded": 1866,
+                "location": "Chesterfield, England",
+                "ground": "Technique Stadium",
+                "capacity": 10738,
+                "owner": "Chesterfield Football Club",
+                "wiki": [
+                    "Founded in 1866, Chesterfield Football Club, known as The Spireites, is a historic English football club based in Chesterfield. The club has a rich history and a loyal fan base.",
+                    "Technique Stadium, the home ground, is where Chesterfield FC has witnessed memorable football moments. Under the ownership of Chesterfield Football Club, the club aims for success in the National League."
+                ]
+            }
         },
         {
             "id": 1926,
             "name": "Blackpool",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Blackpool Football Club",
+                "nickname": "The Seasiders",
+                "founded": 1887,
+                "location": "Blackpool, England",
+                "ground": "Bloomfield Road",
+                "capacity": 17338,
+                "owner": "Simon Sadler",
+                "wiki": [
+                    "Founded in 1887, Blackpool Football Club, known as The Seasiders, is a well-established English football club based in Blackpool. The club has a rich history and a passionate fan base.",
+                    "Bloomfield Road, the iconic home ground, is where Blackpool has witnessed historic football moments. Under the ownership of Simon Sadler, the club competes at the highest levels in the Championship."
+                ]
+            }
         },
         {
             "id": 1928,
             "name": "Port Vale",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Port Vale Football Club",
+                "nickname": "The Valiants",
+                "founded": 1876,
+                "location": "Stoke-on-Trent, England",
+                "ground": "Vale Park",
+                "capacity": 19052,
+                "owner": "Carol & Kevin Shanahan",
+                "wiki": [
+                    "Founded in 1876, Port Vale Football Club, known as The Valiants, is a historic English football club based in Stoke-on-Trent. The club has a rich history and a loyal fan base.",
+                    "Vale Park, the home ground, is where Port Vale FC has witnessed memorable football moments. Under the ownership of Carol & Kevin Shanahan, the club aims for success in EFL League One."
+                ]
+            }
         },
         {
             "id": 1929,
             "name": "Plymouth Argyle",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Plymouth Argyle Football Club",
+                "nickname": "The Pilgrims",
+                "founded": 1886,
+                "location": "Plymouth, England",
+                "ground": "Home Park",
+                "capacity": 17500,
+                "owner": "Simon Hallett",
+                "wiki": [
+                    "Founded in 1886, Plymouth Argyle Football Club, known as The Pilgrims, is a historic English football club based in Plymouth. The club has a rich history and a loyal fan base.",
+                    "Home Park, the iconic home ground, is where Plymouth Argyle has witnessed memorable football moments. Under the ownership of Simon Hallett, the club continues to strive for success and compete in EFL League One with ambition and passion."
+                ]
+            }
         },
         {
             "id": 1932,
             "name": "Barnsley FC",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Barnsley Football Club",
+                "nickname": "The Tykes",
+                "founded": 1887,
+                "location": "Barnsley, England",
+                "ground": "Oakwell",
+                "capacity": 23009,
+                "owner": "Chien Lee",
+                "wiki": [
+                    "Founded in 1887, Barnsley Football Club, known as The Tykes, is a respected English football institution based in Barnsley. The club has a storied history and a passionate fan base.",
+                    "Oakwell, the historic home ground, is where Barnsley FC has experienced triumphs and memorable football moments. Under the ownership of Chien Lee, the club aims to build on its legacy and compete at the highest levels in EFL League One."
+                ]
+            }
         },
         {
             "id": 1933,
             "name": "Wycombe Wanderers",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Wycombe Wanderers Football Club",
+                "nickname": "The Chairboys",
+                "founded": 1887,
+                "location": "High Wycombe, England",
+                "ground": "Adams Park",
+                "capacity": 10284,
+                "owner": "Rob Couhig",
+                "wiki": [
+                    "Founded in 1887, Wycombe Wanderers Football Club, known as The Chairboys, is a historic English football club based in High Wycombe. The club has a rich history and a dedicated fan base.",
+                    "Adams Park, the home ground, is where Wycombe Wanderers has witnessed memorable football moments. Under the ownership of Rob Couhig, the club continues to aim for success and entertain fans with its distinctive style of play."
+                ]
+            }
         },
         {
             "id": 1935,
             "name": "Colchester Utd",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Colchester United Football Club",
+                "nickname": "The U's",
+                "founded": 1937,
+                "location": "Colchester, England",
+                "ground": "JobServe Community Stadium",
+                "capacity": 10105,
+                "owner": "Robbie Cowling",
+                "wiki": [
+                    "Founded in 1937, Colchester United Football Club, known as The U's, is a respected English football club based in Colchester. The club has a storied history and a loyal fan base.",
+                    "JobServe Community Stadium, the modern home ground, is where Colchester United has experienced triumphs and memorable football moments. Under the ownership of Robbie Cowling, the club aims to build on its legacy and compete at the highest levels in EFL League One."
+                ]
+            }
         },
         {
             "id": 1938,
             "name": "Peterborough",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Peterborough United Football Club",
+                "nickname": "The Posh",
+                "founded": 1934,
+                "location": "Peterborough, England",
+                "ground": "Weston Homes Stadium",
+                "capacity": 15231,
+                "owner": "Darragh MacAnthony",
+                "wiki": [
+                    "Founded in 1934, Peterborough United Football Club, known as The Posh, is a historic English football club based in Peterborough. The club has a rich history and a passionate fan base.",
+                    "Weston Homes Stadium, the home ground, is where Peterborough United has witnessed memorable football moments. Under the ownership of Darragh MacAnthony, the club continues to strive for success and entertain fans with its attacking style of play."
+                ]
+            }
         },
         {
             "id": 1941,
             "name": "Hartlepool Utd",
-            "league": "League Two",
-            "country": "England"
+            "league": "EFL League Two",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Hartlepool United Football Club",
+                "nickname": "The Pools",
+                "founded": 1908,
+                "location": "Hartlepool, England",
+                "ground": "Victoria Park",
+                "capacity": 7853,
+                "owner": "Raj Singh",
+                "wiki": [
+                    "Founded in 1908, Hartlepool United Football Club, known as The Pools, is a historic English football club based in Hartlepool. The club has a rich history and a dedicated fan base.",
+                    "Victoria Park, the iconic home ground, is where Hartlepool United has experienced triumphs and memorable football moments. Under the ownership of Raj Singh, the club aims to build on its legacy and compete at the highest levels in League Two."
+                ]
+            }
         },
         {
             "id": 1943,
             "name": "AFC Bournemouth",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "AFC Bournemouth",
+                "nickname": "The Cherries",
+                "founded": 1899,
+                "location": "Bournemouth, England",
+                "ground": "Vitality Stadium",
+                "capacity": 11364,
+                "owner": "Maxim Demin",
+                "wiki": [
+                    "Founded in 1899, AFC Bournemouth, known as The Cherries, is a respected English football club based in Bournemouth. The club has a storied history and a loyal fan base.",
+                    "Vitality Stadium, the home ground, is where AFC Bournemouth has witnessed triumphs and memorable football moments. Under the ownership of Maxim Demin, the club aims to compete at the highest levels in the Championship."
+                ]
+            }
         },
         {
             "id": 1947,
             "name": "Wrexham AFC",
-            "league": "League Two",
-            "country": "England"
+            "league": "EFL League Two",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Wrexham Association Football Club",
+                "nickname": "The Reds",
+                "founded": 1864,
+                "location": "Wrexham, Wales",
+                "ground": "Racecourse Ground",
+                "capacity": 10500,
+                "owner": "Ryan Reynolds and Rob McElhenney",
+                "wiki": [
+                    "Founded in 1864, Wrexham Association Football Club, known as The Reds, is a historic football club based in Wrexham, Wales. The club has a rich history and a dedicated fan base.",
+                    "Racecourse Ground, the iconic home ground, is where Wrexham AFC has experienced triumphs and memorable football moments. Under the ownership of Ryan Reynolds and Rob McElhenney, the club aims to build on its legacy and compete at the highest levels in League Two."
+                ]
+            }
         },
         {
             "id": 1951,
             "name": "Oxford United",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Oxford United Football Club",
+                "nickname": "The U's",
+                "founded": 1893,
+                "location": "Oxford, England",
+                "ground": "Kassam Stadium",
+                "capacity": 12500,
+                "owner": "Sumrith Thanakarnjanasuth",
+                "wiki": [
+                    "Founded in 1893, Oxford United Football Club, known as The U's, is a respected English football club based in Oxford. The club has a storied history and a loyal fan base.",
+                    "Kassam Stadium, the home ground, is where Oxford United has witnessed triumphs and memorable football moments. Under the ownership of Sumrith Thanakarnjanasuth, the club aims to build on its legacy and compete at the highest levels in EFL League One."
+                ]
+            }
         },
         {
             "id": 1952,
             "name": "Hull City",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Hull City Association Football Club",
+                "nickname": "The Tigers",
+                "founded": 1904,
+                "location": "Hull, England",
+                "ground": "KCOM Stadium",
+                "capacity": 25694,
+                "owner": "Acun Ilicali",
+                "wiki": [
+                    "Founded in 1904, Hull City Association Football Club, known as The Tigers, is a historic English football club based in Hull. The club has a rich history and a passionate fan base.",
+                    "KCOM Stadium, the home ground, is where Hull City has witnessed triumphs and memorable football moments. Under the ownership of Acun Ilicali, the club aims to compete at the highest levels in the Championship."
+                ]
+            }
         },
         {
             "id": 1960,
             "name": "Swansea City",
-            "league": "Championship",
-            "country": "England"
+            "league": "EFL Championship",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Swansea City Association Football Club",
+                "nickname": "The Swans",
+                "founded": 1912,
+                "location": "Swansea, Wales",
+                "ground": "Liberty Stadium",
+                "capacity": 21088,
+                "owner": "Jason Levien and Steve Kaplan",
+                "wiki": [
+                    "Founded in 1912, Swansea City Association Football Club, known as The Swans, is a respected English football club based in Swansea, Wales. The club has a storied history and a loyal fan base.",
+                    "Liberty Stadium, the home ground, is where Swansea City has witnessed triumphs and memorable football moments. Under the ownership of Jason Levien and Steve Kaplan, the club aims to build on its legacy and compete at the highest levels in the Championship."
+                ]
+            }
         },
         {
             "id": 1961,
             "name": "Cardiff City",
-            "league": "Championship",
-            "country": "Wales"
+            "league": "EFL Championship",
+            "country": "Wales",
+            "clubInfo": {
+                "completedName": "Cardiff City Football Club",
+                "nickname": "The Bluebirds",
+                "founded": 1899,
+                "location": "Cardiff, Wales",
+                "ground": "Cardiff City Stadium",
+                "capacity": 33280,
+                "owner": "Vincent Tan",
+                "wiki": [
+                    "Founded in 1899, Cardiff City Football Club, known as The Bluebirds, is a historic Welsh football club based in Cardiff. The club has a rich history and a passionate fan base.",
+                    "Cardiff City Stadium, the home ground, is where Cardiff City has witnessed triumphs and memorable football moments. Under the ownership of Vincent Tan, the club aims to compete at the highest levels in the Championship."
+                ]
+            }
         },
         {
             "id": 1962,
             "name": "Bristol Rovers",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Bristol Rovers Football Club",
+                "nickname": "The Gas",
+                "founded": 1883,
+                "location": "Bristol, England",
+                "ground": "Memorial Stadium",
+                "capacity": 12300,
+                "owner": "Wael Al-Qadi",
+                "wiki": [
+                    "Founded in 1883, Bristol Rovers Football Club, known as The Gas, is a respected English football club based in Bristol. The club has a storied history and a dedicated fan base.",
+                    "Memorial Stadium, the home ground, is where Bristol Rovers has experienced triumphs and memorable football moments. Under the ownership of Wael Al-Qadi, the club aims to build on its legacy and compete at the highest levels in EFL League One."
+                ]
+            }
         },
         {
             "id": 110374,
             "name": "Fiorentina",
             "league": "Serie A",
-            "country": "Italy"
+            "country": "Italy",
+            "clubInfo": {
+                "completedName": "ACF Fiorentina",
+                "nickname": "Viola",
+                "founded": 1926,
+                "location": "Florence, Italy",
+                "ground": "Stadio Artemio Franchi",
+                "capacity": 43794,
+                "owner": "Rocco Commisso",
+                "wiki": [
+                    "Founded in 1926, ACF Fiorentina, known as Viola, is a prestigious Italian football club based in Florence. The club has a rich history and a passionate fan base.",
+                    "Stadio Artemio Franchi, the iconic home ground, has witnessed unforgettable football moments. Under the ownership of Rocco Commisso, Fiorentina continues to strive for success and entertain fans with its stylish brand of football."
+                ]
+            }
         },
         {
             "id": 111811,
             "name": "Monza",
             "league": "Serie A",
-            "country": "Italy"
+            "country": "Italy",
+            "clubInfo": {
+                "completedName": "AC Monza Brianza 1912",
+                "nickname": "Biancorossi",
+                "founded": 1912,
+                "location": "Monza, Italy",
+                "ground": "Stadio Brianteo",
+                "capacity": 18468,
+                "owner": "Silvio Berlusconi",
+                "wiki": [
+                    "Founded in 1912, AC Monza Brianza 1912, known as Biancorossi, is an Italian football club based in Monza. The club has a long history and a dedicated fan base.",
+                    "Stadio Brianteo, the historic home ground, has been witness to many footballing achievements. Under the ownership of Silvio Berlusconi, Monza aims to climb the ranks of Italian football and achieve success on the national stage."
+                ]
+            }
         },
         {
             "id": 112254,
             "name": "Newport County",
-            "league": "League Two",
-            "country": "England"
+            "league": "EFL League Two",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Newport County Association Football Club",
+                "nickname": "The Exiles",
+                "founded": 1912,
+                "location": "Newport, Wales",
+                "ground": "Rodney Parade",
+                "capacity": 7850,
+                "owner": "Gavin Foxall",
+                "wiki": [
+                    "Founded in 1912, Newport County AFC, known as The Exiles, is a football club based in Newport, Wales. The club has a rich history and a loyal fan base.",
+                    "Rodney Parade, the home ground, has been witness to many memorable football moments. Under the ownership of Gavin Foxall, Newport County continues to be a source of pride for its community and aims for success in League Two."
+                ]
+            }
         },
         {
             "id": 112259,
             "name": "AFC Wimbledon",
-            "league": "League Two",
-            "country": "England"
+            "league": "EFL League Two",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "AFC Wimbledon",
+                "nickname": "The Dons",
+                "founded": 2002,
+                "location": "London, England",
+                "ground": "Plough Lane",
+                "capacity": 9200,
+                "owner": "The Dons Trust",
+                "wiki": [
+                    "Founded in 2002, AFC Wimbledon, known as The Dons, is a fan-owned football club based in London. The club has a unique history and a passionate fan base.",
+                    "Plough Lane, the home ground, is where AFC Wimbledon has created new footballing memories. Owned by The Dons Trust, the club is committed to community involvement and success in League Two."
+                ]
+            }
         },
         {
             "id": 113926,
             "name": "Salford City",
-            "league": "League Two",
+            "league": "EFL League Two",
             "country": "England",
             "summary": "Salford City FC, owned by the Class of '92 (Neville, Scholes, Giggs, Butt, Beckham), competes in English football leagues.",
             "clubInfo": {
@@ -407,50 +1275,141 @@
                     "In the following years, Salford City experienced a meteoric rise through the ranks of English football divisions. Achieving consecutive titles and promotions, the club swiftly moved from lower levels to non-professional leagues, establishing itself as a formidable opponent.",
                     "This remarkable trajectory culminated in a historic milestone in 2019 when Salford City secured promotion to the Football League for the first time in the club's history. The team earned this honor by winning the National League play-offs, securing their place in the fourth tier of English football.",
                     "This achievement not only marked a moment of triumph for the club but also stood as a testament to the commitment and vision of the \"Class of 92\" in transforming Salford City into a respected force in the English football landscape. The club is now poised to take on new challenges and script the next chapter of its history in the world of football."
-                  ]
+                ]
             }
         },
         {
             "id": 200061,
             "name": "Macclesfield Town",
             "league": "National League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Macclesfield Town Football Club",
+                "nickname": "The Silkmen",
+                "founded": 1874,
+                "location": "Macclesfield, England",
+                "ground": "Moss Rose",
+                "capacity": 6345,
+                "owner": "Amanda Barron",
+                "wiki": [
+                    "Founded in 1874, Macclesfield Town Football Club, known as The Silkmen, is a historic English football club based in Macclesfield. The club has a long and storied history with a dedicated fan base.",
+                    "Moss Rose, the home ground, has been witness to many memorable football moments. Under the ownership of Amanda Barron, Macclesfield Town continues to be a source of pride for its community and competes in the National League."
+                ]
+            }
         },
         {
             "id": 220069,
             "name": "Oldham Athletic",
             "league": "National League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Oldham Athletic Association Football Club",
+                "nickname": "The Latics",
+                "founded": 1895,
+                "location": "Oldham, England",
+                "ground": "Boundary Park",
+                "capacity": 13539,
+                "owner": "Abdallah Lemsagam",
+                "wiki": [
+                    "Founded in 1895, Oldham Athletic Association Football Club, known as The Latics, is a traditional English football club based in Oldham. The club has a rich history and a loyal fan base.",
+                    "Boundary Park, the historic home ground, has been witness to many memorable football moments. Under the ownership of Abdallah Lemsagam, Oldham Athletic competes in the National League with aspirations for success."
+                ]
+            }
         },
         {
             "id": 240011,
             "name": "Cheltenham Town",
-            "league": "League One",
-            "country": "England"
+            "league": "EFL League One",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Cheltenham Town Football Club",
+                "nickname": "The Robins",
+                "founded": 1887,
+                "location": "Cheltenham, England",
+                "ground": "Whaddon Road",
+                "capacity": 7066,
+                "owner": "Paul Baker",
+                "wiki": [
+                    "Founded in 1887, Cheltenham Town Football Club, known as The Robins, is a respected English football club based in Cheltenham. The club has a storied history and a loyal fan base.",
+                    "Whaddon Road, the home ground, has been witness to many memorable football moments. Under the ownership of Paul Baker, Cheltenham Town competes in EFL League One with aspirations for success."
+                ]
+            }
         },
         {
             "id": 240016,
             "name": "Colchester Utd",
-            "league": "League Two",
-            "country": "England"
+            "league": "EFL League Two",
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Colchester United Football Club",
+                "nickname": "The U's",
+                "founded": 1937,
+                "location": "Colchester, England",
+                "ground": "Colchester Community Stadium",
+                "capacity": 10105,
+                "owner": "Robbie Cowling",
+                "wiki": [
+                    "Founded in 1937, Colchester United Football Club, known as The U's, is a well-established English football club based in Colchester. The club has a rich history and a dedicated fan base.",
+                    "Colchester Community Stadium, the modern home ground, has been witness to many memorable football moments. Under the ownership of Robbie Cowling, Colchester United competes in League Two with aspirations for success."
+                ]
+            }
         },
         {
             "id": 444444,
             "name": "Chester",
             "league": "National League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Chester Football Club",
+                "nickname": "The Seals",
+                "founded": 2010,
+                "location": "Chester, England",
+                "ground": "Deva Stadium",
+                "capacity": 5406,
+                "owner": "City Fans United",
+                "wiki": [
+                    "Founded in 2010, Chester Football Club, known as The Seals, is a relatively new football club based in Chester. The club has quickly gained popularity and has a passionate fan base.",
+                    "Devastadium, the home ground, has been witness to the club's rapid rise. Under the ownership of City Fans United, Chester competes in the National League with aspirations for success."
+                ]
+            }
         },
         {
             "id": 555555,
             "name": "Telford United",
             "league": "National League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "AFC Telford United",
+                "nickname": "The Bucks",
+                "founded": 2004,
+                "location": "Telford, England",
+                "ground": "New Bucks Head",
+                "capacity": 6700,
+                "owner": "Andy Pryce",
+                "wiki": [
+                    "Founded in 2004, AFC Telford United, known as The Bucks, is a relatively new football club based in Telford. The club has quickly gained popularity and has a passionate fan base.",
+                    "New Bucks Head, the home ground, has been witness to the club's journey. Under the ownership of Andy Pryce, Telford United competes in the National League with aspirations for success."
+                ]
+            }
         },
         {
             "id": 666666,
             "name": "Maidstone Utd",
             "league": "National League",
-            "country": "England"
+            "country": "England",
+            "clubInfo": {
+                "completedName": "Maidstone United Football Club",
+                "nickname": "The Stones",
+                "founded": 1992,
+                "location": "Maidstone, England",
+                "ground": "Gallagher Stadium",
+                "capacity": 4407,
+                "owner": "Terry Casey",
+                "wiki": [
+                    "Founded in 1992, Maidstone United Football Club, known as The Stones, is a relatively new football club based in Maidstone. The club has quickly gained popularity and has a passionate fan base.",
+                    "Gallagher Stadium, the home ground, has been witness to the club's journey. Under the ownership of Terry Casey, Maidstone United competes in the National League with aspirations for success."
+                ]
+            }
         }
     ],
     "posts": [
@@ -609,7 +1568,7 @@
         {
             "id": 20,
             "title": "Salford City FC Clinches EFL League Two Title!",
-            "description": "Historic moment for Salford City FC! 🎉 Clinching the EFL League Two title, they've secured promotion to EFL League One under the astute leadership of Ole Gunnar Solskjaer. A first professional title in England for the legendary manager! 🏴󠁧󠁢󠁥󠁮󠁧󠁿🔝 #SalfordCityFC #EFLChampions",
+            "description": "Historic moment for Salford City FC! 🎉 Clinching the EFL League Two title, they've secured promotion to EFL EFL League One under the astute leadership of Ole Gunnar Solskjaer. A first professional title in England for the legendary manager! 🏴󠁧󠁢󠁥󠁮󠁧󠁿🔝 #SalfordCityFC #EFLChampions",
             "date": "11 May",
             "category": "Twitter",
             "hasImage": true
@@ -639,119 +1598,90 @@
             "hasImage": true
         }
     ],
-    "coach": {
-        "id": 999999,
-        "name": "Ole Gunnar Solskjær",
-        "bio": "Ole Gunnar Solskjær, born on February 26, 1973, in Kristiansund, is a former Norwegian footballer and coach who is currently at the helm of the Salford City FC project aiming for the Premier League. During his playing career, he distinguished himself at Manchester United, where he became an icon, recognized as a \"supersub\" for his effectiveness as a substitute. His fame reached its peak when he scored the decisive goal in the UEFA Champions League final in 1998–99, contributing to the memorable comeback against Bayern Munich.",
-        "nationality": "Norway",
-        "stats": [
-            {
-                "season": 2024,
-                "wins": 41,
-                "draws": 13,
-                "losses": 7
-            },
-            {
-                "season": 2023,
-                "wins": 38,
-                "draws": 12,
-                "losses": 12
-            }
-        ],
-        "titles": [
-            {
-                "name": "EFL Football League One",
-                "team": 113926,
-                "season": "2024-25"
-            },
-            {
-                "name": "EFL Football League Two",
-                "team": 113926,
-                "season": "2023-24"
-            },
-            {
-                "name": "Norwegian Football Cup",
-                "team": 417,
-                "season": "2013-14"
-            },
-            {
-                "name": "Tippeligaen",
-                "team": 417,
-                "season": "2012-13"
-            },
-            {
-                "name": "Tippeligaen",
-                "team": 417,
-                "season": "2011-12"
-            }
-        ],
-        "careerHistory": [
-            {
-                "team": {
-                    "id": 113926,
-                    "name": "Salford City FC"
+    "coaches": [
+        {
+            "id": 999999,
+            "name": "Ole Gunnar Solskjær",
+            "bio": "Ole Gunnar Solskjær, born on February 26, 1973, in Kristiansund, is a former Norwegian footballer and coach who is currently at the helm of the Salford City FC project aiming for the Premier League. During his playing career, he distinguished himself at Manchester United, where he became an icon, recognized as a \"supersub\" for his effectiveness as a substitute. His fame reached its peak when he scored the decisive goal in the UEFA Champions League final in 1998–99, contributing to the memorable comeback against Bayern Munich.",
+            "nationality": "Norway",
+            "stats": [],
+            "titles": [
+                {
+                    "name": "Norwegian Football Cup",
+                    "team": 417,
+                    "season": "2013-14"
                 },
-                "position": "Manager",
-                "season": "2023-"
-            },
-            {
-                "team": {
-                    "id": 11,
-                    "name": "Manchester United"
+                {
+                    "name": "Tippeligaen",
+                    "team": 417,
+                    "season": "2012-13"
                 },
-                "position": "Coach",
-                "season": "2019-21"
-            },
-            {
-                "team": {
-                    "id": 11,
-                    "name": "Manchester United"
+                {
+                    "name": "Tippeligaen",
+                    "team": 417,
+                    "season": "2011-12"
+                }
+            ],
+            "careerHistory": [
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Manchester United"
+                    },
+                    "position": "Coach",
+                    "season": "2019-21"
                 },
-                "position": "Interim Coach",
-                "season": "2018-19"
-            },
-            {
-                "team": {
-                    "id": 417,
-                    "name": "Molde"
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Manchester United"
+                    },
+                    "position": "Interim Coach",
+                    "season": "2018-19"
                 },
-                "position": "Manager",
-                "season": "2015-18"
-            },
-            {
-                "team": {
-                    "id": 1961,
-                    "name": "Cardiff City"
+                {
+                    "team": {
+                        "id": 417,
+                        "name": "Molde"
+                    },
+                    "position": "Manager",
+                    "season": "2015-18"
                 },
-                "position": "Coach",
-                "season": "2014"
-            },
-            {
-                "team": {
-                    "id": 417,
-                    "name": "Molde"
+                {
+                    "team": {
+                        "id": 1961,
+                        "name": "Cardiff City"
+                    },
+                    "position": "Coach",
+                    "season": "2014"
                 },
-                "position": "Manager",
-                "season": "2011-13"
-            },
-            {
-                "team": {
-                    "id": 11,
-                    "name": "Manchester United U21"
+                {
+                    "team": {
+                        "id": 417,
+                        "name": "Molde"
+                    },
+                    "position": "Manager",
+                    "season": "2011-13"
                 },
-                "position": "Manager",
-                "season": "2008-10"
-            },
-            {
-                "team": {
-                    "id": 11,
-                    "name": "Manchester United"
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Manchester United U21"
+                    },
+                    "position": "Manager",
+                    "season": "2008-10"
                 },
-                "position": "Striker Coach",
-                "season": "2007-08"
-            }
-        ]
-    },
+                {
+                    "team": {
+                        "id": 11,
+                        "name": "Manchester United"
+                    },
+                    "position": "Striker Coach",
+                    "season": "2007-08"
+                }
+            ]
+        }
+    ],
     "players": [
         {
             "id": 268445,
@@ -930,7 +1860,7 @@
             ],
             "awards": [
                 {
-                    "name": "EFL Football League One Team of the Season",
+                    "name": "EFL Football EFL League One Team of the Season",
                     "season": "2024-25"
                 }
             ]
@@ -1088,7 +2018,7 @@
             "isScouted": true,
             "isPriority": false,
             "analysis": "Charlie Savage, the Welsh midfielder from Reading FC, possesses a well-rounded skill set. His standout ability lies in precise crossing, making him a valuable asset on the offensive front. With a left-footed prowess and adept dribbling, Savage seamlessly navigates the pitch. A technically proficient player, he showcases finesse in both passing and set-piece execution. His defensive attributes, marked by solid tackling and positional awareness, contribute to a versatile and reliable presence on the field. Savage's game is defined by a strategic vision and a commendable level of composure, making him a notable midfielder for Reading FC.",
-            "bio": "Charlie William Henry Savage, born on May 2, 2003, is a talented midfielder for EFL League One's Reading and the Wales national team. Following his father Robbie Savage's footsteps, he began his football journey at Manchester United. Savage made his professional debut with United in the 2021-22 UEFA Champions League. After a stint with Forest Green Rovers in 2022-23, he signed a four-year contract with Reading in July 2023, showcasing his prowess with a goal in August. Savage, a versatile central midfielder, combines defensive strength with attacking flair, distinguishing himself from his father's playing style. He has represented Wales at various youth levels and earned his first senior cap in October 2023.",
+            "bio": "Charlie William Henry Savage, born on May 2, 2003, is a talented midfielder for EFL EFL League One's Reading and the Wales national team. Following his father Robbie Savage's footsteps, he began his football journey at Manchester United. Savage made his professional debut with United in the 2021-22 UEFA Champions League. After a stint with Forest Green Rovers in 2022-23, he signed a four-year contract with Reading in July 2023, showcasing his prowess with a goal in August. Savage, a versatile central midfielder, combines defensive strength with attacking flair, distinguishing himself from his father's playing style. He has represented Wales at various youth levels and earned his first senior cap in October 2023.",
             "hasStats": false,
             "stats": [],
             "awards": []
@@ -2520,7 +3450,7 @@
                     "season": "2023-24"
                 },
                 {
-                    "name": "EFL Football League One Team of the Season",
+                    "name": "EFL Football EFL League One Team of the Season",
                     "season": "2024-25"
                 }
             ]
@@ -2754,7 +3684,7 @@
                     "season": "2024-25"
                 },
                 {
-                    "name": "EFL Football League One Player of the Season",
+                    "name": "EFL Football EFL League One Player of the Season",
                     "season": "2024-25"
                 }
             ]
@@ -2848,78 +3778,6 @@
             "awards": []
         },
         {
-            "id": 272705,
-            "name": "Noah Mawene",
-            "age": 2004,
-            "nationality": "England",
-            "position": "CM",
-            "overall": 64,
-            "potential": 80,
-            "modifier": 2,
-            "height": 186,
-            "weight": 74,
-            "foot": "Right",
-            "skills": 2,
-            "weakFoot": 4,
-            "workRate": "High/Medium",
-            "realFace": false,
-            "playStyles": [],
-            "value": 725000,
-            "wage": 1700,
-            "releaseClause": null,
-            "contract": 2028,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 110329,
-                        "name": "St. Pauli"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024"
-                },
-                {
-                    "team": {
-                        "id": 1801,
-                        "name": "Preston North End"
-                    },
-                    "season": "2023-24"
-                },
-                {
-                    "team": {
-                        "id": 1801,
-                        "name": "Preston North End U18"
-                    },
-                    "season": "2021-23"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": true,
-            "buyClause": null,
-            "isScouted": false,
-            "isPriority": false,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2023,
-                    "matches": 20,
-                    "goals": 1,
-                    "assists": 0,
-                    "matchesWithoutGoals": 1,
-                    "modifier": 2
-                }
-            ],
-            "awards": []
-        },
-        {
             "id": 273465,
             "name": "Liam Humbles",
             "age": 2003,
@@ -2987,149 +3845,6 @@
                     "assists": 0,
                     "matchesWithoutGoals": 0,
                     "modifier": 3
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280153,
-            "name": "Keith Tierney",
-            "age": 2006,
-            "nationality": "Nothern",
-            "position": "CF",
-            "overall": 53,
-            "potential": 65,
-            "modifier": 1,
-            "height": 171,
-            "weight": 75,
-            "foot": "Right",
-            "skills": 4,
-            "weakFoot": 3,
-            "workRate": "High/Medium",
-            "realFace": false,
-            "playStyles": [],
-            "value": 120000,
-            "wage": 600,
-            "releaseClause": null,
-            "contract": 2028,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 110799,
-                        "name": "Sutton United"
-                    },
-                    "season": "2023-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2023-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2022-23"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "isScouted": false,
-            "isPriority": false,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2023,
-                    "matches": 2,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 0,
-                    "modifier": 1
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280551,
-            "name": "Will Watson",
-            "age": 2006,
-            "nationality": "England",
-            "position": "CAM",
-            "overall": 71,
-            "potential": 93,
-            "modifier": 0,
-            "height": 180,
-            "weight": 78,
-            "foot": "Right",
-            "skills": 5,
-            "weakFoot": 5,
-            "workRate": "High/Low",
-            "realFace": false,
-            "playStyles": [],
-            "value": 5000000,
-            "wage": 4000,
-            "releaseClause": null,
-            "contract": 2027,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2023-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2023"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Manchester United U18"
-                    },
-                    "season": "2022-23"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "England U19",
-                    "season": "2024-"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "isScouted": false,
-            "isPriority": false,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 43,
-                    "goals": 5,
-                    "assists": 8,
-                    "matchesWithoutGoals": 5,
-                    "modifier": 3
-                },
-                {
-                    "season": 2023,
-                    "matches": 17,
-                    "goals": 1,
-                    "assists": 3,
-                    "matchesWithoutGoals": 4,
-                    "modifier": 9
                 }
             ],
             "awards": []
@@ -3365,71 +4080,6 @@
             "awards": []
         },
         {
-            "id": 257630,
-            "name": "Krisztofer Horváth",
-            "age": 2001,
-            "nationality": "Hungary",
-            "position": "CF",
-            "overall": 70,
-            "potential": 78,
-            "modifier": 1,
-            "height": 185,
-            "weight": 72,
-            "foot": "Right",
-            "skills": 5,
-            "weakFoot": 3,
-            "workRate": "Medium/Medium",
-            "realFace": false,
-            "playStyles": [],
-            "value": 1900000,
-            "wage": 18500,
-            "releaseClause": null,
-            "contract": 2027,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 1800,
-                        "name": "Coventry City"
-                    },
-                    "season": "2024-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2023-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2023"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "isScouted": false,
-            "isPriority": false,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2023,
-                    "matches": 23,
-                    "goals": 2,
-                    "assists": 7,
-                    "matchesWithoutGoals": 4,
-                    "modifier": 4
-                }
-            ],
-            "awards": []
-        },
-        {
             "id": 265548,
             "name": "Marcus Dackers",
             "age": 2002,
@@ -3653,108 +4303,6 @@
             "awards": []
         },
         {
-            "id": 280099,
-            "name": "Kai Lancaster",
-            "age": 2005,
-            "nationality": "England",
-            "position": "ST",
-            "overall": 65,
-            "potential": 79,
-            "modifier": 0,
-            "height": 185,
-            "weight": 79,
-            "foot": "Left",
-            "skills": 5,
-            "weakFoot": 5,
-            "workRate": "High/Medium",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 5,
-                    "name": "Power Header"
-                }
-            ],
-            "value": 1500000,
-            "wage": 5000,
-            "releaseClause": null,
-            "contract": 2029,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City",
-                        "league": "League Two",
-                        "country": "England"
-                    },
-                    "season": "2023-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21",
-                        "league": "League Two",
-                        "country": "England"
-                    },
-                    "season": "2023"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Manchester United U18",
-                        "league": "Premier League U18",
-                        "country": "England"
-                    },
-                    "season": "2023"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "England U19",
-                    "season": "2024-"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "isScouted": false,
-            "isPriority": false,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 31,
-                    "goals": 8,
-                    "assists": 7,
-                    "matchesWithoutGoals": 5,
-                    "modifier": 4
-                },
-                {
-                    "season": 2023,
-                    "matches": 42,
-                    "goals": 22,
-                    "assists": 10,
-                    "matchesWithoutGoals": 12,
-                    "modifier": 7
-                }
-            ],
-            "awards": [
-                {
-                    "name": "EFL Football League Two Top Goal Scorer - 22 goals",
-                    "season": "2023-24"
-                },
-                {
-                    "name":"EFL Football League Two Player of the Season",
-                    "season": "2023-24"
-                },
-                {
-                    "name":"EFL Football League Two Young Player of the Season",
-                    "season": "2023-24"
-                }
-            ]
-        },
-        {
             "id": 263684,
             "name": "Ethan Ingram",
             "age": 2003,
@@ -3787,7 +4335,7 @@
                     "team": {
                         "id": 113926,
                         "name": "Salford City",
-                        "league": "League Two",
+                        "league": "EFL League Two",
                         "country": "England"
                     },
                     "season": "2023-24"
@@ -4145,78 +4693,6 @@
             "awards": []
         },
         {
-            "id": 280518,
-            "name": "Joseph Miles",
-            "age": 2007,
-            "nationality": "England",
-            "position": "LW",
-            "overall": 59,
-            "potential": 66,
-            "modifier": 1,
-            "height": 179,
-            "weight": 73,
-            "foot": "Left",
-            "skills": 2,
-            "weakFoot": 4,
-            "workRate": "High/Medium",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 10,
-                    "name": "Whipped Pass"
-                },
-                {
-                    "id": 12,
-                    "name": "Flair"
-                }
-            ],
-            "value": 350000,
-            "wage": 550,
-            "releaseClause": null,
-            "contract": 2024,
-            "teamHistory": [
-                {
-                    "team":{
-                        "id": 112260,
-                        "name":"Fleetwood Town"
-                    },
-                    "season":"2025-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2023-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2021-23"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2023,
-                    "matches": 23,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 9,
-                    "modifier": 3
-                }
-            ],
-            "awards": []
-        },
-        {
             "id": 163264,
             "name": "Tom Heaton",
             "age": 1986,
@@ -4383,7 +4859,7 @@
                     "season": "2015-16"
                 },
                 {
-                    "name":"EFL Football League One Best Goalkeeper",
+                    "name": "EFL Football EFL League One Best Goalkeeper",
                     "season": "2024-25"
                 },
                 {
@@ -4512,1387 +4988,10 @@
             ],
             "awards": [
                 {
-                    "name":"EFL Football League One Team of the Season",
+                    "name": "EFL Football EFL League One Team of the Season",
                     "season": "2024-25"
                 }
             ]
-        },
-        {
-            "id": 232381,
-            "name": "Wesley",
-            "age": 1996,
-            "nationality": "Brazil",
-            "position": "ST",
-            "overall": 72,
-            "potential": 72,
-            "modifier": 0,
-            "height": 191,
-            "weight": 93,
-            "foot": "Right",
-            "skills": 4,
-            "weakFoot": 3,
-            "workRate": "Medium/Medium",
-            "realFace": true,
-            "playStyles": [],
-            "value": 2000000,
-            "wage": 12500,
-            "releaseClause": null,
-            "contract": 2025,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 1806,
-                        "name": "Stoke City"
-                    },
-                    "season": "2023-24"
-                },
-                {
-                    "team": {
-                        "id": 2,
-                        "name": "Aston Villa"
-                    },
-                    "season": "2023"
-                },
-                {
-                    "team": {
-                        "id": 1853,
-                        "name": "Levante"
-                    },
-                    "season": "2022-23"
-                },
-                {
-                    "team": {
-                        "id": 1048,
-                        "name": "Internacional"
-                    },
-                    "season": "2022"
-                },
-                {
-                    "team": {
-                        "id": 2,
-                        "name": "Aston Villa"
-                    },
-                    "season": "2021-22"
-                },
-                {
-                    "team": {
-                        "id": 231,
-                        "name": "Club Brugge"
-                    },
-                    "season": "2021"
-                },
-                {
-                    "team": {
-                        "id": 2,
-                        "name": "Aston Villa"
-                    },
-                    "season": "2019-21"
-                },
-                {
-                    "team": {
-                        "id": 231,
-                        "name": "Club Brugge"
-                    },
-                    "season": "2016-19"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "Brazil",
-                    "season": "2019"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 16,
-                    "goals": 6,
-                    "assists": 1,
-                    "matchesWithoutGoals": 4,
-                    "modifier": 1
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280105,
-            "name": "Luke Holden",
-            "age": 2007,
-            "nationality": "England",
-            "position": "GK",
-            "overall": 65,
-            "potential": 87,
-            "modifier": 3,
-            "height": 190,
-            "weight": 70,
-            "foot": "Right",
-            "skills": 1,
-            "weakFoot": 5,
-            "workRate": "Low/Low",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 29,
-                    "name": "Far Throw"
-                }
-            ],
-            "value": 2100000,
-            "wage": 4000,
-            "releaseClause": null,
-            "contract": 2030,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2024"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U18"
-                    },
-                    "season": "2023-24"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "England U17",
-                    "season": "2024-"
-                },
-                {
-                    "name": "England U16",
-                    "season": "2023-24"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 23,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 13,
-                    "modifier": 5
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 200778,
-            "name": "Cyrus Christie",
-            "age": 1992,
-            "nationality": "Ireland",
-            "position": "RB",
-            "overall": 72,
-            "potential": 72,
-            "modifier": 0,
-            "height": 188,
-            "weight": 82,
-            "foot": "Right",
-            "skills": 4,
-            "weakFoot": 3,
-            "workRate": "High/Medium",
-            "realFace": true,
-            "playStyles": [],
-            "value": 1400000,
-            "wage": 9000,
-            "releaseClause": null,
-            "contract": 2027,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-"
-                },
-                {
-                    "team": {
-                        "id": 1952,
-                        "name": "Hull City"
-                    },
-                    "season": "2022-24"
-                },
-                {
-                    "team": {
-                        "id": 144,
-                        "name": "FC Fulham"
-                    },
-                    "season": "2022"
-                },
-                {
-                    "team": {
-                        "id": 1960,
-                        "name": "Swansea City"
-                    },
-                    "season": "2022"
-                },
-                {
-                    "team": {
-                        "id": 14,
-                        "name": "Nottingham Forest"
-                    },
-                    "season": "2020-21"
-                },
-                {
-                    "team": {
-                        "id": 144,
-                        "name": "FC Fulham"
-                    },
-                    "season": "2018-20"
-                },
-                {
-                    "team": {
-                        "id": 12,
-                        "name": "Middlesbrough"
-                    },
-                    "season": "2017-18"
-                },
-                {
-                    "team": {
-                        "id": 91,
-                        "name": "Derby County"
-                    },
-                    "season": "2014-17"
-                },
-                {
-                    "team": {
-                        "id": 1800,
-                        "name": "Coventry City"
-                    },
-                    "season": "2010-14"
-                },
-                {
-                    "team": {
-                        "id": 1800,
-                        "name": "Coventry City U18"
-                    },
-                    "season": "2008-10"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "Ireland",
-                    "season": "2014-22"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 18,
-                    "goals": 0,
-                    "assists": 1,
-                    "matchesWithoutGoals": 4,
-                    "modifier": 1
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 203265,
-            "name": "Tyler Blackett",
-            "age": 1994,
-            "nationality": "England",
-            "position": "CB",
-            "overall": 66,
-            "potential": 66,
-            "modifier": 1,
-            "height": 188,
-            "weight": 87,
-            "foot": "Left",
-            "skills": 3,
-            "weakFoot": 1,
-            "workRate": "Medium/Medium",
-            "realFace": true,
-            "playStyles": [
-                {
-                    "id": 28,
-                    "name": "Long Throw"
-                }
-            ],
-            "value": 600000,
-            "wage": 3500,
-            "releaseClause": null,
-            "contract": 2026,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 1797,
-                        "name": "Rotherdam Utd"
-                    },
-                    "season": "2023-24"
-                },
-                {
-                    "team": {
-                        "id": 113149,
-                        "name": "Cincinnati"
-                    },
-                    "season": "2021-23"
-                },
-                {
-                    "team": {
-                        "id": 14,
-                        "name": "Nottingham Forest"
-                    },
-                    "season": "2020-21"
-                },
-                {
-                    "team": {
-                        "id": 1793,
-                        "name": "Reading"
-                    },
-                    "season": "2016-20"
-                },
-                {
-                    "team": {
-                        "id": 78,
-                        "name": "Celtic"
-                    },
-                    "season": "2015-16"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Man United"
-                    },
-                    "season": "2014-15"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Man United U21"
-                    },
-                    "season": "2014"
-                },
-                {
-                    "team": {
-                        "id": 88,
-                        "name": "Birmingham City"
-                    },
-                    "season": "2014"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Man United U21"
-                    },
-                    "season": "2014"
-                },
-                {
-                    "team": {
-                        "id": 1926,
-                        "name": "Blackpool"
-                    },
-                    "season": "2013-14"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Man United U21"
-                    },
-                    "season": "2012-13"
-                },
-                {
-                    "team": {
-                        "id": 11,
-                        "name": "Man United U18"
-                    },
-                    "season": "2010-12"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "England U21",
-                    "season": "2014"
-                },
-                {
-                    "name": "England U19",
-                    "season": "2012-13"
-                },
-                {
-                    "name": "England U18",
-                    "season": "2011-12"
-                },
-                {
-                    "name": "England U17",
-                    "season": "2011"
-                },
-                {
-                    "name": "England U16",
-                    "season": "2009-10"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 16,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 5,
-                    "modifier": 1
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 218658,
-            "name": "Dominic Iorfa",
-            "age": 1995,
-            "nationality": "England",
-            "position": "CB",
-            "overall": 68,
-            "potential": 68,
-            "modifier": 1,
-            "height": 193,
-            "weight": 78,
-            "foot": "Right",
-            "skills": 2,
-            "weakFoot": 3,
-            "workRate": "High/Medium",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 14,
-                    "name": "Rapid"
-                },
-                {
-                    "id": 18,
-                    "name": "Bruiser"
-                }
-            ],
-            "value": 850000,
-            "wage": 4000,
-            "releaseClause": null,
-            "contract": 2026,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-"
-                },
-                {
-                    "team": {
-                        "id": 1807,
-                        "name": "Sheffield Wed"
-                    },
-                    "season": "2019-24"
-                },
-                {
-                    "team": {
-                        "id": 110,
-                        "name": "Wolverhampton"
-                    },
-                    "season": "2018-19"
-                },
-                {
-                    "team": {
-                        "id": 94,
-                        "name": "Ipswich Town"
-                    },
-                    "season": "2017-18"
-                },
-                {
-                    "team": {
-                        "id": 110,
-                        "name": "Wolverhampton"
-                    },
-                    "season": "2014-17"
-                },
-                {
-                    "team": {
-                        "id": 127,
-                        "name": "Shrewsburry Town"
-                    },
-                    "season": "2013-14"
-                },
-                {
-                    "team": {
-                        "id": 110,
-                        "name": "Wolverhampton"
-                    },
-                    "season": "2013-14"
-                },
-                {
-                    "team": {
-                        "id": 110,
-                        "name": "Wolverhampton U18"
-                    },
-                    "season": "2010-13"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "England U21",
-                    "season": "2015-17"
-                },
-                {
-                    "name": "England U20",
-                    "season": "2014-15"
-                },
-                {
-                    "name": "England U18",
-                    "season": "2013-14"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 38,
-                    "goals": 0,
-                    "assists": 1,
-                    "matchesWithoutGoals": 18,
-                    "modifier": 1
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 254327,
-            "name": "Nathanael Ogbeta",
-            "age": 2001,
-            "nationality": "England",
-            "position": "LB",
-            "overall": 72,
-            "potential": 74,
-            "modifier":0,
-            "height": 188,
-            "weight": 81,
-            "foot": "Left",
-            "skills": 4,
-            "weakFoot": 4,
-            "workRate": "High/High",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 15,
-                    "name": "Technical"
-                }
-            ],
-            "value": 2000000,
-            "wage": 5200,
-            "releaseClause": null,
-            "contract": 2027,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 1796,
-                        "name": "Burnley"
-                    },
-                    "season": "2025-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 1960,
-                        "name": "Swansea City"
-                    },
-                    "season": "2023-24"
-                },
-                {
-                    "team": {
-                        "id": 1938,
-                        "name": "Peterborough"
-                    },
-                    "season": "2022-23"
-                },
-                {
-                    "team": {
-                        "id": 127,
-                        "name": "Shrewsburry Town"
-                    },
-                    "season": "2021-22"
-                },
-                {
-                    "team": {
-                        "id": 10,
-                        "name": "Man City U23"
-                    },
-                    "season": "2018-21"
-                },
-                {
-                    "team": {
-                        "id": 10,
-                        "name": "Man City U18"
-                    },
-                    "season": "2017-18"
-                },
-                {
-                    "team": {
-                        "id": 10,
-                        "name": "Man City Youth"
-                    },
-                    "season": "2015-17"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "England U21",
-                    "season": "2015-17"
-                },
-                {
-                    "name": "England U20",
-                    "season": "2014-15"
-                },
-                {
-                    "name": "England U18",
-                    "season": "2013-14"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 35,
-                    "goals": 1,
-                    "assists": 4,
-                    "matchesWithoutGoals": 7,
-                    "modifier": 4
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 235769,
-            "name": "Owen Dale",
-            "age": 1998,
-            "nationality": "England",
-            "position": "LM",
-            "overall": 65,
-            "potential": 65,
-            "modifier": 0,
-            "height": 175,
-            "weight": 65,
-            "foot": "Right",
-            "skills": 3,
-            "weakFoot": 3,
-            "workRate": "High/Medium",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 12,
-                    "name": "Flair"
-                },
-                {
-                    "id": 15,
-                    "name": "Technical"
-                }
-            ],
-            "value": 675000,
-            "wage": 3500,
-            "releaseClause": null,
-            "contract": 2026,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 1926,
-                        "name": "Blackpool"
-                    },
-                    "season": "2023-24"
-                },
-                {
-                    "team": {
-                        "id": 1790,
-                        "name": "FC Portsmouth"
-                    },
-                    "season": "2022-23"
-                },
-                {
-                    "team": {
-                        "id": 1926,
-                        "name": "Blackpool"
-                    },
-                    "season": "2021-22"
-                },
-                {
-                    "team": {
-                        "id": 121,
-                        "name": "Crewe Alexandra"
-                    },
-                    "season": "2016-21"
-                },
-                {
-                    "team": {
-                        "id": 121,
-                        "name": "Crewe Alexandra U18"
-                    },
-                    "season": "2014-16"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 14,
-                    "goals": 0,
-                    "assists": 2,
-                    "matchesWithoutGoals": 0,
-                    "modifier": 1
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 240813,
-            "name": "Jordan Gibson",
-            "age": 1998,
-            "nationality": "England",
-            "position": "CM",
-            "overall": 68,
-            "potential": 68,
-            "modifier": 0,
-            "height": 178,
-            "weight": 80,
-            "foot": "Right",
-            "skills": 4,
-            "weakFoot": 4,
-            "workRate": "High/Medium",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 12,
-                    "name": "Flair"
-                },
-                {
-                    "id": 15,
-                    "name": "Technical"
-                },
-                {
-                    "id": 26,
-                    "name": "Relentless"
-                }
-            ],
-            "value": 1000000,
-            "wage": 3400,
-            "releaseClause": null,
-            "contract": 2026,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-"
-                },
-                {
-                    "team": {
-                        "id": 1480,
-                        "name": "Carlisle United"
-                    },
-                    "season": "2021-24"
-                },
-                {
-                    "team": {
-                        "id": 563,
-                        "name": "Sligo Rovers"
-                    },
-                    "season": "2020-21"
-                },
-                {
-                    "team": {
-                        "id": 1804,
-                        "name": "Bradford City"
-                    },
-                    "season": "2019-20"
-                },
-                {
-                    "team": {
-                        "id": 361,
-                        "name": "Stevenage"
-                    },
-                    "season": "2019"
-                },
-                {
-                    "team": {
-                        "id": 86,
-                        "name": "Rangers FC U20"
-                    },
-                    "season": "2015-17"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 22,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 4,
-                    "modifier": 3
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280606,
-            "name": "Ibrahim Cook",
-            "age": 2006,
-            "nationality": "England",
-            "position": "CDM",
-            "overall": 67,
-            "potential": 74,
-            "modifier": 2,
-            "height": 187,
-            "weight": 79,
-            "foot": "Right",
-            "skills": 2,
-            "weakFoot": 4,
-            "workRate": "Low/High",
-            "realFace": false,
-            "playStyles": [],
-            "value": 160000,
-            "wage": 1400,
-            "releaseClause": null,
-            "contract": 2030,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2022-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U19"
-                    },
-                    "season": "2020-22"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 12,
-                    "goals": 1,
-                    "assists": 1,
-                    "matchesWithoutGoals": 2,
-                    "modifier": 3
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280121,
-            "name": "Patrick Brookes",
-            "age": 2007,
-            "nationality": "England",
-            "position": "RW",
-            "overall": 66,
-            "potential": 88,
-            "modifier": 7,
-            "height": 172,
-            "weight": 67,
-            "foot": "Left",
-            "skills": 5,
-            "weakFoot": 5,
-            "workRate": "High/Low",
-            "realFace": false,
-            "playStyles": [],
-            "value": 750000,
-            "wage": 500,
-            "releaseClause": null,
-            "contract": 2030,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 15015,
-                        "name": "Burton Albion"
-                    },
-                    "season": "2025-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2022-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U19"
-                    },
-                    "season": "2021-22"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": true,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": false,
-            "stats": [],
-            "awards": []
-        },
-        {
-            "id": 280017,
-            "name": "Lloyd Lloyd",
-            "age": 2008,
-            "nationality": "Wales",
-            "position": "CB",
-            "overall": 60,
-            "potential": 84,
-            "modifier": 4,
-            "height": 185,
-            "weight": 78,
-            "foot": "Right",
-            "skills": 2,
-            "weakFoot": 3,
-            "workRate": "Medium/High",
-            "realFace": false,
-            "playStyles": [],
-            "value": 475000,
-            "wage": 500,
-            "releaseClause": null,
-            "contract": 2027,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 92,
-                        "name": "Grimsby Town"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2022-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U19"
-                    },
-                    "season": "2021-22"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": true,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 25,
-                    "goals": 1,
-                    "assists": 0,
-                    "matchesWithoutGoals": 10,
-                    "modifier": 6
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280063,
-            "name": "Dominic Peters",
-            "age": 2006,
-            "nationality": "England",
-            "position": "CB",
-            "overall": 65,
-            "potential": 84,
-            "modifier": 0,
-            "height": 189,
-            "weight": 71,
-            "foot": "Right",
-            "skills": 4,
-            "weakFoot": 2,
-            "workRate": "Medium/High",
-            "realFace": false,
-            "playStyles": [],
-            "value": 1500000,
-            "wage": 500,
-            "releaseClause": null,
-            "contract": 2025,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113356,
-                        "name": "SD Amorebieta"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2022-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U19"
-                    },
-                    "season": "2021-22"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": true,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 0,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 0,
-                    "modifier": 7
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280083,
-            "name": "Archie Higgins",
-            "age": 2008,
-            "nationality": "England",
-            "position": "ST",
-            "overall": 60,
-            "potential": 82,
-            "modifier": 0,
-            "height": 178,
-            "weight": 73,
-            "foot": "Left",
-            "skills": 4,
-            "weakFoot": 3,
-            "workRate": "High/Low",
-            "realFace": false,
-            "playStyles": [],
-            "value": 450000,
-            "wage": 500,
-            "releaseClause": null,
-            "contract": 2025,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 1935,
-                        "name": "Colchester"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2022-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U19"
-                    },
-                    "season": "2021-22"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": true,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 0,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 0,
-                    "modifier": 5
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280298,
-            "name": "Nicholas Atkinson",
-            "age": 2008,
-            "nationality": "England",
-            "position": "CM",
-            "overall": 66,
-            "potential": 82,
-            "modifier": 0,
-            "height": 182,
-            "weight": 77,
-            "foot": "Right",
-            "skills": 3,
-            "weakFoot": 3,
-            "workRate": "Medium/High",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 22,
-                    "name": "Antecipate"
-                },
-                {
-                    "id": 26,
-                    "name": "Relentless"
-                }
-            ],
-            "value": 1700000,
-            "wage": 1000,
-            "releaseClause": null,
-            "contract": 2025,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 1800,
-                        "name": "Coventry City"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2022-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U19"
-                    },
-                    "season": "2021-22"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": true,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 38,
-                    "goals": 7,
-                    "assists": 4,
-                    "matchesWithoutGoals": 11,
-                    "modifier": 11
-                }
-            ],
-            "awards": []
-        },
-        {
-            "id": 280576,
-            "name": "Hugo Watson",
-            "age": 2007,
-            "nationality": "England",
-            "position": "GK",
-            "overall": 57,
-            "potential": 77,
-            "modifier": 5,
-            "height": 195,
-            "weight": 76,
-            "foot": "Right",
-            "skills": 1,
-            "weakFoot": 4,
-            "workRate": "Medium/Low",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 32,
-                    "name": "Rush Out"
-                }
-            ],
-            "value": 3250000,
-            "wage": 500,
-            "releaseClause": null,
-            "contract": 2025,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 422,
-                        "name": "Cork City"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2024"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2022-24"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U19"
-                    },
-                    "season": "2021-22"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": true,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 12,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 5,
-                    "modifier": 6
-                }
-            ],
-            "awards": []
         },
         {
             "id": 261621,
@@ -6188,95 +5287,6 @@
             "awards": []
         },
         {
-            "id": 200855,
-            "name": "George Baldock",
-            "age": 1993,
-            "nationality": "Greece",
-            "position": "RB",
-            "overall": 72,
-            "potential": 72,
-            "modifier": 0,
-            "height": 175,
-            "weight": 67,
-            "foot": "Right",
-            "skills": 3,
-            "weakFoot": 3,
-            "workRate": "High/Medium",
-            "realFace": true,
-            "playStyles": [
-                {
-                    "id": 14,
-                    "name": "Rapid"
-                }
-            ],
-            "value": 1200000,
-            "wage": 6300,
-            "releaseClause": null,
-            "contract": 2026,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2025-"
-                },
-                {
-                    "team": {
-                        "id": 1794,
-                        "name": "Sheffield United"
-                    },
-                    "season": "2017-25"
-                },
-                {
-                    "team": {
-                        "id": 1798,
-                        "name": "MK Dons"
-                    },
-                    "season": "2016-17"
-                },
-                {
-                    "team": {
-                        "id": 1951,
-                        "name": "Oxford United"
-                    },
-                    "season": "2015-16"
-                },
-                {
-                    "team": {
-                        "id": 1798,
-                        "name": "MK Dons"
-                    },
-                    "season": "2009-15"
-                },
-                {
-                    "team": {
-                        "id": 1798,
-                        "name": "MK Dons U18"
-                    },
-                    "season": "2007-09"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": true,
-            "isLoan": false,
-            "buyClause": null,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 20,
-                    "goals": 0,
-                    "assists": 4,
-                    "matchesWithoutGoals": 10,
-                    "modifier": 1
-                }
-            ],
-            "awards": []
-        },
-        {
             "id": 258167,
             "name": "Ronnie Edwards",
             "age": 2003,
@@ -6371,109 +5381,10 @@
                     "season": "2021-22"
                 },
                 {
-                    "name": "EFL Football League One Best Defender",
+                    "name": "EFL Football EFL League One Best Defender",
                     "season": 2024
                 }
             ]
-        },
-        {
-            "id": 240773,
-            "name": "Norrington Davies",
-            "age": 1999,
-            "nationality": "Wales",
-            "position": "LB",
-            "overall": 72,
-            "potential": 74,
-            "modifier": 0,
-            "height": 181,
-            "weight": 70,
-            "foot": "Left",
-            "skills": 2,
-            "weakFoot": 2,
-            "workRate": "High/Medium",
-            "realFace": false,
-            "playStyles": [],
-            "value": 1900000,
-            "wage": 4200,
-            "releaseClause": null,
-            "contract": 2027,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2025-"
-                },
-                {
-                    "team": {
-                        "id": 1794,
-                        "name": "Sheffield United"
-                    },
-                    "season": "2021-25"
-                },
-                {
-                    "team": {
-                        "id": 1806,
-                        "name": "Stoke City"
-                    },
-                    "season": "2021"
-                },
-                {
-                    "team": {
-                        "id": 1923,
-                        "name": "Luton Town"
-                    },
-                    "season": "2020-21"
-                },
-                {
-                    "team": {
-                        "id": 1794,
-                        "name": "Sheffield United"
-                    },
-                    "season": "2019-20"
-                },
-                {
-                    "team": {
-                        "id": 1794,
-                        "name": "Sheffield United U23"
-                    },
-                    "season": "2017-19"
-                }
-            ],
-            "nationalTeam": [
-                {
-                    "name": "Wales",
-                    "season": "2020-22"
-                },
-                {
-                    "name": "Wales U21",
-                    "season": "2017-20"
-                },
-                {
-                    "name": "Wales U19",
-                    "season": "2016-17"
-                }
-            ],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "isScouted": false,
-            "isPriority": false,
-            "analysis": "",
-            "bio": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 14,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 1,
-                    "modifier": 1
-                }
-            ],
-            "awards": []
         },
         {
             "id": 270209,
@@ -6934,84 +5845,6 @@
             "awards": []
         },
         {
-            "id": 280142,
-            "name": "Theo Watkins",
-            "age": 2007,
-            "nationality": "England",
-            "position": "CB",
-            "overall": 68,
-            "potential": 93,
-            "modifier": 0,
-            "height": 181,
-            "weight": 80,
-            "foot": "Left",
-            "skills": 4,
-            "weakFoot": 3,
-            "workRate": "Medium/High",
-            "realFace": false,
-            "playStyles": [
-                {
-                    "id": 9,
-                    "name": "Tiki Taka"
-                },
-                {
-                    "id": 22,
-                    "name": "Anticipate"
-                },
-                {
-                    "id": 26,
-                    "name": "Relentless"
-                }
-            ],
-            "value": 3100000,
-            "wage": 2000,
-            "releaseClause": null,
-            "contract": 2030,
-            "teamHistory": [
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City"
-                    },
-                    "season": "2025-"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U21"
-                    },
-                    "season": "2024-25"
-                },
-                {
-                    "team": {
-                        "id": 113926,
-                        "name": "Salford City U18"
-                    },
-                    "season": "2022-24"
-                }
-            ],
-            "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": false,
-            "buyClause": null,
-            "isScouted": false,
-            "isPriority": false,
-            "bio": "",
-            "analysis": "",
-            "hasStats": true,
-            "stats": [
-                {
-                    "season": 2024,
-                    "matches": 6,
-                    "goals": 0,
-                    "assists": 0,
-                    "matchesWithoutGoals": 2,
-                    "modifier": 4
-                }
-            ],
-            "awards": []
-        },
-        {
             "id": 243353,
             "name": "Bali Mumba",
             "age": 2001,
@@ -7091,23 +5924,23 @@
             ],
             "nationalTeam": [
                 {
-                    "name":"England U19",
+                    "name": "England U19",
                     "season": "2019"
                 },
                 {
-                    "name":"England U18",
+                    "name": "England U18",
                     "season": "2018-19"
                 },
                 {
-                    "name":"England U17",
+                    "name": "England U17",
                     "season": "2017-18"
                 },
                 {
-                    "name":"England U16",
+                    "name": "England U16",
                     "season": "2016"
                 },
                 {
-                    "name":"England U15",
+                    "name": "England U15",
                     "season": "2016"
                 }
             ],
@@ -7116,17 +5949,17 @@
             "buyClause": null,
             "isScouted": true,
             "isPriority": true,
-            "bio": "Bali Alef Mumba, born on October 8, 2001, is an English professional footballer excelling as a full-back for Plymouth Argyle in the EFL Championship. Starting at Sunderland, he became their youngest captain in 2018. After a stint with Norwich City, he contributed significantly to Peterborough United's FA Cup triumph on loan. His impactful loan to Plymouth Argyle saw him clinch the League One title. Mumba secured a permanent move to Plymouth in July 2023, showcasing his versatility and goal-scoring prowess. Internationally, he has represented England across various age groups.",
+            "bio": "Bali Alef Mumba, born on October 8, 2001, is an English professional footballer excelling as a full-back for Plymouth Argyle in the EFL Championship. Starting at Sunderland, he became their youngest captain in 2018. After a stint with Norwich City, he contributed significantly to Peterborough United's FA Cup triumph on loan. His impactful loan to Plymouth Argyle saw him clinch the EFL League One title. Mumba secured a permanent move to Plymouth in July 2023, showcasing his versatility and goal-scoring prowess. Internationally, he has represented England across various age groups.",
             "analysis": "Bali Mumba, the dynamic English wing-back from Plymouth Argyle, brings a unique blend of agility and acceleration to the pitch. His exceptional balance and ball control make him a formidable force on the wing, while his precise crossing ability amplifies his impact in the attacking third. Mumba's defensive prowess, marked by solid standing and sliding tackles, adds resilience to his game. A player with remarkable versatility, Mumba's skillful dribbling and vision make him a valuable asset on both ends of the field.",
             "hasStats": false,
             "stats": [],
             "awards": [
                 {
-                    "name":"EFL Football League One Team of the Season",
+                    "name": "EFL Football EFL League One Team of the Season",
                     "season": "2022-23"
                 },
                 {
-                    "name":"EFL Football League One Young Player of the Season",
+                    "name": "EFL Football EFL League One Young Player of the Season",
                     "season": "2022-23"
                 }
             ]
@@ -7137,7 +5970,15 @@
             "age": 2002,
             "nationality": "England",
             "position": "CM",
-            "overall": 71,
+            "overall": 67,
+            "overallStats": {
+                "pace": 67,
+                "shooting": 60,
+                "passing": 66,
+                "dribbling": 52,
+                "defending": 52,
+                "physicality": 48
+            },
             "potential": 77,
             "modifier": 0,
             "height": 170,
@@ -7153,24 +5994,24 @@
                     "name": "First Touch"
                 }
             ],
-            "value": 3000000,
-            "wage": 29500,
+            "value": 2300000,
+            "wage": 14000,
             "releaseClause": null,
             "contract": 2026,
             "teamHistory": [
                 {
                     "team": {
-                        "id": 110,
-                        "name": "Wolverhampton"
-                    },
-                    "season": "2024-"
-                },
-                {
-                    "team": {
                         "id": 1929,
                         "name": "Plymouth Argyle"
                     },
-                    "season": "2023-24"
+                    "season": "2023-"
+                },
+                {
+                    "team": {
+                        "id": 110,
+                        "name": "Wolverhampton"
+                    },
+                    "season": "2023"
                 },
                 {
                     "team": {
@@ -7209,14 +6050,13 @@
                 }
             ],
             "nationalTeam": [],
-            "isStarter": false,
-            "isLoan": false,
+            "isStarter": true,
+            "isLoan": true,
             "buyClause": null,
             "isScouted": true,
             "isPriority": true,
             "bio": "Luke James Cundle, born on 26 April 2002, is an English footballer currently shining as an attacking midfielder for Premier League Wolverhampton Wanderers. Graduating from Wolves' academy, he marked his debut in a 2019 EFL Cup victory against Reading. Cundle's noteworthy moments include appearances in the Premier League Asia Trophy Final and his Premier League debut in a 3–1 triumph over Southampton. His ascent continues with a full Premier League debut in a 2–0 victory against Tottenham Hotspur on 13 February 2022.",
             "analysis": "Luke Cundle, the English midfielder for Wolves, showcases a well-rounded skill set on the field. His adept ball control and precise short passing contribute to a fluid offensive game, complemented by an agile and balanced movement style. Cundle's acceleration and vision make him an asset in creating scoring opportunities. Additionally, his composed demeanor underlines his reliability in crucial moments. While he may need improvement in defensive aspects, his promising potential suggests a player poised for growth and impact.",
-            "hasStats": false,
             "stats": [],
             "awards": []
         },
@@ -7226,7 +6066,15 @@
             "age": 1998,
             "nationality": "England",
             "position": "CAM",
-            "overall": 77,
+            "overall": 75,
+            "overallStats": {
+                "pace": 72,
+                "shooting": 68,
+                "passing": 72,
+                "dribbling": 77,
+                "defending": 43,
+                "physicality": 52
+            },
             "potential": 79,
             "modifier": 0,
             "height": 177,
@@ -7250,10 +6098,10 @@
                     "name": "Technical"
                 }
             ],
-            "value": 11000000,
+            "value": 8000000,
             "wage": 44000,
             "releaseClause": null,
-            "contract": 2028,
+            "contract": 2027,
             "teamHistory": [
                 {
                     "team": {
@@ -7315,7 +6163,6 @@
             "isPriority": true,
             "bio": "Todd Owen Cantwell, born on February 27, 1998, is an English midfielder currently playing for Rangers in the Scottish Premiership. He started his career at Norwich City, making his senior debut in January 2018 and accumulating 129 appearances over six seasons. Cantwell also had loan spells at Fortuna Sittard and AFC Bournemouth. In January 2023, he joined Rangers. Cantwell has represented England at the under-17 and under-21 levels, showcasing his talent internationally.",
             "analysis": "Todd Cantwell, the skilled English midfielder for Rangers, brings finesse to the field. His standout attribute lies in impeccable ball control, coupled with a remarkable flair for first-touch play. With a potent combination of agility and acceleration, Cantwell maneuvers through opponents effortlessly, showcasing his impressive dribbling skills. His vision on the field is exemplary, contributing to his ability to position himself strategically, making him a valuable asset in the attacking lineup.",
-            "hasStats": false,
             "stats": [],
             "awards": []
         }
@@ -8035,7 +6882,6 @@
             "value": 5000000,
             "year": 2024
         }
-        
     ],
     "playStyles": [
         {
