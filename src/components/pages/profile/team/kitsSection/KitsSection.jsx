@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import HeadImage from '../../../shared/headImage/HeadImage';
+import HeadImage from '../../../../shared/headImage/HeadImage';
+
 
 const KitsSection = ({ team }) => {
     const [kit1Exists, setKit1Exists] = useState(false);

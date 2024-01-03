@@ -1,6 +1,6 @@
 import React from 'react'
 import './TransferInfo.css'
-import { formatCurrency } from '../../../../utils/formatCurrency'
+import { formatCurrency } from '../../../../../utils/formatCurrency'
 
 const TransferInfo = ({ player, year }) => {
     return (

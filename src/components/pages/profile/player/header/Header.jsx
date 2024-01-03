@@ -1,9 +1,9 @@
 import React from 'react'
 import './Header.css'
-import PotentialRating from '../../../ratings/potentialRating/PotentialRating'
-import HattrickRating from '../../../ratings/hattrickRating/HattrickRating'
-import { calculateHatScore } from '../../../../utils/hatScore'
-import HeadImage from '../../../shared/headImage/HeadImage'
+import PotentialRating from '../../../../ratings/potentialRating/PotentialRating'
+import HattrickRating from '../../../../ratings/hattrickRating/HattrickRating'
+import { calculateHatScore } from '../../../../../utils/hatScore'
+import HeadImage from '../../../../shared/headImage/HeadImage'
 import { FaCircleInfo } from 'react-icons/fa6'
 
 

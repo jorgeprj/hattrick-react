@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react'
 
-import '../../components/shared/profile/Profile.css';
+import '../../profile/Profile.css';
 import './Coach.css'
 
-import { getCoach } from '../../services/coach/coachService';
+import { getCoach } from '../../../services/coach/coachService';
 import { useParams } from 'react-router-dom';
 
-import Footer from '../../components/layout/footer/Footer';
-import Loading from '../../components/layout/loading/Loading';
-import CareerHistory from '../../components/pages/coach/careerHistory/CareerHistory';
-import HeadImage from '../../components/shared/headImage/HeadImage';
+import Loading from '../../../components/layout/loading/Loading';
+import HeadImage from '../../../components/shared/headImage/HeadImage';
+import CareerHistory from '../../../components/pages/profile/coach/careerHistory/CareerHistory';
+import Footer from '../../../components/layout/footer/Footer';
 
 
 const Coach = ({ year }) => {

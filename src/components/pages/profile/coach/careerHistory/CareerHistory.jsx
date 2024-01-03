@@ -4,7 +4,7 @@ import './CareerHistory.css'
 import { useState } from 'react';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6"
 import { Link } from 'react-router-dom';
-import HeadImage from '../../../shared/headImage/HeadImage';
+import HeadImage from '../../../../shared/headImage/HeadImage';
 
 
 const CareerHistory = ({ coach }) => {

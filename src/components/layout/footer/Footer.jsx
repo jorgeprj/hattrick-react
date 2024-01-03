@@ -10,12 +10,12 @@ const Footer = () => {
             <div className='pages'>
                 <div className='column'>
                     <h4>Tools</h4>
+                    <a href="/admin/edit">Hattrickdata</a>
                     <a href="#">What links here</a>
                     <a href="#">Related changes</a>
                     <a href="#">Special pages</a>
                     <a href="#">Permanent link</a>
                     <a href="#">Page information</a>
-                    <a href="#">Hattrickdata item</a>
                 </div>
                 <div className='column'>
                     <h4>Contribute</h4>

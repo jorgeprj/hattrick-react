@@ -3,7 +3,7 @@ import './NationalHistory.css'
 
 import { useState } from 'react';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6"
-import HeadImage from '../../../shared/headImage/HeadImage';
+import HeadImage from '../../../../shared/headImage/HeadImage';
 
 const NationalHistory = ({ player }) => {
     const [showAllNational, setShowAllNational] = useState(false);

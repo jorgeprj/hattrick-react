@@ -1,6 +1,6 @@
 import React from 'react'
 import './BasicInfo.css'
-import StarRating from '../../../ratings/starRating/StarRating'
+import StarRating from '../../../../ratings/starRating/StarRating'
 import { Link } from 'react-router-dom'
 
 const BasicInfo = ({ player, year }) => {

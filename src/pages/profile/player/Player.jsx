@@ -1,20 +1,21 @@
-import '../../components/shared/profile/Profile.css';
+import '../../profile/Profile.css';
 
 import React, { useEffect, useState } from 'react'
 
-import { getPlayer } from '../../services/players/playersService';
+import { getPlayer } from '../../../services/players/playersService';
 import { useParams } from 'react-router-dom';
+import Loading from '../../../components/layout/loading/Loading';
+import Header from '../../../components/pages/profile/player/header/Header';
+import BasicInfo from '../../../components/pages/profile/player/basicInfo/BasicInfo';
+import NationalHistory from '../../../components/pages/profile/player/nationalHistory/NationalHistory';
+import TeamHistory from '../../../components/pages/profile/player/teamHistory/TeamHistory';
+import Chart from '../../../components/pages/profile/player/chart/Chart';
+import PlayStyles from '../../../components/pages/profile/player/playStyles/PlayStyles';
+import Footer from '../../../components/layout/footer/Footer';
+import { FaAward } from 'react-icons/fa6';
+import TransferInfo from '../../../components/pages/profile/player/transferInfo/TransferInfo';
 
-import Header from '../../components/pages/player/header/Header';
-import TransferInfo from '../../components/pages/player/transferInfo/TransferInfo';
-import BasicInfo from '../../components/pages/player/basicInfo/BasicInfo';
-import TeamHistory from '../../components/pages/player/teamHistory/TeamHistory';
-import NationalHistory from '../../components/pages/player/nationalHistory/NationalHistory';
-import PlayStyles from '../../components/pages/player/playStyles/PlayStyles';
 
-import Loading from '../../components/layout/loading/Loading';
-import Footer from '../../components/layout/footer/Footer';
-import Chart from '../../components/pages/player/chart/Chart';
 
 const Player = ({ year }) => {
     const { id } = useParams();

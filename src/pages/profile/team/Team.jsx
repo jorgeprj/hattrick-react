@@ -1,18 +1,16 @@
-import React, { useEffect, useState } from 'react'
-
-import './team.css'
-import '../../components/shared/profile/Profile.css';
+import '../../profile/Profile.css';
+import './Team.css'
 
 import { useParams, Link } from 'react-router-dom';
-import { getTeam } from '../../services/teams/teamsService';
-import { getPlayers } from '../../services/players/playersService';
+import { getTeam } from '../../../services/teams/teamsService';
+import { getPlayers } from '../../../services/players/playersService';
 
-import BasicInfo from '../../components/pages/team/basicInfo/BasicInfo';
-
-import Loading from '../../components/layout/loading/Loading';
-import Footer from '../../components/layout/footer/Footer';
-import KitsSection from '../../components/pages/team/kitsSection/KitsSection';
-import HeadImage from '../../components/shared/headImage/HeadImage';
+import Loading from '../../../components/layout/loading/Loading';
+import BasicInfo from '../../../components/pages/profile/team/basicInfo/BasicInfo';
+import KitsSection from '../../../components/pages/profile/team/kitsSection/KitsSection';
+import HeadImage from '../../../components/shared/headImage/HeadImage';
+import { useEffect, useState } from 'react';
+import Footer from '../../../components/layout/footer/Footer';
 
 const Team = ({ year }) => {
     const { id } = useParams();
