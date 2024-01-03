@@ -2,8 +2,6 @@ import '../../components/shared/profile/Profile.css';
 
 import React, { useEffect, useState } from 'react'
 
-import { FaAward } from 'react-icons/fa6';
-
 import { getPlayer } from '../../services/players/playersService';
 import { useParams } from 'react-router-dom';
 
@@ -16,6 +14,7 @@ import PlayStyles from '../../components/pages/player/playStyles/PlayStyles';
 
 import Loading from '../../components/layout/loading/Loading';
 import Footer from '../../components/layout/footer/Footer';
+import Chart from '../../components/pages/player/chart/Chart';
 
 const Player = ({ year }) => {
     const { id } = useParams();
@@ -58,16 +57,14 @@ const Player = ({ year }) => {
                     </section>
                 </section>
                 <section className='column-2'>
-                    <div className='title'>
-                        <h2>Detailed sheet</h2>
+                    <section className='title'>
+                        <h2>Detailed Sheet</h2>
                         <h4>|</h4>
                         <p>Discussion</p>
-                    </div>
+                    </section>
                     <section className='profile-content'>
-                        <section>
-                            <h3>Biography</h3>
-                            <p>{player.bio}</p>
-                        </section>
+                        <h3 className='noMargin'>Biography</h3>
+                        <p>{player.bio}</p>
                         {player.isScouted && (
                             <section>
                                 <h3>Analysis</h3>
@@ -81,11 +78,10 @@ const Player = ({ year }) => {
                             <section>
                                 <h3>Player Awards</h3>
                                 <div className='awards'>
-                                    {player.awards.map(award => (
+                                    {player.awards.map((award) => (
                                         <p className='award' key={`${award.name} ${award.season}`}>
                                             <FaAward />
-                                            {award.name}
-                                            : {award.season}
+                                            {award.name}: {award.season}
                                         </p>
                                     ))}
                                 </div>
@@ -94,6 +90,11 @@ const Player = ({ year }) => {
                     </section>
                 </section>
                 <section className='column-3'>
+                    <section>
+                        <h4 className='noMargin'>Overview Stats</h4>
+                        <Chart player={player} />
+                    </section>
+
                     {player.playStyles.length > 0 && (
                         <section>
                             <PlayStyles player={player} />
@@ -111,7 +112,6 @@ const Player = ({ year }) => {
                             </div>
                         </section>
                     )}
-
                     <section>
                         <h4>Author</h4>
                         <div className='logo'>hattrick</div>

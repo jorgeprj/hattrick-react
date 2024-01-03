@@ -2,8 +2,9 @@ import React from 'react'
 import './Header.css'
 import PotentialRating from '../../../ratings/potentialRating/PotentialRating'
 import HattrickRating from '../../../ratings/hattrickRating/HattrickRating'
-import { calculateFutzScore } from '../../../../utils/futzScore'
+import { calculateHatScore } from '../../../../utils/hatScore'
 import HeadImage from '../../../shared/headImage/HeadImage'
+import { FaCircleInfo } from 'react-icons/fa6'
 
 
 const Header = ({ player, year }) => {
@@ -25,12 +26,12 @@ const Header = ({ player, year }) => {
                 </div>
                 <div>
                     <h4>
-                        {calculateFutzScore(player, year)}
+                        {calculateHatScore(player, year)}
                         <div className='rating'>
-                            <HattrickRating hattrick={calculateFutzScore(player, year)} />
+                            <HattrickRating hattrick={calculateHatScore(player, year)} />
                         </div>
                     </h4>
-                    <p>Hat3Score</p>
+                    <p className='info'>Hat3Score<FaCircleInfo/></p>
                 </div>
             </section>
         </section>

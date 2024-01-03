@@ -111,6 +111,15 @@ button {
     text-decoration: underline;
 }
 
+.clickable{
+    cursor: pointer;
+}
+
+.noMargin{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 @media screen and (max-width: 900px) {
     *{
         font-size: 0.98em;
