@@ -3,7 +3,7 @@ import './NationalHistory.css'
 
 import { useState } from 'react';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6"
-import TeamTag from '../../../shared/teamTag/TeamTag';
+import HeadImage from '../../../shared/headImage/HeadImage';
 
 const NationalHistory = ({ player }) => {
     const [showAllNational, setShowAllNational] = useState(false);
@@ -15,9 +15,7 @@ const NationalHistory = ({ player }) => {
             <div className='national-teams'>
                 {nationalToDisplay.map((team, index) => (
                     <div key={index} className='player-national'>
-                        <div className="national-tag">
-                            <TeamTag path={`../../src/assets/nationalTeams/${player.nationality}.png`} />
-                        </div>
+                        <HeadImage path={`../../src/assets/nationalTeams/${player.nationality}.png`} />
                         <div className='national-text'>
                             <h5>{team.name}</h5>
                             <h6>{team.season}</h6>

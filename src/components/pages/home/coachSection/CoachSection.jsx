@@ -24,7 +24,7 @@ const CoachSection = ({ coach }) => {
         <div className='coach-section'>
             <div className='coach-content'>
                 <Link to={"/coach"}>
-                    <img src={`./src/assets/${coach.name.toLowerCase().replace(/ /g, "")}.jpg`} alt="Ole Gunnar Solskjaer" />
+                    <img src={`./src/assets/coaches/${coach.name.toLowerCase().replace(/ /g, "")}.jpg`} alt="Ole Gunnar Solskjaer" />
                 </Link>
                 <div className='text'>
                     <section className='coach-header'>
@@ -36,17 +36,19 @@ const CoachSection = ({ coach }) => {
                     </section>
                     <p><strong>{coach.bio.split(' ').slice(0, 3).join(' ')} </strong>{coach.bio.split(' ').slice(3).join(' ')}</p>
                     <div className='icons'>
-                        <FaTrophy onClick={toggleTitles}/>
-                        <FaChartSimple onClick={toggleStats} />
-                        <Button text={"Read more"} link={"/coach"}/>
+                        <FaTrophy onClick={toggleTitles} />
+                        {coach.stats.length > 0 &&
+                            <FaChartSimple onClick={toggleStats} />
+                        }
+                        <Button text={"Read more"} link={`/coach/${coach.id}`} />
                     </div>
                 </div>
             </div>
             {titlesModal && (
-                <TitlesModal titles={coach.titles} onClose={toggleTitles}/>
+                <TitlesModal titles={coach.titles} onClose={toggleTitles} />
             )}
             {statsModal && (
-                <CoachStatsModal stats={coach.stats} onClose={toggleStats}/>
+                <CoachStatsModal stats={coach.stats} onClose={toggleStats} />
             )}
         </div>
     )

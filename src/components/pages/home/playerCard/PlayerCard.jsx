@@ -16,7 +16,7 @@ const PlayerCard = ({ player }) => {
 
     return (
         <div className='player-card'>
-            <Link to={`/player/report/${player.id}`}>
+            <Link to={`/player/${player.id}/report`}>
                 <img src={`../src/assets/players/${player.id}.png`} alt={`${player.name} image`} className='player-image' />
             </Link>
             <h3>{player.name} <span>{player.position}</span></h3>
@@ -36,7 +36,7 @@ const PlayerCard = ({ player }) => {
                         )}
                     </>
                 )}
-                <Button text={"Report"} link={`/player/report/${player.id}`} />
+                <Button text={"Report"} link={`/player/${player.id}`} />
             </div>
         </div>
     )

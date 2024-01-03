@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import './Player.css'
-import { FaAward } from 'react-icons/fa6';
+import '../../components/shared/profile/Profile.css';
 
+import React, { useEffect, useState } from 'react'
+
+import { FaAward } from 'react-icons/fa6';
 
 import { getPlayer } from '../../services/players/playersService';
 import { useParams } from 'react-router-dom';
@@ -41,7 +42,7 @@ const Player = ({ year }) => {
     }
 
     return (
-        <div className='player'>
+        <div className='profile'>
             <h1>
                 {player.name}
                 <span>{player.position}</span>
@@ -49,13 +50,11 @@ const Player = ({ year }) => {
             <section className='content'>
                 <section className='column-1'>
                     <Header player={player} year={year} />
-                    <section className='player-infos'>
+                    <section className='profile-infos'>
                         <TransferInfo player={player} year={year} />
                         <BasicInfo player={player} year={year} />
-                        <section className='other-infos'>
-                            {player.nationalTeam.length > 0 && <NationalHistory player={player} />}
-                            <TeamHistory player={player} />
-                        </section>
+                        {player.nationalTeam.length > 0 && <NationalHistory player={player} />}
+                        <TeamHistory player={player} />
                     </section>
                 </section>
                 <section className='column-2'>
@@ -64,11 +63,20 @@ const Player = ({ year }) => {
                         <h4>|</h4>
                         <p>Discussion</p>
                     </div>
-                    <section className='player-content'>
+                    <section className='profile-content'>
                         <section>
                             <h3>Biography</h3>
                             <p>{player.bio}</p>
                         </section>
+                        {player.isScouted && (
+                            <section>
+                                <h3>Analysis</h3>
+                                <p>{player.analysis}</p>
+                                <section className='scores'>
+                                    <p></p>
+                                </section>
+                            </section>
+                        )}
                         {player.awards.length > 0 && (
                             <section>
                                 <h3>Player Awards</h3>

@@ -6,7 +6,6 @@
 .transfer-info .infos{
     display: flex;
     justify-content: space-between;
-    width: 90%;
 }
 
 .transfer-info .infos .column-1,
@@ -15,7 +14,7 @@
     flex-direction: column;
     flex: 1;
     font-size: 0.9em;
-    align-items: flex-start;
+    align-items: flex-start !important;
     gap: 1em;
 }
 
@@ -23,6 +22,7 @@
     color: var(--text-medium);
     font-weight: 500;
     white-space: nowrap;
+    margin-right: 1em;
 }
 
 .transfer-info .infos .column-2 p{

@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react'
+
 import './team.css'
+import '../../components/shared/profile/Profile.css';
 
 import { useParams, Link } from 'react-router-dom';
 import { getTeam } from '../../services/teams/teamsService';
 import { getPlayers } from '../../services/players/playersService';
 
-import TeamTag from '../../components/shared/teamTag/TeamTag';
 import BasicInfo from '../../components/pages/team/basicInfo/BasicInfo';
 
 import Loading from '../../components/layout/loading/Loading';
 import Footer from '../../components/layout/footer/Footer';
 import KitsSection from '../../components/pages/team/kitsSection/KitsSection';
+import HeadImage from '../../components/shared/headImage/HeadImage';
 
 const Team = ({ year }) => {
     const { id } = useParams();
@@ -43,34 +45,27 @@ const Team = ({ year }) => {
         fetchData();
     }, [id]);
 
-    useEffect(() => {
-        const fetchTeam = async () => {
-            try {
-
-            } catch (error) {
-                console.error('Error fetching data:', error);
-            }
-        }
-    })
 
     if (isLoading) {
         return <Loading />;
     }
 
     return (
-        <div className='team'>
+        <div className='profile'>
             <h1>
                 {team.name}
                 <span>{((team.country).slice(0, 3)).toUpperCase()}</span>
             </h1>
             <section className='content'>
                 <section className='column-1'>
-                    <div className='team-header'>
-                        <img className='flag' src={`../../src/assets/flags/${team.country}.png`} alt={`Flag of ${team.country}`} />
-                        <TeamTag path={`../../src/assets/teams/${team.id}.png`} />
-                    </div>
+                    <section className='header'>
+                        <div className='profile-head'>
+                            <HeadImage path={`../../src/assets/teams/${team.id}.png`} />
+                            <img className='flag' src={`../../src/assets/flags/${team.country}.png`} alt={`Flag of ${team.country}`} />
+                        </div>
+                    </section>
                     {team.clubInfo &&
-                        <section className='team-infos'>
+                        <section className='profile-infos'>
                             <BasicInfo team={team} />
                             <KitsSection team={team} />
                         </section>
@@ -84,7 +79,7 @@ const Team = ({ year }) => {
                         <h4>|</h4>
                         <p>Discussion</p>
                     </div>
-                    <section className='team-content'>
+                    <section className='profile-content'>
                         {team.clubInfo && (
                             <section>
                                 <h3>Biography</h3>
@@ -112,9 +107,9 @@ const Team = ({ year }) => {
                                 {teamPlayers
                                     .sort((a, b) => b.overall - a.overall)
                                     .map(player => (
-                                        <div className='player-ball'>
+                                        <div className='head' key={player.id}>
                                             <Link to={`/player/${player.id}`}>
-                                                <img className='player-image' src={`../../src/assets/players/heads/${player.id}.png`} alt={`Player ${player.id} head`} />
+                                                <HeadImage path={`../../src/assets/players/heads/${player.id}.png`} />
                                             </Link>
                                         </div>
                                     ))}

@@ -2,8 +2,8 @@ import React from 'react'
 
 import './BestPlayers.css'
 import Button from '../../../shared/button/Button'
-import PlayerHead from '../../../shared/playerHead/PlayerHead'
 import { Link } from 'react-router-dom'
+import HeadImage from '../../../shared/headImage/HeadImage'
 
 const BestPlayers = ({ players }) => {
     return (
@@ -19,7 +19,7 @@ const BestPlayers = ({ players }) => {
                     <div className='player-list' key={player.id}>
                         <div className='player-info'>
                             <Link to={`/player/${player.id}`}>
-                                <PlayerHead playerId={player.id}/>
+                                <HeadImage path={`../../src/assets/players/heads/${player.id}.png`}/>
                             </Link>
                             <div className='player-infos'>
                                 <h4>{player.name}</h4>

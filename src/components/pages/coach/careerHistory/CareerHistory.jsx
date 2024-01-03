@@ -3,7 +3,8 @@ import './CareerHistory.css'
 
 import { useState } from 'react';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6"
-import TeamTag from '../../../shared/teamTag/TeamTag';
+import { Link } from 'react-router-dom';
+import HeadImage from '../../../shared/headImage/HeadImage';
 
 
 const CareerHistory = ({ coach }) => {
@@ -16,9 +17,11 @@ const CareerHistory = ({ coach }) => {
             <div className='teams'>
                 {teamsToDisplay.map((team, index) => (
                     <div key={index} className='coach-team'>
-                        <TeamTag path={`../../src/assets/teams/${team.team.id}.png`}/>
+                        <HeadImage path={`../../src/assets/teams/${team.team.id}.png`}/>
                         <div className='team-text'>
-                            <h5>{team.team.name}</h5>
+                            <Link to={`/team/${team.team.id}`}>
+                                <h5 className='link'>{team.team.name}</h5>
+                            </Link>
                             <h6>{team.position} ({team.season})</h6>
                         </div>
                     </div>

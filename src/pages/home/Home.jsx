@@ -27,7 +27,7 @@ const Home = ({ year }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const coachData = await getCoach();
+                const coachData = await getCoach(999999);
                 setCoach(coachData);
 
                 const teamData = await getTeam(113926);

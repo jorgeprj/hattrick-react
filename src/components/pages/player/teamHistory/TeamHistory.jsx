@@ -3,8 +3,8 @@ import './TeamHistory.css'
 
 import { useState } from 'react';
 import { FaAngleDown, FaAngleUp } from "react-icons/fa6"
-import TeamTag from '../../../shared/teamTag/TeamTag';
 import { Link } from 'react-router-dom';
+import HeadImage from '../../../shared/headImage/HeadImage';
 
 
 const TeamHistory = ({ player }) => {
@@ -17,9 +17,7 @@ const TeamHistory = ({ player }) => {
             <div className='teams'>
                 {teamsToDisplay.map((team, index) => (
                     <div key={index} className='player-team'>
-                        <div className="teams-tag">
-                            <TeamTag path={`../../src/assets/teams/${team.team.id}.png`} />
-                        </div>
+                        <HeadImage path={`../../src/assets/teams/${team.team.id}.png`} />
                         <div className='team-text'>
                             <Link to={`/team/${team.team.id}`}>
                             <h5 className='link'>{team.team.name}</h5>

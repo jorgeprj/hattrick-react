@@ -14,7 +14,9 @@
     flex-direction: row;
 }
 
-.career-history .teams .coach-team .team-tag {
+.career-history .teams .coach-team .head-image {
+    height: 2.2em;
+    padding: 0.2em;
     margin-right: 0.5em;
 }
 
@@ -23,6 +25,10 @@
     color: var(--text-medium);
     font-weight: 700;
     white-space: nowrap;
+}
+
+.career-history .teams .coach-team .team-text .link:hover{
+    color: var(--text-high);
 }
 
 .career-history .teams .coach-team .team-text  h6 {

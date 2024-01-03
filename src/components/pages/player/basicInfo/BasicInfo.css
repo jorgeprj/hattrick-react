@@ -1,7 +1,6 @@
 .basic-info .infos{
     display: flex;
     justify-content: space-between;
-    width: 90%;
 }
 
 .basic-info .infos .column-1,
@@ -11,13 +10,14 @@
     gap: 1em;
     flex: 1;
     font-size: 0.9em;
-    align-items: flex-start;
+    align-items: flex-start !important;
 }
 
 .basic-info .infos .column-1 p{
     color: var(--text-medium);
     font-weight: 500;
     white-space: nowrap;
+    margin-right: 1em;
 }
 
 .basic-info .infos .column-2 p{

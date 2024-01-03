@@ -58,14 +58,14 @@
     align-items: center;
 }
 
-.best-players .players-list .player-list .player-image{
+.best-players .players-list .player-list .head-image{
     height: 3.5em;
     margin-right: 1em;
     cursor: pointer;
     transition: 0.1s;
 }
 
-.best-players .players-list .player-list .player-image:hover{
+.best-players .players-list .player-list .head-image:hover{
     transform: scale(1.1);
 }
 

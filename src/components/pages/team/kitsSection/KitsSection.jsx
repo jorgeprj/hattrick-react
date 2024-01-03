@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import HeadImage from '../../../shared/headImage/HeadImage';
 
 const KitsSection = ({ team }) => {
     const [kit1Exists, setKit1Exists] = useState(false);
@@ -25,8 +26,8 @@ const KitsSection = ({ team }) => {
         <section>
             <h4>Kits</h4>
             <div className='kits'>
-                <img src={`../../src/assets/teams/kits/kit1/${team.id}.png`} alt={`${team.name} Kit 1`} />
-                <img src={`../../src/assets/teams/kits/kit2/${team.id}.png`} alt={`${team.name} Kit 2`} />
+                <HeadImage path={`../../src/assets/teams/kits/kit1/${team.id}.png`} alt={`${team.name} Kit 1`}/>
+                <HeadImage path={`../../src/assets/teams/kits/kit2/${team.id}.png`} alt={`${team.name} Kit 2`}/>
             </div>
         </section>
     )

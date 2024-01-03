@@ -14,10 +14,17 @@
     flex-direction: row;
 }
 
-.team-history .teams .player-team .teams-tag {
+.team-history .teams .player-team .head-image {
+    height: 2.2em;
+    padding: 0.2em;
     margin-right: 0.5em;
 }
 
+
+.team-history .teams .player-team .team-text h6{
+    color: var(--text-low);
+}
+
 .team-history .teams .player-team .team-text .link:hover{
-    text-decoration: underline;
+    color: var(--text-high);
 }
