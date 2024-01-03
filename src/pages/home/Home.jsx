@@ -129,7 +129,7 @@ const Home = ({ year }) => {
                                 <Button text={"Create account"} link={`/#`}/>
                             </div>
                             <div className='donate'>
-                                <Button text={"Create account"} link={`/#`}/>
+                                <Button text={"Donate"} link={`/#`}/>
                             </div>
                         </div>
                     </div>
