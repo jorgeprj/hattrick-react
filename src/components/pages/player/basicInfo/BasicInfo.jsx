@@ -10,6 +10,7 @@ const BasicInfo = ({ player, year }) => {
             <div className='infos'>
                 <div className='column-1'>
                     <p>Team</p>
+                    {player.isLoan && (<p>Loaned from</p>)}
                     <p>Age</p>
                     <p>Height</p>
                     <p>Weight</p>
@@ -26,6 +27,7 @@ const BasicInfo = ({ player, year }) => {
                             {player.teamHistory[0].team.name}
                         </Link>
                     </p>
+                    {player.isLoan && (<p>{player.teamHistory[1].team.name}</p>)}
                     <p>{year - Number(player.age)} years</p>
                     <p>{player.height / 100} m</p>
                     <p>{player.weight} kg</p>
