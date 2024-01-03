@@ -1,0 +1,30 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    width: 300px;
+    color: #dedede;
+    font-size: 14px;
+    background-color: #eee;
+}
+
+.search svg{
+    color: var(--text-low);
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+
+.search input{
+    background-color: transparent;
+    width: 200px;
+    border: 0;
+    color: var(--text-high);
+}
+
+.search-input:focus {
+    outline: none;
+}
