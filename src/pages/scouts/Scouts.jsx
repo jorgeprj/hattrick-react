@@ -18,7 +18,10 @@ const Scouts = ({ year }) => {
         const fetchData = async () => {
             try {
                 const playersData = await getPlayers();
-                setPlayers(playersData.filter(player => player.isScouted === true));
+                setPlayers(playersData
+                                        .filter(player => player.isScouted === true)
+                                        .filter(player => player.teamHistory[0].team.name !== "Salford City")
+                        );
                 setIsLoading(false);
             } catch (error) {
                 console.error('Error fetching players:', error);
