@@ -17,6 +17,42 @@
     z-index: 1;
 }
 
+.profile .content .column-1 .profile-infos .staff{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.profile .content .column-1 .profile-infos .staff-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile .content .column-1 .profile-infos .staff-head .head-image {
+    height: 3em;
+    margin-right: 0.5em;
+}
+
+.profile .content .column-1 .profile-infos .staff-head .staff-head-text h5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.2em;
+    font-size: 0.9em !important;
+    color: var(--text-medium);
+    font-weight: 700;
+    white-space: nowrap;
+    max-height: fit-content;
+}
+
+.profile .content .column-1 .profile-infos .staff-head .staff-head-text h5 .flag{
+    height: 0.75em;
+    margin-left: 0.5em;
+}
+
+
+
 .profile .content .column-1 .profile-infos .kits{
     display: flex;
     flex-direction: row;

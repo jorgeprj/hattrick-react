@@ -11,14 +11,15 @@ import KitsSection from '../../../components/pages/profile/team/kitsSection/Kits
 import HeadImage from '../../../components/shared/headImage/HeadImage';
 import { useEffect, useState } from 'react';
 import Footer from '../../../components/layout/footer/Footer';
+import { getCoaches } from '../../../services/coach/coachService';
 
 const Team = ({ year }) => {
     const { id } = useParams();
 
     const [isLoading, setIsLoading] = useState(true);
     const [team, setTeam] = useState(null);
-    const [players, setPlayers] = useState(null);
     const [teamPlayers, setTeamPlayers] = useState(null);
+    const [coach, setCoach] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -27,12 +28,16 @@ const Team = ({ year }) => {
                 setTeam(teamData);
 
                 const playersData = await getPlayers();
-                setPlayers(playersData);
-
                 const teamPlayers = playersData.filter(player =>
                     player.teamHistory[0].team.id == id
                 );
                 setTeamPlayers(teamPlayers);
+
+                const coachesData = await getCoaches();
+                const teamCoach = coachesData.find(coach =>
+                    coach.careerHistory[0].team.id == id
+                );
+                setCoach(teamCoach);
 
                 setIsLoading(false);
             } catch (error) {
@@ -41,6 +46,22 @@ const Team = ({ year }) => {
         };
 
         fetchData();
+    }, [id]);
+
+    useEffect(() => {
+        const fetchCoach = async () => {
+            try {
+                const coachesData = await getCoaches();
+                const teamCoach = coachesData.find(coach =>
+                    coach.careerHistory[0].team.name == team.name
+                );
+                setCoach(teamCoach);
+            } catch (error) {
+                console.error('Error fetching Coach:', error);
+            }
+        };
+
+        fetchCoach();
     }, [id]);
 
 
@@ -65,6 +86,38 @@ const Team = ({ year }) => {
                     {team.clubInfo &&
                         <section className='profile-infos'>
                             <BasicInfo team={team} />
+                            {coach && (
+                                <section>
+                                    <h4>Staff</h4>
+                                    <section className='staff'>
+                                        <div className='staff-head'>
+                                            <HeadImage path={`../../src/assets/coaches/heads/${coach.id}.png`} />
+                                            <div className='staff-head-text'>
+                                                <Link to={`/coach/${coach.id}`}>
+                                                    <h5 className='link'>
+                                                        {coach.name}
+                                                        <img className='flag' src={`../../src/assets/flags/${coach.nationality}.png`} alt={`Flag of ${coach.nationality}`} />
+                                                    </h5>
+                                                </Link>
+                                                <h6>{coach.careerHistory[0].position} ({coach.careerHistory[0].season})</h6>
+                                            </div>
+                                        </div>
+
+                                        <div className='staff-head'>
+                                            <HeadImage path={`../../src/assets/coaches/heads/${coach.assistantCoach.id}.png`} />
+                                            <div className='staff-head-text'>
+                                                <Link to={`/coach/${coach.assistantCoach.id}`}>
+                                                    <h5 className='link'>
+                                                        {coach.assistantCoach.name}
+                                                        <img className='flag' src={`../../src/assets/flags/${coach.assistantCoach.nationality}.png`} alt={`Flag of ${coach.nationality}`} />
+                                                    </h5>
+                                                </Link>
+                                                <h6>Assistant Manager ({coach.careerHistory[0].season})</h6>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </section>
+                            )}
                             <KitsSection team={team} />
                         </section>
                     }

@@ -49,7 +49,7 @@ const Home = ({ year }) => {
     }, []);
 
     useEffect(() => {
-        const delay = 1000;
+        const delay = 500;
 
         const timeoutId = setTimeout(() => {
             setIsLoading(false);
