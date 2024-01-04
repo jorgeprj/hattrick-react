@@ -16,7 +16,7 @@ const PlayerCard = ({ player }) => {
 
     return (
         <div className='player-card'>
-            <Link to={`/player/${player.id}/report`}>
+            <Link to={`/player/${player.id}`}>
                 <img src={`../src/assets/players/${player.id}.png`} alt={`${player.name} image`} className='player-image' />
             </Link>
             <h3>{player.name} <span>{player.position}</span></h3>
