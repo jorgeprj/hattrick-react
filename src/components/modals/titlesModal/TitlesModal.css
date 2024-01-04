@@ -1,0 +1,43 @@
+.titles-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.titles-list .title-item {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.titles-list .trophy-image {
+    height: 4em;
+    margin-right: 1em;
+}
+
+.titles-list .title-details {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.titles-list .title-details h4{
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.titles-list .title-details .team-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.titles-list .title-details .team-logo img{
+    height: 40px;
+    margin-right: 0.5em;
+}
+
+.titles-list .title-details p{
+    color: var(--text-medium);
+}

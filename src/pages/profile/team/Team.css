@@ -1,0 +1,101 @@
+.profile .header .profile-head{
+    position: relative;
+    display: inline-block;
+}
+
+.profile .header .profile-head .head-image{
+    width: 16em;
+    height: 16em;
+}
+
+.profile .header .profile-head .flag{
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    height: 2em;
+    max-width: fit-content;
+    z-index: 1;
+}
+
+.profile .content .column-1 .profile-infos .staff{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.profile .content .column-1 .profile-infos .staff-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile .content .column-1 .profile-infos .staff-head .head-image {
+    height: 3em;
+    margin-right: 0.5em;
+}
+
+.profile .content .column-1 .profile-infos .staff-head .staff-head-text h5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.2em;
+    font-size: 0.9em !important;
+    color: var(--text-medium);
+    font-weight: 700;
+    white-space: nowrap;
+    max-height: fit-content;
+}
+
+.profile .content .column-1 .profile-infos .staff-head .staff-head-text h5 .flag{
+    height: 0.75em;
+    margin-left: 0.5em;
+}
+
+
+
+.profile .content .column-1 .profile-infos .kits{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.profile .content .column-1 .profile-infos .kits img{
+    background-color: #eee;
+    max-width: 8em;
+    max-height: 8em;
+    border-radius: 6px;
+}
+
+.profile .content .column-3 .team-players-number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.profile .content .column-3 .team-players-number p{
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    color: var(--text-low);
+    font-weight: 600;
+}
+
+.profile .content .column-3 .team-players{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-height: 4em;
+    max-width: 15em;
+    overflow: hidden;
+}
+
+.profile .content .column-3 .team-players .head img{
+    height: 3em;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.profile .content .column-3 .team-players .head img:hover{
+    transform: scale(1.1);
+}

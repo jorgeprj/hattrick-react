@@ -1,0 +1,24 @@
+.edit-player .content {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 4em;
+    align-items: center;
+}
+
+.edit-player .content .header h1 {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    margin-bottom: 0.25em;
+}
+
+.edit-player .content .header span {
+    font-size: 0.5em;
+    color: var(--text-low);
+    margin-left: 0.5em;
+    margin-top: 0.25em;
+}
+
+.edit-player .content .header p {
+    max-width: 50em;
+}

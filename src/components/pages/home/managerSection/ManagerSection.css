@@ -1,0 +1,99 @@
+.manager-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.manager-section .manager-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.manager-section .manager-content img{
+    max-width: 30em;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    margin-right: 1em;
+    transition: 0.1s;
+}
+
+.manager-section .manager-content img:hover{
+    transform: scale(1.02);
+}
+
+.manager-section .manager-content .text{
+    max-height: 25em;
+}
+
+.manager-section .manager-content .text h4{
+    font-size: 1.5em;
+}
+
+.manager-section .manager-content .text .manager-header{
+    margin-bottom: 1em;
+}
+
+.manager-section .manager-content .text .subtitle{
+    display: flex;
+    align-items: center;
+    color: var(--text-medium);
+    font-weight: 500;
+}
+
+.manager-section .manager-content .text .subtitle svg{
+    font-size: 1.1em;
+    margin-right: 0.5em;
+}
+
+
+.manager-section .manager-content .text p{
+    max-width: 40em;
+}
+
+.manager-section .manager-content .text p strong{
+    color: var(--text-medium);
+}
+
+.manager-section .manager-content .text .icons{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.manager-section .manager-content .text .icons svg{
+    font-size: 1.25em;
+    color: var(--text-low);
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.manager-section .manager-content .text .icons svg:hover{
+    color: var(--text-high);
+}
+
+.manager-section .manager-content .text .icons button{
+    color: #fff;
+    background-color: var(--text-high);
+}
+
+.manager-section .manager-content .text .icons button:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media screen and (max-width: 1000px) {
+    .manager-section .manager-content img{
+        margin-bottom: 1em;
+        margin-right: 0;
+    }
+    .manager-section .manager-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .manager-section .manager-content .text p{
+        max-width: 30em;
+    }
+}

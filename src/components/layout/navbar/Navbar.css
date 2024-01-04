@@ -4,19 +4,22 @@
     align-items: center;
     text-align: center;
     color: var(--text-medium);
-    padding: 0.5em 1em;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1em 4em;
+    height: min-content;
+    width: 100%;
 }
 
 .navbar .logo{
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-    color: var(--text-high);
-    font-size: 1.5em;
-    margin-right: 2em;
+    z-index: 1;
 }
 
-.navbar ul {
+.navbar .options{
+    position: absolute;
+    justify-content: center;
+    width: calc(100% - 6em);
+}
+
+.navbar .options ul {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,10 +30,10 @@
     padding: 0;
     font-weight: 600;
     color: var(--text-low);
-    font-size: 0.9em;
+    font-size: 1rem;
 }
 
-.navbar ul li {
+.navbar .options ul li {
     margin-right: 1em;
     margin-top: 0.5em;
     cursor: pointer;
@@ -40,8 +43,16 @@
     color: var(--text-high);
 }
 
-
-.navbar ul li:hover,
-.navbar ul li.active{
+.navbar .options ul li:hover,
+.navbar .options ul li.active{
     color: var(--text-high);
+}
+
+@media screen and (max-width: 650px) {
+    .navbar {
+        padding: 1em 2em;
+    }
+    .navbar .options{
+        display: none;
+    }
 }

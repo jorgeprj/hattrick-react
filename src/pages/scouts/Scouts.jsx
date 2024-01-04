@@ -1,58 +1,83 @@
-import { useEffect, useState } from 'react';
-import Loading from '../../components/layout/loading/Loading';
-
+import React, { useEffect, useState } from 'react'
 import './Scouts.css'
-import List from '../../components/scouts/List';
 import { getPlayers } from '../../services/players/playersService';
-import { getTeams } from '../../services/teams/teamsService';
+import Loading from '../../components/layout/loading/Loading';
+import ScoutPlayer from '../../components/pages/scouts/scoutPlayer/ScoutPlayer';
+import Search from '../../components/layout/search/Search';
+import { calculateHatScore } from '../../utils/hatScore';
+import { FaArrowDownWideShort, FaArrowUpShortWide } from 'react-icons/fa6';
+import Footer from '../../components/layout/footer/Footer';
 
 const Scouts = ({ year }) => {
-	const [isLoading, setIsLoading] = useState(true);
-	const [scoutedPlayers, setScoutedPlayers] = useState(null);
-	const [teams, setTeams] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
+    const [players, setPlayers] = useState(null);
+    const [search, setSearch] = useState("");
+    const [order, setOrder] = useState("desc");
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const allPlayersData = await getPlayers();
-                const scoutedPlayers = allPlayersData.filter(player =>
-                    player.isScouted === true && player.teamHistory[0].team.name !== "Salford City"
-                );
-                setScoutedPlayers(scoutedPlayers);
-    
-                const teamsData = await getTeams();
-                setTeams(teamsData);
+                const playersData = await getPlayers();
+                setPlayers(playersData
+                                        .filter(player => player.isScouted === true)
+                                        .filter(player => player.teamHistory[0].team.name !== "Salford City")
+                        );
+                setIsLoading(false);
             } catch (error) {
-                console.error('Error fetching data:', error);
+                console.error('Error fetching players:', error);
             }
         };
-    
+
         fetchData();
     }, []);
 
-	useEffect(() => {
-		const delay = 500;
-	
-		const timeoutId = setTimeout(() => {
-		  setIsLoading(false);
-		}, delay);
-	
-		return () => clearTimeout(timeoutId);
-	  }, []);
-	
-	  if (isLoading) {
-		return <Loading />;
-	  }
+    if (isLoading) {
+        return <Loading />;
+    }
 
-	return (
-		<div className='scouts'>
-			<section>
-				<div className='players'>
-					<List scoutedPlayers={scoutedPlayers} setScoutedPlayers={setScoutedPlayers} teams={teams} year={year} />
-				</div>
-			</section>
-		</div>
-	)
+    const toggleOrder = () => {
+        setOrder(order === "asc" ? "desc" : "asc");
+    }
+
+    return (
+        <div className='scouts'>
+            <section className='content'>
+                <div className='header'>
+                    <Search search={search} setSearch={setSearch} />
+                    {order === 'desc' ? (
+                        <FaArrowDownWideShort onClick={toggleOrder} />
+                    ) : (
+                        <FaArrowUpShortWide onClick={toggleOrder} />
+                    )}
+
+                </div>
+                <div className='title'>
+                    <h4>Total Players: {players.length}</h4>
+                </div>
+                <section className='scout-list'>
+                    {players
+                        .filter((player) =>
+                            player.bio.toLowerCase().includes(search.toLowerCase()) ||
+                            player.analysis.toLowerCase().includes(search.toLowerCase()) ||
+                            player.nationality.toLowerCase().includes(search.toLowerCase()) ||
+                            player.teamHistory.some(teamEntry =>
+                                teamEntry.team.name.toLowerCase().includes(search.toLowerCase())
+                            )
+                        )
+                        .sort((playerA, playerB) => {
+                            const scoreA = calculateHatScore(playerA, year);
+                            const scoreB = calculateHatScore(playerB, year);
+                    
+                            return order === 'asc' ? scoreA - scoreB : scoreB - scoreA;
+                        })
+                        .map(player => (
+                            <ScoutPlayer player={player} year={year} key={player.id} />
+                        ))}
+                </section>
+            </section>
+            <Footer/>
+        </div>
+    )
 }
 
 export default Scouts

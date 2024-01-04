@@ -1,0 +1,22 @@
+.national-history {
+    display: flex;
+    flex-direction: column;
+}
+
+.national-history .national-teams{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.national-history .national-teams .player-national {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.national-history .national-teams .player-national .head-image {
+    height: 2.2em;
+    padding: 0.2em;
+    margin-right: 0.5em;
+}

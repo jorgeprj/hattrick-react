@@ -1,11 +1,46 @@
-.scouts {
+.scouts .content {
     display: flex;
     flex-direction: column;
-    padding: 2em 7.3em;
+    align-items: center;
+    padding: 2em 4em;
 }
 
-.scouts .players{
+.scouts .content .header{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.scouts .content .header svg{
+    color: var(--text-low);
+    cursor: pointer;
+}
+
+.scouts .content .header svg:hover{
+    color: var(--text-medium);
+}
+
+.scouts .scout-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.scouts .content .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+    margin-bottom: 1em;
+}
+
+.scouts .content .title h4{
+    font-size: 0.85em;
+    color: var(--text-medium);
+    font-weight: 600;
 }

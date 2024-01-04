@@ -1,0 +1,23 @@
+.manager-stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.manager-stats-table th,
+.manager-stats-table td {
+    padding: 1em;
+    text-align: left;
+}
+
+.manager-stats-table th {
+    background-color: transparent;
+}
+
+.manager-stats-table td {
+    border-top: 1px solid #ddd;
+}
+
+.manager-stats-table tbody tr:last-child td {
+    border-bottom: none;
+}

@@ -1,0 +1,41 @@
+.hattrick-data .content .column-2 .players-table {
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.hattrick-data .content .column-2 .players-table th,
+.hattrick-data .content .column-2 .players-table td {
+    text-align: left;
+    padding: 0.5em;
+}
+
+.hattrick-data .content .column-2 .players-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.hattrick-data .content .column-2 .players-table td.status.green{
+    color: var(--primary-color);
+}
+
+.hattrick-data .content .column-2 .players-table td.status.red{
+    color: var(--red);
+}
+
+.hattrick-data .content .column-2 .players-table td.action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.hattrick-data .content .column-2 .players-table td.action svg{
+    font-size: 0.75em;
+    color: var(--text-low);
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
+.hattrick-data .content .column-2 .players-table td.action svg:hover{
+    color: var(--text-medium);
+}

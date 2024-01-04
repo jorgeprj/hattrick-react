@@ -1,0 +1,273 @@
+.profile h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.profile h1 span{
+    font-size: 0.75em;
+    color: var(--text-low);
+    margin-left: 0.4em;
+    margin-top: 0.25em;
+}
+
+.profile .content {
+    display: flex;
+    gap: 4em;
+    padding: 2em 4em;
+}
+
+.profile .content .profile-head{
+    position: relative;
+    display: inline-block;
+}
+
+.profile .content .profile-head .head-image{
+    width: 16em;
+    height: 16em;
+}
+
+.profile .content .profile-head .flag{
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    height: 2em;
+    max-width: fit-content;
+    z-index: 1;
+}
+
+.profile .content .column-1,
+.profile .content .column-3 {
+    flex: 1;
+}
+
+.profile .content .column-2 {
+    flex: 2;
+}
+
+.profile .content .column-1 .profile-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.profile .content .column-1 .profile-infos h4{
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 1em;
+    white-space: nowrap;
+}
+
+.profile .content .column-1 .profile-infos h4:after{
+    content: "";
+    display: block;
+    width: 5%;
+    min-width: 3em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    bottom: 0;
+    margin-top: 0.5em;
+}
+
+.profile .content .column-1 .profile-infos h5,
+.profile .content .column-1 .profile-infos h6{
+    font-size: 0.8em;
+    color: var(--text-medium);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.profile .content .column-1 .profile-infos h6{
+    font-weight: 500;
+}
+
+.profile .content .column-2 .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.profile .content .column-2 .title h2{
+    font-size: 1.25em;
+}
+
+.profile .content .column-2 .title h4{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.profile .content .column-2 .title p{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.profile .content .column-2 .profile-content{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    background-color: #eee;
+    border-radius: 6px;
+    gap: 2em;
+}
+
+.profile .content .column-2 .profile-content h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.profile .content .column-2 .profile-content h3::after{
+    content: "";
+    display: block;
+    width: 36%;
+    min-width: 6em;
+    border-bottom: 2px solid var(--text-high);
+    bottom: 0;
+    margin-top: 1em;
+}
+
+.profile .content .column-2 .profile-content .awards{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.profile .content .column-2 .profile-content .award{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile .content .column-2 .profile-content .award svg{
+    margin-right: 0.5em;
+}
+
+.profile .content .column-2 .profile-content .award .team-image{
+    max-height: 1.5em;
+    margin-right: 0.5em;
+}
+
+
+.profile .content .column-3{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.profile .content .column-3 h4{
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.profile .content .column-3 .status{
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+    background-color: #eee;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.profile .content .column-3 .status.Green{
+    background-color: #b5eacc;
+    color: #1f9b56;
+}
+
+.profile .content .column-3 .status.Yellow{
+    background-color: #fddca1;
+    color: #fca706;
+}
+
+.profile .content .column-3 .status.Red{
+    background-color: #ffe3e0;
+    color: #d63d35;
+}
+
+.profile .content .column-3 .status.Green:hover::after,
+.profile .content .column-3 .status.Yellow:hover::after,
+.profile .content .column-3 .status.Red:hover::after{
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 600;
+    background: var(--text-high);
+    color: white;
+    padding: 1em;
+    border-radius: 6px;
+    margin-left: 6em;
+}
+
+.profile .content .column-3 .status.Green:hover::after{
+    content: "Immediate and perfect fit with the team.";
+}
+
+.profile .content .column-3 .status.Yellow:hover::after{
+    content: "Integration potential, which may require development.";
+}
+
+.profile .content .column-3 .status.Red:hover::after{
+    content: "Monitoring/evaluation phase";
+}
+
+.profile .content .column-3 .profile-stats .stats{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.profile .content .column-3 .profile-stats .stats p{
+    font-size: 0.9em;
+}
+
+.profile .content .column-3 .links{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.profile .content .column-3 .links a{
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    font-size: 0.8em;
+}
+.profile .content .column-3 .links a:hover{
+    color: var(--link);
+}
+
+@media screen and (max-width: 1000px) {
+    .profile .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile .content .column-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile .content .column-1 .profile-infos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        max-width: 30em;
+    }
+
+    .profile .content .column-1 .profile-infos .transfer-info,
+    .profile .content .column-1 .profile-infos .basic-info,
+    .profile .content .column-1 .profile-infos .national-history,
+    .profile .content .column-1 .profile-infos .team-history{
+        width: calc(50% - 2em);
+    }
+    
+}

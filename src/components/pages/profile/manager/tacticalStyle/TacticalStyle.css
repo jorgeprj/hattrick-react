@@ -1,0 +1,72 @@
+.tactical-style .all-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.tactical-style .all-infos .manager-comparison {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tactical-style .all-infos .manager-comparison .head-image {
+    height: 3em;
+    margin-right: 0.5em;
+}
+
+.tactical-style .all-infos .manager-comparison .manager-text h5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.2em;
+    font-size: 0.9em !important;
+    color: var(--text-medium);
+    font-weight: 700;
+    white-space: nowrap;
+    max-height: fit-content;
+}
+
+.tactical-style .all-infos .manager-comparison .manager-text h5 .flag{
+    height: 0.75em;
+    margin-left: 0.5em;
+}
+
+.tactical-style .all-infos .manager-comparison .manager-text .link:hover{
+    color: var(--text-high);
+}
+
+.tactical-style .all-infos .manager-comparison .manager-text  h6 {
+    font-size: 0.9em !important;
+    color: var(--text-medium);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.tactical-style .all-infos .infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tactical-style .all-infos .infos .column-1,
+.tactical-style .all-infos .infos .column-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex: 1;
+    font-size: 0.9em;
+    align-items: flex-start !important;
+}
+
+.tactical-style .all-infos .infos .column-1 p{
+    color: var(--text-medium);
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: 1em;
+}
+
+.tactical-style .all-infos .infos .column-2 p{
+    color: var(--text-high);
+    font-weight: 500;
+    white-space: nowrap;
+}
