@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import './CoachStatsModal.css'
+import './ManagerStatsModal.css'
 import '../Modal.css'
 
 import { FaXmark } from 'react-icons/fa6';
 
 
-const CoachStatsModal = ({ stats, onClose }) => {
+const ManagerStatsModal = ({ stats, onClose }) => {
     const [modalOpen, setModalOpen] = useState(true);
 
     const handleClose = () => {
@@ -29,7 +29,7 @@ const CoachStatsModal = ({ stats, onClose }) => {
                     <h2>Career Stats</h2>
                     <FaXmark onClick={handleClose} />
                 </div>
-                <table className="coach-stats-table">
+                <table className="manager-stats-table">
                     <thead>
                         <tr>
                             <th>Season</th>
@@ -56,4 +56,4 @@ const CoachStatsModal = ({ stats, onClose }) => {
     )
 }
 
-export default CoachStatsModal
+export default ManagerStatsModal

@@ -3,10 +3,10 @@ import './Home.css'
 
 import { getTeam } from '../../services/teams/teamsService';
 import { getPlayers } from '../../services/players/playersService';
-import { getCoach } from '../../services/coach/coachService';
+import { getManager } from '../../services/managers/managersService';
 import { FaClockRotateLeft } from 'react-icons/fa6'
 
-import CoachSection from '../../components/pages/home/coachSection/CoachSection';
+import ManagerSection from '../../components/pages/home/managerSection/ManagerSection';
 import TeamSection from '../../components/pages/home/teamSection/TeamSection';
 import PlayerCard from '../../components/pages/home/playerCard/PlayerCard';
 import BestPlayers from '../../components/pages/home/bestPlayers/BestPlayers';
@@ -18,7 +18,7 @@ import Button from '../../components/shared/button/Button';
 
 const Home = ({ year }) => {
 
-    const [coach, setCoach] = useState(null);
+    const [manager, setManager] = useState(null);
     const [team, setTeam] = useState(null);
     const [players, setPlayers] = useState(null);
     const [teamPlayers, setTeamPlayers] = useState(null);
@@ -27,8 +27,8 @@ const Home = ({ year }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const coachData = await getCoach(999999);
-                setCoach(coachData);
+                const managerData = await getManager(999999);
+                setManager(managerData);
 
                 const teamData = await getTeam(113926);
                 setTeam(teamData);
@@ -86,7 +86,7 @@ const Home = ({ year }) => {
                         Updated {year} - Season Start
                     </p>
                 </div>
-                <CoachSection coach={coach} />
+                <ManagerSection manager={manager} />
             </section>
 
             <section className='featured'>

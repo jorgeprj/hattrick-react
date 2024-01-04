@@ -1,33 +1,33 @@
 import React, { useEffect, useState } from 'react'
 
 import '../../profile/Profile.css';
-import './Coach.css'
+import './Manager.css'
 
-import { getCoach } from '../../../services/coach/coachService';
+import { getManager } from '../../../services/managers/managersService';
 import { Link, useParams } from 'react-router-dom';
 
 import Loading from '../../../components/layout/loading/Loading';
 import HeadImage from '../../../components/shared/headImage/HeadImage';
-import CareerHistory from '../../../components/pages/profile/coach/careerHistory/CareerHistory';
+import CareerHistory from '../../../components/pages/profile/manager/careerHistory/CareerHistory';
 import Footer from '../../../components/layout/footer/Footer';
-import TacticalStyle from '../../../components/pages/profile/coach/tacticalStyle/TacticalStyle';
-import BasicInfo from '../../../components/pages/profile/coach/basicInfo/BasicInfo';
+import TacticalStyle from '../../../components/pages/profile/manager/tacticalStyle/TacticalStyle';
+import BasicInfo from '../../../components/pages/profile/manager/basicInfo/BasicInfo';
 
 
-const Coach = ({ year }) => {
+const Manager = ({ year }) => {
     const { id } = useParams();
 
     const [isLoading, setIsLoading] = useState(true);
-    const [coach, setCoach] = useState(null);
+    const [manager, setManager] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const coachData = await getCoach(id);
-                setCoach(coachData);
+                const managerData = await getManager(id);
+                setManager(managerData);
                 setIsLoading(false);
             } catch (error) {
-                console.error('Error fetching coach:', error);
+                console.error('Error fetching manager:', error);
             }
         };
 
@@ -41,33 +41,33 @@ const Coach = ({ year }) => {
     return (
         <div className='profile'>
             <h1>
-                {coach.name}
-                <span>{coach.careerHistory[0].position}</span>
+                {manager.name}
+                <span>{manager.careerHistory[0].position}</span>
             </h1>
             <section className='content'>
                 <section className='column-1'>
                     <section className='header'>
                         <div className='profile-head'>
-                            <img className='flag' src={`../../src/assets/flags/${coach.nationality}.png`} alt={`Flag of ${coach.nationality}`} />
-                            <HeadImage path={`../../src/assets/coaches/heads/${coach.id}.png`} />
+                            <img className='flag' src={`../../src/assets/flags/${manager.nationality}.png`} alt={`Flag of ${manager.nationality}`} />
+                            <HeadImage path={`../../src/assets/managers/heads/${manager.id}.png`} />
                         </div>
-                        <div className='assistant-coach'>
-                            <HeadImage path={`../../src/assets/coaches/heads/${coach.assistantCoach.id}.png`} />
-                            <div className='coach-text'>
-                                <Link to={`/coach/${coach.assistantCoach.id}`}>
+                        <div className='assistant-manager'>
+                            <HeadImage path={`../../src/assets/managers/heads/${manager.assistantManager.id}.png`} />
+                            <div className='manager-text'>
+                                <Link to={`/manager/${manager.assistantManager.id}`}>
                                     <h5 className='link'>
-                                        {coach.assistantCoach.name}
-                                        <img className='flag' src={`../../src/assets/flags/${coach.assistantCoach.nationality}.png`} alt={`Flag of ${coach.nationality}`} />
+                                        {manager.assistantManager.name}
+                                        <img className='flag' src={`../../src/assets/flags/${manager.assistantManager.nationality}.png`} alt={`Flag of ${manager.nationality}`} />
                                     </h5>
                                 </Link>
-                                <h6>Assistant Coach</h6>
+                                <h6>Assistant manager</h6>
                             </div>
                         </div>
                     </section>
                     <section className='profile-infos'>
-                        <BasicInfo coach={coach} year={year}/>
-                        <TacticalStyle coach={coach} />
-                        <CareerHistory coach={coach} />
+                        <BasicInfo manager={manager} year={year}/>
+                        <TacticalStyle manager={manager} />
+                        <CareerHistory manager={manager} />
                     </section>
                 </section>
 
@@ -80,14 +80,14 @@ const Coach = ({ year }) => {
                     <section className='profile-content'>
                         <section>
                             <h3>Biography</h3>
-                            <p>{coach.bio}</p>
+                            <p>{manager.bio}</p>
                         </section>
 
-                        {coach.titles.length > 0 && (
+                        {manager.titles.length > 0 && (
                             <section>
-                                <h3>Coach Titles</h3>
+                                <h3>manager Titles</h3>
                                 <div className='awards'>
-                                    {coach.titles.map(title => (
+                                    {manager.titles.map(title => (
                                         <p className='award' key={`${title.name} ${title.season}`}>
                                             <img className="team-image" src={`../src/assets/teams/${title.team}.png`} alt="Team logo" />
                                             {title.name}
@@ -103,12 +103,12 @@ const Coach = ({ year }) => {
                 </section>
 
                 <section className='column-3'>
-                    {coach.favoritePlayers.length > 0 && (
+                    {manager.favoritePlayers.length > 0 && (
                         <section className='favorite-players'>
                             <h4>Favorite Players</h4>
 
                             <div className='team-players'>
-                                {coach.favoritePlayers
+                                {manager.favoritePlayers
                                     .map(player => (
                                         <div className='head' key={player.id}>
                                             <Link to={`/player/${player.id}`}>
@@ -119,15 +119,15 @@ const Coach = ({ year }) => {
                             </div>
                         </section>
                     )}
-                    {coach.stats.length > 0 && coach.stats[0].season === year - 1 && (
+                    {manager.stats.length > 0 && manager.stats[0].season === year - 1 && (
                         <section className='profile-stats'>
                             <h4>Last Season Stats</h4>
                             <div className='stats'>
-                                <p>Matches: <strong>{coach.stats[0].wins + coach.stats[0].losses + coach.stats[0].draws}</strong></p>
-                                <p>Wins: <strong>{coach.stats[0].wins}</strong></p>
-                                <p>Draws: <strong>{coach.stats[0].draws}</strong></p>
-                                <p>Losses: <strong>{coach.stats[0].losses}</strong></p>
-                                <p>Win rate: <strong>{(coach.stats[0].wins * 3 / ((coach.stats[0].wins + coach.stats[0].losses + coach.stats[0].draws) * 3) * 100).toFixed(1)} %</strong></p>
+                                <p>Matches: <strong>{manager.stats[0].wins + manager.stats[0].losses + manager.stats[0].draws}</strong></p>
+                                <p>Wins: <strong>{manager.stats[0].wins}</strong></p>
+                                <p>Draws: <strong>{manager.stats[0].draws}</strong></p>
+                                <p>Losses: <strong>{manager.stats[0].losses}</strong></p>
+                                <p>Win rate: <strong>{(manager.stats[0].wins * 3 / ((manager.stats[0].wins + manager.stats[0].losses + manager.stats[0].draws) * 3) * 100).toFixed(1)} %</strong></p>
                             </div>
                         </section>
                     )}
@@ -152,4 +152,4 @@ const Coach = ({ year }) => {
     )
 }
 
-export default Coach
+export default Manager

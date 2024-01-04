@@ -2,7 +2,7 @@ import React from 'react'
 import './BasicInfo.css'
 import { Link } from 'react-router-dom'
 
-const BasicInfo = ({coach, year}) => {
+const BasicInfo = ({manager, year}) => {
     return (
         <section className='basic-info'>
             <h4>Basic Info</h4>
@@ -13,12 +13,12 @@ const BasicInfo = ({coach, year}) => {
                 </div>
                 <div className='column-2'>
                     <p className='team'>
-                        <img className='team-image' src={`../../src/assets/teams/${coach.careerHistory[0].team.id}.png`} alt={`Team ${coach.careerHistory[0].team.id} image`} />
-                        <Link to={`/team/${coach.careerHistory[0].team.id}`}>
-                            {coach.careerHistory[0].team.name}
+                        <img className='team-image' src={`../../src/assets/teams/${manager.careerHistory[0].team.id}.png`} alt={`Team ${manager.careerHistory[0].team.id} image`} />
+                        <Link to={`/team/${manager.careerHistory[0].team.id}`}>
+                            {manager.careerHistory[0].team.name}
                         </Link>
                     </p>
-                    <p>{year - Number(coach.age)} years</p>
+                    <p>{year - Number(manager.age)} years</p>
                 </div>
             </div>
         </section>

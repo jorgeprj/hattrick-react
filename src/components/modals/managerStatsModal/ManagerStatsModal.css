@@ -1,23 +1,23 @@
-.coach-stats-table {
+.manager-stats-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
 }
 
-.coach-stats-table th,
-.coach-stats-table td {
+.manager-stats-table th,
+.manager-stats-table td {
     padding: 1em;
     text-align: left;
 }
 
-.coach-stats-table th {
+.manager-stats-table th {
     background-color: transparent;
 }
 
-.coach-stats-table td {
+.manager-stats-table td {
     border-top: 1px solid #ddd;
 }
 
-.coach-stats-table tbody tr:last-child td {
+.manager-stats-table tbody tr:last-child td {
     border-bottom: none;
 }

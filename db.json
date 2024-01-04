@@ -6007,14 +6007,14 @@
 			"hasImage": true
 		}
 	],
-	"coaches": [
+	"managers": [
 		{
 			"id": 1,
 			"name": "Ole Gunnar Solskjær",
 			"age": 1973,
 			"bio": "Ole Gunnar Solskjær, born on February 26, 1973, in Kristiansund, is a former Norwegian footballer and coach who is currently at the helm of the Salford City FC project aiming for the Premier League. During his playing career, he distinguished himself at Manchester United, where he became an icon, recognized as a \"supersub\" for his effectiveness as a substitute. His fame reached its peak when he scored the decisive goal in the UEFA Champions League final in 1998–99, contributing to the memorable comeback against Bayern Munich.",
 			"nationality": "Norway",
-			"comparisonCoach": {
+			"comparisonManager": {
 				"id": 4,
 				"name": "Sir. Alex Fergunson"
 			},
@@ -6102,7 +6102,7 @@
 			"age": 1979,
 			"bio": "Roberto De Zerbi, a former Italian football player, now renowned coach, currently leads Premier League club Brighton & Hove Albion. After a playing career that included stints at AC Milan and Napoli, De Zerbi transitioned to coaching, leaving his mark at clubs like Palermo, Benevento, Sassuolo, and Shakhtar Donetsk. Known for his attacking style, he joined Brighton in the 2022-23 season, achieving historic success with a top-seven finish and qualifying for the UEFA Europa League.",
 			"nationality": "Italy",
-			"comparisonCoach": {
+			"comparisonManager": {
 				"id": 3,
 				"name": "Pepe Guardiola",
 				"age": 1971,
@@ -6115,7 +6115,7 @@
 				"offensiveStyle": "Slow Build Up",
 				"chanceCreation": "Possession"
 			},
-			"assistantCoach": {
+			"assistantManager": {
 				"id": 74,
 				"name": "Andrea Maldera",
 				"age": 1971,
@@ -6192,7 +6192,7 @@
 			"age": 1991,
 			"bio": "Shannon Ruth, currently senior professional development coach at Albion, assumed the role in February 2021 as interim-coach alongside Andrew Crofts, succeeding Simon Rusk. Having started as Albion’s under-21 assistant coach in 2018, Ruth's journey includes coaching stints at Chelsea, Aldershot, and Reading, with a focus on goalkeeping. A seasoned figure in football, he rose through the ranks, eventually becoming interim assistant head coach after key departures. Ruth's dedication led to his recent promotion as under-21s head coach in September 2022 under Roberto De Zerbi.",
 			"nationality": "England",
-			"comparisonCoach": {
+			"comparisonManager": {
 				"id": 2,
 				"name": "Roberto De Zerbi",
 				"nationality": "Italy"
@@ -6204,7 +6204,7 @@
 				"offensiveStyle": "Slow Build Up",
 				"chanceCreation": "Possession"
 			},
-			"assistantCoach": {
+			"assistantManager": {
 				"id": 75,
 				"name": "Gary Dicker",
 				"age": 1986,

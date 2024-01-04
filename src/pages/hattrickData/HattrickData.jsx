@@ -16,7 +16,7 @@ const HattrickData = () => {
                     <ul>
                         <li onClick={() => setTabMenu('players')} className={tabMenu === 'players' ? 'active' : ''}>Players</li>
                         <li onClick={() => setTabMenu('teams')} className={tabMenu === 'teams' ? 'active' : ''}>Teams</li>
-                        <li onClick={() => setTabMenu('coaches')} className={tabMenu === 'coaches' ? 'active' : ''}>Coaches</li>
+                        <li onClick={() => setTabMenu('managers')} className={tabMenu === 'managers' ? 'active' : ''}>Managers</li>
                     </ul>
                 </section>
 

@@ -1,17 +1,17 @@
 import API_BASE_URL from '../config';
 
 
-export const getCoaches = async () => {
+export const getManagers = async () => {
     try {
-        const response = await fetch(`${API_BASE_URL}/coaches/`);
+        const response = await fetch(`${API_BASE_URL}/managers/`);
 
         if (!response.ok) {
             throw new Error('Error retrieving team information');
         }
 
-        const coachData = await response.json();
+        const managersData = await response.json();
 
-        return coachData;
+        return managersData;
 
     } catch (error) {
         console.error('Error during API request:', error);
@@ -19,17 +19,17 @@ export const getCoaches = async () => {
     }
 };
 
-export const getCoach = async (coachId) => {
+export const getManager = async (managerId) => {
     try {
-        const response = await fetch(`${API_BASE_URL}/coaches/${coachId}`);
+        const response = await fetch(`${API_BASE_URL}/managers/${managerId}`);
 
         if (!response.ok) {
             throw new Error('Error retrieving team information');
         }
 
-        const coachData = await response.json();
+        const managerData = await response.json();
 
-        return coachData;
+        return managerData;
 
     } catch (error) {
         console.error('Error during API request:', error);

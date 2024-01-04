@@ -1,16 +1,16 @@
-.coach-section{
+.manager-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.coach-section .coach-content{
+.manager-section .manager-content{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.coach-section .coach-content img{
+.manager-section .manager-content img{
     max-width: 30em;
     height: 100%;
     object-fit: cover;
@@ -20,80 +20,80 @@
     transition: 0.1s;
 }
 
-.coach-section .coach-content img:hover{
+.manager-section .manager-content img:hover{
     transform: scale(1.02);
 }
 
-.coach-section .coach-content .text{
+.manager-section .manager-content .text{
     max-height: 25em;
 }
 
-.coach-section .coach-content .text h4{
+.manager-section .manager-content .text h4{
     font-size: 1.5em;
 }
 
-.coach-section .coach-content .text .coach-header{
+.manager-section .manager-content .text .manager-header{
     margin-bottom: 1em;
 }
 
-.coach-section .coach-content .text .subtitle{
+.manager-section .manager-content .text .subtitle{
     display: flex;
     align-items: center;
     color: var(--text-medium);
     font-weight: 500;
 }
 
-.coach-section .coach-content .text .subtitle svg{
+.manager-section .manager-content .text .subtitle svg{
     font-size: 1.1em;
     margin-right: 0.5em;
 }
 
 
-.coach-section .coach-content .text p{
+.manager-section .manager-content .text p{
     max-width: 40em;
 }
 
-.coach-section .coach-content .text p strong{
+.manager-section .manager-content .text p strong{
     color: var(--text-medium);
 }
 
-.coach-section .coach-content .text .icons{
+.manager-section .manager-content .text .icons{
     display: flex;
     align-items: center;
     margin-top: 0.5em;
 }
 
-.coach-section .coach-content .text .icons svg{
+.manager-section .manager-content .text .icons svg{
     font-size: 1.25em;
     color: var(--text-low);
     margin-right: 0.5em;
     cursor: pointer;
 }
 
-.coach-section .coach-content .text .icons svg:hover{
+.manager-section .manager-content .text .icons svg:hover{
     color: var(--text-high);
 }
 
-.coach-section .coach-content .text .icons button{
+.manager-section .manager-content .text .icons button{
     color: #fff;
     background-color: var(--text-high);
 }
 
-.coach-section .coach-content .text .icons button:hover{
+.manager-section .manager-content .text .icons button:hover{
     background-color: rgba(0, 0, 0, 0.85);
 }
 
 @media screen and (max-width: 1000px) {
-    .coach-section .coach-content img{
+    .manager-section .manager-content img{
         margin-bottom: 1em;
         margin-right: 0;
     }
-    .coach-section .coach-content{
+    .manager-section .manager-content{
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    .coach-section .coach-content .text p{
+    .manager-section .manager-content .text p{
         max-width: 30em;
     }
 }

@@ -11,7 +11,7 @@ import KitsSection from '../../../components/pages/profile/team/kitsSection/Kits
 import HeadImage from '../../../components/shared/headImage/HeadImage';
 import { useEffect, useState } from 'react';
 import Footer from '../../../components/layout/footer/Footer';
-import { getCoaches } from '../../../services/coach/coachService';
+import { getManagers } from '../../../services/managers/managersService';
 
 const Team = ({ year }) => {
     const { id } = useParams();
@@ -19,7 +19,7 @@ const Team = ({ year }) => {
     const [isLoading, setIsLoading] = useState(true);
     const [team, setTeam] = useState(null);
     const [teamPlayers, setTeamPlayers] = useState(null);
-    const [coach, setCoach] = useState(null);
+    const [manager, setManager] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -33,11 +33,11 @@ const Team = ({ year }) => {
                 );
                 setTeamPlayers(teamPlayers);
 
-                const coachesData = await getCoaches();
-                const teamCoach = coachesData.find(coach =>
-                    coach.careerHistory[0].team.id == id
+                const managersData = await getManagers();
+                const teamManager = managersData.find(manager =>
+                    manager.careerHistory[0].team.id == id
                 );
-                setCoach(teamCoach);
+                setManager(teamManager);
 
                 setIsLoading(false);
             } catch (error) {
@@ -49,19 +49,19 @@ const Team = ({ year }) => {
     }, [id]);
 
     useEffect(() => {
-        const fetchCoach = async () => {
+        const fetchManager = async () => {
             try {
-                const coachesData = await getCoaches();
-                const teamCoach = coachesData.find(coach =>
-                    coach.careerHistory[0].team.name == team.name
+                const managersData = await getManagers();
+                const teamManager = managersData.find(manager =>
+                    manager.careerHistory[0].team.name == team.name
                 );
-                setCoach(teamCoach);
+                setManager(teamManager);
             } catch (error) {
-                console.error('Error fetching Coach:', error);
+                console.error('Error fetching manager:', error);
             }
         };
 
-        fetchCoach();
+        fetchManager();
     }, [id]);
 
 
@@ -86,33 +86,33 @@ const Team = ({ year }) => {
                     {team.clubInfo &&
                         <section className='profile-infos'>
                             <BasicInfo team={team} />
-                            {coach && (
+                            {manager && (
                                 <section>
                                     <h4>Staff</h4>
                                     <section className='staff'>
                                         <div className='staff-head'>
-                                            <HeadImage path={`../../src/assets/coaches/heads/${coach.id}.png`} />
+                                            <HeadImage path={`../../src/assets/managers/heads/${manager.id}.png`} />
                                             <div className='staff-head-text'>
-                                                <Link to={`/coach/${coach.id}`}>
+                                                <Link to={`/manager/${manager.id}`}>
                                                     <h5 className='link'>
-                                                        {coach.name}
-                                                        <img className='flag' src={`../../src/assets/flags/${coach.nationality}.png`} alt={`Flag of ${coach.nationality}`} />
+                                                        {manager.name}
+                                                        <img className='flag' src={`../../src/assets/flags/${manager.nationality}.png`} alt={`Flag of ${manager.nationality}`} />
                                                     </h5>
                                                 </Link>
-                                                <h6>{coach.careerHistory[0].position} ({coach.careerHistory[0].season})</h6>
+                                                <h6>{manager.careerHistory[0].position} ({manager.careerHistory[0].season})</h6>
                                             </div>
                                         </div>
 
                                         <div className='staff-head'>
-                                            <HeadImage path={`../../src/assets/coaches/heads/${coach.assistantCoach.id}.png`} />
+                                            <HeadImage path={`../../src/assets/managers/heads/${manager.assistantManager.id}.png`} />
                                             <div className='staff-head-text'>
-                                                <Link to={`/coach/${coach.assistantCoach.id}`}>
+                                                <Link to={`/manager/${manager.assistantManager.id}`}>
                                                     <h5 className='link'>
-                                                        {coach.assistantCoach.name}
-                                                        <img className='flag' src={`../../src/assets/flags/${coach.assistantCoach.nationality}.png`} alt={`Flag of ${coach.nationality}`} />
+                                                        {manager.assistantManager.name}
+                                                        <img className='flag' src={`../../src/assets/flags/${manager.assistantManager.nationality}.png`} alt={`Flag of ${manager.assistantManager.nationality}`} />
                                                     </h5>
                                                 </Link>
-                                                <h6>Assistant Manager ({coach.careerHistory[0].season})</h6>
+                                                <h6>Assistant Manager ({manager.careerHistory[0].season})</h6>
                                             </div>
                                         </div>
                                     </section>

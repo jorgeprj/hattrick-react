@@ -9,29 +9,29 @@
     gap: 1em;
 }
 
-.career-history .teams .coach-team {
+.career-history .teams .manager-team {
     display: flex;
     flex-direction: row;
 }
 
-.career-history .teams .coach-team .head-image {
+.career-history .teams .manager-team .head-image {
     height: 2.2em;
     padding: 0.2em;
     margin-right: 0.5em;
 }
 
-.career-history .teams .coach-team .team-text h5 {
+.career-history .teams .manager-team .team-text h5 {
     font-size: 0.8em;
     color: var(--text-medium);
     font-weight: 700;
     white-space: nowrap;
 }
 
-.career-history .teams .coach-team .team-text .link:hover{
+.career-history .teams .manager-team .team-text .link:hover{
     color: var(--text-high);
 }
 
-.career-history .teams .coach-team .team-text  h6 {
+.career-history .teams .manager-team .team-text  h6 {
     font-size: 0.8em;
     color: var(--text-medium);
     font-weight: 500;

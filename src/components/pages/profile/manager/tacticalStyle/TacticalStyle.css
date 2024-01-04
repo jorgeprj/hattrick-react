@@ -4,18 +4,18 @@
     gap: 1em;
 }
 
-.tactical-style .all-infos .coach-comparison {
+.tactical-style .all-infos .manager-comparison {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.tactical-style .all-infos .coach-comparison .head-image {
+.tactical-style .all-infos .manager-comparison .head-image {
     height: 3em;
     margin-right: 0.5em;
 }
 
-.tactical-style .all-infos .coach-comparison .coach-text h5 {
+.tactical-style .all-infos .manager-comparison .manager-text h5 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,16 +27,16 @@
     max-height: fit-content;
 }
 
-.tactical-style .all-infos .coach-comparison .coach-text h5 .flag{
+.tactical-style .all-infos .manager-comparison .manager-text h5 .flag{
     height: 0.75em;
     margin-left: 0.5em;
 }
 
-.tactical-style .all-infos .coach-comparison .coach-text .link:hover{
+.tactical-style .all-infos .manager-comparison .manager-text .link:hover{
     color: var(--text-high);
 }
 
-.tactical-style .all-infos .coach-comparison .coach-text  h6 {
+.tactical-style .all-infos .manager-comparison .manager-text  h6 {
     font-size: 0.9em !important;
     color: var(--text-medium);
     font-weight: 500;
