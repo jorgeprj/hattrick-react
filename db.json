@@ -6009,60 +6009,15 @@
 	],
 	"coaches": [
 		{
-			"id": 999999,
-			"name": "Shannon Ruth",
-			"bio": "Shannon Ruth, currently senior professional development coach at Albion, assumed the role in February 2021 as interim-coach alongside Andrew Crofts, succeeding Simon Rusk. Having started as Albion’s under-21 assistant coach in 2018, Ruth's journey includes coaching stints at Chelsea, Aldershot, and Reading, with a focus on goalkeeping. A seasoned figure in football, he rose through the ranks, eventually becoming interim assistant head coach after key departures. Ruth's dedication led to his recent promotion as under-21s head coach in September 2022 under Roberto De Zerbi.",
-			"nationality": "England",
-			"stats": [],
-			"titles": [],
-			"careerHistory": [
-				{
-					"team": {
-						"id": 1808,
-						"name": "Brighton & Hove Albion U21"
-					},
-					"position": "Head Coach",
-					"season": "2022-"
-				},
-				{
-					"team": {
-						"id": 1808,
-						"name": "Brighton & Hove Albion U21"
-					},
-					"position": "Professional Development Phase Lead",
-					"season": "2022-"
-				},
-				{
-					"team": {
-						"id": 1808,
-						"name": "Brighton & Hove Albion U23"
-					},
-					"position": "Assistant U23 Coach",
-					"season": "2019-21"
-				},
-				{
-					"team": {
-						"id": 1808,
-						"name": "Brighton & Hove Albion U21"
-					},
-					"position": "Head of Academy Goalkeeping",
-					"season": "2016-19"
-				},
-				{
-					"team": {
-						"id": 1793,
-						"name": "Reading FC"
-					},
-					"position": "Head of Academy Goalkeeping",
-					"season": "2010-16"
-				}
-			]
-		},
-		{
-			"id": 989999,
+			"id": 1,
 			"name": "Ole Gunnar Solskjær",
+			"age": 1973,
 			"bio": "Ole Gunnar Solskjær, born on February 26, 1973, in Kristiansund, is a former Norwegian footballer and coach who is currently at the helm of the Salford City FC project aiming for the Premier League. During his playing career, he distinguished himself at Manchester United, where he became an icon, recognized as a \"supersub\" for his effectiveness as a substitute. His fame reached its peak when he scored the decisive goal in the UEFA Champions League final in 1998–99, contributing to the memorable comeback against Bayern Munich.",
 			"nationality": "Norway",
+			"comparisonCoach": {
+				"id": 4,
+				"name": "Sir. Alex Fergunson"
+			},
 			"stats": [],
 			"titles": [
 				{
@@ -6137,6 +6092,183 @@
 					},
 					"position": "Striker Coach",
 					"season": "2007-08"
+				}
+			],
+			"favoritePlayers": []
+		},
+		{
+			"id": 2,
+			"name": "Roberto De Zerbi",
+			"age": 1979,
+			"bio": "Roberto De Zerbi, a former Italian football player, now renowned coach, currently leads Premier League club Brighton & Hove Albion. After a playing career that included stints at AC Milan and Napoli, De Zerbi transitioned to coaching, leaving his mark at clubs like Palermo, Benevento, Sassuolo, and Shakhtar Donetsk. Known for his attacking style, he joined Brighton in the 2022-23 season, achieving historic success with a top-seven finish and qualifying for the UEFA Europa League.",
+			"nationality": "Italy",
+			"comparisonCoach": {
+				"id": 3,
+				"name": "Pepe Guardiola",
+				"age": 1971,
+				"nationality": "Spain"
+			},
+			"tactical": {
+				"vision": "Tiki-Taka",
+				"preferredFormation": "4-2-3-1",
+				"defensiveStyle": "Pressure On Heavy Touch",
+				"offensiveStyle": "Slow Build Up",
+				"chanceCreation": "Possession"
+			},
+			"assistantCoach": {
+				"id": 74,
+				"name": "Andrea Maldera",
+				"age": 1971,
+				"nationality": "Italy"
+			},
+			"stats": [],
+			"titles": [
+				{
+					"name": "Ukrainian Super Cup",
+					"team": 101059,
+					"season": "2021"
+				},
+				{
+					"name": "Coppa Italia Lega Pro",
+					"team": 110911,
+					"season": "2015-16"
+				}
+			],
+			"careerHistory": [
+				{
+					"team": {
+						"id": 1808,
+						"name": "Brighton & Hove Albion"
+					},
+					"position": "Manager",
+					"season": "2022-"
+				},
+				{
+					"team": {
+						"id": 101059,
+						"name": "Shaktar Donetsk"
+					},
+					"position": "Manager",
+					"season": "2021-22"
+				},
+				{
+					"team": {
+						"id": 111974,
+						"name": "US Sassuolo"
+					},
+					"position": "Manager",
+					"season": "2018-21"
+				},
+				{
+					"team": {
+						"id": 112026,
+						"name": "Benevento Calcio"
+					},
+					"position": "Manager",
+					"season": "2017-18"
+				},
+				{
+					"team": {
+						"id": 1843,
+						"name": "Palermo FC"
+					},
+					"position": "Manager",
+					"season": "2016"
+				},
+				{
+					"team": {
+						"id": 110911,
+						"name": "Calcio Foggia 1920"
+					},
+					"position": "Manager",
+					"season": "2014-16"
+				}
+			],
+			"favoritePlayers": []
+		},
+		{
+			"id": 999999,
+			"name": "Shannon Ruth",
+			"age": 1991,
+			"bio": "Shannon Ruth, currently senior professional development coach at Albion, assumed the role in February 2021 as interim-coach alongside Andrew Crofts, succeeding Simon Rusk. Having started as Albion’s under-21 assistant coach in 2018, Ruth's journey includes coaching stints at Chelsea, Aldershot, and Reading, with a focus on goalkeeping. A seasoned figure in football, he rose through the ranks, eventually becoming interim assistant head coach after key departures. Ruth's dedication led to his recent promotion as under-21s head coach in September 2022 under Roberto De Zerbi.",
+			"nationality": "England",
+			"comparisonCoach": {
+				"id": 2,
+				"name": "Roberto De Zerbi",
+				"nationality": "Italy"
+			},
+			"tactical": {
+				"vision": "Tiki-Taka",
+				"preferredFormation": "4-2-3-1",
+				"defensiveStyle": "Pressure On Heavy Touch",
+				"offensiveStyle": "Slow Build Up",
+				"chanceCreation": "Possession"
+			},
+			"assistantCoach": {
+				"id": 75,
+				"name": "Gary Dicker",
+				"age": 1986,
+				"nationality": "Ireland"
+			},
+			"stats": [],
+			"titles": [],
+			"careerHistory": [
+				{
+					"team": {
+						"id": 1808,
+						"name": "Brighton & Hove Albion U21"
+					},
+					"position": "Head Coach",
+					"season": "2022-"
+				},
+				{
+					"team": {
+						"id": 1808,
+						"name": "Brighton & Hove Albion U21"
+					},
+					"position": "Professional Development Phase Lead",
+					"season": "2022-"
+				},
+				{
+					"team": {
+						"id": 1808,
+						"name": "Brighton & Hove Albion U23"
+					},
+					"position": "Assistant U23 Coach",
+					"season": "2019-21"
+				},
+				{
+					"team": {
+						"id": 1808,
+						"name": "Brighton & Hove Albion U21"
+					},
+					"position": "Head of Academy Goalkeeping",
+					"season": "2016-19"
+				},
+				{
+					"team": {
+						"id": 1793,
+						"name": "Reading FC"
+					},
+					"position": "Head of Academy Goalkeeping",
+					"season": "2010-16"
+				}
+			],
+			"favoritePlayers": [
+				{
+					"id": 279547
+				},
+				{
+					"id": 277283
+				},
+				{
+					"id": 264120
+				},
+				{
+					"id": 263411
+				},
+				{
+					"id": 250830
 				}
 			]
 		}
