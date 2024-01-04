@@ -91,6 +91,14 @@ const Player = ({ year }) => {
                     </section>
                 </section>
                 <section className='column-3'>
+
+                    {player.isScouted && (
+                        <section>
+                            <h4>Scout Report</h4>
+                            <p className={`status ${player.scoutStatus}`}>{player.scoutStatus}</p>
+                        </section>
+                    )}
+
                     <section>
                         <h4 className='noMargin'>Overview Stats</h4>
                         <Chart player={player} />

@@ -105,8 +105,9 @@ const Home = ({ year }) => {
                 </div>
                 <div className='players-card'>
                     {players
-                        .filter(player => player.isScouted && player.isPriority)
+                        .filter(player => player.isScouted && player.scoutStatus === "Green")
                         .reverse()
+                        .slice(0, 4)
                         .map(player => (
                             <PlayerCard player={player} key={player.id} />
                         ))

@@ -4,8 +4,9 @@ import NotFound from '../pages/notFound/NotFound'
 import Player from '../pages/profile/player/Player'
 import Coach from '../pages/profile/coach/Coach'
 import Team from '../pages/profile/team/Team'
-import Edit from '../pages/edit/Edit'
 import Scouts from '../pages/scouts/Scouts'
+import HattrickData from '../pages/hattrickData/HattrickData'
+import EditPlayer from '../pages/hattrickData/playersSection/editPlayer/EditPlayer'
 
 export const AppRoutes = ({year}) => {
 
@@ -17,7 +18,8 @@ export const AppRoutes = ({year}) => {
             <Route path="/player/:id" element={<Player year={year} />}/>
             <Route path="/team/:id" element={<Team year={year} />}/>
             <Route path="/scouts" element={<Scouts year={year} />}/>
-            <Route path="/admin/edit" element={<Edit/>}/>
+            <Route path="/hattrickdata" element={<HattrickData/>}/>
+            <Route path="/hattrickdata/editplayer/:id" element={<EditPlayer />}/>
             <Route path="*" element={<NotFound />}/>
         </Routes>
     )

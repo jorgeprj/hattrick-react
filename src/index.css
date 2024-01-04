@@ -120,6 +120,29 @@ button {
     padding: 0 !important;
 }
 
+.success-message,
+.error-message {
+    position: fixed;
+    left: 50%;
+    top: 6em;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    border-radius: 6px;
+    font-size: 0.9em;
+    min-width: fit-content;
+    white-space: nowrap;
+}
+
+.success-message {
+    background-color: #96faad;
+    color: #1c7530;
+}
+
+.error-message {
+    background-color: #ffa7ae;
+    color: #a02a36;
+}
+
 
 @media screen and (max-width: 900px) {
     *{

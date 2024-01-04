@@ -23,7 +23,7 @@ const CoachSection = ({ coach }) => {
     return (
         <div className='coach-section'>
             <div className='coach-content'>
-                <Link to={"/coach"}>
+                <Link to={`/coach/${coach.id}`}>
                     <img src={`./src/assets/coaches/${coach.name.toLowerCase().replace(/ /g, "")}.jpg`} alt="Ole Gunnar Solskjaer" />
                 </Link>
                 <div className='text'>
@@ -36,7 +36,9 @@ const CoachSection = ({ coach }) => {
                     </section>
                     <p><strong>{coach.bio.split(' ').slice(0, 3).join(' ')} </strong>{coach.bio.split(' ').slice(3).join(' ')}</p>
                     <div className='icons'>
-                        <FaTrophy onClick={toggleTitles} />
+                        {coach.titles.length > 0 && 
+                            <FaTrophy onClick={toggleTitles} />
+                        }
                         {coach.stats.length > 0 &&
                             <FaChartSimple onClick={toggleStats} />
                         }

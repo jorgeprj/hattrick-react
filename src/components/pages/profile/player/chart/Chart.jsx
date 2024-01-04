@@ -1,5 +1,23 @@
 import React, { PureComponent } from 'react';
-import { Radar, RadarChart, PolarGrid, PolarAngleAxis } from 'recharts';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, Tooltip } from 'recharts';
+
+class CustomTooltip extends PureComponent {
+    render() {
+        const { active, payload } = this.props;
+
+        if (active && payload && payload.length) {
+            const data = payload[0].payload;
+
+            return (
+                <div style={{ backgroundColor: 'rgba(255,255,255,0.8)', padding: '5px', borderRadius: '5px', boxShadow: '0 0 5px rgba(0,0,0,0.2)' }}>
+                    <p>{data.stats}: {data.stat}</p>
+                </div>
+            );
+        }
+
+        return null;
+    }
+}
 
 class Chart extends PureComponent {
     render() {
@@ -50,12 +68,13 @@ class Chart extends PureComponent {
                 <PolarGrid />
                 <PolarAngleAxis dataKey="stats" />
                 <Radar
-                    name="Overall Stats"
+                    name="Value"
                     dataKey="stat"
                     stroke="#1ab06e"
                     fill="#8aceae"
                     fillOpacity={0.6}
                 />
+                <Tooltip content={<CustomTooltip />} />
             </RadarChart>
         );
     }
