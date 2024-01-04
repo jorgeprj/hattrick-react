@@ -1,79 +1,38 @@
-.header .profile-head{
-    position: relative;
-    display: inline-block;
-}
-
-.header .profile-head .head-image{
-    width: 16em;
-    height: 16em;
-}
-
-.header .profile-head .flag{
-    position: absolute;
-    bottom: 7px;
-    right: 0;
-    height: 2em;
-    max-width: fit-content;
-    z-index: 1;
-}
-
-.profile .content .column-2 .profile-content .awards{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-
-.profile .content .column-2 .profile-content .award{
+.assistant-coach {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.profile .content .column-2 .profile-content .award svg{
+.assistant-coach .head-image {
+    height: 3em;
     margin-right: 0.5em;
 }
 
-
-.profile .content .column-2 .profile-content .award .team-image{
-    max-height: 1.5em;
-    margin-right: 0.5em;
-}
-
-.profile .content .column-3{
+.assistant-coach .coach-text h5 {
     display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
-
-.profile .content .column-3 h4{
-    font-size: 1em;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.2em;
+    font-size: 0.9em !important;
+    color: var(--text-medium);
     font-weight: 700;
-    margin-bottom: 0.5em;
+    white-space: nowrap;
+    max-height: fit-content;
 }
 
-.profile .content .column-3 .profile-stats .stats{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
+.assistant-coach .coach-text h5 .flag{
+    height: 0.75em;
+    margin-left: 0.5em;
 }
 
-.profile .content .column-3 .profile-stats .stats p{
-    font-size: 0.9em;
+.assistant-coach .coach-text .link:hover{
+    color: var(--text-high);
 }
 
-.profile .content .column-3 .links{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    margin-top: 1em;
-}
-
-.profile .content .column-3 .links a{
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 0.5em 1em;
-    font-size: 0.8em;
-}
-.profile .content .column-3 .links a:hover{
-    color: var(--link);
+.assistant-coach .coach-text  h6 {
+    font-size: 0.9em !important;
+    color: var(--text-medium);
+    font-weight: 500;
+    white-space: nowrap;
 }

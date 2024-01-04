@@ -4,12 +4,14 @@ import '../../profile/Profile.css';
 import './Coach.css'
 
 import { getCoach } from '../../../services/coach/coachService';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import Loading from '../../../components/layout/loading/Loading';
 import HeadImage from '../../../components/shared/headImage/HeadImage';
 import CareerHistory from '../../../components/pages/profile/coach/careerHistory/CareerHistory';
 import Footer from '../../../components/layout/footer/Footer';
+import TacticalStyle from '../../../components/pages/profile/coach/tacticalStyle/TacticalStyle';
+import BasicInfo from '../../../components/pages/profile/coach/basicInfo/BasicInfo';
 
 
 const Coach = ({ year }) => {
@@ -40,7 +42,7 @@ const Coach = ({ year }) => {
         <div className='profile'>
             <h1>
                 {coach.name}
-                <span>Manager</span>
+                <span>{coach.careerHistory[0].position}</span>
             </h1>
             <section className='content'>
                 <section className='column-1'>
@@ -49,11 +51,23 @@ const Coach = ({ year }) => {
                             <img className='flag' src={`../../src/assets/flags/${coach.nationality}.png`} alt={`Flag of ${coach.nationality}`} />
                             <HeadImage path={`../../src/assets/coaches/heads/${coach.id}.png`} />
                         </div>
+                        <div className='assistant-coach'>
+                            <HeadImage path={`../../src/assets/coaches/heads/${coach.assistantCoach.id}.png`} />
+                            <div className='coach-text'>
+                                <Link to={`/coach/${coach.assistantCoach.id}`}>
+                                    <h5 className='link'>
+                                        {coach.assistantCoach.name}
+                                        <img className='flag' src={`../../src/assets/flags/${coach.assistantCoach.nationality}.png`} alt={`Flag of ${coach.nationality}`} />
+                                    </h5>
+                                </Link>
+                                <h6>Assistant Coach</h6>
+                            </div>
+                        </div>
                     </section>
                     <section className='profile-infos'>
-                        <section className='other-infos'>
-                            <CareerHistory coach={coach} />
-                        </section>
+                        <BasicInfo coach={coach} year={year}/>
+                        <TacticalStyle coach={coach} />
+                        <CareerHistory coach={coach} />
                     </section>
                 </section>
 
@@ -84,11 +98,27 @@ const Coach = ({ year }) => {
                                 </div>
                             </section>
                         )}
-                        
+
                     </section>
                 </section>
 
                 <section className='column-3'>
+                    {coach.favoritePlayers.length > 0 && (
+                        <section className='favorite-players'>
+                            <h4>Favorite Players</h4>
+
+                            <div className='team-players'>
+                                {coach.favoritePlayers
+                                    .map(player => (
+                                        <div className='head' key={player.id}>
+                                            <Link to={`/player/${player.id}`}>
+                                                <HeadImage path={`../../src/assets/players/heads/${player.id}.png`} />
+                                            </Link>
+                                        </div>
+                                    ))}
+                            </div>
+                        </section>
+                    )}
                     {coach.stats.length > 0 && coach.stats[0].season === year - 1 && (
                         <section className='profile-stats'>
                             <h4>Last Season Stats</h4>
