@@ -164,6 +164,32 @@
     margin-bottom: 0.5em;
 }
 
+.profile .content .column-3 .report{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile .content .column-3 .report span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.profile .content .column-3 .report .ranking:hover::after{
+    content: "Best hattrick scouted player.";
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 600;
+    background: var(--text-high);
+    color: white;
+    padding: 1em;
+    border-radius: 6px;
+    margin-left: 2em;
+}
+
 .profile .content .column-3 .status{
     display: flex;
     align-items: center;

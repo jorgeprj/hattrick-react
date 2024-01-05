@@ -6,51 +6,73 @@ const rateValues = {
 
 const statusValues = {
     Green: 100,
-    Yellow: 50,
-    Red: 10,
+    Yellow: 70,
+    Red: 50,
 };
 
+const getAgeScore = (playerAge, currentYear) => {
+    const age = (currentYear - playerAge)
+    const slope = -2.5;
+    const intercept = 140; 
+  
+    const calculatedValue = slope * age + intercept;
+  
+    return Math.max(0, Math.min(100, calculatedValue));
+}
+
+const getPotentialScore = (playerOverall, playerPotential) => {
+    const growthRate = playerPotential - playerOverall;
+    const slope = 4.6;
+    const initialScore = 30;  
+    const maxScore = 100;
+  
+    let score = slope * growthRate + initialScore;
+  
+    return Math.max(0, Math.min(maxScore, score));
+}
+
+
 export const calculateHatScore = (player, currentYear) => {
-    const overallScore = (player.overall * player.overall) / 70; //0 to 100
+    const ageScore = getAgeScore(player.age, currentYear);
 
-    const age = (currentYear - player.age);
-    const ageScore = ((200 - age * 2) / 1.8); //0 to 100
-
-    const potentialScore = Math.max(0, player.potential - player.overall) * 20; // 0 to 400
+    const potentialScore = getPotentialScore(player.overall, player.potential);
 
     const yearsLeftInContract = player.contract - currentYear;
-    const contractScore = (yearsLeftInContract * 20); //0 to 120
+    const contractScore = (yearsLeftInContract * 20);
 
-    const realFaceScore = player.realFace ? 100 : 0;
+    const realFaceScore = player.realFace ? 100 : 50;
 
     const attackRateValue = rateValues[player.workRate.split('/')[0]];
     const defenseRateValue = rateValues[player.workRate.split('/')[1]];
-
-    const physicalScore =
-        ((player.weight - 40) +
+    const physicalScore =(
         (player.height - 100) +
         attackRateValue +
         defenseRateValue +
         (player.weakFoot * 20) +
-        (player.skills * 20)) * 0.25 +
-        (player.overallStats.pace);
+        (player.skills * 20))/4;
+    
+    const paceScore = player.overallStats.pace*player.overallStats.pace;
+    const passingScore = player.overallStats.passing*player.overallStats.passing;
+    const dribblingScore = player.overallStats.dribbling*player.overallStats.dribbling;
+    const physicalityScore = player.overallStats.physicality*player.overallStats.physicality;
+    const shootingScore = player.overallStats.shooting*player.overallStats.shooting;
+    const defendingScore = player.overallStats.defending*player.overallStats.defending;
 
-    const playStylesScore = (player.playStyles.length * 50);
-
-    const valueScore = (player.value/100000);
+    const overallScore = ((paceScore*13 + passingScore*9 + dribblingScore*8 + shootingScore*10 + defendingScore*10 +  physicalityScore*10)/60)/55;
+    
+    const playStylesScore = (player.playStyles.length * 25);
 
     const statusScore = statusValues[player.scoutStatus];
 
     const futzScore =
-        overallScore*8 +
-        ageScore*5 +
-        potentialScore*2 -
-        contractScore*5 -
-        valueScore*4 +
-        realFaceScore +
-        physicalScore*5 +
-        playStylesScore*4 +
-        statusScore*5;
+        ageScore*4 +
+        potentialScore*6 -
+        contractScore*2 +
+        realFaceScore*2 +
+        overallScore*3 +
+        playStylesScore*3 +
+        statusScore*4 +
+        player.overall*2;
 
-    return (futzScore/350).toFixed(2);
+    return (futzScore/220).toFixed(2);
 };
