@@ -15,8 +15,8 @@
 
 .navbar .options{
     position: absolute;
-    justify-content: center;
-    width: calc(100% - 6em);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .navbar .options ul {
