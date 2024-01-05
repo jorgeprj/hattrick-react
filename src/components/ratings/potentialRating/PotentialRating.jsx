@@ -7,9 +7,9 @@ const PotentialRating = ({ overall, potential }) => {
     const difference = potential - overall;
 
     const renderIcon = () => {
-        if (difference >= 5) {
+        if (difference >= 10) {
             return <FaAnglesUp />;
-        } else if (difference >= 2) {
+        } else if (difference >= 5) {
             return <FaAngleUp />;
         } else {
             return null;
