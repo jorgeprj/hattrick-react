@@ -65,9 +65,9 @@ export const calculateHatScore = (player, currentYear) => {
     const statusScore = statusValues[player.scoutStatus];
 
     const futzScore =
-        ageScore*4 +
+        ageScore*3.5 +
         potentialScore*6 -
-        contractScore*2 +
+        contractScore*1.5 +
         realFaceScore*2 +
         overallScore*3 +
         playStylesScore*3 +
