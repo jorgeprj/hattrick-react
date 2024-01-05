@@ -14,7 +14,7 @@ const TeamSection = ({ team }) => {
                 <div>
                     <Link to={`/team/${team.id}`}>
                         <button>
-                            Wiki
+                            Profile
                         </button>
                     </Link>
                 </div>
