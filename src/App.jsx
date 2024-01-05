@@ -22,12 +22,13 @@ function App() {
 	];
 
 	const year = 2023;
-
+	const teamId = 113926;
+	
 	return (
 		<div>
 			<Router>
 				<Navbar links={links}/>
-				<AppRoutes year={year}/>
+				<AppRoutes year={year} teamId={teamId}/>
 			</Router>
 		</div>
 	)
