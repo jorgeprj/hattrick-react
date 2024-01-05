@@ -1,7 +1,7 @@
 import React from 'react'
 import './PlayerForm.css'
 
-const PlayerForm = ({ formData, handleInputChange, handleOverallStatsChange, handleSubmit }) => {
+const PlayerForm = ({ formData, handleInputChange, handleOverallStatsChange, handleSubmit, handleCheckboxChange }) => {
     return (
         <form onSubmit={handleSubmit} className='player-form'>
             <div className='attr'>
@@ -15,46 +15,46 @@ const PlayerForm = ({ formData, handleInputChange, handleOverallStatsChange, han
 
                         <label>
                             Position
-                            <input 
-                                type="text" 
-                                name="position" 
-                                value={formData.position} 
-                                onChange={handleInputChange} 
+                            <input
+                                type="text"
+                                name="position"
+                                value={formData.position}
+                                onChange={handleInputChange}
                                 className='small-input'
-                                />
+                            />
                         </label>
 
                         <label>
                             Skills
-                            <input 
-                                type="number" 
-                                name="skills" 
-                                value={formData.skills} 
-                                onChange={handleInputChange} 
+                            <input
+                                type="number"
+                                name="skills"
+                                value={formData.skills}
+                                onChange={handleInputChange}
                                 className='small-input'
-                                />
+                            />
                         </label>
 
                         <label>
                             Weak Foot
-                            <input 
-                                type="number" 
-                                name="weakFoot" 
-                                value={formData.weakFoot} 
-                                onChange={handleInputChange} 
+                            <input
+                                type="number"
+                                name="weakFoot"
+                                value={formData.weakFoot}
+                                onChange={handleInputChange}
                                 className='small-input'
-                                />
+                            />
                         </label>
 
                         <label>
                             Work Rate
-                            <input 
-                                type="text" 
-                                name="workRate" 
-                                value={formData.workRate} 
-                                onChange={handleInputChange} 
+                            <input
+                                type="text"
+                                name="workRate"
+                                value={formData.workRate}
+                                onChange={handleInputChange}
                                 className='large-input'
-                                />
+                            />
                         </label>
                     </section>
                 </div>
@@ -64,24 +64,24 @@ const PlayerForm = ({ formData, handleInputChange, handleOverallStatsChange, han
                     <section className='inputs'>
                         <label>
                             Overall
-                            <input 
-                                type="number" 
-                                name="overall" 
-                                value={formData.overall} 
-                                onChange={handleInputChange} 
+                            <input
+                                type="number"
+                                name="overall"
+                                value={formData.overall}
+                                onChange={handleInputChange}
                                 className='small-input'
-                                />
+                            />
                         </label>
 
                         <label>
                             Potential
-                            <input 
-                                type="number" 
-                                name="potential" 
-                                value={formData.potential} 
-                                onChange={handleInputChange} 
+                            <input
+                                type="number"
+                                name="potential"
+                                value={formData.potential}
+                                onChange={handleInputChange}
                                 className='small-input'
-                                />
+                            />
                         </label>
 
                         <label>
@@ -157,37 +157,75 @@ const PlayerForm = ({ formData, handleInputChange, handleOverallStatsChange, han
                     <section className='inputs'>
                         <label>
                             Contract
-                            <input 
-                                type="number" 
-                                name="contract" 
-                                value={formData.contract} 
-                                onChange={handleInputChange} 
+                            <input
+                                type="number"
+                                name="contract"
+                                value={formData.contract}
+                                onChange={handleInputChange}
                                 className='medium-input'
-                                />
+                            />
                         </label>
 
                         <label>
                             Value
-                            <input 
-                                type="number" 
-                                name="value" 
-                                value={formData.value} 
-                                onChange={handleInputChange} 
-                                />
+                            <input
+                                type="number"
+                                name="value"
+                                value={formData.value}
+                                onChange={handleInputChange}
+                            />
                         </label>
 
                         <label>
                             Wage
-                            <input 
-                                type="number" 
-                                name="wage" 
-                                value={formData.wage} 
-                                onChange={handleInputChange} 
+                            <input
+                                type="number"
+                                name="wage"
+                                value={formData.wage}
+                                onChange={handleInputChange}
                                 className='medium-input'
-                                />
+                            />
                         </label>
                     </section>
                 </div>
+
+                <div className='financial-infos'>
+                    <h2>Scout Infos</h2>
+                    <section className='inputs'>
+
+
+                        <label>
+                            Is scouted ?
+                            <div class="checkbox-wrapper-18">
+                                <div class="round">
+                                    <input
+                                        type="checkbox"
+                                        name="isScouted"
+                                        checked={formData.isScouted}
+                                        onChange={handleCheckboxChange}
+                                        id='checkbox-18'
+                                    />
+                                    <label for="checkbox-18"></label>
+                                </div>
+                            </div>
+
+                        </label>
+
+
+                        <label>
+                            Status
+                            <input
+                                type="text"
+                                name="value"
+                                value={formData.scoutStatus}
+                                onChange={handleInputChange}
+                                className='medium-input'
+                            />
+                        </label>
+
+                    </section>
+                </div>
+
             </div>
             <button className='btn' type="submit">Update Player</button>
         </form>

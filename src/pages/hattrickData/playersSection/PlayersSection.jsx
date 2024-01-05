@@ -100,7 +100,11 @@ const PlayersSection = () => {
 									{isPlayerCompleted(player) ? 'Completed' : 'Incomplete'}
 								</td>
 								<td>{player.id}</td>
-								<td>{player.name} </td>
+								<td>
+									<Link to={`/player/${player.id}`}>
+										{player.name}
+									</Link>
+								</td>
 								<td>{player.age}</td>
 								<td>{player.nationality}</td>
 								<td>{player.position}</td>

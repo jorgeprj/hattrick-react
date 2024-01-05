@@ -31,6 +31,8 @@ const EditPlayer = () => {
             defending: 0,
             physicality: 0,
         },
+        isScouted: false,
+        scoutStatus: '',
     });
 
     const [status, setStatus] = useState('');
@@ -59,6 +61,8 @@ const EditPlayer = () => {
                         defending: playerData.overallStats?.defending || 0,
                         physicality: playerData.overallStats?.physicality || 0,
                     },
+                    isScouted: playerData.isScouted,
+                    scoutStatus: playerData.scoutStatus,
                 });
                 setIsLoading(false);
             } catch (error) {
@@ -84,6 +88,11 @@ const EditPlayer = () => {
                 [statName]: numericValue,
             },
         });
+    };
+
+    const handleCheckboxChange = (e) => {
+        const { name, checked } = e.target;
+        setFormData({ ...formData, [name]: checked });
     };
 
     const handleSubmit = async (e) => {
@@ -127,6 +136,7 @@ const EditPlayer = () => {
                         handleInputChange={handleInputChange}
                         handleOverallStatsChange={handleOverallStatsChange}
                         handleSubmit={handleSubmit}
+                        handleCheckboxChange={handleCheckboxChange}
                     />
 
                 </div>
