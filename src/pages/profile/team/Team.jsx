@@ -81,7 +81,7 @@ const Team = ({ year }) => {
                     <section className='header'>
                         <div className='profile-head'>
                             <HeadImage path={`../../src/assets/teams/${team.id}.png`} />
-                            <img className='flag' src={`../../src/assets/flags/${team.country}.png`} alt={`Flag of ${team.country}`} />
+                            <img className='head-flag' src={`../../src/assets/flags/${team.country}.png`} alt={`Flag of ${team.country}`} />
                         </div>
                     </section>
                     {team.clubInfo &&

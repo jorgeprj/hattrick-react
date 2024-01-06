@@ -8,9 +8,9 @@
     height: 16em;
 }
 
-.player-header .player-head .flag{
+.player-header .player-head .head-flag{
     position: absolute;
-    bottom: 7px;
+    bottom: 4px;
     right: 0;
     height: 2em;
     max-width: fit-content;

@@ -49,7 +49,7 @@ const Manager = ({ year }) => {
                 <section className='column-1'>
                     <section className='header'>
                         <div className='profile-head'>
-                            <img className='flag' src={`../../src/assets/flags/${manager.nationality}.png`} alt={`Flag of ${manager.nationality}`} />
+                            <img className='head-flag' src={`../../src/assets/flags/${manager.nationality}.png`} alt={`Flag of ${manager.nationality}`} />
                             <HeadImage path={`../../src/assets/managers/heads/${manager.id}.png`} />
                         </div>
                         <div className='assistant-manager'>

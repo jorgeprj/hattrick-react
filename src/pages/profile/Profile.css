@@ -29,9 +29,9 @@
     height: 16em;
 }
 
-.profile .content .profile-head .flag{
+.profile .content .profile-head .head-flag{
     position: absolute;
-    bottom: 7px;
+    bottom: 4px;
     right: 0;
     height: 2em;
     max-width: fit-content;

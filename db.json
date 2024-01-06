@@ -5700,7 +5700,7 @@
       "id": 999999,
       "name": "Shannon Ruth",
       "age": 1991,
-      "bio": "Shannon Ruth, currently senior professional development coach at Albion, assumed the role in February 2021 as interim-coach alongside Andrew Crofts, succeeding Simon Rusk. Having started as Albion’s under-21 assistant coach in 2018, Ruth's journey includes coaching stints at Chelsea, Aldershot, and Reading, with a focus on goalkeeping. A seasoned figure in football, he rose through the ranks, eventually becoming interim assistant head coach after key departures. Ruth's dedication led to his recent promotion as under-21s head coach in September 2022 under Roberto De Zerbi.",
+      "bio": "Shannon Ralph Ruth, born on March 1, 1991, in England, has carved a notable niche in football coaching. Transitioning from non-league playing to coaching at Chelsea at just 18, Ruth's journey led him to pivotal roles at Aldershot and Reading before joining Brighton & Hove Albion. Inspired by Roberto De Zerbi, he ascended rapidly, appointed interim-coach in 2021 and later assuming the role of senior professional development coach. Ruth's dedication and adaptability culminated in his promotion to head coach of Brighton's under-21 team in 2022, marking a promising trajectory in his coaching career.",
       "nationality": "England",
       "comparisonManager": {
         "id": 2,
@@ -5725,11 +5725,19 @@
       "careerHistory": [
         {
           "team": {
+            "id": 113926,
+            "name": "Salford FC"
+          },
+          "position": "Manager",
+          "season": "2023-"
+        },
+        {
+          "team": {
             "id": 1808,
             "name": "Brighton & Hove Albion U21"
           },
           "position": "Head Coach",
-          "season": "2022-"
+          "season": "2022-23"
         },
         {
           "team": {

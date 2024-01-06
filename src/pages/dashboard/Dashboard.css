@@ -1,9 +1,6 @@
 .dashboard .content{
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
-=======
->>>>>>> 5016fb0199b0568ea55fec1e498cd9fbdc74fa28
     gap: 4em;
     padding: 2em 4em;
 }
