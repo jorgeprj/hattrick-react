@@ -109,7 +109,7 @@ const Home = ({ year }) => {
                         .reverse()
                         .slice(0, 4)
                         .map(player => (
-                            <PlayerCard player={player} key={player.id} />
+                            <PlayerCard player={player} year={year} key={player.id} />
                         ))
                     }
                 </div>

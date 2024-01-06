@@ -3,7 +3,7 @@ import '../../profile/Profile.css';
 import React, { useEffect, useState } from 'react'
 
 import { getPlayer, getPlayers } from '../../../services/players/playersService';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Loading from '../../../components/layout/loading/Loading';
 import Header from '../../../components/pages/profile/player/header/Header';
 import BasicInfo from '../../../components/pages/profile/player/basicInfo/BasicInfo';
@@ -12,7 +12,7 @@ import TeamHistory from '../../../components/pages/profile/player/teamHistory/Te
 import Chart from '../../../components/pages/profile/player/chart/Chart';
 import PlayStyles from '../../../components/pages/profile/player/playStyles/PlayStyles';
 import Footer from '../../../components/layout/footer/Footer';
-import { FaAward, FaRankingStar, FaStar } from 'react-icons/fa6';
+import { FaAward, FaRankingStar, FaRegPenToSquare, FaStar } from 'react-icons/fa6';
 import TransferInfo from '../../../components/pages/profile/player/transferInfo/TransferInfo';
 import { calculateHatScore } from '../../../utils/hatScore';
 
@@ -34,7 +34,7 @@ const Player = ({ year }) => {
                 const maxHattrickScorePlayer = playersData.reduce((maxPlayer, currentPlayer) => {
                     const maxHattrickScore = calculateHatScore(maxPlayer, year);
                     const currentHattrickScore = calculateHatScore(currentPlayer, year);
-                
+
                     return currentHattrickScore > maxHattrickScore ? currentPlayer : maxPlayer;
                 }, playersData[0]);
                 setBestPlayer(maxHattrickScorePlayer)
@@ -54,8 +54,6 @@ const Player = ({ year }) => {
         return <Loading />;
     }
 
-    console.log(bestPlayer);
-
     return (
         <div className='profile'>
             <h1>
@@ -74,9 +72,14 @@ const Player = ({ year }) => {
                 </section>
                 <section className='column-2'>
                     <section className='title'>
-                        <h2>Detailed Sheet</h2>
-                        <h4>|</h4>
-                        <p>Discussion</p>
+                        <div className='text'>
+                            <h2>Detailed Sheet</h2>
+                            <h4>|</h4>
+                            <p>Discussion</p>
+                        </div>
+                        <Link to={`/hattrickdata/editplayer/${player.id}`}>
+                            <FaRegPenToSquare/>
+                        </Link>
                     </section>
                     <section className='profile-content'>
                         <h3 className='noMargin'>Biography</h3>
@@ -108,7 +111,7 @@ const Player = ({ year }) => {
                 <section className='column-3'>
                     {player.isScouted && (
                         <section>
-                            <h4 className='report'>Scout Report {bestPlayer.id == id && (<span className='ranking'><FaRankingStar/></span>)}</h4>
+                            <h4 className='report'>Scout Report {bestPlayer.id == id && (<span className='ranking'><FaRankingStar /></span>)}</h4>
                             <p className={`status ${player.scoutStatus}`}>{player.scoutStatus}</p>
                         </section>
                     )}

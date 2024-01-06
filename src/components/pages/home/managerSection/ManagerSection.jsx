@@ -24,7 +24,7 @@ const ManagerSection = ({ manager }) => {
         <div className='manager-section'>
             <div className='manager-content'>
                 <Link to={`/manager/${manager.id}`}>
-                    <img src={`./src/assets/managers/${manager.name.toLowerCase().replace(/ /g, "")}.jpg`} alt="Ole Gunnar Solskjaer" />
+                    <img src={`./src/assets/managers/${manager.name.toLowerCase().replace(/ /g, "")}.png`} alt={`${manager.name} Image`} />
                 </Link>
                 <div className='text'>
                     <section className='manager-header'>

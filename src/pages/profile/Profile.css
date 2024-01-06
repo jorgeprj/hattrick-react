@@ -83,27 +83,41 @@
     font-weight: 500;
 }
 
-.profile .content .column-2 .title{
+.profile .content .column-2 .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.profile .content .column-2 .title .text{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-weight: 600;
     gap: 1em;
-    margin-bottom: 1em;
 }
 
-.profile .content .column-2 .title h2{
+.profile .content .column-2 .title .text h2{
     font-size: 1.25em;
 }
 
-.profile .content .column-2 .title h4{
+.profile .content .column-2 .title .text h4{
     font-size: 1.5em;
     font-weight: 400;
 }
 
-.profile .content .column-2 .title p{
+.profile .content .column-2 .title .text p{
     font-size: 1em;
     font-weight: 400;
+}
+
+.profile .content .column-2 .title svg{
+    color: var(--text-low);
+}
+
+.profile .content .column-2 .title svg:hover{
+    color: var(--text-high);
 }
 
 .profile .content .column-2 .profile-content{
