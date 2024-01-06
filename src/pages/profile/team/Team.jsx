@@ -12,7 +12,6 @@ import HeadImage from '../../../components/shared/headImage/HeadImage';
 import { useEffect, useState } from 'react';
 import Footer from '../../../components/layout/footer/Footer';
 import { getManagers } from '../../../services/managers/managersService';
-import { FaRegPenToSquare } from 'react-icons/fa6';
 
 const Team = ({ year }) => {
     const { id } = useParams();
@@ -126,16 +125,11 @@ const Team = ({ year }) => {
                 </section>
 
                 <section className='column-2'>
-                <section className='title'>
-                        <div className='text'>
-                            <h2>Detailed Sheet</h2>
-                            <h4>|</h4>
-                            <p>Discussion</p>
-                        </div>
-                        <Link to={`/hattrickdata/editteam/${team.id}`}>
-                            <FaRegPenToSquare/>
-                        </Link>
-                    </section>
+                    <div className='title'>
+                        <h2>Detailed sheet</h2>
+                        <h4>|</h4>
+                        <p>Discussion</p>
+                    </div>
                     <section className='profile-content'>
                         {team.clubInfo && (
                             <section>

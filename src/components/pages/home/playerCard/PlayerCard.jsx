@@ -5,10 +5,8 @@ import { FaChartSimple, FaMagnifyingGlass } from 'react-icons/fa6'
 import Button from '../../../shared/button/Button'
 import PlayerStatsModal from '../../../modals/playerStatsModal/PlayerStatsModal'
 import { Link } from 'react-router-dom'
-import { calculateHatScore } from '../../../../utils/hatScore'
-import HattrickRating from '../../../ratings/hattrickRating/HattrickRating'
 
-const PlayerCard = ({ player, year }) => {
+const PlayerCard = ({ player }) => {
 
     const [stats, setStats] = useState(false)
 
@@ -23,8 +21,8 @@ const PlayerCard = ({ player, year }) => {
             </Link>
             <h3>{player.name} <span>{player.position}</span></h3>
             <div className='low-info'>
-                <p>{calculateHatScore(player, year)}</p>
-                <HattrickRating hattrick={calculateHatScore(player, year)}/>
+                <FaMagnifyingGlass />
+                <p>Scouted</p>
             </div>
             <div className='principal-text'>
                 <p><strong>{player.bio.split(' ').slice(0, 3).join(' ')} </strong>{player.bio.split(' ').slice(3).join(' ')}</p>

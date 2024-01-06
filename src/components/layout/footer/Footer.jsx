@@ -44,9 +44,9 @@ const Footer = () => {
                     <a href="#">Cookies</a>
                 </div>
                 <div className='icons'>
-                    <a href="#"><FaInstagram /></a>
-                    <a href="#"><FaFacebookF /></a>
-                    <a href="#"><FaTwitter /></a>
+                    <FaInstagram />
+                    <FaFacebookF />
+                    <FaTwitter />
                 </div>
             </div>
         </footer>
