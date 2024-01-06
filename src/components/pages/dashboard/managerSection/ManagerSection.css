@@ -1,0 +1,32 @@
+.manager-section .manager-image{
+    width: 40em;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.manager-section .section-content{
+    flex-direction: column;
+    margin-top: 1em;
+    max-width: 40em;
+}
+
+.manager-section .section-content h2{
+    font-size: 1.75em;
+    line-height: normal;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+}
+
+.manager-section .section-content h2:hover{
+    text-decoration: underline;
+}
+
+.manager-section .section-content .source{
+    color: var(--text-low);
+    text-align: left;
+    font-weight: 500;
+    margin-top: 0.5em;
+}

@@ -12,6 +12,7 @@ import CareerHistory from '../../../components/pages/profile/manager/careerHisto
 import Footer from '../../../components/layout/footer/Footer';
 import TacticalStyle from '../../../components/pages/profile/manager/tacticalStyle/TacticalStyle';
 import BasicInfo from '../../../components/pages/profile/manager/basicInfo/BasicInfo';
+import { FaRegPenToSquare } from 'react-icons/fa6';
 
 
 const Manager = ({ year }) => {
@@ -48,7 +49,7 @@ const Manager = ({ year }) => {
                 <section className='column-1'>
                     <section className='header'>
                         <div className='profile-head'>
-                            <img className='flag' src={`../../src/assets/flags/${manager.nationality}.png`} alt={`Flag of ${manager.nationality}`} />
+                            <img className='head-flag' src={`../../src/assets/flags/${manager.nationality}.png`} alt={`Flag of ${manager.nationality}`} />
                             <HeadImage path={`../../src/assets/managers/heads/${manager.id}.png`} />
                         </div>
                         <div className='assistant-manager'>
@@ -72,11 +73,16 @@ const Manager = ({ year }) => {
                 </section>
 
                 <section className='column-2'>
-                    <div className='title'>
-                        <h2>Detailed sheet</h2>
-                        <h4>|</h4>
-                        <p>Discussion</p>
-                    </div>
+                    <section className='title'>
+                        <div className='text'>
+                            <h2>Detailed Sheet</h2>
+                            <h4>|</h4>
+                            <p>Discussion</p>
+                        </div>
+                        <Link to={`/hattrickdata/editmanager/${manager.id}`}>
+                            <FaRegPenToSquare/>
+                        </Link>
+                    </section>
                     <section className='profile-content'>
                         <section>
                             <h3>Biography</h3>

@@ -11,7 +11,7 @@ const Header = ({ player, year }) => {
     return (
         <section className='player-header'>
             <div className='player-head'>
-                <img className='flag' src={`../../src/assets/flags/${player.nationality}.png`} alt={`Flag of ${player.nationality}`} />
+                <img className='head-flag' src={`../../src/assets/flags/${player.nationality}.png`} alt={`Flag of ${player.nationality}`} />
                 <HeadImage path={`../../src/assets/players/heads/${player.id}.png`}/>
             </div>
             <section className='player-stats'>

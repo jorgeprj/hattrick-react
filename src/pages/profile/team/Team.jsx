@@ -12,6 +12,7 @@ import HeadImage from '../../../components/shared/headImage/HeadImage';
 import { useEffect, useState } from 'react';
 import Footer from '../../../components/layout/footer/Footer';
 import { getManagers } from '../../../services/managers/managersService';
+import { FaRegPenToSquare } from 'react-icons/fa6';
 
 const Team = ({ year }) => {
     const { id } = useParams();
@@ -80,7 +81,7 @@ const Team = ({ year }) => {
                     <section className='header'>
                         <div className='profile-head'>
                             <HeadImage path={`../../src/assets/teams/${team.id}.png`} />
-                            <img className='flag' src={`../../src/assets/flags/${team.country}.png`} alt={`Flag of ${team.country}`} />
+                            <img className='head-flag' src={`../../src/assets/flags/${team.country}.png`} alt={`Flag of ${team.country}`} />
                         </div>
                     </section>
                     {team.clubInfo &&
@@ -125,11 +126,16 @@ const Team = ({ year }) => {
                 </section>
 
                 <section className='column-2'>
-                    <div className='title'>
-                        <h2>Detailed sheet</h2>
-                        <h4>|</h4>
-                        <p>Discussion</p>
-                    </div>
+                <section className='title'>
+                        <div className='text'>
+                            <h2>Detailed Sheet</h2>
+                            <h4>|</h4>
+                            <p>Discussion</p>
+                        </div>
+                        <Link to={`/hattrickdata/editteam/${team.id}`}>
+                            <FaRegPenToSquare/>
+                        </Link>
+                    </section>
                     <section className='profile-content'>
                         {team.clubInfo && (
                             <section>
