@@ -5,12 +5,14 @@ import HeadImage from '../../components/shared/headImage/HeadImage'
 import { getTeam } from '../../services/teams/teamsService'
 import Loading from '../../components/layout/loading/Loading'
 import { getPlayers } from '../../services/players/playersService'
-import { formatCurrency } from '../../utils/formatCurrency'
+import ManagerSection from '../../components/pages/dashboard/managerSection/ManagerSection'
+import { getArticles } from '../../services/articles/articlesService'
 
 const Dashboard = ({ teamId, year }) => {
     const [isLoading, setIsLoading] = useState(true);
     const [team, setTeam] = useState(null);
     const [teamPlayers, setTeamPlayers] = useState(null);
+    const [articles, setArticles] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -23,6 +25,9 @@ const Dashboard = ({ teamId, year }) => {
                     player.teamHistory[0].team.id == teamId
                 );
                 setTeamPlayers(teamPlayers);
+
+                const articlesData = await getArticles();
+                setArticles(articlesData);
 
                 setIsLoading(false);
             } catch (error) {
@@ -55,6 +60,11 @@ const Dashboard = ({ teamId, year }) => {
                         <img className="league-img" src={`../../src/assets/leagues/4.png`} alt={`League 4`} />
                     </div>
                 </header>
+                <section className='main'>
+                    <div className='featured'>
+                        <ManagerSection article={articles[1]}/>
+                    </div>
+                </section>
             </section>
             <Footer />
         </div>
