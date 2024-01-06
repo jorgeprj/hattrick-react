@@ -8,6 +8,7 @@ import HattrickData from '../pages/hattrickData/HattrickData'
 import EditPlayer from '../pages/hattrickData/playersSection/editPlayer/EditPlayer'
 import Manager from '../pages/profile/manager/Manager'
 import Dashboard from '../pages/dashboard/Dashboard'
+import Article from '../components/pages/article/Article'
 
 export const AppRoutes = ({teamId, year}) => {
 
@@ -20,6 +21,7 @@ export const AppRoutes = ({teamId, year}) => {
             <Route path="/team/:id" element={<Team year={year} />}/>
             <Route path="/scouts" element={<Scouts year={year} />}/>
             <Route path="/dashboard" element={<Dashboard teamId={teamId} year={year} />}/>
+            <Route path="/article/:id" element={<Article/>}/>
             <Route path="/hattrickdata" element={<HattrickData/>}/>
             <Route path="/hattrickdata/editplayer/:id" element={<EditPlayer />}/>
             <Route path="*" element={<NotFound />}/>
