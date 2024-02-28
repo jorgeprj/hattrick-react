@@ -1,8 +1,0 @@
-.btn button{
-    color: #fff;
-    background-color: var(--text-high);
-}
-
-.btn button:hover{
-    background-color: rgba(0, 0, 0, 0.85);
-}

@@ -1,8 +1,5 @@
-import { BrowserRouter as Router } from "react-router-dom"
-import { AppRoutes } from './routes/index.jsx';
-
-import Navbar from "./components/layout/navbar/Navbar.jsx";
-import Footer from "./components/layout/footer/Footer.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import AppRoutes from './routes/index.jsx';
 
 function App() {
 
@@ -12,25 +9,23 @@ function App() {
             path: '/home',
 		},
 		{
-			name: 'Dashboard',
-            path: '/dashboard',
+			name: 'Modo Carreira',
+            path: '/careermode',
 		},
 		{
-			name: 'Scouts',
-            path: '/scouts',
+			name: 'Jogadores',
+            path: '/players',
 		},
 	];
 
-	const year = 2023;
-	const teamId = 113926;
-	
+	const year = 2024;
+
 	return (
-		<div>
+		<>
 			<Router>
-				<Navbar links={links}/>
-				<AppRoutes year={year} teamId={teamId}/>
+				<AppRoutes links={links} year={year} />
 			</Router>
-		</div>
+		</>
 	)
 }
 
