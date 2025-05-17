@@ -19,13 +19,12 @@ const Search = () => {
     )
 }
 
-
 const Header = () => {
     return (
         <div className="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
             <Search/>
             <div className="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0">
-                <button type="button" className="flex items-center justify-center text-white bg-neutral-950 hover:bg-neutral-800 focus:ring-4 focus:ring-neutral-300 font-medium rounded-lg text-sm px-4 py-2 focus:outline-none">
+                <button type="button" className="flex items-center justify-center text-white bg-black hover:bg-neutral-950 focus:ring-4 focus:ring-neutral-300 font-medium rounded-lg text-sm px-4 py-2 focus:outline-none">
                     <FaPlus/>
                     Add product
                 </button>
@@ -88,7 +87,6 @@ const Header = () => {
 
 const Table = () => {
     return (
-
         <section className="p-3 sm:p-5">
             <div className="mx-auto max-w-screen-xl px-4 lg:px-12">
                 <div className="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">

@@ -14,7 +14,7 @@ const Title = () => {
     return (
         <div>
             <h1 className='max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl'>
-                Reach a new level in career mode
+                Alcance um novo level no modo carreira
             </h1>
             <p className='max-w-2xl mb-6 font-light text-neutral-500 lg:mb-8 md:text-lg lg:text-xl 2xl:max-w-4xl'>
                 Amplifique a sensação de realismo no seu Modo Carreira no EA FC 24 com análises de ponta,

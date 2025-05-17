@@ -617,9 +617,15 @@
 			"isLoan": false,
 			"buyClause": null,
 			"isScouted": true,
-			"scoutStatus": "Green",
 			"bio": "Oliver Robert McBurnie, born on June 4, 1996, is a seasoned professional footballer renowned for his role as a striker with Sheffield United in the Premier League and the Scotland national team. With his roots in youth football at Leeds United, McBurnie initiated his career at Bradford City, undertaking two loan stints at Chester. Subsequently joining Swansea City, he gained valuable experience through loan spells at Newport County, Bristol Rovers, and Barnsley. Despite being born in England, McBurnie proudly represents Scotland on the international stage, marking his senior debut in March 2018.",
-			"stats": [],
+			"stats": [
+				{
+					"season": 2024,
+					"goals": 21,
+					"assists": 12,
+					"matches": 42
+				}
+			],
 			"awards": [
 				{
 					"name": "Barnsley Player of the Year",
@@ -818,7 +824,14 @@
 			"nationality": "England",
 			"position": "GK",
 			"overall": 64,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 64,
 			"height": 183,
 			"weight": 72,
@@ -890,7 +903,7 @@
 			"isScouted": false,
 			"scoutStatus": false,
 			"bio": "",
-			"analysis": "",
+			"analysis": [[], []],
 			"stats": [],
 			"awards": []
 		},
@@ -901,7 +914,14 @@
 			"nationality": "England",
 			"position": "GK",
 			"overall": 57,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 59,
 			"modifier": 0,
 			"height": 195,
@@ -920,16 +940,16 @@
 				{
 					"team": {
 						"id": 113926,
-						"name": "Salford City"
+						"name": "Salford City U21"
 					},
-					"season": "2023-"
+					"season": "2021-23"
 				},
 				{
 					"team": {
 						"id": 113926,
-						"name": "Salford City U21"
+						"name": "Salford City"
 					},
-					"season": "2021-23"
+					"season": "2023-"
 				}
 			],
 			"nationalTeam": [],
@@ -959,7 +979,14 @@
 			"nationality": "England",
 			"position": "RB",
 			"overall": 66,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 66,
 			"modifier": 0,
 			"height": 179,
@@ -977,73 +1004,24 @@
 			"teamHistory": [
 				{
 					"team": {
-						"id": 113926,
-						"name": "Salford City"
+						"id": 8,
+						"name": "Leeds United U18"
 					},
-					"season": "2023-"
+					"season": "2008-09"
 				},
 				{
 					"team": {
-						"id": 1926,
-						"name": "Blackpool"
+						"id": 7,
+						"name": "Everton U18"
 					},
-					"season": "2020-23"
-				},
-				{
-					"team": {
-						"id": 94,
-						"name": "Ipswich Town"
-					},
-					"season": "2019-20"
-				},
-				{
-					"team": {
-						"id": 1951,
-						"name": "Oxford Utd."
-					},
-					"season": "2018-19"
+					"season": "2009-11"
 				},
 				{
 					"team": {
 						"id": 7,
 						"name": "Everton"
 					},
-					"season": "2017-18"
-				},
-				{
-					"team": {
-						"id": 1917,
-						"name": "Wigan Athletic"
-					},
-					"season": "2016-17"
-				},
-				{
-					"team": {
-						"id": 144,
-						"name": "Fulham FC"
-					},
-					"season": "2015-16"
-				},
-				{
-					"team": {
-						"id": 7,
-						"name": "Everton"
-					},
-					"season": "2014-15"
-				},
-				{
-					"team": {
-						"id": 240016,
-						"name": "Colchester Utd"
-					},
-					"season": "2013-14"
-				},
-				{
-					"team": {
-						"id": 7,
-						"name": "Everton"
-					},
-					"season": "2012-13"
+					"season": "2011"
 				},
 				{
 					"team": {
@@ -1057,47 +1035,96 @@
 						"id": 7,
 						"name": "Everton"
 					},
-					"season": "2011"
+					"season": "2012-13"
+				},
+				{
+					"team": {
+						"id": 240016,
+						"name": "Colchester Utd"
+					},
+					"season": "2013-14"
 				},
 				{
 					"team": {
 						"id": 7,
-						"name": "Everton U18"
+						"name": "Everton"
 					},
-					"season": "2009-11"
+					"season": "2014-15"
 				},
 				{
 					"team": {
-						"id": 8,
-						"name": "Leeds United U18"
+						"id": 144,
+						"name": "Fulham FC"
 					},
-					"season": "2008-09"
+					"season": "2015-16"
+				},
+				{
+					"team": {
+						"id": 1917,
+						"name": "Wigan Athletic"
+					},
+					"season": "2016-17"
+				},
+				{
+					"team": {
+						"id": 7,
+						"name": "Everton"
+					},
+					"season": "2017-18"
+				},
+				{
+					"team": {
+						"id": 1951,
+						"name": "Oxford Utd."
+					},
+					"season": "2018-19"
+				},
+				{
+					"team": {
+						"id": 94,
+						"name": "Ipswich Town"
+					},
+					"season": "2019-20"
+				},
+				{
+					"team": {
+						"id": 1926,
+						"name": "Blackpool"
+					},
+					"season": "2020-23"
+				},
+				{
+					"team": {
+						"id": 113926,
+						"name": "Salford City"
+					},
+					"season": "2023-"
 				}
 			],
 			"nationalTeam": [
 				{
-					"name": "England U21",
-					"season": "2014-15"
-				},
-				{
-					"name": "England U20",
-					"season": "2013-14"
-				},
-				{
-					"name": "England U19",
-					"season": "2011-13"
-				},
-				{
-					"name": "England U18",
-					"season": "2010-11"
+					"name": "England U16",
+					"season": "2007-08"
 				},
 				{
 					"name": "England U17",
 					"season": "2008-10"
 				},
 				{
-					"name": "England U16",
-					"season": "2007-08"
+					"name": "England U18",
+					"season": "2010-11"
+				},
+				{
+					"name": "England U19",
+					"season": "2011-13"
+				},
+				{
+					"name": "England U20",
+					"season": "2013-14"
+				},
+				{
+					"name": "England U21",
+					"season": "2014-15"
 				}
 			],
 			"isStarter": false,
@@ -1106,7 +1133,7 @@
 			"isScouted": false,
 			"scoutStatus": false,
 			"bio": "",
-			"analysis": "",
+			"analysis": [[],[]],
 			"stats": [
 				{
 					"season": 2023,
@@ -1126,7 +1153,14 @@
 			"nationality": "England",
 			"position": "CB",
 			"overall": 66,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 66,
 			"modifier": 0,
 			"height": 184,
@@ -1240,7 +1274,14 @@
 			"nationality": "Jamaica",
 			"position": "CB",
 			"overall": 67,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 67,
 			"modifier": 10,
 			"height": 189,
@@ -1331,7 +1372,14 @@
 			"nationality": "England",
 			"position": "CB",
 			"overall": 59,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 62,
 			"modifier": 0,
 			"height": 178,
@@ -1438,7 +1486,14 @@
 			"nationality": "Ireland",
 			"position": "RB",
 			"overall": 54,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 61,
 			"modifier": 0,
 			"height": 177,
@@ -1503,7 +1558,14 @@
 			"nationality": "England",
 			"position": "RB",
 			"overall": 68,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 69,
 			"modifier": 1,
 			"height": 174,
@@ -1744,7 +1806,14 @@
 			"nationality": "England",
 			"position": "CDM",
 			"overall": 67,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 67,
 			"modifier": 0,
 			"height": 180,
@@ -2025,7 +2094,14 @@
 			"nationality": "England",
 			"position": "CAM",
 			"overall": 54,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 63,
 			"modifier": 2,
 			"height": 177,
@@ -2090,7 +2166,14 @@
 			"nationality": "Scotland",
 			"position": "RW",
 			"overall": 64,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 64,
 			"modifier": 0,
 			"height": 181,
@@ -2180,7 +2263,14 @@
 			"nationality": "England",
 			"position": "ST",
 			"overall": 65,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 66,
 			"height": 178,
 			"weight": 65,
@@ -2296,7 +2386,14 @@
 			"nationality": "Wales",
 			"position": "ST",
 			"overall": 59,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 62,
 			"height": 201,
 			"weight": 91,
@@ -2372,7 +2469,14 @@
 			"nationality": "England",
 			"position": "ST",
 			"overall": 56,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 69,
 			"height": 183,
 			"weight": 74,
@@ -2420,7 +2524,14 @@
 			"nationality": "Ireland",
 			"position": "RW",
 			"overall": 58,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 66,
 			"height": 169,
 			"weight": 66,
@@ -2468,7 +2579,14 @@
 			"nationality": "England",
 			"position": "RB",
 			"overall": 60,
-			"overallStats": {},
+			"overallStats": {
+				"pace": 0,
+				"shooting": 0,
+				"passing": 0,
+				"dribbling": 0,
+				"defending": 0,
+				"physicality": 0
+			},
 			"potential": 72,
 			"height": 180,
 			"weight": 70,
@@ -5869,6 +5987,46 @@
 	],
 	"managers": [
 		{
+			"id": 999999,
+			"name": "Matt Bloomfield",
+			"age": 1984,
+			"bio": "Matthew James Bloomfield, an English former footballer, spent his career primarily at Wycombe Wanderers, transitioning into coaching after retirement. He managed Colchester United before returning to Wycombe as head coach.",
+			"nationality": "England",
+			"tactical": {
+				"vision": "Gegenpressing",
+				"preferredFormation": "4-2-3-1",
+				"defensiveStyle": "Pressure On Heavy Touch",
+				"offensiveStyle": "Slow Build Up",
+				"chanceCreation": "Possession"
+			},
+			"assistantManager": {
+				"id": 75,
+				"name": "Richard Thomas",
+				"nationality": "England"
+			},
+			"stats": [],
+			"titles": [],
+			"careerHistory": [
+				{
+					"team": {
+						"id": 113926,
+						"name": "Salford FC"
+					},
+					"position": "Manager",
+					"season": "2023-"
+				},
+				{
+					"team": {
+						"id": 1808,
+						"name": "Brighton & Hove Albion U21"
+					},
+					"position": "Head Coach",
+					"season": "2022-23"
+				}
+			]
+		},
+		{
+
 			"id": 1,
 			"name": "Ole Gunnar Solskjær",
 			"age": 1973,
@@ -5961,8 +6119,7 @@
 					"position": "Striker Coach",
 					"season": "2007-08"
 				}
-			],
-			"favoritePlayers": []
+			]
 		},
 		{
 			"id": 2,
@@ -6050,8 +6207,7 @@
 					"position": "Manager",
 					"season": "2014-16"
 				}
-			],
-			"favoritePlayers": []
+			]
 		},
 		{
 			"id": 3,
@@ -6108,100 +6264,6 @@
 					},
 					"position": "Manager",
 					"season": "2008-12"
-				}
-			],
-			"favoritePlayers": []
-		},
-		{
-			"id": 999999,
-			"name": "Shannon Ruth",
-			"age": 1991,
-			"bio": "Shannon Ralph Ruth, born on March 1, 1991, in England, has carved a notable niche in football coaching. Transitioning from non-league playing to coaching at Chelsea at just 18, Ruth's journey led him to pivotal roles at Aldershot and Reading before joining Brighton & Hove Albion. Inspired by Roberto De Zerbi, he ascended rapidly, appointed interim-coach in 2021 and later assuming the role of senior professional development coach. Ruth's dedication and adaptability culminated in his promotion to head coach of Brighton's under-21 team in 2022, marking a promising trajectory in his coaching career.",
-			"nationality": "England",
-			"comparisonManager": {
-				"id": 2,
-				"name": "Roberto De Zerbi",
-				"nationality": "Italy"
-			},
-			"tactical": {
-				"vision": "Tiki-Taka",
-				"preferredFormation": "4-2-3-1",
-				"defensiveStyle": "Pressure On Heavy Touch",
-				"offensiveStyle": "Slow Build Up",
-				"chanceCreation": "Possession"
-			},
-			"assistantManager": {
-				"id": 75,
-				"name": "Gary Dicker",
-				"nationality": "Ireland"
-			},
-			"stats": [],
-			"titles": [],
-			"careerHistory": [
-				{
-					"team": {
-						"id": 113926,
-						"name": "Salford FC"
-					},
-					"position": "Manager",
-					"season": "2023-"
-				},
-				{
-					"team": {
-						"id": 1808,
-						"name": "Brighton & Hove Albion U21"
-					},
-					"position": "Head Coach",
-					"season": "2022-23"
-				},
-				{
-					"team": {
-						"id": 1808,
-						"name": "Brighton & Hove Albion U21"
-					},
-					"position": "Professional Development Phase Lead",
-					"season": "2022-"
-				},
-				{
-					"team": {
-						"id": 1808,
-						"name": "Brighton & Hove Albion U23"
-					},
-					"position": "Assistant U23 Coach",
-					"season": "2019-21"
-				},
-				{
-					"team": {
-						"id": 1808,
-						"name": "Brighton & Hove Albion U21"
-					},
-					"position": "Head of Academy Goalkeeping",
-					"season": "2016-19"
-				},
-				{
-					"team": {
-						"id": 1793,
-						"name": "Reading FC"
-					},
-					"position": "Head of Academy Goalkeeping",
-					"season": "2010-16"
-				}
-			],
-			"favoritePlayers": [
-				{
-					"id": 279547
-				},
-				{
-					"id": 277283
-				},
-				{
-					"id": 264120
-				},
-				{
-					"id": 263411
-				},
-				{
-					"id": 250830
 				}
 			]
 		}

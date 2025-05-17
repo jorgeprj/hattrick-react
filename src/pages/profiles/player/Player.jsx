@@ -92,7 +92,7 @@ const Player = ({ year }) => {
     const { id } = useParams();
     const { players, error: playersError, isLoading: playersLoading } = usePlayers();
     const [player, setPlayer] = useState(null);
-    
+
     useEffect(() => {
         if (players && players.length > 0) {
             const foundPlayer = players.find((p) => p.id == id);

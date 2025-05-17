@@ -18,7 +18,7 @@ const Name = ({ player }) => {
     return (
         <div className='flex items-center gap-2'>
             <img className='h-3' src={`../../src/assets/flags/${player.nationality}.png`} alt="Player Nationality" />
-            <h2 className='text-sm sm:text-base'>
+            <h2 className='text-sm sm:text-base hover:underline'>
                 {player.name.split(' ').slice(0, -1)}
                 <span className='font-bold ml-1'>{player.name.split(' ').slice(1).join(' ')}</span>
             </h2>

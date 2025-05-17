@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PlayStyles = ({player}) => {
+const PlayStyles = ({ player }) => {
     return (
         <section className='flex flex-col'>
             <h4 className='font-semibold text-lg mb-4'>Play Styles</h4>

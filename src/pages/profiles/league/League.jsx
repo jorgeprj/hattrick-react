@@ -28,9 +28,9 @@ const LeagueName = ({ league }) => {
                 </h1>
             </div>
             <div className='flex text-sm gap-2 mt-2'>
-                <div className='flex items-center font-semibold gap-1 hover:underline'>
+                <div className='flex items-center font-semibold gap-1'>
                     <p className='text-neutral-500 whitespace-nowrap'>Last Champion:</p>
-                    <TeamLink teamName={league.champions[league.champions.length - 1].team.name} teamId={league.champions[league.champions.length - 1].team.id} />
+                    <TeamLink className={'hover:underline'} teamName={league.champions[league.champions.length - 1].team.name} teamId={league.champions[league.champions.length - 1].team.id} />
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ const League = () => {
                     </span>
                     <LeagueHeader league={league}/>
                     <section className='flex flex-col mt-8 gap-8 items-start w-full'>
-
+                    
                     </section>
                 </section>
 
